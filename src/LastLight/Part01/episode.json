@@ -1,0 +1,144 @@
+{
+  "id": "last-light-01",
+  "title": "Last Light — Part 1: Day One",
+  "publicDir": "last-light/part01",
+  "voice": "Algenib",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 6,
+      "text": "The day the world ended... I was making coffee.",
+      "style": "First-person survivor remembering the day it began. Low, gravelly and haunted, but keep it moving: one short beat after 'ended', no other pauses.",
+      "maxPause": 0.45
+    },
+    {
+      "id": "tv",
+      "story": 100,
+      "voice": "Kore",
+      "fx": "tv",
+      "text": "Emergency alert. Stay indoors. Lock your doors. Do not let *anyone* in.",
+      "style": "Urgent emergency-broadcast news anchor reading an official alert. Clipped, tense, fast, authoritative."
+    },
+    {
+      "id": "dawson",
+      "story": 222,
+      "text": "Then I saw Mr. Dawson across the street.",
+      "style": "Quiet and uneasy, conversational pace, no pauses."
+    },
+    {
+      "id": "wrong",
+      "story": 300,
+      "text": "He was walking... *wrong.*",
+      "style": "Unsettled. A short beat after 'walking', then 'wrong' with a chill. Keep it tight."
+    },
+    {
+      "id": "looked",
+      "story": 390,
+      "anchors": {
+        "looked": 396
+      },
+      "text": "He looked up. Right at me.",
+      "style": "Dread, nearly whispered, then a sharp catch of breath on 'right at me'."
+    },
+    {
+      "id": "barricade",
+      "story": 505,
+      "text": "I barricaded the door.",
+      "style": "Fast, breathless, panicked."
+    },
+    {
+      "id": "hit",
+      "story": 572,
+      "text": "He hit it. *Again.* And *again.*",
+      "style": "Terrified and breathless, fast short phrases with no long gaps, each 'again' louder and more desperate."
+    },
+    {
+      "id": "silence",
+      "story": 666,
+      "text": "Then... silence.",
+      "style": "Barely a whisper. A long held pause after 'then'.",
+      "maxPause": 0.75
+    },
+    {
+      "id": "reveal",
+      "story": 768,
+      "text": "That's when I realised... it was *never* just him.",
+      "style": "Quiet dawning horror at a steady pace. A brief beat after 'realised', then the final words land firm. Do not drag.",
+      "maxPause": 0.45
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        5,
+        4
+      ],
+      "tv": [
+        2,
+        2,
+        3,
+        5
+      ],
+      "dawson": [
+        3,
+        5
+      ],
+      "wrong": [
+        3,
+        1
+      ],
+      "looked": [
+        3,
+        3
+      ],
+      "hit": [
+        3,
+        1,
+        2
+      ],
+      "silence": [
+        2
+      ],
+      "reveal": [
+        4,
+        5
+      ],
+      "barricade": [
+        4
+      ]
+    }
+  },
+  "timeline": {
+    "gap": 6,
+    "maxSpeedup": 1.35,
+    "endHold": 60,
+    "captionLead": 2,
+    "maxPause": 0.3
+  },
+  "music": {
+    "title": "Last Light - Day One",
+    "style": "Dark cinematic horror underscore for a zombie short film. Opens eerie and quiet: low drones, distant ticking, a lonely detuned piano note. Slowly builds dread with pulsing sub bass and dissonant strings, rising to a frantic, pounding climax in the final third, then a sudden menacing stinger. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy",
+    "style_weight": 0.8
+  },
+  "mix": {
+    "musicDb": -26,
+    "levelLines": true,
+    "fxGainDb": {
+      "tv": -2
+    }
+  },
+  "sfx": "last-light-01",
+  "sounds": {
+    "growl": {
+      "prompt": "A single zombie growl and snarl, guttural and raspy, close-up undead creature vocalization, isolated horror sound effect, no music."
+    },
+    "horde": {
+      "prompt": "A large crowd of zombies moaning and groaning outside a window, many overlapping undead voices, muffled through glass, eerie horror ambience, no music."
+    },
+    "ambience": {
+      "prompt": "Quiet apartment at night during an apocalypse: distant city sirens, faint wind, a far-off dog barking, low eerie room tone. Ambient sound effect, no music.",
+      "loop": true
+    }
+  }
+}

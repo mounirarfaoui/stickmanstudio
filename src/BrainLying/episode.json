@@ -1,0 +1,145 @@
+{
+  "id": "brain-lying",
+  "title": "Your Brain Is Lying to You",
+  "publicDir": "",
+  "voice": "Charon",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 4,
+      "anchors": {
+        "giant": 84
+      },
+      "text": "Your brain can turn a small fear into a *giant* *monster.*",
+      "style": "Gripping narrator opening a viral short. Low, intimate and slightly ominous, brisk pace, lean hard into 'giant monster'."
+    },
+    {
+      "id": "sentence",
+      "story": 152,
+      "text": "He has one sentence to say.",
+      "style": "Gentle, matter-of-fact storyteller, brisk."
+    },
+    {
+      "id": "people",
+      "story": 226,
+      "text": "Just a few people listening.",
+      "style": "Gentle, matter-of-fact storyteller, brisk."
+    },
+    {
+      "id": "head",
+      "story": 300,
+      "text": "But in his head...",
+      "style": "Dropping lower and slower, building suspense."
+    },
+    {
+      "id": "enormous",
+      "story": 372,
+      "anchors": {
+        "enormous": 392
+      },
+      "text": "it feels *enormous.*",
+      "style": "Dramatic, heavy and intense, stretch the word 'enormous'."
+    },
+    {
+      "id": "real",
+      "story": 450,
+      "text": "The fear is real.",
+      "style": "Serious, sincere and empathetic, slow. Never dismissive."
+    },
+    {
+      "id": "breathe",
+      "story": 512,
+      "text": "So he pauses. Breathes. Slowly.",
+      "style": "Calm, slow and soothing, with natural pauses between each phrase."
+    },
+    {
+      "id": "practices",
+      "story": 575,
+      "text": "He practices.",
+      "style": "Steady and encouraging."
+    },
+    {
+      "id": "once",
+      "story": 590,
+      "text": "Once.",
+      "style": "Quiet, counting an attempt."
+    },
+    {
+      "id": "twice",
+      "story": 630,
+      "text": "Twice.",
+      "style": "A little more confident, counting an attempt."
+    },
+    {
+      "id": "again",
+      "story": 668,
+      "text": "Again.",
+      "style": "Determined, counting an attempt."
+    },
+    {
+      "id": "speaks",
+      "story": 700,
+      "text": "Then he speaks.",
+      "style": "Hopeful and rising, a turning point."
+    },
+    {
+      "id": "shrinks",
+      "story": 742,
+      "text": "And the shadow shrinks back to its real size.",
+      "style": "Warm, relieved and confident, brisk."
+    },
+    {
+      "id": "courage",
+      "story": 808,
+      "text": "Courage starts before you feel ready.",
+      "style": "Inspiring closing line. Warm, powerful and deliberate, each word lands."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        4,
+        3,
+        4
+      ],
+      "sentence": [
+        6
+      ],
+      "head": [
+        4
+      ],
+      "enormous": [
+        2,
+        1
+      ],
+      "real": [
+        4
+      ],
+      "speaks": [
+        3
+      ],
+      "shrinks": [
+        3,
+        2,
+        4
+      ]
+    }
+  },
+  "endCard": {
+    "line": "courage",
+    "storyFrom": 800
+  },
+  "timeline": {
+    "gap": 7,
+    "maxSpeedup": 1.25,
+    "endHold": 66,
+    "captionLead": 2
+  },
+  "music": {
+    "title": "Your Brain Is Lying to You",
+    "style": "Cinematic emotional underscore for a motivational short film. Opens dark, intimate and suspenseful: low pulsing synth, deep drone, soft heartbeat-like kick, sparse piano notes. Tension builds through the middle. In the final third it resolves into a warm, hopeful, uplifting piano melody with soft strings swelling. Instrumental only, no vocals, gentle dynamics, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, EDM drop, heavy drums, distorted guitar",
+    "style_weight": 0.75
+  },
+  "sfx": "brain-lying"
+}

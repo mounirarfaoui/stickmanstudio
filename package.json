@@ -32,7 +32,8 @@
     "audio": "node scripts/make-soundtrack.mjs",
     "voice": "node scripts/make-voiceover.mjs",
     "timeline": "node scripts/build-timeline.mjs",
-    "music": "node scripts/make-music.mjs"
+    "music": "node scripts/make-music.mjs",
+    "sounds": "node scripts/make-sounds.mjs"
   },
   "allowScripts": {
     "esbuild": false

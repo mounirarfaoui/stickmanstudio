@@ -1,0 +1,375 @@
+{
+  "voice": "Algenib",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "The day the world ended... I was making coffee.",
+      "style": "First-person survivor remembering the day it began. Low, gravelly and haunted, but keep it moving: one short beat after 'ended', no other pauses.",
+      "voice": "Algenib",
+      "story": 6,
+      "anchors": {},
+      "file": "last-light/part01/voice/hook.wav",
+      "duration": 4.78,
+      "speechStart": 0.37,
+      "speechEnd": 4.41,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.37
+        },
+        {
+          "text": "day",
+          "start": 0.49
+        },
+        {
+          "text": "the",
+          "start": 0.62
+        },
+        {
+          "text": "world",
+          "start": 0.93
+        },
+        {
+          "text": "ended...",
+          "start": 1.45
+        },
+        {
+          "text": "I",
+          "start": 2.3
+        },
+        {
+          "text": "was",
+          "start": 2.42
+        },
+        {
+          "text": "making",
+          "start": 3.15
+        },
+        {
+          "text": "coffee.",
+          "start": 3.58
+        }
+      ]
+    },
+    {
+      "id": "tv",
+      "text": "Emergency alert. Stay indoors. Lock your doors. Do not let *anyone* in.",
+      "style": "Urgent emergency-broadcast news anchor reading an official alert. Clipped, tense, fast, authoritative.",
+      "voice": "Kore",
+      "story": 100,
+      "anchors": {},
+      "fx": "tv",
+      "file": "last-light/part01/voice/tv.wav",
+      "duration": 4.92,
+      "speechStart": 0.18,
+      "speechEnd": 4.65,
+      "words": [
+        {
+          "text": "Emergency",
+          "start": 0.23
+        },
+        {
+          "text": "alert.",
+          "start": 0.57
+        },
+        {
+          "text": "Stay",
+          "start": 1.21
+        },
+        {
+          "text": "indoors.",
+          "start": 1.41
+        },
+        {
+          "text": "Lock",
+          "start": 2.27
+        },
+        {
+          "text": "your",
+          "start": 2.43
+        },
+        {
+          "text": "doors.",
+          "start": 2.68
+        },
+        {
+          "text": "Do",
+          "start": 3.34
+        },
+        {
+          "text": "not",
+          "start": 3.46
+        },
+        {
+          "text": "let",
+          "start": 3.6
+        },
+        {
+          "text": "*anyone*",
+          "start": 3.92
+        },
+        {
+          "text": "in.",
+          "start": 4.33
+        }
+      ]
+    },
+    {
+      "id": "dawson",
+      "text": "Then I saw Mr. Dawson across the street.",
+      "style": "Quiet and uneasy, conversational pace, no pauses.",
+      "voice": "Algenib",
+      "story": 222,
+      "anchors": {},
+      "file": "last-light/part01/voice/dawson.wav",
+      "duration": 3.8,
+      "speechStart": 0.28,
+      "speechEnd": 3.52,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.3
+        },
+        {
+          "text": "I",
+          "start": 0.42
+        },
+        {
+          "text": "saw",
+          "start": 0.54
+        },
+        {
+          "text": "Mr.",
+          "start": 0.82
+        },
+        {
+          "text": "Dawson",
+          "start": 1.32
+        },
+        {
+          "text": "across",
+          "start": 1.94
+        },
+        {
+          "text": "the",
+          "start": 2.58
+        },
+        {
+          "text": "street.",
+          "start": 2.87
+        }
+      ]
+    },
+    {
+      "id": "wrong",
+      "text": "He was walking... *wrong.*",
+      "style": "Unsettled. A short beat after 'walking', then 'wrong' with a chill. Keep it tight.",
+      "voice": "Algenib",
+      "story": 300,
+      "anchors": {},
+      "file": "last-light/part01/voice/wrong.wav",
+      "duration": 3.22,
+      "speechStart": 0.37,
+      "speechEnd": 2.64,
+      "words": [
+        {
+          "text": "He",
+          "start": 0.37
+        },
+        {
+          "text": "was",
+          "start": 0.52
+        },
+        {
+          "text": "walking...",
+          "start": 0.64
+        },
+        {
+          "text": "*wrong.*",
+          "start": 1.49
+        }
+      ]
+    },
+    {
+      "id": "looked",
+      "text": "He looked up. Right at me.",
+      "style": "Dread, nearly whispered, then a sharp catch of breath on 'right at me'.",
+      "voice": "Algenib",
+      "story": 390,
+      "anchors": {
+        "looked": 396
+      },
+      "file": "last-light/part01/voice/looked.wav",
+      "duration": 2.45,
+      "speechStart": 0.21,
+      "speechEnd": 2.12,
+      "words": [
+        {
+          "text": "He",
+          "start": 0.21
+        },
+        {
+          "text": "looked",
+          "start": 0.33
+        },
+        {
+          "text": "up.",
+          "start": 1
+        },
+        {
+          "text": "Right",
+          "start": 1.32
+        },
+        {
+          "text": "at",
+          "start": 1.57
+        },
+        {
+          "text": "me.",
+          "start": 1.78
+        }
+      ]
+    },
+    {
+      "id": "barricade",
+      "text": "I barricaded the door.",
+      "style": "Fast, breathless, panicked.",
+      "voice": "Algenib",
+      "story": 505,
+      "anchors": {},
+      "file": "last-light/part01/voice/barricade.wav",
+      "duration": 1.92,
+      "speechStart": 0.25,
+      "speechEnd": 1.41,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.25
+        },
+        {
+          "text": "barricaded",
+          "start": 0.37
+        },
+        {
+          "text": "the",
+          "start": 0.82
+        },
+        {
+          "text": "door.",
+          "start": 1.04
+        }
+      ]
+    },
+    {
+      "id": "hit",
+      "text": "He hit it. *Again.* And *again.*",
+      "style": "Terrified and breathless, fast short phrases with no long gaps, each 'again' louder and more desperate.",
+      "voice": "Algenib",
+      "story": 572,
+      "anchors": {},
+      "file": "last-light/part01/voice/hit.wav",
+      "duration": 4.53,
+      "speechStart": 0.26,
+      "speechEnd": 4.48,
+      "words": [
+        {
+          "text": "He",
+          "start": 0.28
+        },
+        {
+          "text": "hit",
+          "start": 0.4
+        },
+        {
+          "text": "it.",
+          "start": 0.65
+        },
+        {
+          "text": "*Again.*",
+          "start": 1
+        },
+        {
+          "text": "And",
+          "start": 3.19
+        },
+        {
+          "text": "*again.*",
+          "start": 3.37
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "text": "Then... silence.",
+      "style": "Barely a whisper. A long held pause after 'then'.",
+      "voice": "Algenib",
+      "story": 666,
+      "anchors": {},
+      "file": "last-light/part01/voice/silence.wav",
+      "duration": 2.48,
+      "speechStart": 0.26,
+      "speechEnd": 2.23,
+      "words": [
+        {
+          "text": "Then...",
+          "start": 0.27
+        },
+        {
+          "text": "silence.",
+          "start": 1.29
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "text": "That's when I realised... it was *never* just him.",
+      "style": "Quiet dawning horror at a steady pace. A brief beat after 'realised', then the final words land firm. Do not drag.",
+      "voice": "Algenib",
+      "story": 768,
+      "anchors": {},
+      "file": "last-light/part01/voice/reveal.wav",
+      "duration": 5.04,
+      "speechStart": 0.37,
+      "speechEnd": 4.72,
+      "words": [
+        {
+          "text": "That's",
+          "start": 0.38
+        },
+        {
+          "text": "when",
+          "start": 0.66
+        },
+        {
+          "text": "I",
+          "start": 1.05
+        },
+        {
+          "text": "realised...",
+          "start": 1.29
+        },
+        {
+          "text": "it",
+          "start": 2.27
+        },
+        {
+          "text": "was",
+          "start": 2.39
+        },
+        {
+          "text": "*never*",
+          "start": 2.93
+        },
+        {
+          "text": "just",
+          "start": 3.47
+        },
+        {
+          "text": "him.",
+          "start": 4.06
+        }
+      ]
+    }
+  ]
+}

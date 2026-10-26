@@ -1,4 +1,29 @@
-# Stickman Studio — "Your Brain Is Lying to You"
+# Stickman Studio
+
+Procedural stickman shorts (1080×1920, 30 fps) built with [Remotion](https://www.remotion.dev).
+
+| Composition | What |
+| --- | --- |
+| `BrainLying` | "Your Brain Is Lying to You" — a ~37 s standalone short (`src/BrainLying`) |
+| `LastLight-Part01` | **LAST LIGHT**, a 10-part zombie apocalypse series — Part 1 "Day One" (`src/LastLight`, outline in [SERIES.md](src/LastLight/SERIES.md)) |
+
+Each episode is a folder with an `episode.json` (narration lines, caption chunks, timing, music prompt, sound prompts) and
+a `beats.json` (story frames). The audio scripts take the folder as an argument, e.g. for Last Light Part 1:
+
+```console
+npm run voice    -- src/LastLight/Part01   # narration (Gemini TTS) + whisper word timings, pauses tightened
+npm run timeline -- src/LastLight/Part01   # place lines on story beats, time-warp, captions
+npm run music    -- src/LastLight/Part01   # Suno instrumental
+npm run sounds   -- src/LastLight/Part01   # Suno sound effects (growls, horde, ambience)
+npm run audio    -- src/LastLight/Part01   # mix voice + music + scripts/sfx/<episode>.mjs
+npx remotion render LastLight-Part01 output/last-light-part-01.mp4 --crf=18
+```
+
+Without a folder argument the scripts work on `src/BrainLying`.
+
+---
+
+## "Your Brain Is Lying to You"
 
 A ~37-second vertical (1080×1920, 30 fps) stickman short built with [Remotion](https://www.remotion.dev).
 A nervous stickman about to speak watches his shadow swell into a monster; he freezes, breathes, practises,

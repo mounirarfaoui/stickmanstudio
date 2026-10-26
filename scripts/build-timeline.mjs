@@ -1,18 +1,22 @@
 // Places each narration line on its story beat and derives everything timed to the voice:
 // the story -> output time-warp, caption chunks with per-word frames, and the end-card word frames.
-// Writes src/BrainLying/timeline.json. Run: npm run timeline (after npm run voice)
-import fs from "node:fs";
+// Writes <episode>/timeline.json. Run: npm run timeline [-- <episode dir>] (after npm run voice)
+import { loadEpisode } from "./episode.mjs";
 
-const voice = JSON.parse(fs.readFileSync(new URL("../src/BrainLying/voice.json", import.meta.url), "utf8"));
-const beats = JSON.parse(fs.readFileSync(new URL("../src/BrainLying/beats.json", import.meta.url), "utf8"));
+const ep = loadEpisode();
+const voice = ep.readJson("voice.json");
+const beats = ep.readJson("beats.json");
 const FPS = beats.fps;
 
-const GAP = 7; // minimum frames of silence between lines
-const MAX_SPEEDUP = 1.25; // the animation may play at most this much faster than designed
-const END_HOLD = 66; // frames held on the end card after the last word
-const CAPTION_LEAD = 2; // captions appear this many frames before the word is heard
+const t = ep.cfg.timeline;
+const GAP = t.gap; // minimum frames of silence between lines
+const MAX_SPEEDUP = t.maxSpeedup; // the animation may play at most this much faster than designed
+const END_HOLD = t.endHold; // frames held after the last word
+const CAPTION_LEAD = t.captionLead; // captions appear this many frames before the word is heard
 // Words per caption chunk, so captions break on meaning. Other lines split on punctuation / length.
-const CHUNKS = { hook: [4, 3, 4], sentence: [6], head: [4], enormous: [2, 1], real: [4], speaks: [3], shrinks: [3, 2, 4] };
+const CHUNKS = ep.cfg.captions?.chunks ?? {};
+// Optional end card: a closing line shown big on screen instead of as a caption.
+const END_CARD = ep.cfg.endCard;
 
 // ---------- Place lines ----------
 const placed = [];
@@ -48,14 +52,17 @@ for (const p of placed) {
   }
 }
 const last = placed[placed.length - 1];
-const duration = Math.ceil(last.speechEndFrame + END_HOLD);
-// End card appears just before the closing line; afterwards the story plays at normal speed.
-const endCardOut = last.onset - (last.story - beats.endCard.from);
-push(beats.duration, endCardOut + (beats.duration - beats.endCard.from));
+// After the last line the story plays at normal speed; the video ends once both the voice and the story are done.
+const storyEndOut = last.onset + (beats.duration - last.story);
+push(beats.duration, storyEndOut);
+const duration = Math.ceil(Math.max(last.speechEndFrame + END_HOLD, storyEndOut));
+const endLine = END_CARD && placed.find((p) => p.id === END_CARD.line);
+// End card appears just before its line is spoken
+const endCardOut = endLine && endLine.onset - (endLine.story - END_CARD.storyFrom);
 
-// ---------- Caption chunks (every line except the closing one, which the end card shows) ----------
+// ---------- Caption chunks (every line except the end-card line) ----------
 const captions = [];
-const body = placed.filter((p) => p.id !== last.id);
+const body = placed.filter((p) => p !== endLine);
 body.forEach((p) => {
   const words = p.words.map((w, i) => ({
     text: w.text.replace(/\*/g, ""),
@@ -88,7 +95,7 @@ body.forEach((p) => {
     const to =
       ci + 1 < chunks.length
         ? chunks[ci + 1][0].frame - CAPTION_LEAD
-        : Math.min(Math.round(p.speechEndFrame) + 12, Math.round(nextLine.onset) - CAPTION_LEAD);
+        : Math.min(Math.round(p.speechEndFrame) + 12, nextLine ? Math.round(nextLine.onset) - CAPTION_LEAD : Infinity);
     captions.push({ line: p.id, from, to, words: c });
   });
 });
@@ -97,14 +104,24 @@ const timeline = {
   fps: FPS,
   duration,
   anchors,
-  endCard: {
-    from: Math.round(endCardOut),
-    words: last.words.map((w, i) => ({ text: w.text.replace(/\*/g, ""), frame: Math.round(last.wordFrames[i]) })),
-  },
-  voice: placed.map((p) => ({ id: p.id, file: p.file, at: +(p.clipStart / FPS).toFixed(4), speech: [+(p.onset / FPS).toFixed(3), +(p.speechEndFrame / FPS).toFixed(3)] })),
+  ...(endLine
+    ? {
+        endCard: {
+          from: Math.round(endCardOut),
+          words: endLine.words.map((w, i) => ({ text: w.text.replace(/\*/g, ""), frame: Math.round(endLine.wordFrames[i]) })),
+        },
+      }
+    : {}),
+  voice: placed.map((p) => ({
+    id: p.id,
+    file: p.file,
+    at: +(p.clipStart / FPS).toFixed(4),
+    speech: [+(p.onset / FPS).toFixed(3), +(p.speechEndFrame / FPS).toFixed(3)],
+    ...(p.fx ? { fx: p.fx } : {}),
+  })),
   captions,
 };
-fs.writeFileSync(new URL("../src/BrainLying/timeline.json", import.meta.url), JSON.stringify(timeline, null, 2) + "\n");
+ep.writeJson("timeline.json", timeline);
 
 console.log(`duration ${duration} frames (${(duration / FPS).toFixed(2)}s)`);
 for (const p of placed) console.log(`${p.id.padEnd(10)} story ${String(p.story).padStart(3)} -> out ${p.onset.toFixed(1).padStart(6)}  ends ${p.speechEndFrame.toFixed(1)}`);

@@ -4,7 +4,7 @@ import { AbsoluteFill, Easing, interpolate, Sequence, staticFile, useCurrentFram
 import { Captions, EndCard, FONT, TitleCard } from "./Captions";
 import beats from "./beats.json";
 import timeline from "./timeline.json";
-import { poseAt, PoseName, ShadowMonster, StickFigure } from "./rig";
+import { poseAt, PoseName, ShadowMonster, StickFigure } from "../shared/rig";
 
 export const DURATION = timeline.duration;
 

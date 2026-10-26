@@ -132,16 +132,61 @@ export const lerpPose = (a: Pose, b: Pose, t: number): Pose => {
 
 const smooth = (t: number) => t * t * (3 - 2 * t);
 
-export const poseAt = (frame: number, keys: [number, PoseName][]): Pose => {
-  if (frame <= keys[0][0]) return POSES[keys[0][1]];
+// Pose keyframes, eased between. `dict` lets other stories bring their own named poses.
+export const poseAt = <K extends string = PoseName>(frame: number, keys: [number, K][], dict: Record<K, Pose> = POSES as Record<K, Pose>): Pose => {
+  if (frame <= keys[0][0]) return dict[keys[0][1]];
   for (let i = 0; i < keys.length - 1; i++) {
     const [f0, p0] = keys[i];
     const [f1, p1] = keys[i + 1];
     if (frame < f1) {
-      return lerpPose(POSES[p0], POSES[p1], smooth((frame - f0) / (f1 - f0)));
+      return lerpPose(dict[p0], dict[p1], smooth((frame - f0) / (f1 - f0)));
     }
   }
-  return POSES[keys[keys.length - 1][1]];
+  return dict[keys[keys.length - 1][1]];
+};
+
+export type Gait = {
+  stride: number; // thigh swing, degrees
+  knee: number; // extra knee bend while a leg swings forward
+  arms: number; // arm swing relative to the stride
+  lean: number;
+  // per-leg stiffness (0..1) for a limp
+  limp?: number;
+};
+
+export const GAITS = {
+  walk: { stride: 24, knee: 34, arms: 0.8, lean: 3 },
+  run: { stride: 40, knee: 70, arms: 1.3, lean: 14 },
+  shamble: { stride: 14, knee: 22, arms: 0, lean: 10, limp: 0.8 },
+} satisfies Record<string, Gait>;
+
+// Side-view walk cycle facing +x. `phase` counts strides (1 = one full cycle).
+// Arms are left to the base pose when the gait has no arm swing (zombies keep theirs out front).
+export const walkPose = (phase: number, gait: Gait, base: Pose = POSES.stand): Pose => {
+  const a = phase * Math.PI * 2;
+  const leg = (ph: number, stiff = 0) => {
+    const th = gait.stride * Math.sin(ph);
+    return [th, th - gait.knee * (1 - stiff) * Math.max(0, Math.cos(ph))];
+  };
+  const [lTh, lSh] = leg(a, gait.limp ?? 0);
+  const [rTh, rSh] = leg(a + Math.PI);
+  const swing = gait.stride * gait.arms;
+  return {
+    ...base,
+    lean: base.lean + gait.lean,
+    lTh,
+    lSh,
+    rTh,
+    rSh,
+    ...(gait.arms
+      ? {
+          lUA: -swing * Math.sin(a) * 0.9,
+          lFA: -swing * Math.sin(a) * 0.9 + 18 + gait.lean,
+          rUA: swing * Math.sin(a) * 0.9,
+          rFA: swing * Math.sin(a) * 0.9 + 18 + gait.lean,
+        }
+      : {}),
+  };
 };
 
 type Pt = { x: number; y: number };
@@ -243,6 +288,17 @@ const FaceFeatures: React.FC<{ face: Face; frame: number }> = ({ face, frame }) 
   );
 };
 
+// Undead face: mismatched glowing eyes, no brows, a ragged open mouth. Needs a #zombieGlow filter in the page.
+const ZombieFace: React.FC<{ glow: number }> = ({ glow }) => (
+  <g>
+    <g filter="url(#zombieGlow)" opacity={0.35 + 0.65 * glow}>
+      <circle cx={-11} cy={-4} r={6.5} fill="#B6FF5C" />
+      <circle cx={12} cy={-2} r={5} fill="#B6FF5C" />
+    </g>
+    <path d="M -10 10 L -6 16 L -2 11 L 2 17 L 6 11 L 10 15 L 9 19 L -9 19 Z" fill="#0b0d0a" />
+  </g>
+);
+
 export const StickFigure: React.FC<{
   pose: Pose;
   x: number;
@@ -250,18 +306,25 @@ export const StickFigure: React.FC<{
   scale: number;
   face: Face;
   frame: number;
-}> = ({ pose, x, y, scale, face, frame }) => {
+  color?: string;
+  zombie?: { glow: number };
+  // mirror to face -x
+  flip?: boolean;
+  // something held, drawn in the figure's own coordinates (e.g. at s.rHand)
+  prop?: (s: Skeleton) => React.ReactNode;
+}> = ({ pose, x, y, scale, face, frame, color = "#111", zombie, flip = false, prop }) => {
   const s = skeleton(pose);
-  const line = { stroke: "#111", strokeWidth: 15, strokeLinecap: "round", strokeLinejoin: "round", fill: "none" } as const;
+  const line = { stroke: color, strokeWidth: 15, strokeLinecap: "round", strokeLinejoin: "round", fill: "none" } as const;
   return (
-    <g transform={`translate(${x} ${y}) scale(${scale})`}>
+    <g transform={`translate(${x} ${y}) scale(${flip ? -scale : scale} ${scale})`}>
       <polyline points={pts(s.lFoot, s.lKnee, s.hip, s.rKnee, s.rFoot)} {...line} />
       <polyline points={pts(s.hip, s.neck)} {...line} />
       <polyline points={pts(s.lHand, s.lElbow, s.shoulder, s.rElbow, s.rHand)} {...line} />
       <polyline points={pts(s.shoulder, s.neck)} {...line} />
+      {prop?.(s)}
       <g transform={`translate(${s.head.x} ${s.head.y}) rotate(${s.headAngle})`}>
-        <circle r={LEN.head} fill="#111" />
-        <FaceFeatures face={face} frame={frame} />
+        <circle r={LEN.head} fill={color} />
+        {zombie ? <ZombieFace glow={zombie.glow} /> : <FaceFeatures face={face} frame={frame} />}
       </g>
     </g>
   );

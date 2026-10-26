@@ -1,0 +1,15 @@
+{
+  "fps": 30,
+  "duration": 900,
+  "tvOn": 84,
+  "tvDead": 300,
+  "dawsonSnap": 396,
+  "charge": [428, 456],
+  "mugDrop": 452,
+  "mugShatter": 468,
+  "dresser": [532, 574],
+  "silence": 662,
+  "whip": 764,
+  "crack": [792, 848],
+  "card": 852
+}

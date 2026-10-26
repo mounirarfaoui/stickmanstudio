@@ -1,0 +1,573 @@
+{
+  "fps": 30,
+  "duration": 985,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      100,
+      133.2
+    ],
+    [
+      222,
+      273.3
+    ],
+    [
+      300,
+      376.5
+    ],
+    [
+      390,
+      450.6
+    ],
+    [
+      396,
+      454.2
+    ],
+    [
+      505,
+      535.79
+    ],
+    [
+      572,
+      585.41
+    ],
+    [
+      666,
+      718.01
+    ],
+    [
+      768,
+      793.57
+    ],
+    [
+      900,
+      925.57
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "last-light/part01/voice/hook.wav",
+      "at": -0.17,
+      "speech": [
+        0.2,
+        4.24
+      ]
+    },
+    {
+      "id": "tv",
+      "file": "last-light/part01/voice/tv.wav",
+      "at": 4.26,
+      "speech": [
+        4.44,
+        8.91
+      ],
+      "fx": "tv"
+    },
+    {
+      "id": "dawson",
+      "file": "last-light/part01/voice/dawson.wav",
+      "at": 8.83,
+      "speech": [
+        9.11,
+        12.35
+      ]
+    },
+    {
+      "id": "wrong",
+      "file": "last-light/part01/voice/wrong.wav",
+      "at": 12.18,
+      "speech": [
+        12.55,
+        14.82
+      ]
+    },
+    {
+      "id": "looked",
+      "file": "last-light/part01/voice/looked.wav",
+      "at": 14.81,
+      "speech": [
+        15.02,
+        16.93
+      ]
+    },
+    {
+      "id": "barricade",
+      "file": "last-light/part01/voice/barricade.wav",
+      "at": 17.6095,
+      "speech": [
+        17.86,
+        19.02
+      ]
+    },
+    {
+      "id": "hit",
+      "file": "last-light/part01/voice/hit.wav",
+      "at": 19.2538,
+      "speech": [
+        19.514,
+        23.734
+      ]
+    },
+    {
+      "id": "silence",
+      "file": "last-light/part01/voice/silence.wav",
+      "at": 23.6738,
+      "speech": [
+        23.934,
+        25.904
+      ]
+    },
+    {
+      "id": "reveal",
+      "file": "last-light/part01/voice/reveal.wav",
+      "at": 26.0823,
+      "speech": [
+        26.452,
+        30.802
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 4,
+      "to": 62,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 6
+        },
+        {
+          "text": "day",
+          "emph": false,
+          "frame": 10
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 14
+        },
+        {
+          "text": "world",
+          "emph": false,
+          "frame": 23
+        },
+        {
+          "text": "ended...",
+          "emph": false,
+          "frame": 38
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 62,
+      "to": 131,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 64
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 68
+        },
+        {
+          "text": "making",
+          "emph": false,
+          "frame": 89
+        },
+        {
+          "text": "coffee.",
+          "emph": false,
+          "frame": 102
+        }
+      ]
+    },
+    {
+      "line": "tv",
+      "from": 133,
+      "to": 162,
+      "words": [
+        {
+          "text": "Emergency",
+          "emph": false,
+          "frame": 135
+        },
+        {
+          "text": "alert.",
+          "emph": false,
+          "frame": 145
+        }
+      ]
+    },
+    {
+      "line": "tv",
+      "from": 162,
+      "to": 194,
+      "words": [
+        {
+          "text": "Stay",
+          "emph": false,
+          "frame": 164
+        },
+        {
+          "text": "indoors.",
+          "emph": false,
+          "frame": 170
+        }
+      ]
+    },
+    {
+      "line": "tv",
+      "from": 194,
+      "to": 226,
+      "words": [
+        {
+          "text": "Lock",
+          "emph": false,
+          "frame": 196
+        },
+        {
+          "text": "your",
+          "emph": false,
+          "frame": 201
+        },
+        {
+          "text": "doors.",
+          "emph": false,
+          "frame": 208
+        }
+      ]
+    },
+    {
+      "line": "tv",
+      "from": 226,
+      "to": 271,
+      "words": [
+        {
+          "text": "Do",
+          "emph": false,
+          "frame": 228
+        },
+        {
+          "text": "not",
+          "emph": false,
+          "frame": 232
+        },
+        {
+          "text": "let",
+          "emph": false,
+          "frame": 236
+        },
+        {
+          "text": "anyone",
+          "emph": true,
+          "frame": 245
+        },
+        {
+          "text": "in.",
+          "emph": false,
+          "frame": 258
+        }
+      ]
+    },
+    {
+      "line": "dawson",
+      "from": 272,
+      "to": 288,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 274
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 278
+        },
+        {
+          "text": "saw",
+          "emph": false,
+          "frame": 281
+        }
+      ]
+    },
+    {
+      "line": "dawson",
+      "from": 288,
+      "to": 375,
+      "words": [
+        {
+          "text": "Mr.",
+          "emph": false,
+          "frame": 290
+        },
+        {
+          "text": "Dawson",
+          "emph": false,
+          "frame": 305
+        },
+        {
+          "text": "across",
+          "emph": false,
+          "frame": 323
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 342
+        },
+        {
+          "text": "street.",
+          "emph": false,
+          "frame": 351
+        }
+      ]
+    },
+    {
+      "line": "wrong",
+      "from": 375,
+      "to": 408,
+      "words": [
+        {
+          "text": "He",
+          "emph": false,
+          "frame": 377
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 381
+        },
+        {
+          "text": "walking...",
+          "emph": false,
+          "frame": 385
+        }
+      ]
+    },
+    {
+      "line": "wrong",
+      "from": 408,
+      "to": 449,
+      "words": [
+        {
+          "text": "wrong.",
+          "emph": true,
+          "frame": 410
+        }
+      ]
+    },
+    {
+      "line": "looked",
+      "from": 449,
+      "to": 482,
+      "words": [
+        {
+          "text": "He",
+          "emph": false,
+          "frame": 451
+        },
+        {
+          "text": "looked",
+          "emph": false,
+          "frame": 454
+        },
+        {
+          "text": "up.",
+          "emph": false,
+          "frame": 474
+        }
+      ]
+    },
+    {
+      "line": "looked",
+      "from": 482,
+      "to": 520,
+      "words": [
+        {
+          "text": "Right",
+          "emph": false,
+          "frame": 484
+        },
+        {
+          "text": "at",
+          "emph": false,
+          "frame": 491
+        },
+        {
+          "text": "me.",
+          "emph": false,
+          "frame": 498
+        }
+      ]
+    },
+    {
+      "line": "barricade",
+      "from": 534,
+      "to": 583,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 536
+        },
+        {
+          "text": "barricaded",
+          "emph": false,
+          "frame": 539
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 553
+        },
+        {
+          "text": "door.",
+          "emph": false,
+          "frame": 559
+        }
+      ]
+    },
+    {
+      "line": "hit",
+      "from": 584,
+      "to": 606,
+      "words": [
+        {
+          "text": "He",
+          "emph": false,
+          "frame": 586
+        },
+        {
+          "text": "hit",
+          "emph": false,
+          "frame": 590
+        },
+        {
+          "text": "it.",
+          "emph": false,
+          "frame": 597
+        }
+      ]
+    },
+    {
+      "line": "hit",
+      "from": 606,
+      "to": 671,
+      "words": [
+        {
+          "text": "Again.",
+          "emph": true,
+          "frame": 608
+        }
+      ]
+    },
+    {
+      "line": "hit",
+      "from": 671,
+      "to": 716,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 673
+        },
+        {
+          "text": "again.",
+          "emph": true,
+          "frame": 679
+        }
+      ]
+    },
+    {
+      "line": "silence",
+      "from": 716,
+      "to": 789,
+      "words": [
+        {
+          "text": "Then...",
+          "emph": false,
+          "frame": 718
+        },
+        {
+          "text": "silence.",
+          "emph": false,
+          "frame": 749
+        }
+      ]
+    },
+    {
+      "line": "reveal",
+      "from": 792,
+      "to": 849,
+      "words": [
+        {
+          "text": "That's",
+          "emph": false,
+          "frame": 794
+        },
+        {
+          "text": "when",
+          "emph": false,
+          "frame": 802
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 814
+        },
+        {
+          "text": "realised...",
+          "emph": false,
+          "frame": 821
+        }
+      ]
+    },
+    {
+      "line": "reveal",
+      "from": 849,
+      "to": 936,
+      "words": [
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 851
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 854
+        },
+        {
+          "text": "never",
+          "emph": true,
+          "frame": 870
+        },
+        {
+          "text": "just",
+          "emph": false,
+          "frame": 887
+        },
+        {
+          "text": "him.",
+          "emph": false,
+          "frame": 904
+        }
+      ]
+    }
+  ]
+}
