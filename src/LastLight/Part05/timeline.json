@@ -1,0 +1,732 @@
+{
+  "fps": 30,
+  "duration": 1470,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      100,
+      111.7
+    ],
+    [
+      276,
+      287.7
+    ],
+    [
+      420,
+      431.7
+    ],
+    [
+      515,
+      526.7
+    ],
+    [
+      565,
+      576.7
+    ],
+    [
+      650,
+      661.7
+    ],
+    [
+      770,
+      781.7
+    ],
+    [
+      895,
+      906.7
+    ],
+    [
+      1125,
+      1154.8
+    ],
+    [
+      1215,
+      1248.7
+    ],
+    [
+      1262,
+      1295.7
+    ],
+    [
+      1436,
+      1469.7
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "last-light/part05/voice/hook.wav",
+      "at": -0.1567,
+      "speech": [
+        0.133,
+        3.523
+      ]
+    },
+    {
+      "id": "need",
+      "file": "last-light/part05/voice/need.wav",
+      "at": 3.4733,
+      "speech": [
+        3.723,
+        7.463
+      ]
+    },
+    {
+      "id": "dark",
+      "file": "last-light/part05/voice/dark.wav",
+      "at": 9.32,
+      "speech": [
+        9.59,
+        12.42
+      ]
+    },
+    {
+      "id": "behind",
+      "file": "last-light/part05/voice/behind.wav",
+      "at": 14.22,
+      "speech": [
+        14.39,
+        15.83
+      ]
+    },
+    {
+      "id": "cardboard",
+      "file": "last-light/part05/voice/cardboard.wav",
+      "at": 17.2967,
+      "speech": [
+        17.557,
+        18.947
+      ]
+    },
+    {
+      "id": "knew",
+      "file": "last-light/part05/voice/knew.wav",
+      "at": 19.1433,
+      "speech": [
+        19.223,
+        20.563
+      ]
+    },
+    {
+      "id": "empty",
+      "file": "last-light/part05/voice/empty.wav",
+      "at": 21.5767,
+      "speech": [
+        22.057,
+        25.087
+      ]
+    },
+    {
+      "id": "found",
+      "file": "last-light/part05/voice/found.wav",
+      "at": 25.8367,
+      "speech": [
+        26.057,
+        28.967
+      ]
+    },
+    {
+      "id": "signal",
+      "file": "last-light/part05/voice/signal.wav",
+      "at": 29.9633,
+      "speech": [
+        30.223,
+        38.293
+      ],
+      "fx": "tv"
+    },
+    {
+      "id": "miles",
+      "file": "last-light/part05/voice/miles.wav",
+      "at": 38.1233,
+      "speech": [
+        38.493,
+        41.423
+      ]
+    },
+    {
+      "id": "walk",
+      "file": "last-light/part05/voice/walk.wav",
+      "at": 41.3333,
+      "speech": [
+        41.623,
+        42.623
+      ]
+    },
+    {
+      "id": "bell",
+      "file": "last-light/part05/voice/bell.wav",
+      "at": 42.81,
+      "speech": [
+        43.19,
+        45.37
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 3,
+      "to": 68,
+      "words": [
+        {
+          "text": "One",
+          "emph": false,
+          "frame": 5
+        },
+        {
+          "text": "word",
+          "emph": false,
+          "frame": 8
+        },
+        {
+          "text": "on",
+          "emph": false,
+          "frame": 22
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 32
+        },
+        {
+          "text": "radio.",
+          "emph": false,
+          "frame": 41
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 68,
+      "to": 110,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 70
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 74
+        },
+        {
+          "text": "batteries",
+          "emph": false,
+          "frame": 77
+        },
+        {
+          "text": "died.",
+          "emph": true,
+          "frame": 94
+        }
+      ]
+    },
+    {
+      "line": "need",
+      "from": 110,
+      "to": 153,
+      "words": [
+        {
+          "text": "We",
+          "emph": false,
+          "frame": 112
+        },
+        {
+          "text": "needed",
+          "emph": false,
+          "frame": 115
+        },
+        {
+          "text": "new",
+          "emph": false,
+          "frame": 128
+        },
+        {
+          "text": "ones.",
+          "emph": false,
+          "frame": 137
+        }
+      ]
+    },
+    {
+      "line": "need",
+      "from": 153,
+      "to": 236,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 155
+        },
+        {
+          "text": "only",
+          "emph": false,
+          "frame": 161
+        },
+        {
+          "text": "place",
+          "emph": false,
+          "frame": 170
+        },
+        {
+          "text": "close",
+          "emph": false,
+          "frame": 182
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 194
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 202
+        },
+        {
+          "text": "pharmacy.",
+          "emph": true,
+          "frame": 209
+        }
+      ]
+    },
+    {
+      "line": "dark",
+      "from": 286,
+      "to": 385,
+      "words": [
+        {
+          "text": "Inside,",
+          "emph": false,
+          "frame": 288
+        },
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 318
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 322
+        },
+        {
+          "text": "pitch",
+          "emph": true,
+          "frame": 339
+        },
+        {
+          "text": "black.",
+          "emph": false,
+          "frame": 355
+        }
+      ]
+    },
+    {
+      "line": "behind",
+      "from": 430,
+      "to": 487,
+      "words": [
+        {
+          "text": "Kai.",
+          "emph": false,
+          "frame": 432
+        },
+        {
+          "text": "Behind",
+          "emph": false,
+          "frame": 471
+        },
+        {
+          "text": "you.",
+          "emph": false,
+          "frame": 479
+        }
+      ]
+    },
+    {
+      "line": "cardboard",
+      "from": 525,
+      "to": 575,
+      "words": [
+        {
+          "text": "It's",
+          "emph": false,
+          "frame": 527
+        },
+        {
+          "text": "cardboard.",
+          "emph": true,
+          "frame": 537
+        }
+      ]
+    },
+    {
+      "line": "knew",
+      "from": 575,
+      "to": 629,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 577
+        },
+        {
+          "text": "knew",
+          "emph": false,
+          "frame": 581
+        },
+        {
+          "text": "that.",
+          "emph": false,
+          "frame": 596
+        }
+      ]
+    },
+    {
+      "line": "empty",
+      "from": 660,
+      "to": 727,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 662
+        },
+        {
+          "text": "battery",
+          "emph": false,
+          "frame": 665
+        },
+        {
+          "text": "shelf",
+          "emph": false,
+          "frame": 679
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 695
+        },
+        {
+          "text": "empty.",
+          "emph": false,
+          "frame": 707
+        }
+      ]
+    },
+    {
+      "line": "empty",
+      "from": 727,
+      "to": 765,
+      "words": [
+        {
+          "text": "Picked",
+          "emph": false,
+          "frame": 729
+        },
+        {
+          "text": "clean.",
+          "emph": true,
+          "frame": 740
+        }
+      ]
+    },
+    {
+      "line": "found",
+      "from": 780,
+      "to": 816,
+      "words": [
+        {
+          "text": "But",
+          "emph": false,
+          "frame": 782
+        },
+        {
+          "text": "Biscuit",
+          "emph": false,
+          "frame": 786
+        },
+        {
+          "text": "found",
+          "emph": false,
+          "frame": 801
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 813
+        }
+      ]
+    },
+    {
+      "line": "found",
+      "from": 816,
+      "to": 881,
+      "words": [
+        {
+          "text": "box",
+          "emph": false,
+          "frame": 818
+        },
+        {
+          "text": "under",
+          "emph": false,
+          "frame": 823
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 837
+        },
+        {
+          "text": "counter.",
+          "emph": false,
+          "frame": 844
+        }
+      ]
+    },
+    {
+      "line": "signal",
+      "from": 906,
+      "to": 961,
+      "words": [
+        {
+          "text": "This",
+          "emph": false,
+          "frame": 908
+        },
+        {
+          "text": "is",
+          "emph": false,
+          "frame": 912
+        },
+        {
+          "text": "Gull",
+          "emph": false,
+          "frame": 918
+        },
+        {
+          "text": "Point.",
+          "emph": false,
+          "frame": 932
+        }
+      ]
+    },
+    {
+      "line": "signal",
+      "from": 961,
+      "to": 1025,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 963
+        },
+        {
+          "text": "lighthouse",
+          "emph": true,
+          "frame": 967
+        },
+        {
+          "text": "is",
+          "emph": false,
+          "frame": 995
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 999
+        },
+        {
+          "text": "safe",
+          "emph": false,
+          "frame": 1002
+        },
+        {
+          "text": "zone.",
+          "emph": false,
+          "frame": 1008
+        }
+      ]
+    },
+    {
+      "line": "signal",
+      "from": 1025,
+      "to": 1083,
+      "words": [
+        {
+          "text": "Fifty",
+          "emph": false,
+          "frame": 1027
+        },
+        {
+          "text": "miles",
+          "emph": false,
+          "frame": 1038
+        },
+        {
+          "text": "north.",
+          "emph": false,
+          "frame": 1054
+        }
+      ]
+    },
+    {
+      "line": "signal",
+      "from": 1083,
+      "to": 1153,
+      "words": [
+        {
+          "text": "We",
+          "emph": false,
+          "frame": 1085
+        },
+        {
+          "text": "keep",
+          "emph": false,
+          "frame": 1088
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 1096
+        },
+        {
+          "text": "lights",
+          "emph": false,
+          "frame": 1105
+        },
+        {
+          "text": "on",
+          "emph": false,
+          "frame": 1120
+        },
+        {
+          "text": "at",
+          "emph": false,
+          "frame": 1125
+        },
+        {
+          "text": "night.",
+          "emph": false,
+          "frame": 1130
+        }
+      ]
+    },
+    {
+      "line": "miles",
+      "from": 1153,
+      "to": 1204,
+      "words": [
+        {
+          "text": "Fifty",
+          "emph": false,
+          "frame": 1155
+        },
+        {
+          "text": "miles.",
+          "emph": false,
+          "frame": 1178
+        }
+      ]
+    },
+    {
+      "line": "miles",
+      "from": 1204,
+      "to": 1247,
+      "words": [
+        {
+          "text": "On",
+          "emph": false,
+          "frame": 1206
+        },
+        {
+          "text": "foot.",
+          "emph": true,
+          "frame": 1218
+        }
+      ]
+    },
+    {
+      "line": "walk",
+      "from": 1247,
+      "to": 1291,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 1249
+        },
+        {
+          "text": "we",
+          "emph": false,
+          "frame": 1264
+        },
+        {
+          "text": "walk.",
+          "emph": false,
+          "frame": 1275
+        }
+      ]
+    },
+    {
+      "line": "bell",
+      "from": 1294,
+      "to": 1326,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 1296
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 1299
+        },
+        {
+          "text": "bell",
+          "emph": false,
+          "frame": 1304
+        },
+        {
+          "text": "above",
+          "emph": false,
+          "frame": 1316
+        }
+      ]
+    },
+    {
+      "line": "bell",
+      "from": 1326,
+      "to": 1373,
+      "words": [
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 1328
+        },
+        {
+          "text": "door",
+          "emph": false,
+          "frame": 1337
+        },
+        {
+          "text": "rang.",
+          "emph": true,
+          "frame": 1348
+        }
+      ]
+    }
+  ]
+}

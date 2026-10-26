@@ -9,6 +9,7 @@ Procedural stickman shorts (1080×1920, 30 fps) built with [Remotion](https://ww
 | `LastLight-Part02` | LAST LIGHT Part 2 "The Window" — bathroom escape, fire escape, the alley (~45 s) |
 | `LastLight-Part03` | LAST LIGHT Part 3 "Mia" — the girl with the bat, a fragile deal, the dog that wakes the street (~45 s) |
 | `LastLight-Part04` | LAST LIGHT Part 4 "The Horde" — the fence, the ladder, a night on the rooftop, a voice on the radio (~47 s) |
+| `LastLight-Part05` | LAST LIGHT Part 5 "The Signal" — a dark pharmacy, a cardboard scare, batteries, the Gull Point message (~49 s) |
 
 Each episode is a folder with an `episode.json` (narration lines, caption chunks, timing, music prompt, sound prompts) and
 a `beats.json` (story frames). The audio scripts take the folder as an argument, e.g. for Last Light Part 1:

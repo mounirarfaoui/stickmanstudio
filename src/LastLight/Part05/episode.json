@@ -1,0 +1,176 @@
+{
+  "id": "last-light-05",
+  "title": "Last Light — Part 5: The Signal",
+  "publicDir": "last-light/part05",
+  "voice": "Algenib",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 4,
+      "text": "One word on the radio. Then the batteries *died.*",
+      "style": "First-person survivor, hushed and frustrated, gravelly, a beat of dread on the last word."
+    },
+    {
+      "id": "need",
+      "story": 100,
+      "text": "We needed new ones. The only place close was the *pharmacy.*",
+      "style": "Narrating quietly at night, wary, steady pace."
+    },
+    {
+      "id": "dark",
+      "story": 276,
+      "text": "Inside, it was *pitch black.*",
+      "style": "Whispered narration, tense, slow."
+    },
+    {
+      "id": "behind",
+      "story": 420,
+      "voice": "Leda",
+      "text": "Kai. Behind you.",
+      "style": "Teenage girl whispering in terror, very quiet, urgent."
+    },
+    {
+      "id": "cardboard",
+      "story": 515,
+      "voice": "Leda",
+      "text": "It's *cardboard.*",
+      "style": "Teenage girl, out of breath after swinging a bat, flat and deadpan, relieved."
+    },
+    {
+      "id": "knew",
+      "story": 565,
+      "text": "I knew that.",
+      "style": "Embarrassed, defensive mumble, dry humour."
+    },
+    {
+      "id": "empty",
+      "story": 650,
+      "text": "The battery shelf was empty. Picked *clean.*",
+      "style": "Narrating, deflated, quiet."
+    },
+    {
+      "id": "found",
+      "story": 770,
+      "text": "But Biscuit found a box under the counter.",
+      "style": "Narrating, hope creeping back, a small smile in the voice."
+    },
+    {
+      "id": "signal",
+      "story": 895,
+      "voice": "Orus",
+      "fx": "tv",
+      "text": "This is Gull Point. The *lighthouse* is a safe zone. Fifty miles north. We keep the lights on at night.",
+      "style": "A calm, tired man reading an emergency radio message that repeats on a loop, clear and steady, slightly mechanical."
+    },
+    {
+      "id": "miles",
+      "story": 1125,
+      "text": "Fifty miles. On *foot.*",
+      "style": "Narrating, quiet disbelief, slow."
+    },
+    {
+      "id": "walk",
+      "story": 1215,
+      "voice": "Leda",
+      "text": "Then we walk.",
+      "style": "Teenage girl, quiet but determined, no doubt in her voice."
+    },
+    {
+      "id": "bell",
+      "story": 1262,
+      "text": "Then the bell above the door *rang.*",
+      "style": "Whispered narration, sudden fear, the last word almost breathless."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        5,
+        4
+      ],
+      "need": [
+        4,
+        7
+      ],
+      "dark": [
+        5
+      ],
+      "behind": [
+        3
+      ],
+      "cardboard": [
+        2
+      ],
+      "knew": [
+        3
+      ],
+      "empty": [
+        5,
+        2
+      ],
+      "found": [
+        4,
+        4
+      ],
+      "signal": [
+        4,
+        6,
+        3,
+        7
+      ],
+      "miles": [
+        2,
+        2
+      ],
+      "walk": [
+        3
+      ],
+      "bell": [
+        4,
+        3
+      ]
+    },
+    "speakers": {
+      "behind": "mia",
+      "cardboard": "mia",
+      "walk": "mia",
+      "knew": "kai"
+    }
+  },
+  "timeline": {
+    "gap": 6,
+    "maxSpeedup": 1.0,
+    "endHold": 62,
+    "captionLead": 2,
+    "maxPause": 0.25
+  },
+  "music": {
+    "title": "Last Light - The Signal",
+    "style": "Cinematic horror survival score. Starts as a tense, creeping night soundscape: low pulsing synth, ticking percussion, uneasy plucked strings, rising dread. In the middle it opens into a fragile, hopeful theme with warm strings and a soft piano melody, like a distant light. It ends with a sudden cold, dark drone and a tense swell. Instrumental only, no vocals, mixed to sit under dialogue.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "bell": {
+      "prompt": "A small brass shop door bell jingling as a glass door opens, close up, isolated sound effect, no music."
+    },
+    "creak": {
+      "prompt": "A glass shop door slowly creaking open on old hinges in a silent building, isolated sound effect, no music."
+    },
+    "batteries": {
+      "prompt": "A cardboard box being torn open and AA batteries rattling and clicking into a plastic battery compartment, isolated sound effect, no music."
+    },
+    "store": {
+      "prompt": "Dark abandoned store at night, faint buzzing, wind outside, distant zombie moans far away, eerie quiet ambience, no music.",
+      "loop": true
+    }
+  },
+  "mix": {
+    "musicDb": -26,
+    "levelLines": true,
+    "fxGainDb": {
+      "tv": -2
+    }
+  },
+  "sfx": "last-light-05"
+}

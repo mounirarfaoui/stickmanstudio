@@ -4,6 +4,7 @@ import { DURATION as LAST_LIGHT_01, Part01 } from "./LastLight/Part01/Part01";
 import { DURATION as LAST_LIGHT_02, Part02 } from "./LastLight/Part02/Part02";
 import { DURATION as LAST_LIGHT_03, Part03 } from "./LastLight/Part03/Part03";
 import { DURATION as LAST_LIGHT_04, Part04 } from "./LastLight/Part04/Part04";
+import { DURATION as LAST_LIGHT_05, Part05 } from "./LastLight/Part05/Part05";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -44,6 +45,14 @@ export const RemotionRoot: React.FC = () => {
         id="LastLight-Part04"
         component={Part04}
         durationInFrames={LAST_LIGHT_04}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="LastLight-Part05"
+        component={Part05}
+        durationInFrames={LAST_LIGHT_05}
         fps={30}
         width={1080}
         height={1920}

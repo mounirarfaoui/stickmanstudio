@@ -1,0 +1,503 @@
+{
+  "voice": "Algenib",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "One word on the radio. Then the batteries *died.*",
+      "style": "First-person survivor, hushed and frustrated, gravelly, a beat of dread on the last word.",
+      "voice": "Algenib",
+      "story": 4,
+      "anchors": {},
+      "file": "last-light/part05/voice/hook.wav",
+      "duration": 4,
+      "speechStart": 0.29,
+      "speechEnd": 3.68,
+      "words": [
+        {
+          "text": "One",
+          "start": 0.31
+        },
+        {
+          "text": "word",
+          "start": 0.43
+        },
+        {
+          "text": "on",
+          "start": 0.89
+        },
+        {
+          "text": "the",
+          "start": 1.23
+        },
+        {
+          "text": "radio.",
+          "start": 1.52
+        },
+        {
+          "text": "Then",
+          "start": 2.49
+        },
+        {
+          "text": "the",
+          "start": 2.61
+        },
+        {
+          "text": "batteries",
+          "start": 2.73
+        },
+        {
+          "text": "*died.*",
+          "start": 3.28
+        }
+      ]
+    },
+    {
+      "id": "need",
+      "text": "We needed new ones. The only place close was the *pharmacy.*",
+      "style": "Narrating quietly at night, wary, steady pace.",
+      "voice": "Algenib",
+      "story": 100,
+      "anchors": {},
+      "file": "last-light/part05/voice/need.wav",
+      "duration": 4.3,
+      "speechStart": 0.25,
+      "speechEnd": 3.99,
+      "words": [
+        {
+          "text": "We",
+          "start": 0.25
+        },
+        {
+          "text": "needed",
+          "start": 0.37
+        },
+        {
+          "text": "new",
+          "start": 0.8
+        },
+        {
+          "text": "ones.",
+          "start": 1.09
+        },
+        {
+          "text": "The",
+          "start": 1.7
+        },
+        {
+          "text": "only",
+          "start": 1.9
+        },
+        {
+          "text": "place",
+          "start": 2.19
+        },
+        {
+          "text": "close",
+          "start": 2.59
+        },
+        {
+          "text": "was",
+          "start": 3
+        },
+        {
+          "text": "the",
+          "start": 3.27
+        },
+        {
+          "text": "*pharmacy.*",
+          "start": 3.48
+        }
+      ]
+    },
+    {
+      "id": "dark",
+      "text": "Inside, it was *pitch black.*",
+      "style": "Whispered narration, tense, slow.",
+      "voice": "Algenib",
+      "story": 276,
+      "anchors": {},
+      "file": "last-light/part05/voice/dark.wav",
+      "duration": 3.34,
+      "speechStart": 0.27,
+      "speechEnd": 3.1,
+      "words": [
+        {
+          "text": "Inside,",
+          "start": 0.29
+        },
+        {
+          "text": "it",
+          "start": 1.29
+        },
+        {
+          "text": "was",
+          "start": 1.41
+        },
+        {
+          "text": "*pitch",
+          "start": 1.99
+        },
+        {
+          "text": "black.*",
+          "start": 2.51
+        }
+      ]
+    },
+    {
+      "id": "behind",
+      "text": "Kai. Behind you.",
+      "style": "Teenage girl whispering in terror, very quiet, urgent.",
+      "voice": "Leda",
+      "story": 420,
+      "anchors": {},
+      "file": "last-light/part05/voice/behind.wav",
+      "duration": 1.87,
+      "speechStart": 0.17,
+      "speechEnd": 1.61,
+      "words": [
+        {
+          "text": "Kai.",
+          "start": 0.17
+        },
+        {
+          "text": "Behind",
+          "start": 1.48
+        },
+        {
+          "text": "you.",
+          "start": 1.75
+        }
+      ]
+    },
+    {
+      "id": "cardboard",
+      "text": "It's *cardboard.*",
+      "style": "Teenage girl, out of breath after swinging a bat, flat and deadpan, relieved.",
+      "voice": "Leda",
+      "story": 515,
+      "anchors": {},
+      "file": "last-light/part05/voice/cardboard.wav",
+      "duration": 1.96,
+      "speechStart": 0.26,
+      "speechEnd": 1.6500000000000001,
+      "words": [
+        {
+          "text": "It's",
+          "start": 0.28
+        },
+        {
+          "text": "*cardboard.*",
+          "start": 0.6
+        }
+      ]
+    },
+    {
+      "id": "knew",
+      "text": "I knew that.",
+      "style": "Embarrassed, defensive mumble, dry humour.",
+      "voice": "Algenib",
+      "story": 565,
+      "anchors": {},
+      "file": "last-light/part05/voice/knew.wav",
+      "duration": 1.68,
+      "speechStart": 0.08,
+      "speechEnd": 1.42,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.1
+        },
+        {
+          "text": "knew",
+          "start": 0.22
+        },
+        {
+          "text": "that.",
+          "start": 0.71
+        }
+      ]
+    },
+    {
+      "id": "empty",
+      "text": "The battery shelf was empty. Picked *clean.*",
+      "style": "Narrating, deflated, quiet.",
+      "voice": "Algenib",
+      "story": 650,
+      "anchors": {},
+      "file": "last-light/part05/voice/empty.wav",
+      "duration": 3.93,
+      "speechStart": 0.48,
+      "speechEnd": 3.5100000000000002,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.48
+        },
+        {
+          "text": "battery",
+          "start": 0.6
+        },
+        {
+          "text": "shelf",
+          "start": 1.04
+        },
+        {
+          "text": "was",
+          "start": 1.6
+        },
+        {
+          "text": "empty.",
+          "start": 2
+        },
+        {
+          "text": "Picked",
+          "start": 2.73
+        },
+        {
+          "text": "*clean.*",
+          "start": 3.08
+        }
+      ]
+    },
+    {
+      "id": "found",
+      "text": "But Biscuit found a box under the counter.",
+      "style": "Narrating, hope creeping back, a small smile in the voice.",
+      "voice": "Algenib",
+      "story": 770,
+      "anchors": {},
+      "file": "last-light/part05/voice/found.wav",
+      "duration": 3.48,
+      "speechStart": 0.22,
+      "speechEnd": 3.13,
+      "words": [
+        {
+          "text": "But",
+          "start": 0.24
+        },
+        {
+          "text": "Biscuit",
+          "start": 0.36
+        },
+        {
+          "text": "found",
+          "start": 0.87
+        },
+        {
+          "text": "a",
+          "start": 1.25
+        },
+        {
+          "text": "box",
+          "start": 1.44
+        },
+        {
+          "text": "under",
+          "start": 1.58
+        },
+        {
+          "text": "the",
+          "start": 2.06
+        },
+        {
+          "text": "counter.",
+          "start": 2.3
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "text": "This is Gull Point. The *lighthouse* is a safe zone. Fifty miles north. We keep the lights on at night.",
+      "style": "A calm, tired man reading an emergency radio message that repeats on a loop, clear and steady, slightly mechanical.",
+      "voice": "Orus",
+      "story": 895,
+      "anchors": {},
+      "fx": "tv",
+      "file": "last-light/part05/voice/signal.wav",
+      "duration": 8.7,
+      "speechStart": 0.26,
+      "speechEnd": 8.33,
+      "words": [
+        {
+          "text": "This",
+          "start": 0.29
+        },
+        {
+          "text": "is",
+          "start": 0.44
+        },
+        {
+          "text": "Gull",
+          "start": 0.65
+        },
+        {
+          "text": "Point.",
+          "start": 1.1
+        },
+        {
+          "text": "The",
+          "start": 2.15
+        },
+        {
+          "text": "*lighthouse*",
+          "start": 2.27
+        },
+        {
+          "text": "is",
+          "start": 3.2
+        },
+        {
+          "text": "a",
+          "start": 3.32
+        },
+        {
+          "text": "safe",
+          "start": 3.44
+        },
+        {
+          "text": "zone.",
+          "start": 3.65
+        },
+        {
+          "text": "Fifty",
+          "start": 4.28
+        },
+        {
+          "text": "miles",
+          "start": 4.64
+        },
+        {
+          "text": "north.",
+          "start": 5.17
+        },
+        {
+          "text": "We",
+          "start": 6.19
+        },
+        {
+          "text": "keep",
+          "start": 6.31
+        },
+        {
+          "text": "the",
+          "start": 6.58
+        },
+        {
+          "text": "lights",
+          "start": 6.88
+        },
+        {
+          "text": "on",
+          "start": 7.37
+        },
+        {
+          "text": "at",
+          "start": 7.53
+        },
+        {
+          "text": "night.",
+          "start": 7.69
+        }
+      ]
+    },
+    {
+      "id": "miles",
+      "text": "Fifty miles. On *foot.*",
+      "style": "Narrating, quiet disbelief, slow.",
+      "voice": "Algenib",
+      "story": 1125,
+      "anchors": {},
+      "file": "last-light/part05/voice/miles.wav",
+      "duration": 3.61,
+      "speechStart": 0.37,
+      "speechEnd": 3.3000000000000003,
+      "words": [
+        {
+          "text": "Fifty",
+          "start": 0.37
+        },
+        {
+          "text": "miles.",
+          "start": 1.14
+        },
+        {
+          "text": "On",
+          "start": 2.09
+        },
+        {
+          "text": "*foot.*",
+          "start": 2.49
+        }
+      ]
+    },
+    {
+      "id": "walk",
+      "text": "Then we walk.",
+      "style": "Teenage girl, quiet but determined, no doubt in her voice.",
+      "voice": "Leda",
+      "story": 1215,
+      "anchors": {},
+      "file": "last-light/part05/voice/walk.wav",
+      "duration": 1.6,
+      "speechStart": 0.29,
+      "speechEnd": 1.29,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.31
+        },
+        {
+          "text": "we",
+          "start": 0.79
+        },
+        {
+          "text": "walk.",
+          "start": 1.18
+        }
+      ]
+    },
+    {
+      "id": "bell",
+      "text": "Then the bell above the door *rang.*",
+      "style": "Whispered narration, sudden fear, the last word almost breathless.",
+      "voice": "Algenib",
+      "story": 1262,
+      "anchors": {},
+      "file": "last-light/part05/voice/bell.wav",
+      "duration": 2.71,
+      "speechStart": 0.38,
+      "speechEnd": 2.56,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.38
+        },
+        {
+          "text": "the",
+          "start": 0.5
+        },
+        {
+          "text": "bell",
+          "start": 0.64
+        },
+        {
+          "text": "above",
+          "start": 1.05
+        },
+        {
+          "text": "the",
+          "start": 1.47
+        },
+        {
+          "text": "door",
+          "start": 1.76
+        },
+        {
+          "text": "*rang.*",
+          "start": 2.11
+        }
+      ]
+    }
+  ]
+}
