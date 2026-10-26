@@ -69,3 +69,9 @@ export const shotCamera = (s: number, shots: Shot[]) => {
 };
 export const cameraTransform = ({ fx, fy, z }: { fx: number; fy: number; z: number }, shake = { x: 0, y: 0 }) =>
   `translate(${540 - fx * z + shake.x} ${960 - fy * z + shake.y}) scale(${z})`;
+
+// Handheld camera: a slow, slightly irregular sway so no shot is ever locked off. `extra` adds kicks/shake.
+export const handheld = (frame: number, amount = 1, extra = { x: 0, y: 0 }) => ({
+  x: amount * (4 * Math.sin(frame * 0.11) + 2 * Math.sin(frame * 0.37)) + extra.x,
+  y: amount * (3 * Math.cos(frame * 0.09) + 1.5 * Math.sin(frame * 0.29)) + extra.y,
+});

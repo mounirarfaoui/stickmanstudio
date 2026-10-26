@@ -296,3 +296,192 @@ export const Dog: React.FC<{ x: number; y: number; scale?: number; bark: number;
     </g>
   );
 };
+
+// ================= Part 4: the fence, the street, the rooftop =================
+// A chain-link fence closing the alley's far end (side view, drawn as a panel with depth).
+export const FENCE = { x: -260, w: 90, top: 1060 };
+export const Fence: React.FC<{ shake: number; frame: number }> = ({ shake, frame }) => {
+  const { x, w, top } = FENCE;
+  const g = ALLEY.ground;
+  const dx = Math.sin(frame * 2.7) * shake * 6;
+  return (
+    <g transform={`translate(${dx} 0)`}>
+      <rect x={x} y={top} width={w} height={g - top} fill="#1a1416" opacity={0.25} />
+      {Array.from({ length: 16 }, (_, i) => (
+        <g key={i} stroke="#8a8f99" strokeWidth={2.5} opacity={0.75}>
+          <line x1={x} y1={top + i * 28} x2={x + w} y2={top + i * 28 + 60} />
+          <line x1={x + w} y1={top + i * 28} x2={x} y2={top + i * 28 + 60} />
+        </g>
+      ))}
+      <rect x={x - 6} y={top - 10} width={12} height={g - top + 10} fill="#5d626b" />
+      <rect x={x + w - 6} y={top - 10} width={12} height={g - top + 10} fill="#5d626b" />
+      <rect x={x - 10} y={top - 14} width={w + 20} height={10} fill="#5d626b" />
+      {/* the hole Biscuit squeezes through */}
+      <path d={`M ${x + 10} ${g} Q ${x + 45} ${g - 90} ${x + 80} ${g} Z`} fill="#0e0a0d" />
+    </g>
+  );
+};
+
+// The street: building fronts, and one building whose roof Kai and Mia reach by its drop ladder.
+export const STREET = { ground: 1500, roof: 620, ladderX: 1410, buildingX: 1240, buildingW: 900 };
+export const Street: React.FC<{ frame: number; ladderBottom: number; children?: React.ReactNode }> = ({ frame, ladderBottom, children }) => {
+  const { ground, roof, ladderX, buildingX, buildingW } = STREET;
+  return (
+    <g>
+      <rect x={-1600} y={-1200} width={5600} height={ground + 1200} fill="url(#sky)" />
+      {Array.from({ length: 14 }, (_, i) => {
+        const bx = -1500 + i * 230;
+        const h = 500 + rand(i + 70) * 420;
+        return (
+          <g key={i}>
+            <rect x={bx} y={ground - h} width={210} height={h} fill={i % 2 ? "#2b1719" : "#33191b"} />
+            {Array.from({ length: 6 }, (_, r) => (
+              <rect key={r} x={bx + 30 + (r % 2) * 90} y={ground - h + 60 + Math.floor(r / 2) * 140} width={50} height={70} fill={rand(i * 7 + r) > 0.75 ? "#5a3a20" : "#140c0e"} />
+            ))}
+            <rect x={bx + 20} y={ground - 160} width={170} height={160} fill="#1a0f11" />
+          </g>
+        );
+      })}
+      {/* the climbing building */}
+      <rect x={buildingX} y={roof} width={buildingW} height={ground - roof} fill="#4a2a26" />
+      {Array.from({ length: Math.ceil((ground - roof) / 26) }, (_, r) => (
+        <line key={r} x1={buildingX} y1={roof + r * 26} x2={buildingX + buildingW} y2={roof + r * 26} stroke="#3c211e" strokeWidth={3} />
+      ))}
+      <rect x={buildingX - 10} y={roof - 40} width={buildingW + 20} height={44} fill="#2f1a17" />
+      {[0, 1, 2].map((r) =>
+        [0, 1, 2, 3].map((c) => (
+          <rect key={`${r}-${c}`} x={buildingX + 260 + c * 160} y={roof + 90 + r * 230} width={90} height={130} fill="#120a0b" stroke="#2f1a17" strokeWidth={10} />
+        )),
+      )}
+      {/* drop ladder: the bottom end slides up when they pull it */}
+      <g stroke="#15161b" strokeLinecap="round">
+        <line x1={ladderX} y1={roof - 30} x2={ladderX} y2={ladderBottom} strokeWidth={8} />
+        <line x1={ladderX + 54} y1={roof - 30} x2={ladderX + 54} y2={ladderBottom} strokeWidth={8} />
+        {Array.from({ length: Math.max(0, Math.floor((ladderBottom - roof) / 40)) }, (_, i) => (
+          <line key={i} x1={ladderX} y1={roof + 10 + i * 40} x2={ladderX + 54} y2={roof + 10 + i * 40} strokeWidth={6} />
+        ))}
+      </g>
+      <rect x={-1600} y={ground} width={5600} height={900} fill="#16101a" />
+      {[0, 1, 2, 3, 4, 5].map((i) => (
+        <rect key={i} x={-1400 + i * 600} y={ground + 120} width={200} height={10} fill="#3a2a2c" />
+      ))}
+      {children}
+      <ellipse cx={600 + Math.sin(frame * 0.05) * 30} cy={ground - 300} rx={900} ry={500} fill="url(#duskGlow)" opacity={0.5} />
+    </g>
+  );
+};
+
+// Night sky that darkens through the hours: 0 = blood-orange dusk, 1 = deep night with stars and a moon.
+export const NightSky: React.FC<{ t: number; frame: number; moonY: number; drift?: number }> = ({ t, frame, moonY, drift = frame * 0.3 }) => (
+  <g>
+    <rect x={-1600} y={-1600} width={4400} height={3600} fill="url(#sky)" />
+    <rect x={-1600} y={-1600} width={4400} height={3600} fill="#070a1c" opacity={0.92 * t} />
+    {Array.from({ length: 70 }, (_, i) => (
+      <circle key={i} cx={-400 + rand(i + 300) * 1900} cy={-300 + rand(i + 400) * 1100} r={1.5 + rand(i + 500) * 2} fill="#fff" opacity={t * (0.4 + 0.6 * Math.abs(Math.sin(frame * 0.05 + i)))} />
+    ))}
+    <circle cx={820} cy={moonY} r={70} fill="#f3ecd7" opacity={0.3 + 0.7 * t} />
+    <circle cx={850} cy={moonY - 18} r={62} fill="#070a1c" opacity={0.25 * t} />
+    <circle cx={820} cy={moonY} r={150} fill="#f3ecd7" opacity={0.08 * t} filter="url(#soft)" />
+    {/* clouds; `drift` runs them fast during a time-lapse */}
+    {Array.from({ length: 6 }, (_, i) => {
+      const x = ((rand(i + 800) * 2400 + drift * (1 + (i % 3) * 0.6)) % 2600) - 800;
+      return <ellipse key={i} cx={x} cy={40 + rand(i + 810) * 600} rx={260 + rand(i + 820) * 200} ry={50 + rand(i + 830) * 40} fill="#1a1d33" opacity={0.25 + 0.5 * t} filter="url(#soft)" />;
+    })}
+  </g>
+);
+
+// Rooftop view across the street canyon: the dead flow along the street between our ledge and the far buildings.
+export const ROOF = { ledge: 1360, street: [1170, 1330] as [number, number] };
+export const RooftopView: React.FC<{ frame: number; night: number; children?: React.ReactNode }> = ({ frame, night, children }) => {
+  const { ledge, street } = ROOF;
+  return (
+    <g>
+      {/* far buildings, some burning */}
+      {Array.from({ length: 12 }, (_, i) => {
+        const bx = -800 + i * 240;
+        const h = 380 + rand(i + 900) * 520;
+        const fire = rand(i + 950) > 0.72;
+        return (
+          <g key={i}>
+            <rect x={bx} y={street[0] - h} width={226} height={h} fill={night > 0.5 ? "#141420" : "#2a1418"} />
+            {Array.from({ length: 8 }, (_, r) => (
+              <rect key={r} x={bx + 24 + (r % 3) * 66} y={street[0] - h + 40 + Math.floor(r / 3) * 110} width={36} height={56} fill={rand(i * 13 + r) > 0.82 ? "#e7b25a" : "#0b0b12"} opacity={0.9} />
+            ))}
+            {fire ? <ellipse cx={bx + 113} cy={street[0] - h} rx={70 + Math.sin(frame * 0.3 + i) * 10} ry={40 + Math.sin(frame * 0.4 + i) * 8} fill="#ff7a2d" opacity={0.55} filter="url(#soft)" /> : null}
+          </g>
+        );
+      })}
+      {/* the street far below */}
+      <rect x={-1600} y={street[0]} width={4400} height={street[1] - street[0]} fill="#120c12" />
+      {children}
+      {/* our rooftop: ledge and roof surface */}
+      <rect x={-1600} y={ledge} width={4400} height={40} fill="#3a2f33" />
+      <rect x={-1600} y={ledge + 40} width={4400} height={900} fill="#221a1f" />
+      <rect x={-1600} y={ledge + 40} width={4400} height={14} fill="#15101a" />
+      <rect x={120} y={ledge + 140} width={120} height={90} fill="#2c2328" />
+      <rect x={160} y={ledge + 80} width={40} height={60} fill="#2c2328" />
+    </g>
+  );
+};
+
+// The river of the dead: rows of tiny silhouettes with glowing eyes, flowing along the street.
+// `flow` drives the walking (defaults to the frame; run it faster for a time-lapse)
+export const DeadRiver: React.FC<{ frame: number; flow?: number; density?: number }> = ({ frame, flow = frame, density = 1 }) => {
+  const [y0, y1] = ROOF.street;
+  const rows = 4;
+  return (
+    <g>
+      {Array.from({ length: rows }, (_, r) => {
+        const y = y0 + 30 + r * ((y1 - y0 - 30) / rows);
+        const sc = 0.13 + r * 0.035;
+        const speed = 0.7 + r * 0.25;
+        const n = Math.round((26 + r * 6) * density);
+        return Array.from({ length: n }, (_, i) => {
+          const span = 2600;
+          const x = -900 + (((i / n) * span + flow * speed + rand(i + r * 50) * 60) % span);
+          const bob = Math.abs(Math.sin(frame * 0.2 + i)) * 4;
+          return (
+            <g key={`${r}-${i}`} transform={`translate(${x} ${y - bob}) scale(${sc})`}>
+              <line x1={0} y1={0} x2={0} y2={-200} stroke="#0d090c" strokeWidth={46} strokeLinecap="round" />
+              <circle cx={10} cy={-230} r={34} fill="#0d090c" />
+              <circle cx={4} cy={-236} r={9} fill="#B6FF5C" opacity={0.85} />
+              <circle cx={24} cy={-234} r={8} fill="#B6FF5C" opacity={0.85} />
+              <line x1={0} y1={-170} x2={70} y2={-150 + Math.sin(frame * 0.3 + i) * 10} stroke="#0d090c" strokeWidth={22} strokeLinecap="round" />
+            </g>
+          );
+        });
+      })}
+    </g>
+  );
+};
+
+export const Helicopter: React.FC<{ x: number; y: number; frame: number; beam: number; beamX: number; beamY: number }> = ({ x, y, frame, beam, beamX, beamY }) => (
+  <g>
+    {beam > 0 ? <polygon points={`${x - 10},${y + 30} ${x + 10},${y + 30} ${beamX + 140},${beamY} ${beamX - 140},${beamY}`} fill="#f6f1d8" opacity={0.16 * beam} /> : null}
+    {beam > 0 ? <ellipse cx={beamX} cy={beamY} rx={150} ry={34} fill="#f6f1d8" opacity={0.28 * beam} /> : null}
+    <g transform={`translate(${x} ${y})`}>
+      <ellipse cx={0} cy={0} rx={60} ry={30} fill="#0c0c12" />
+      <rect x={40} y={-10} width={130} height={14} fill="#0c0c12" />
+      <rect x={160} y={-34} width={12} height={40} fill="#0c0c12" />
+      <line x1={-20} y1={34} x2={40} y2={34} stroke="#0c0c12" strokeWidth={6} />
+      <ellipse cx={0} cy={-36} rx={150} ry={6} fill="#0c0c12" opacity={0.35 + 0.3 * Math.abs(Math.sin(frame * 1.7))} />
+      <circle cx={-48} cy={4} r={5} fill="#ff3b30" opacity={Math.floor(frame / 10) % 2 ? 1 : 0.15} />
+    </g>
+  </g>
+);
+
+// Mia's walkie-talkie; `live` makes it crackle (blinking screen and LED, static rings)
+export const Walkie: React.FC<{ x: number; y: number; live: number; frame: number; angle?: number }> = ({ x, y, live, frame, angle = 0 }) => (
+  <g transform={`translate(${x} ${y}) rotate(${angle})`}>
+    <rect x={-14} y={-30} width={28} height={50} rx={6} fill="#22252c" stroke="#4a4f5a" strokeWidth={3} />
+    <rect x={6} y={-58} width={6} height={30} rx={3} fill="#22252c" />
+    <rect x={-9} y={-20} width={18} height={14} rx={2} fill={live > 0 ? "#7fe3ff" : "#11141a"} opacity={live > 0 ? 0.5 + 0.5 * Math.abs(Math.sin(frame * 0.9)) : 1} />
+    <circle cx={-6} cy={8} r={3} fill={live > 0 && Math.floor(frame / 4) % 2 ? "#ff3b30" : "#3a1414"} />
+    {live > 0
+      ? [0, 1, 2].map((k) => {
+          const p = (frame * 0.08 + k / 3) % 1;
+          return <path key={k} d={`M ${18 + p * 40} ${-30 - p * 20} q ${8 + p * 10} ${16 + p * 10} 0 ${32 + p * 20}`} stroke="#7fe3ff" strokeWidth={3} fill="none" opacity={live * (1 - p)} />;
+        })
+      : null}
+  </g>
+);

@@ -1,0 +1,677 @@
+{
+  "fps": 30,
+  "duration": 1422,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      96,
+      106.9
+    ],
+    [
+      138,
+      182.5
+    ],
+    [
+      262,
+      306.5
+    ],
+    [
+      340,
+      413
+    ],
+    [
+      418,
+      512.9
+    ],
+    [
+      540,
+      634.9
+    ],
+    [
+      680,
+      774.9
+    ],
+    [
+      780,
+      891.6
+    ],
+    [
+      850,
+      961.6
+    ],
+    [
+      968,
+      1079.6
+    ],
+    [
+      1096,
+      1207.6
+    ],
+    [
+      1150,
+      1267.9
+    ],
+    [
+      1300,
+      1417.9
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "last-light/part04/voice/hook.wav",
+      "at": -0.0967,
+      "speech": [
+        0.133,
+        3.363
+      ]
+    },
+    {
+      "id": "deadend",
+      "file": "last-light/part04/voice/deadend.wav",
+      "at": 3.4933,
+      "speech": [
+        3.563,
+        5.883
+      ]
+    },
+    {
+      "id": "climb",
+      "file": "last-light/part04/voice/climb.wav",
+      "at": 5.9133,
+      "speech": [
+        6.083,
+        7.633
+      ]
+    },
+    {
+      "id": "held",
+      "file": "last-light/part04/voice/held.wav",
+      "at": 10.1267,
+      "speech": [
+        10.217,
+        13.567
+      ]
+    },
+    {
+      "id": "street",
+      "file": "last-light/part04/voice/street.wav",
+      "at": 13.4767,
+      "speech": [
+        13.767,
+        16.897
+      ]
+    },
+    {
+      "id": "up",
+      "file": "last-light/part04/voice/up.wav",
+      "at": 16.8067,
+      "speech": [
+        17.097,
+        18.747
+      ]
+    },
+    {
+      "id": "pull",
+      "file": "last-light/part04/voice/pull.wav",
+      "at": 21.0633,
+      "speech": [
+        21.163,
+        22.943
+      ]
+    },
+    {
+      "id": "river",
+      "file": "last-light/part04/voice/river.wav",
+      "at": 25.5,
+      "speech": [
+        25.83,
+        29.52
+      ]
+    },
+    {
+      "id": "hours",
+      "file": "last-light/part04/voice/hours.wav",
+      "at": 29.55,
+      "speech": [
+        29.72,
+        30.91
+      ]
+    },
+    {
+      "id": "heli",
+      "file": "last-light/part04/voice/heli.wav",
+      "at": 31.7433,
+      "speech": [
+        32.053,
+        35.343
+      ]
+    },
+    {
+      "id": "good",
+      "file": "last-light/part04/voice/good.wav",
+      "at": 35.6567,
+      "speech": [
+        35.987,
+        37.307
+      ]
+    },
+    {
+      "id": "radio",
+      "file": "last-light/part04/voice/radio.wav",
+      "at": 39.9733,
+      "speech": [
+        40.253,
+        42.063
+      ]
+    },
+    {
+      "id": "voice",
+      "file": "last-light/part04/voice/voice.wav",
+      "at": 42.2633,
+      "speech": [
+        42.263,
+        45.333
+      ],
+      "fx": "tv"
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 3,
+      "to": 61,
+      "words": [
+        {
+          "text": "We",
+          "emph": false,
+          "frame": 5
+        },
+        {
+          "text": "ran.",
+          "emph": false,
+          "frame": 22
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 61,
+      "to": 105,
+      "words": [
+        {
+          "text": "Biscuit",
+          "emph": false,
+          "frame": 63
+        },
+        {
+          "text": "ran",
+          "emph": false,
+          "frame": 78
+        },
+        {
+          "text": "faster.",
+          "emph": false,
+          "frame": 84
+        }
+      ]
+    },
+    {
+      "line": "deadend",
+      "from": 106,
+      "to": 155,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 108
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 116
+        },
+        {
+          "text": "alley",
+          "emph": false,
+          "frame": 126
+        },
+        {
+          "text": "ended.",
+          "emph": false,
+          "frame": 138
+        }
+      ]
+    },
+    {
+      "line": "deadend",
+      "from": 155,
+      "to": 181,
+      "words": [
+        {
+          "text": "A",
+          "emph": false,
+          "frame": 157
+        },
+        {
+          "text": "fence.",
+          "emph": true,
+          "frame": 162
+        }
+      ]
+    },
+    {
+      "line": "climb",
+      "from": 183,
+      "to": 241,
+      "words": [
+        {
+          "text": "Kai!",
+          "emph": false,
+          "frame": 185
+        },
+        {
+          "text": "Climb!",
+          "emph": false,
+          "frame": 210
+        }
+      ]
+    },
+    {
+      "line": "held",
+      "from": 305,
+      "to": 362,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 307
+        },
+        {
+          "text": "fence",
+          "emph": false,
+          "frame": 316
+        },
+        {
+          "text": "held.",
+          "emph": false,
+          "frame": 337
+        }
+      ]
+    },
+    {
+      "line": "held",
+      "from": 362,
+      "to": 411,
+      "words": [
+        {
+          "text": "For",
+          "emph": false,
+          "frame": 364
+        },
+        {
+          "text": "now.",
+          "emph": false,
+          "frame": 386
+        }
+      ]
+    },
+    {
+      "line": "street",
+      "from": 411,
+      "to": 466,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 413
+        },
+        {
+          "text": "street",
+          "emph": false,
+          "frame": 419
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 437
+        },
+        {
+          "text": "worse.",
+          "emph": false,
+          "frame": 450
+        }
+      ]
+    },
+    {
+      "line": "street",
+      "from": 466,
+      "to": 511,
+      "words": [
+        {
+          "text": "They",
+          "emph": false,
+          "frame": 468
+        },
+        {
+          "text": "were",
+          "emph": false,
+          "frame": 472
+        },
+        {
+          "text": "coming",
+          "emph": false,
+          "frame": 477
+        },
+        {
+          "text": "from",
+          "emph": false,
+          "frame": 484
+        },
+        {
+          "text": "everywhere.",
+          "emph": true,
+          "frame": 488
+        }
+      ]
+    },
+    {
+      "line": "up",
+      "from": 511,
+      "to": 537,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 513
+        },
+        {
+          "text": "ladder!",
+          "emph": false,
+          "frame": 517
+        }
+      ]
+    },
+    {
+      "line": "up",
+      "from": 537,
+      "to": 574,
+      "words": [
+        {
+          "text": "Go",
+          "emph": false,
+          "frame": 539
+        },
+        {
+          "text": "up!",
+          "emph": false,
+          "frame": 543
+        }
+      ]
+    },
+    {
+      "line": "pull",
+      "from": 638,
+      "to": 665,
+      "words": [
+        {
+          "text": "Pull",
+          "emph": false,
+          "frame": 640
+        },
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 647
+        },
+        {
+          "text": "up!",
+          "emph": false,
+          "frame": 654
+        }
+      ]
+    },
+    {
+      "line": "pull",
+      "from": 665,
+      "to": 700,
+      "words": [
+        {
+          "text": "Pull",
+          "emph": false,
+          "frame": 667
+        },
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 676
+        },
+        {
+          "text": "up!",
+          "emph": false,
+          "frame": 684
+        }
+      ]
+    },
+    {
+      "line": "river",
+      "from": 774,
+      "to": 809,
+      "words": [
+        {
+          "text": "Below",
+          "emph": false,
+          "frame": 776
+        },
+        {
+          "text": "us,",
+          "emph": false,
+          "frame": 784
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 799
+        }
+      ]
+    },
+    {
+      "line": "river",
+      "from": 809,
+      "to": 890,
+      "words": [
+        {
+          "text": "dead",
+          "emph": false,
+          "frame": 811
+        },
+        {
+          "text": "moved",
+          "emph": false,
+          "frame": 826
+        },
+        {
+          "text": "like",
+          "emph": false,
+          "frame": 845
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 860
+        },
+        {
+          "text": "river.",
+          "emph": true,
+          "frame": 864
+        }
+      ]
+    },
+    {
+      "line": "hours",
+      "from": 894,
+      "to": 939,
+      "words": [
+        {
+          "text": "For",
+          "emph": false,
+          "frame": 896
+        },
+        {
+          "text": "hours.",
+          "emph": false,
+          "frame": 909
+        }
+      ]
+    },
+    {
+      "line": "heli",
+      "from": 960,
+      "to": 1012,
+      "words": [
+        {
+          "text": "A",
+          "emph": false,
+          "frame": 962
+        },
+        {
+          "text": "helicopter",
+          "emph": false,
+          "frame": 965
+        },
+        {
+          "text": "passed",
+          "emph": false,
+          "frame": 981
+        },
+        {
+          "text": "once.",
+          "emph": false,
+          "frame": 996
+        }
+      ]
+    },
+    {
+      "line": "heli",
+      "from": 1012,
+      "to": 1072,
+      "words": [
+        {
+          "text": "It",
+          "emph": false,
+          "frame": 1014
+        },
+        {
+          "text": "didn't",
+          "emph": false,
+          "frame": 1020
+        },
+        {
+          "text": "stop.",
+          "emph": false,
+          "frame": 1044
+        }
+      ]
+    },
+    {
+      "line": "good",
+      "from": 1078,
+      "to": 1131,
+      "words": [
+        {
+          "text": "Good",
+          "emph": false,
+          "frame": 1080
+        },
+        {
+          "text": "boy.",
+          "emph": false,
+          "frame": 1104
+        }
+      ]
+    },
+    {
+      "line": "radio",
+      "from": 1206,
+      "to": 1266,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 1208
+        },
+        {
+          "text": "Mia's",
+          "emph": false,
+          "frame": 1214
+        },
+        {
+          "text": "radio",
+          "emph": false,
+          "frame": 1227
+        },
+        {
+          "text": "crackled.",
+          "emph": false,
+          "frame": 1240
+        }
+      ]
+    },
+    {
+      "line": "voice",
+      "from": 1266,
+      "to": 1313,
+      "words": [
+        {
+          "text": "If",
+          "emph": false,
+          "frame": 1268
+        },
+        {
+          "text": "anyone",
+          "emph": false,
+          "frame": 1280
+        },
+        {
+          "text": "can",
+          "emph": false,
+          "frame": 1293
+        },
+        {
+          "text": "hear",
+          "emph": false,
+          "frame": 1302
+        }
+      ]
+    },
+    {
+      "line": "voice",
+      "from": 1313,
+      "to": 1372,
+      "words": [
+        {
+          "text": "this...",
+          "emph": false,
+          "frame": 1315
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 1331
+        },
+        {
+          "text": "lighthouse.",
+          "emph": true,
+          "frame": 1337
+        }
+      ]
+    }
+  ]
+}

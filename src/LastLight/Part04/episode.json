@@ -1,0 +1,185 @@
+{
+  "id": "last-light-04",
+  "title": "Last Light — Part 4: The Horde",
+  "publicDir": "last-light/part04",
+  "voice": "Algenib",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 4,
+      "text": "We ran. Biscuit ran faster.",
+      "style": "First-person survivor, breathless while running, gravelly, a flicker of dark humour on the second sentence."
+    },
+    {
+      "id": "deadend",
+      "story": 96,
+      "text": "Then the alley ended. A *fence.*",
+      "style": "Breathless, sudden dread, quick."
+    },
+    {
+      "id": "climb",
+      "story": 138,
+      "voice": "Leda",
+      "text": "Kai! Climb!",
+      "style": "Teenage girl shouting urgently from the top of a fence, fierce."
+    },
+    {
+      "id": "held",
+      "story": 262,
+      "text": "The fence held. For now.",
+      "style": "Panting, relieved but grim, short."
+    },
+    {
+      "id": "street",
+      "story": 340,
+      "text": "The street was worse. They were coming from *everywhere.*",
+      "style": "Narrating while running, urgent, rising fear, brisk."
+    },
+    {
+      "id": "up",
+      "story": 418,
+      "voice": "Leda",
+      "text": "The ladder! Go up!",
+      "style": "Teenage girl yelling, urgent, fast."
+    },
+    {
+      "id": "pull",
+      "story": 540,
+      "text": "Pull it up! Pull it up!",
+      "style": "Desperate shouting while straining, fast."
+    },
+    {
+      "id": "river",
+      "story": 680,
+      "text": "Below us, the dead moved like a *river.*",
+      "style": "Narrating, hushed awe and dread, slow and steady."
+    },
+    {
+      "id": "hours",
+      "story": 780,
+      "text": "For hours.",
+      "style": "Narrating, quiet and tired."
+    },
+    {
+      "id": "heli",
+      "story": 850,
+      "text": "A helicopter passed once. It didn't stop.",
+      "style": "Narrating, hope then quiet disappointment, steady pace."
+    },
+    {
+      "id": "good",
+      "story": 968,
+      "voice": "Leda",
+      "text": "Good boy.",
+      "style": "Teenage girl whispering softly to a dog, tender."
+    },
+    {
+      "id": "radio",
+      "story": 1096,
+      "text": "Then Mia's radio crackled.",
+      "style": "Narrating, sudden alertness, hushed."
+    },
+    {
+      "id": "voice",
+      "story": 1150,
+      "voice": "Orus",
+      "fx": "tv",
+      "text": "If anyone can hear this... the *lighthouse.*",
+      "style": "A tired man on a crackling emergency radio, urgent but broken up, a short gap before 'the lighthouse'."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        2,
+        3
+      ],
+      "deadend": [
+        4,
+        2
+      ],
+      "climb": [
+        2
+      ],
+      "held": [
+        3,
+        2
+      ],
+      "street": [
+        4,
+        5
+      ],
+      "up": [
+        2,
+        2
+      ],
+      "pull": [
+        3,
+        3
+      ],
+      "river": [
+        3,
+        5
+      ],
+      "hours": [
+        2
+      ],
+      "heli": [
+        4,
+        3
+      ],
+      "good": [
+        2
+      ],
+      "radio": [
+        4
+      ],
+      "voice": [
+        4,
+        3
+      ]
+    },
+    "speakers": {
+      "climb": "mia",
+      "up": "mia",
+      "good": "mia",
+      "pull": "kai"
+    }
+  },
+  "timeline": {
+    "gap": 6,
+    "maxSpeedup": 1.0,
+    "endHold": 62,
+    "captionLead": 2,
+    "maxPause": 0.25
+  },
+  "music": {
+    "title": "Last Light - The Horde",
+    "style": "Cinematic zombie survival score. Opens at full intensity: a frantic chase with pounding drums, driving low strings and brass stabs. Halfway through it settles into an eerie, haunting night soundscape with distant drones, slow pulsing synth and a lonely high string, then ends on a tense rising swell. Instrumental only, no vocals, mixed to sit under dialogue.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "fence": {
+      "prompt": "A chain-link metal fence rattling and clanging violently as heavy bodies slam into it again and again, outdoor, isolated sound effect, no music."
+    },
+    "heli": {
+      "prompt": "A helicopter flying overhead at night and slowly fading away into the distance, rotor thumping, isolated sound effect, no music."
+    },
+    "radio": {
+      "prompt": "A walkie-talkie crackling to life with bursts of radio static and squelch, isolated sound effect, no music."
+    },
+    "crowd": {
+      "prompt": "A huge crowd of zombies shuffling and moaning in a city street far below, heard from a rooftop, distant and eerie, ambient sound effect, no music.",
+      "loop": true
+    }
+  },
+  "mix": {
+    "musicDb": -26,
+    "levelLines": true,
+    "fxGainDb": {
+      "tv": -2
+    }
+  },
+  "sfx": "last-light-04"
+}

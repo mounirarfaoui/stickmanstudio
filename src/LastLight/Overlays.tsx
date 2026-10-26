@@ -111,7 +111,8 @@ export const SeriesBadge: React.FC<{ frame: number; part: number; title: string;
 );
 
 // Closing card: cut to black, logo, "Part N+1" tease
-export const PartCard: React.FC<{ frame: number; from: number; part: number }> = ({ frame, from, part }) => {
+// `embers` adds drifting sparks and a slow push-in so the card isn't a still frame.
+export const PartCard: React.FC<{ frame: number; from: number; part: number; embers?: boolean }> = ({ frame, from, part, embers = false }) => {
   const t = frame - from;
   if (t < 0) return null;
   const pop = (d: number) => ({
@@ -119,8 +120,15 @@ export const PartCard: React.FC<{ frame: number; from: number; part: number }> =
     translate: interpolate(t, [d, d + 12], ["0px 30px", "0px 0px"], { ...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1) }),
   });
   return (
-    <AbsoluteFill style={{ backgroundColor: `rgba(0,0,0,${interpolate(t, [0, 5], [0, 1], clamp)})`, justifyContent: "center", alignItems: "center", gap: 34 }}>
-      <div style={pop(4)}>
+    <AbsoluteFill style={{ backgroundColor: `rgba(0,0,0,${interpolate(t, [0, 5], [0, 1], clamp)})`, justifyContent: "center", alignItems: "center", gap: 34, scale: embers ? 1 + t * 0.0015 : 1 }}>
+      {embers
+        ? Array.from({ length: 70 }, (_, i) => {
+            const life = (t * (2.4 + (i % 5) * 0.5) + i * 37) % 260;
+            return <div key={i} style={{ position: "absolute", left: (i * 97) % 1080 + Math.sin((t + i * 13) * 0.05) * 30, top: 1900 - life * 7, width: 8 + (i % 3) * 5, height: 8 + (i % 3) * 5, borderRadius: "50%", backgroundColor: i % 4 ? "#ff9a4d" : "#ffd27a", opacity: interpolate(t, [0, 10], [0, 1], clamp) * (1 - life / 260) * 0.9, boxShadow: "0 0 12px #ff7a2d" }} />;
+          })
+        : null}
+      {/* with embers on, the logo flickers like a failing light */}
+      <div style={{ ...pop(4), opacity: (pop(4).opacity as number) * (embers && Math.sin(t * 0.9) * Math.sin(t * 0.37) > 0.45 ? 0.25 : 1) }}>
         <Logo size={120} />
       </div>
       <div style={{ ...pop(10), fontFamily: FONT, fontSize: 52, color: "#9aa3b5" }}>PART {part} / 10</div>

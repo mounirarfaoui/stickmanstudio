@@ -55,8 +55,8 @@ for (const line of timeline.voice) {
   // mix.levelLines: bring every line to the same loudness first (plus an optional per-fx offset),
   // so a processed or quieter take doesn't get buried
   if (ep.cfg.mix?.levelLines) {
-    const a = Math.round((line.speech[0] - line.at) * SR);
-    const b = Math.round((line.speech[1] - line.at) * SR);
+    const a = Math.max(0, Math.round((line.speech[0] - line.at) * SR));
+    const b = Math.min(x.length, Math.round((line.speech[1] - line.at) * SR));
     let e = 0;
     for (let j = a; j < b; j++) e += x[j] * x[j];
     const g = 10 ** (((ep.cfg.mix.fxGainDb?.[line.fx] ?? 0) - 18) / 20) / Math.sqrt(e / Math.max(1, b - a));

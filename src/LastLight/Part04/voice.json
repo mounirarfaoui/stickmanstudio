@@ -1,0 +1,457 @@
+{
+  "voice": "Algenib",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "We ran. Biscuit ran faster.",
+      "style": "First-person survivor, breathless while running, gravelly, a flicker of dark humour on the second sentence.",
+      "voice": "Algenib",
+      "story": 4,
+      "anchors": {},
+      "file": "last-light/part04/voice/hook.wav",
+      "duration": 3.81,
+      "speechStart": 0.23,
+      "speechEnd": 3.46,
+      "words": [
+        {
+          "text": "We",
+          "start": 0.25
+        },
+        {
+          "text": "ran.",
+          "start": 0.84
+        },
+        {
+          "text": "Biscuit",
+          "start": 2.21
+        },
+        {
+          "text": "ran",
+          "start": 2.7
+        },
+        {
+          "text": "faster.",
+          "start": 2.91
+        }
+      ]
+    },
+    {
+      "id": "deadend",
+      "text": "Then the alley ended. A *fence.*",
+      "style": "Breathless, sudden dread, quick.",
+      "voice": "Algenib",
+      "story": 96,
+      "anchors": {},
+      "file": "last-light/part04/voice/deadend.wav",
+      "duration": 2.9,
+      "speechStart": 0.07,
+      "speechEnd": 2.39,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.11
+        },
+        {
+          "text": "the",
+          "start": 0.37
+        },
+        {
+          "text": "alley",
+          "start": 0.69
+        },
+        {
+          "text": "ended.",
+          "start": 1.12
+        },
+        {
+          "text": "A",
+          "start": 1.75
+        },
+        {
+          "text": "*fence.*",
+          "start": 1.89
+        }
+      ]
+    },
+    {
+      "id": "climb",
+      "text": "Kai! Climb!",
+      "style": "Teenage girl shouting urgently from the top of a fence, fierce.",
+      "voice": "Leda",
+      "story": 138,
+      "anchors": {},
+      "file": "last-light/part04/voice/climb.wav",
+      "duration": 1.96,
+      "speechStart": 0.17,
+      "speechEnd": 1.72,
+      "words": [
+        {
+          "text": "Kai!",
+          "start": 0.24
+        },
+        {
+          "text": "Climb!",
+          "start": 1.08
+        }
+      ]
+    },
+    {
+      "id": "held",
+      "text": "The fence held. For now.",
+      "style": "Panting, relieved but grim, short.",
+      "voice": "Algenib",
+      "story": 262,
+      "anchors": {},
+      "file": "last-light/part04/voice/held.wav",
+      "duration": 3.68,
+      "speechStart": 0.09,
+      "speechEnd": 3.44,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.11
+        },
+        {
+          "text": "fence",
+          "start": 0.4
+        },
+        {
+          "text": "held.",
+          "start": 1.11
+        },
+        {
+          "text": "For",
+          "start": 2
+        },
+        {
+          "text": "now.",
+          "start": 2.73
+        }
+      ]
+    },
+    {
+      "id": "street",
+      "text": "The street was worse. They were coming from *everywhere.*",
+      "style": "Narrating while running, urgent, rising fear, brisk.",
+      "voice": "Algenib",
+      "story": 340,
+      "anchors": {},
+      "file": "last-light/part04/voice/street.wav",
+      "duration": 4.24,
+      "speechStart": 0.29,
+      "speechEnd": 3.42,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.29
+        },
+        {
+          "text": "street",
+          "start": 0.49
+        },
+        {
+          "text": "was",
+          "start": 1.1
+        },
+        {
+          "text": "worse.",
+          "start": 1.52
+        },
+        {
+          "text": "They",
+          "start": 2.13
+        },
+        {
+          "text": "were",
+          "start": 2.26
+        },
+        {
+          "text": "coming",
+          "start": 2.41
+        },
+        {
+          "text": "from",
+          "start": 2.64
+        },
+        {
+          "text": "*everywhere.*",
+          "start": 2.79
+        }
+      ]
+    },
+    {
+      "id": "up",
+      "text": "The ladder! Go up!",
+      "style": "Teenage girl yelling, urgent, fast.",
+      "voice": "Leda",
+      "story": 418,
+      "anchors": {},
+      "file": "last-light/part04/voice/up.wav",
+      "duration": 2.16,
+      "speechStart": 0.29,
+      "speechEnd": 1.94,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.29
+        },
+        {
+          "text": "ladder!",
+          "start": 0.41
+        },
+        {
+          "text": "Go",
+          "start": 1.16
+        },
+        {
+          "text": "up!",
+          "start": 1.28
+        }
+      ]
+    },
+    {
+      "id": "pull",
+      "text": "Pull it up! Pull it up!",
+      "style": "Desperate shouting while straining, fast.",
+      "voice": "Algenib",
+      "story": 540,
+      "anchors": {},
+      "file": "last-light/part04/voice/pull.wav",
+      "duration": 2.12,
+      "speechStart": 0.1,
+      "speechEnd": 1.8800000000000001,
+      "words": [
+        {
+          "text": "Pull",
+          "start": 0.27
+        },
+        {
+          "text": "it",
+          "start": 0.49
+        },
+        {
+          "text": "up!",
+          "start": 0.74
+        },
+        {
+          "text": "Pull",
+          "start": 1.18
+        },
+        {
+          "text": "it",
+          "start": 1.48
+        },
+        {
+          "text": "up!",
+          "start": 1.72
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "text": "Below us, the dead moved like a *river.*",
+      "style": "Narrating, hushed awe and dread, slow and steady.",
+      "voice": "Algenib",
+      "story": 680,
+      "anchors": {},
+      "file": "last-light/part04/voice/river.wav",
+      "duration": 4.37,
+      "speechStart": 0.33,
+      "speechEnd": 4.0200000000000005,
+      "words": [
+        {
+          "text": "Below",
+          "start": 0.35
+        },
+        {
+          "text": "us,",
+          "start": 0.64
+        },
+        {
+          "text": "the",
+          "start": 1.14
+        },
+        {
+          "text": "dead",
+          "start": 1.52
+        },
+        {
+          "text": "moved",
+          "start": 2.03
+        },
+        {
+          "text": "like",
+          "start": 2.67
+        },
+        {
+          "text": "a",
+          "start": 3.18
+        },
+        {
+          "text": "*river.*",
+          "start": 3.3
+        }
+      ]
+    },
+    {
+      "id": "hours",
+      "text": "For hours.",
+      "style": "Narrating, quiet and tired.",
+      "voice": "Algenib",
+      "story": 780,
+      "anchors": {},
+      "file": "last-light/part04/voice/hours.wav",
+      "duration": 1.72,
+      "speechStart": 0.17,
+      "speechEnd": 1.36,
+      "words": [
+        {
+          "text": "For",
+          "start": 0.3
+        },
+        {
+          "text": "hours.",
+          "start": 0.75
+        }
+      ]
+    },
+    {
+      "id": "heli",
+      "text": "A helicopter passed once. It didn't stop.",
+      "style": "Narrating, hope then quiet disappointment, steady pace.",
+      "voice": "Algenib",
+      "story": 850,
+      "anchors": {},
+      "file": "last-light/part04/voice/heli.wav",
+      "duration": 3.86,
+      "speechStart": 0.31,
+      "speechEnd": 3.6,
+      "words": [
+        {
+          "text": "A",
+          "start": 0.31
+        },
+        {
+          "text": "helicopter",
+          "start": 0.43
+        },
+        {
+          "text": "passed",
+          "start": 0.94
+        },
+        {
+          "text": "once.",
+          "start": 1.46
+        },
+        {
+          "text": "It",
+          "start": 2.05
+        },
+        {
+          "text": "didn't",
+          "start": 2.26
+        },
+        {
+          "text": "stop.",
+          "start": 3.05
+        }
+      ]
+    },
+    {
+      "id": "good",
+      "text": "Good boy.",
+      "style": "Teenage girl whispering softly to a dog, tender.",
+      "voice": "Leda",
+      "story": 968,
+      "anchors": {},
+      "file": "last-light/part04/voice/good.wav",
+      "duration": 1.84,
+      "speechStart": 0.33,
+      "speechEnd": 1.6500000000000001,
+      "words": [
+        {
+          "text": "Good",
+          "start": 0.35
+        },
+        {
+          "text": "boy.",
+          "start": 1.14
+        }
+      ]
+    },
+    {
+      "id": "radio",
+      "text": "Then Mia's radio crackled.",
+      "style": "Narrating, sudden alertness, hushed.",
+      "voice": "Algenib",
+      "story": 1096,
+      "anchors": {},
+      "file": "last-light/part04/voice/radio.wav",
+      "duration": 2.36,
+      "speechStart": 0.28,
+      "speechEnd": 2.09,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.3
+        },
+        {
+          "text": "Mia's",
+          "start": 0.51
+        },
+        {
+          "text": "radio",
+          "start": 0.94
+        },
+        {
+          "text": "crackled.",
+          "start": 1.37
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "text": "If anyone can hear this... the *lighthouse.*",
+      "style": "A tired man on a crackling emergency radio, urgent but broken up, a short gap before 'the lighthouse'.",
+      "voice": "Orus",
+      "story": 1150,
+      "anchors": {},
+      "fx": "tv",
+      "file": "last-light/part04/voice/voice.wav",
+      "duration": 3.67,
+      "speechStart": 0,
+      "speechEnd": 3.0700000000000003,
+      "words": [
+        {
+          "text": "If",
+          "start": 0.02
+        },
+        {
+          "text": "anyone",
+          "start": 0.42
+        },
+        {
+          "text": "can",
+          "start": 0.84
+        },
+        {
+          "text": "hear",
+          "start": 1.15
+        },
+        {
+          "text": "this...",
+          "start": 1.56
+        },
+        {
+          "text": "the",
+          "start": 2.1
+        },
+        {
+          "text": "*lighthouse.*",
+          "start": 2.3
+        }
+      ]
+    }
+  ]
+}
