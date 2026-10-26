@@ -1,6 +1,7 @@
 import { Composition } from "remotion";
 import { BrainLying, DURATION } from "./BrainLying/BrainLying";
 import { DURATION as LAST_LIGHT_01, Part01 } from "./LastLight/Part01/Part01";
+import { DURATION as LAST_LIGHT_02, Part02 } from "./LastLight/Part02/Part02";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -17,6 +18,14 @@ export const RemotionRoot: React.FC = () => {
         id="LastLight-Part01"
         component={Part01}
         durationInFrames={LAST_LIGHT_01}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="LastLight-Part02"
+        component={Part02}
+        durationInFrames={LAST_LIGHT_02}
         fps={30}
         width={1080}
         height={1920}

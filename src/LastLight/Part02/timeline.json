@@ -1,0 +1,613 @@
+{
+  "fps": 30,
+  "duration": 1343,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      150,
+      150
+    ],
+    [
+      302,
+      302
+    ],
+    [
+      420,
+      420
+    ],
+    [
+      528,
+      528
+    ],
+    [
+      612,
+      612
+    ],
+    [
+      660,
+      676.7
+    ],
+    [
+      790,
+      806.7
+    ],
+    [
+      846,
+      862.7
+    ],
+    [
+      972,
+      988.7
+    ],
+    [
+      1100,
+      1146.7
+    ],
+    [
+      1126,
+      1195.9
+    ],
+    [
+      1296,
+      1342.7
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "last-light/part02/voice/hook.wav",
+      "at": -0.0533,
+      "speech": [
+        0.267,
+        2.437
+      ]
+    },
+    {
+      "id": "seconds",
+      "file": "last-light/part02/voice/seconds.wav",
+      "at": 4.91,
+      "speech": [
+        5,
+        6.22
+      ]
+    },
+    {
+      "id": "lock",
+      "file": "last-light/part02/voice/lock.wav",
+      "at": 9.9467,
+      "speech": [
+        10.067,
+        13.307
+      ]
+    },
+    {
+      "id": "small",
+      "file": "last-light/part02/voice/small.wav",
+      "at": 13.69,
+      "speech": [
+        14,
+        15.74
+      ]
+    },
+    {
+      "id": "smaller",
+      "file": "last-light/part02/voice/smaller.wav",
+      "at": 17.26,
+      "speech": [
+        17.6,
+        18.65
+      ]
+    },
+    {
+      "id": "floors",
+      "file": "last-light/part02/voice/floors.wav",
+      "at": 20.31,
+      "speech": [
+        20.4,
+        22.29
+      ]
+    },
+    {
+      "id": "bell",
+      "file": "last-light/part02/voice/bell.wav",
+      "at": 22.2067,
+      "speech": [
+        22.557,
+        24.887
+      ]
+    },
+    {
+      "id": "jammed",
+      "file": "last-light/part02/voice/jammed.wav",
+      "at": 26.7,
+      "speech": [
+        26.89,
+        28.27
+      ]
+    },
+    {
+      "id": "letgo",
+      "file": "last-light/part02/voice/letgo.wav",
+      "at": 28.5767,
+      "speech": [
+        28.757,
+        30.547
+      ]
+    },
+    {
+      "id": "alley",
+      "file": "last-light/part02/voice/alley.wav",
+      "at": 32.5667,
+      "speech": [
+        32.957,
+        37.957
+      ]
+    },
+    {
+      "id": "inside",
+      "file": "last-light/part02/voice/inside.wav",
+      "at": 37.9733,
+      "speech": [
+        38.223,
+        42.553
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 6,
+      "to": 24,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 8
+        },
+        {
+          "text": "window",
+          "emph": false,
+          "frame": 12
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 19
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 24,
+      "to": 85,
+      "words": [
+        {
+          "text": "about",
+          "emph": false,
+          "frame": 26
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 37
+        },
+        {
+          "text": "give.",
+          "emph": false,
+          "frame": 44
+        }
+      ]
+    },
+    {
+      "line": "seconds",
+      "from": 148,
+      "to": 199,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 150
+        },
+        {
+          "text": "had",
+          "emph": false,
+          "frame": 154
+        },
+        {
+          "text": "maybe",
+          "emph": false,
+          "frame": 157
+        },
+        {
+          "text": "ten",
+          "emph": false,
+          "frame": 167
+        },
+        {
+          "text": "seconds.",
+          "emph": false,
+          "frame": 171
+        }
+      ]
+    },
+    {
+      "line": "lock",
+      "from": 300,
+      "to": 347,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 302
+        },
+        {
+          "text": "bathroom.",
+          "emph": false,
+          "frame": 310
+        }
+      ]
+    },
+    {
+      "line": "lock",
+      "from": 347,
+      "to": 371,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 349
+        },
+        {
+          "text": "only",
+          "emph": false,
+          "frame": 354
+        },
+        {
+          "text": "door",
+          "emph": false,
+          "frame": 362
+        }
+      ]
+    },
+    {
+      "line": "lock",
+      "from": 371,
+      "to": 411,
+      "words": [
+        {
+          "text": "left",
+          "emph": false,
+          "frame": 373
+        },
+        {
+          "text": "with",
+          "emph": false,
+          "frame": 378
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 384
+        },
+        {
+          "text": "lock.",
+          "emph": false,
+          "frame": 388
+        }
+      ]
+    },
+    {
+      "line": "small",
+      "from": 418,
+      "to": 436,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 420
+        },
+        {
+          "text": "window",
+          "emph": false,
+          "frame": 424
+        },
+        {
+          "text": "in",
+          "emph": false,
+          "frame": 433
+        }
+      ]
+    },
+    {
+      "line": "small",
+      "from": 436,
+      "to": 484,
+      "words": [
+        {
+          "text": "there",
+          "emph": false,
+          "frame": 438
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 450
+        },
+        {
+          "text": "small.",
+          "emph": false,
+          "frame": 458
+        }
+      ]
+    },
+    {
+      "line": "smaller",
+      "from": 526,
+      "to": 572,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 528
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 532
+        },
+        {
+          "text": "smaller.",
+          "emph": false,
+          "frame": 535
+        }
+      ]
+    },
+    {
+      "line": "floors",
+      "from": 611,
+      "to": 675,
+      "words": [
+        {
+          "text": "Three",
+          "emph": false,
+          "frame": 613
+        },
+        {
+          "text": "floors",
+          "emph": false,
+          "frame": 633
+        },
+        {
+          "text": "down.",
+          "emph": false,
+          "frame": 653
+        }
+      ]
+    },
+    {
+      "line": "bell",
+      "from": 675,
+      "to": 697,
+      "words": [
+        {
+          "text": "Every",
+          "emph": false,
+          "frame": 677
+        },
+        {
+          "text": "step",
+          "emph": false,
+          "frame": 681
+        },
+        {
+          "text": "rang",
+          "emph": false,
+          "frame": 689
+        }
+      ]
+    },
+    {
+      "line": "bell",
+      "from": 697,
+      "to": 759,
+      "words": [
+        {
+          "text": "like",
+          "emph": false,
+          "frame": 699
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 710
+        },
+        {
+          "text": "dinner",
+          "emph": true,
+          "frame": 713
+        },
+        {
+          "text": "bell.",
+          "emph": true,
+          "frame": 727
+        }
+      ]
+    },
+    {
+      "line": "jammed",
+      "from": 809,
+      "to": 860,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 811
+        },
+        {
+          "text": "ladder",
+          "emph": false,
+          "frame": 814
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 831
+        },
+        {
+          "text": "jammed.",
+          "emph": true,
+          "frame": 841
+        }
+      ]
+    },
+    {
+      "line": "letgo",
+      "from": 862,
+      "to": 928,
+      "words": [
+        {
+          "text": "So",
+          "emph": false,
+          "frame": 864
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 875
+        },
+        {
+          "text": "let",
+          "emph": false,
+          "frame": 879
+        },
+        {
+          "text": "go.",
+          "emph": false,
+          "frame": 893
+        }
+      ]
+    },
+    {
+      "line": "alley",
+      "from": 987,
+      "to": 1055,
+      "words": [
+        {
+          "text": "Dead",
+          "emph": false,
+          "frame": 989
+        },
+        {
+          "text": "cars",
+          "emph": false,
+          "frame": 993
+        },
+        {
+          "text": "everywhere.",
+          "emph": false,
+          "frame": 1014
+        }
+      ]
+    },
+    {
+      "line": "alley",
+      "from": 1055,
+      "to": 1085,
+      "words": [
+        {
+          "text": "Doors",
+          "emph": false,
+          "frame": 1057
+        },
+        {
+          "text": "open.",
+          "emph": false,
+          "frame": 1069
+        }
+      ]
+    },
+    {
+      "line": "alley",
+      "from": 1085,
+      "to": 1145,
+      "words": [
+        {
+          "text": "Keys",
+          "emph": false,
+          "frame": 1087
+        },
+        {
+          "text": "still",
+          "emph": false,
+          "frame": 1098
+        },
+        {
+          "text": "inside.",
+          "emph": false,
+          "frame": 1110
+        }
+      ]
+    },
+    {
+      "line": "inside",
+      "from": 1145,
+      "to": 1194,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 1147
+        },
+        {
+          "text": "one",
+          "emph": false,
+          "frame": 1157
+        },
+        {
+          "text": "of",
+          "emph": false,
+          "frame": 1170
+        },
+        {
+          "text": "them",
+          "emph": false,
+          "frame": 1178
+        }
+      ]
+    },
+    {
+      "line": "inside",
+      "from": 1194,
+      "to": 1289,
+      "words": [
+        {
+          "text": "opened...",
+          "emph": false,
+          "frame": 1196
+        },
+        {
+          "text": "from",
+          "emph": true,
+          "frame": 1223
+        },
+        {
+          "text": "the",
+          "emph": true,
+          "frame": 1240
+        },
+        {
+          "text": "inside.",
+          "emph": true,
+          "frame": 1253
+        }
+      ]
+    }
+  ]
+}

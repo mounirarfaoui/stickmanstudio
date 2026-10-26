@@ -1,0 +1,155 @@
+{
+  "id": "last-light-02",
+  "title": "Last Light — Part 2: The Window",
+  "publicDir": "last-light/part02",
+  "voice": "Algenib",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 8,
+      "text": "The window was about to give.",
+      "style": "First-person survivor, low gravelly voice, tense and hushed, steady pace."
+    },
+    {
+      "id": "seconds",
+      "story": 150,
+      "text": "I had maybe ten seconds.",
+      "style": "Tense, quick, matter-of-fact."
+    },
+    {
+      "id": "lock",
+      "story": 302,
+      "text": "The bathroom. The only door left with a lock.",
+      "style": "Breathless while running, urgent, no long pauses."
+    },
+    {
+      "id": "small",
+      "story": 420,
+      "text": "The window in there was small.",
+      "style": "Low and quick, a little dry."
+    },
+    {
+      "id": "smaller",
+      "story": 528,
+      "text": "I was smaller.",
+      "style": "Dry dark humour, deadpan, quick."
+    },
+    {
+      "id": "floors",
+      "story": 612,
+      "text": "Three floors down.",
+      "style": "Breathing hard, focused, short."
+    },
+    {
+      "id": "bell",
+      "story": 660,
+      "text": "Every step rang like a *dinner* *bell.*",
+      "style": "Tense, wincing, brisk pace."
+    },
+    {
+      "id": "jammed",
+      "story": 790,
+      "text": "The ladder was *jammed.*",
+      "style": "Panicked frustration, quick."
+    },
+    {
+      "id": "letgo",
+      "story": 846,
+      "text": "So I let go.",
+      "style": "Quiet resolve, steady, a held breath before 'let go'."
+    },
+    {
+      "id": "alley",
+      "story": 972,
+      "text": "Dead cars everywhere. Doors open. Keys still inside.",
+      "style": "Hushed whisper while sneaking, eerie, steady pace, no long pauses."
+    },
+    {
+      "id": "inside",
+      "story": 1100,
+      "text": "Then one of them opened... *from* *the* *inside.*",
+      "style": "Whispered dread, a short beat after 'opened', last words land heavy.",
+      "anchors": {
+        "opened": 1126
+      }
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        3,
+        3
+      ],
+      "seconds": [
+        5
+      ],
+      "lock": [
+        2,
+        3,
+        4
+      ],
+      "small": [
+        3,
+        3
+      ],
+      "smaller": [
+        3
+      ],
+      "floors": [
+        3
+      ],
+      "bell": [
+        3,
+        4
+      ],
+      "jammed": [
+        4
+      ],
+      "letgo": [
+        4
+      ],
+      "alley": [
+        3,
+        2,
+        3
+      ],
+      "inside": [
+        4,
+        4
+      ]
+    }
+  },
+  "timeline": {
+    "gap": 8,
+    "maxSpeedup": 1.0,
+    "endHold": 62,
+    "captionLead": 2,
+    "maxPause": 0.35
+  },
+  "music": {
+    "title": "Last Light - The Window",
+    "style": "Tense cinematic horror chase underscore for a zombie short film. Opens with taut suspense and a ticking pulse, explodes into a frantic driving chase with pounding toms and urgent strings for the escape, then drops to a near-silent creeping drone with soft metallic textures for the sneaking section, ending on an unsettling suspended note. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "glass": {
+      "prompt": "A large window pane violently shattering inward, glass breaking and shards falling on a wooden floor, close, isolated sound effect, no music."
+    },
+    "intruders": {
+      "prompt": "Several zombies snarling, growling and stumbling into a room, aggressive undead creatures, close, isolated horror sound effect, no music."
+    },
+    "alley": {
+      "prompt": "Night alley ambience in an abandoned city: distant sirens, wind, water dripping, a buzzing flickering street lamp, faint far-off moans. Ambient sound effect, no music.",
+      "loop": true
+    },
+    "creak": {
+      "prompt": "An old car door slowly creaking open in a quiet alley at night, rusty hinge squeak, isolated sound effect, no music."
+    }
+  },
+  "mix": {
+    "musicDb": -26,
+    "levelLines": true
+  },
+  "sfx": "last-light-02"
+}

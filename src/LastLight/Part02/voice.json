@@ -1,0 +1,414 @@
+{
+  "voice": "Algenib",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "The window was about to give.",
+      "style": "First-person survivor, low gravelly voice, tense and hushed, steady pace.",
+      "voice": "Algenib",
+      "story": 8,
+      "anchors": {},
+      "file": "last-light/part02/voice/hook.wav",
+      "duration": 2.68,
+      "speechStart": 0.32,
+      "speechEnd": 2.49,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.32
+        },
+        {
+          "text": "window",
+          "start": 0.44
+        },
+        {
+          "text": "was",
+          "start": 0.69
+        },
+        {
+          "text": "about",
+          "start": 0.92
+        },
+        {
+          "text": "to",
+          "start": 1.3
+        },
+        {
+          "text": "give.",
+          "start": 1.52
+        }
+      ]
+    },
+    {
+      "id": "seconds",
+      "text": "I had maybe ten seconds.",
+      "style": "Tense, quick, matter-of-fact.",
+      "voice": "Algenib",
+      "story": 150,
+      "anchors": {},
+      "file": "last-light/part02/voice/seconds.wav",
+      "duration": 1.52,
+      "speechStart": 0.09,
+      "speechEnd": 1.31,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.09
+        },
+        {
+          "text": "had",
+          "start": 0.21
+        },
+        {
+          "text": "maybe",
+          "start": 0.33
+        },
+        {
+          "text": "ten",
+          "start": 0.64
+        },
+        {
+          "text": "seconds.",
+          "start": 0.79
+        }
+      ]
+    },
+    {
+      "id": "lock",
+      "text": "The bathroom. The only door left with a lock.",
+      "style": "Breathless while running, urgent, no long pauses.",
+      "voice": "Algenib",
+      "story": 302,
+      "anchors": {},
+      "file": "last-light/part02/voice/lock.wav",
+      "duration": 3.88,
+      "speechStart": 0.12,
+      "speechEnd": 3.36,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.13
+        },
+        {
+          "text": "bathroom.",
+          "start": 0.4
+        },
+        {
+          "text": "The",
+          "start": 1.68
+        },
+        {
+          "text": "only",
+          "start": 1.86
+        },
+        {
+          "text": "door",
+          "start": 2.11
+        },
+        {
+          "text": "left",
+          "start": 2.48
+        },
+        {
+          "text": "with",
+          "start": 2.65
+        },
+        {
+          "text": "a",
+          "start": 2.86
+        },
+        {
+          "text": "lock.",
+          "start": 2.98
+        }
+      ]
+    },
+    {
+      "id": "small",
+      "text": "The window in there was small.",
+      "style": "Low and quick, a little dry.",
+      "voice": "Algenib",
+      "story": 420,
+      "anchors": {},
+      "file": "last-light/part02/voice/small.wav",
+      "duration": 2.24,
+      "speechStart": 0.31,
+      "speechEnd": 2.05,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.31
+        },
+        {
+          "text": "window",
+          "start": 0.43
+        },
+        {
+          "text": "in",
+          "start": 0.74
+        },
+        {
+          "text": "there",
+          "start": 0.9
+        },
+        {
+          "text": "was",
+          "start": 1.31
+        },
+        {
+          "text": "small.",
+          "start": 1.56
+        }
+      ]
+    },
+    {
+      "id": "smaller",
+      "text": "I was smaller.",
+      "style": "Dry dark humour, deadpan, quick.",
+      "voice": "Algenib",
+      "story": 528,
+      "anchors": {},
+      "file": "last-light/part02/voice/smaller.wav",
+      "duration": 1.76,
+      "speechStart": 0.34,
+      "speechEnd": 1.3900000000000001,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.34
+        },
+        {
+          "text": "was",
+          "start": 0.46
+        },
+        {
+          "text": "smaller.",
+          "start": 0.58
+        }
+      ]
+    },
+    {
+      "id": "floors",
+      "text": "Three floors down.",
+      "style": "Breathing hard, focused, short.",
+      "voice": "Algenib",
+      "story": 612,
+      "anchors": {},
+      "file": "last-light/part02/voice/floors.wav",
+      "duration": 2.2,
+      "speechStart": 0.09,
+      "speechEnd": 1.98,
+      "words": [
+        {
+          "text": "Three",
+          "start": 0.11
+        },
+        {
+          "text": "floors",
+          "start": 0.78
+        },
+        {
+          "text": "down.",
+          "start": 1.45
+        }
+      ]
+    },
+    {
+      "id": "bell",
+      "text": "Every step rang like a *dinner* *bell.*",
+      "style": "Tense, wincing, brisk pace.",
+      "voice": "Algenib",
+      "story": 660,
+      "anchors": {},
+      "file": "last-light/part02/voice/bell.wav",
+      "duration": 2.92,
+      "speechStart": 0.35000000000000003,
+      "speechEnd": 2.68,
+      "words": [
+        {
+          "text": "Every",
+          "start": 0.37
+        },
+        {
+          "text": "step",
+          "start": 0.49
+        },
+        {
+          "text": "rang",
+          "start": 0.77
+        },
+        {
+          "text": "like",
+          "start": 1.11
+        },
+        {
+          "text": "a",
+          "start": 1.45
+        },
+        {
+          "text": "*dinner*",
+          "start": 1.57
+        },
+        {
+          "text": "*bell.*",
+          "start": 2.04
+        }
+      ]
+    },
+    {
+      "id": "jammed",
+      "text": "The ladder was *jammed.*",
+      "style": "Panicked frustration, quick.",
+      "voice": "Algenib",
+      "story": 790,
+      "anchors": {},
+      "file": "last-light/part02/voice/jammed.wav",
+      "duration": 1.88,
+      "speechStart": 0.19,
+      "speechEnd": 1.57,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.33
+        },
+        {
+          "text": "ladder",
+          "start": 0.45
+        },
+        {
+          "text": "was",
+          "start": 0.99
+        },
+        {
+          "text": "*jammed.*",
+          "start": 1.32
+        }
+      ]
+    },
+    {
+      "id": "letgo",
+      "text": "So I let go.",
+      "style": "Quiet resolve, steady, a held breath before 'let go'.",
+      "voice": "Algenib",
+      "story": 846,
+      "anchors": {},
+      "file": "last-light/part02/voice/letgo.wav",
+      "duration": 2.19,
+      "speechStart": 0.18,
+      "speechEnd": 1.97,
+      "words": [
+        {
+          "text": "So",
+          "start": 0.23
+        },
+        {
+          "text": "I",
+          "start": 0.58
+        },
+        {
+          "text": "let",
+          "start": 0.71
+        },
+        {
+          "text": "go.",
+          "start": 1.2
+        }
+      ]
+    },
+    {
+      "id": "alley",
+      "text": "Dead cars everywhere. Doors open. Keys still inside.",
+      "style": "Hushed whisper while sneaking, eerie, steady pace, no long pauses.",
+      "voice": "Algenib",
+      "story": 972,
+      "anchors": {},
+      "file": "last-light/part02/voice/alley.wav",
+      "duration": 5.8,
+      "speechStart": 0.39,
+      "speechEnd": 5.39,
+      "words": [
+        {
+          "text": "Dead",
+          "start": 0.41
+        },
+        {
+          "text": "cars",
+          "start": 0.53
+        },
+        {
+          "text": "everywhere.",
+          "start": 1.24
+        },
+        {
+          "text": "Doors",
+          "start": 2.68
+        },
+        {
+          "text": "open.",
+          "start": 3.07
+        },
+        {
+          "text": "Keys",
+          "start": 3.68
+        },
+        {
+          "text": "still",
+          "start": 4.03
+        },
+        {
+          "text": "inside.",
+          "start": 4.43
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "text": "Then one of them opened... *from* *the* *inside.*",
+      "style": "Whispered dread, a short beat after 'opened', last words land heavy.",
+      "voice": "Algenib",
+      "story": 1100,
+      "anchors": {
+        "opened": 1126
+      },
+      "file": "last-light/part02/voice/inside.wav",
+      "duration": 4.83,
+      "speechStart": 0.25,
+      "speechEnd": 4.58,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.27
+        },
+        {
+          "text": "one",
+          "start": 0.58
+        },
+        {
+          "text": "of",
+          "start": 1.03
+        },
+        {
+          "text": "them",
+          "start": 1.31
+        },
+        {
+          "text": "opened...",
+          "start": 1.89
+        },
+        {
+          "text": "*from*",
+          "start": 2.79
+        },
+        {
+          "text": "*the*",
+          "start": 3.36
+        },
+        {
+          "text": "*inside.*",
+          "start": 3.81
+        }
+      ]
+    }
+  ]
+}

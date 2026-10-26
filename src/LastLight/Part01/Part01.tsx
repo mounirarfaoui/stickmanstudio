@@ -1,8 +1,8 @@
 import React from "react";
 import { Audio } from "@remotion/media";
-import { AbsoluteFill, Easing, interpolate, staticFile, useCurrentFrame } from "remotion";
-import { GAITS, lerpPose, Pose, poseAt, POSES, walkPose } from "../../shared/rig";
-import { StickFigure } from "../../shared/rig";
+import { AbsoluteFill, interpolate, staticFile, useCurrentFrame } from "remotion";
+import { GAITS, lerpPose, poseAt, POSES, StickFigure, walkPose } from "../../shared/rig";
+import { clamp01, impulse, KAI, makeWarp, track } from "../kit";
 import { Captions, PartCard, SeriesBadge } from "../Overlays";
 import { Crack, Defs, Door, Dresser, HandPrints, Horde, Outside, Room, SET, TVScreen, WindowFrame, Zombie } from "../world";
 import beats from "./beats.json";
@@ -11,31 +11,12 @@ import timeline from "./timeline.json";
 
 export const DURATION = timeline.duration;
 
-// Output frame -> story frame: timeline.json stretches each story section to fit the narration.
+const { toStory } = makeWarp(timeline);
 const OUT = timeline.anchors.map((a) => a[1]);
 const STORY = timeline.anchors.map((a) => a[0]);
-const toStory = (frame: number) => interpolate(frame, OUT, STORY, { extrapolateLeft: "clamp", extrapolateRight: "extend" });
-
-const ease = Easing.inOut(Easing.cubic);
-const track = (s: number, frames: number[], values: number[]) => interpolate(s, frames, values, { easing: ease, extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-const clamp01 = (v: number) => Math.min(1, Math.max(0, v));
 
 // Door bangs land on the spoken words of the "hit" line (output frames)
 const BANGS = timeline.captions.filter((c) => c.line === "hit").flatMap((c) => c.words.map((w) => w.frame));
-const impulse = (frame: number, at: number[], decay = 5) => at.reduce((acc, b) => (frame >= b ? acc + Math.exp(-(frame - b) / decay) : acc), 0);
-
-// Kai's poses (side view facing +x; `flip` turns him around)
-const KAI = {
-  hold: { ...POSES.stand, rUA: 22, rFA: 150 },
-  sip: { ...POSES.stand, tilt: -8, rUA: 40, rFA: 174 },
-  watch: { ...POSES.stand, tilt: 7, duck: 0.15, rUA: 22, rFA: 150 },
-  flinch: { lean: -16, tilt: -12, duck: 0.6, chest: 1, lUA: 42, lFA: 150, rUA: 58, rFA: 162, lTh: -22, lSh: -6, rTh: 20, rSh: 12 },
-  stand: POSES.stand,
-  push: { lean: 30, tilt: -4, duck: 0.3, chest: 1, lUA: 72, lFA: 88, rUA: 82, rFA: 94, lTh: -30, lSh: -34, rTh: 40, rSh: 4 },
-  brace: { lean: 22, tilt: 6, duck: 0.5, chest: 1, lUA: 70, lFA: 96, rUA: 84, rFA: 104, lTh: -26, lSh: -30, rTh: 34, rSh: 6 },
-  sit: { lean: -16, tilt: 10, duck: 0.6, chest: 0.97, lUA: 52, lFA: 96, rUA: 64, rFA: 106, lTh: 112, lSh: 14, rTh: 124, rSh: 26 },
-  sitLook: { lean: -10, tilt: -14, duck: 0.3, chest: 1, lUA: 40, lFA: 70, rUA: 60, rFA: 100, lTh: 112, lSh: 14, rTh: 124, rSh: 26 },
-} satisfies Record<string, Pose>;
 type KaiPose = keyof typeof KAI;
 
 const KAI_KEYS: [number, KaiPose][] = [
