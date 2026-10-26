@@ -6,19 +6,41 @@ const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
 export type CaptionChunk = { line: string; from: number; to: number; words: { text: string; emph: boolean; frame: number }[] };
 
-// Word-synced captions. Lines listed in `broadcast` (TV, radio) get a red news-ticker style.
-export const Captions: React.FC<{ frame: number; chunks: CaptionChunk[]; broadcast?: string[]; top?: number }> = ({ frame, chunks, broadcast = [], top = 470 }) => {
+export const SPEAKERS = {
+  kai: { name: "KAI", color: "#FFD43B" },
+  mia: { name: "MIA", color: "#7FE3FF" },
+} as const;
+
+// Word-synced captions. Lines listed in `broadcast` (TV, radio) get a red news-ticker style;
+// lines in `speakers` are spoken dialogue and get a name tag in that character's colour.
+export const Captions: React.FC<{ frame: number; chunks: CaptionChunk[]; broadcast?: string[]; speakers?: Record<string, keyof typeof SPEAKERS>; top?: number }> = ({ frame, chunks, broadcast = [], speakers = {}, top = 470 }) => {
   const chunk = chunks.find((c) => frame >= c.from && frame < c.to);
   if (!chunk) return null;
   const isBroadcast = broadcast.includes(chunk.line);
+  const speaker = speakers[chunk.line] ? SPEAKERS[speakers[chunk.line]] : null;
   const times = chunk.words.map((w) => w.frame - 2);
   const active = times.filter((t) => t <= frame).length - 1;
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
+      {speaker ? (
+        <div
+          style={{
+            position: "absolute",
+            top: top - 6,
+            left: 0,
+            right: 0,
+            display: "flex",
+            justifyContent: "center",
+            opacity: interpolate(frame, [chunk.from, chunk.from + 4, chunk.to - 5, chunk.to], [0, 1, 1, 0], clamp),
+          }}
+        >
+          <span style={{ fontFamily: FONT, fontSize: 40, color: "#0a0a0a", backgroundColor: speaker.color, padding: "2px 18px", borderRadius: 10, letterSpacing: 3 }}>{speaker.name}</span>
+        </div>
+      ) : null}
       <div
         style={{
           position: "absolute",
-          top,
+          top: speaker ? top + 30 : top,
           left: 80,
           right: 80,
           height: 260,
@@ -42,7 +64,7 @@ export const Captions: React.FC<{ frame: number; chunks: CaptionChunk[]; broadca
               ...(isBroadcast
                 ? { color: "#fff", backgroundColor: i === active ? "#FF2D2D" : "#B5121B", padding: "4px 18px", borderRadius: 8, textTransform: "uppercase" as const }
                 : {
-                    color: w.emph ? "#B6FF5C" : i === active ? "#FFD43B" : "#FFFFFF",
+                    color: w.emph ? "#B6FF5C" : i === active ? (speaker?.color ?? "#FFD43B") : "#FFFFFF",
                     WebkitTextStroke: "16px #0a0a0a",
                     paintOrder: "stroke fill",
                     textShadow: "0 10px 0 rgba(0,0,0,0.35)",

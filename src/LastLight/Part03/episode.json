@@ -1,0 +1,177 @@
+{
+  "id": "last-light-03",
+  "title": "Last Light — Part 3: Mia",
+  "publicDir": "last-light/part03",
+  "voice": "Algenib",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 6,
+      "text": "The thing in the car wasn't dead.",
+      "style": "First-person survivor narrating, low gravelly voice, tense hush, steady pace."
+    },
+    {
+      "id": "swing",
+      "story": 96,
+      "voice": "Leda",
+      "text": "Back off! I swear I'll swing!",
+      "style": "Scared teenage girl shouting in a harsh whisper, shaky but fierce, fast."
+    },
+    {
+      "id": "easy",
+      "story": 150,
+      "text": "Easy. I'm not one of them.",
+      "style": "Hands up, calm and soothing but out of breath, quick."
+    },
+    {
+      "id": "prove",
+      "story": 222,
+      "voice": "Leda",
+      "text": "Prove it.",
+      "style": "Suspicious teenage girl, cold and clipped."
+    },
+    {
+      "id": "name",
+      "story": 300,
+      "text": "Her name was Mia. She was sixteen. A bat, a dead phone...",
+      "style": "Narrating, softer, a little rueful, steady pace with short beats."
+    },
+    {
+      "id": "mom",
+      "story": 392,
+      "text": "and a mom who said she'd be right back.",
+      "style": "Narrating, quiet and sad, gentle, steady."
+    },
+    {
+      "id": "trust",
+      "story": 560,
+      "text": "We didn't trust each other.",
+      "style": "Narrating, low, matter-of-fact."
+    },
+    {
+      "id": "need",
+      "story": 616,
+      "text": "But we *needed* each other.",
+      "style": "Narrating, warm and certain."
+    },
+    {
+      "id": "deal",
+      "story": 690,
+      "voice": "Leda",
+      "text": "You slow me down, I leave you.",
+      "style": "Teenage girl laying down the rules, tough, deadpan, quick."
+    },
+    {
+      "id": "fair",
+      "story": 770,
+      "text": "Fair.",
+      "style": "Dry, amused, deadpan."
+    },
+    {
+      "id": "dog",
+      "story": 980,
+      "text": "Then a dog barked.",
+      "style": "Narrating, sudden dread, hushed."
+    },
+    {
+      "id": "turned",
+      "story": 1040,
+      "text": "And every one of them... *turned.*",
+      "style": "Narrating, whispered horror, a short beat before 'turned', which lands heavy."
+    },
+    {
+      "id": "run",
+      "story": 1150,
+      "text": "Run.",
+      "style": "Urgent whisper, one word."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        4,
+        3
+      ],
+      "swing": [
+        2,
+        4
+      ],
+      "easy": [
+        1,
+        5
+      ],
+      "prove": [
+        2
+      ],
+      "name": [
+        4,
+        3,
+        5
+      ],
+      "mom": [
+        4,
+        5
+      ],
+      "trust": [
+        5
+      ],
+      "need": [
+        5
+      ],
+      "deal": [
+        4,
+        3
+      ],
+      "fair": [
+        1
+      ],
+      "dog": [
+        4
+      ],
+      "turned": [
+        5,
+        1
+      ],
+      "run": [
+        1
+      ]
+    },
+    "speakers": {
+      "swing": "mia",
+      "prove": "mia",
+      "deal": "mia",
+      "easy": "kai",
+      "fair": "kai",
+      "run": "kai"
+    }
+  },
+  "timeline": {
+    "gap": 8,
+    "maxSpeedup": 1.0,
+    "endHold": 62,
+    "captionLead": 2,
+    "maxPause": 0.35
+  },
+  "music": {
+    "title": "Last Light - Mia",
+    "style": "Cinematic zombie drama underscore. Opens tense and sparse with a nervous pulse and scraping textures, a sudden hit for a confrontation, then a fragile melancholic piano and soft strings for a moment of trust, before a slow ominous build of low brass and pounding drums that ends on a menacing swell. Instrumental only, no vocals, mixed to sit under dialogue.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "bark": {
+      "prompt": "A single loud dog bark echoing in an empty alley at night, medium-sized dog, isolated sound effect, no music."
+    },
+    "turn": {
+      "prompt": "A crowd of zombies all snarling and growling at once, sudden and menacing, many undead voices, outdoor street, isolated horror sound effect, no music."
+    },
+    "swoosh": {
+      "prompt": "A baseball bat swinging fast through the air, sharp whoosh, isolated sound effect, no music."
+    }
+  },
+  "mix": {
+    "musicDb": -26,
+    "levelLines": true
+  },
+  "sfx": "last-light-03"
+}

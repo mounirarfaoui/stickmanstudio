@@ -273,3 +273,26 @@ export const Alley: React.FC<{ frame: number; lamp: number; children?: React.Rea
     </g>
   );
 };
+
+// Biscuit: a scruffy medium dog, side view facing +x. `bark` 0..1 opens the mouth and lifts the head.
+export const Dog: React.FC<{ x: number; y: number; scale?: number; bark: number; walk?: number; flip?: boolean }> = ({ x, y, scale = 1, bark, walk = 0, flip = false }) => {
+  const leg = (i: number) => Math.sin(walk * Math.PI * 2 + (i % 2 ? Math.PI : 0)) * 14 * (walk ? 1 : 0);
+  const col = "#9a7448";
+  return (
+    <g transform={`translate(${x} ${y}) scale(${flip ? -scale : scale} ${scale})`}>
+      {[-46, -30, 30, 46].map((lx, i) => (
+        <line key={i} x1={lx} y1={-52} x2={lx + leg(i)} y2={0} stroke={col} strokeWidth={11} strokeLinecap="round" />
+      ))}
+      <ellipse cx={0} cy={-62} rx={62} ry={28} fill={col} />
+      <path d={`M -58 -70 Q -96 ${-110 + Math.sin(walk * 9 + bark * 8) * 10} -86 -116`} stroke={col} strokeWidth={10} fill="none" strokeLinecap="round" />
+      <g transform={`translate(52 -78) rotate(${-bark * 18})`}>
+        <ellipse cx={16} cy={-14} rx={26} ry={22} fill={col} />
+        <path d="M 2 -30 L -8 -6 L 12 -16 Z" fill="#6e5032" />
+        <path d={`M 30 -16 L 54 ${-12} L 54 ${-4 + bark * 6} L 32 ${-2 + bark * 10} Z`} fill={col} />
+        {bark > 0.1 ? <path d={`M 34 -6 L 54 ${-4 + bark * 6} L 34 ${2 + bark * 8} Z`} fill="#3a1f18" /> : null}
+        <circle cx={22} cy={-20} r={3.5} fill="#111" />
+        <circle cx={55} cy={-12} r={4} fill="#111" />
+      </g>
+    </g>
+  );
+};

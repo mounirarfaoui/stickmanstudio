@@ -1,0 +1,472 @@
+{
+  "voice": "Algenib",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "The thing in the car wasn't dead.",
+      "style": "First-person survivor narrating, low gravelly voice, tense hush, steady pace.",
+      "voice": "Algenib",
+      "story": 6,
+      "anchors": {},
+      "file": "last-light/part03/voice/hook.wav",
+      "duration": 3.33,
+      "speechStart": 0.34,
+      "speechEnd": 3.0700000000000003,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.36
+        },
+        {
+          "text": "thing",
+          "start": 0.48
+        },
+        {
+          "text": "in",
+          "start": 0.99
+        },
+        {
+          "text": "the",
+          "start": 1.31
+        },
+        {
+          "text": "car",
+          "start": 1.61
+        },
+        {
+          "text": "wasn't",
+          "start": 2.17
+        },
+        {
+          "text": "dead.",
+          "start": 2.68
+        }
+      ]
+    },
+    {
+      "id": "swing",
+      "text": "Back off! I swear I'll swing!",
+      "style": "Scared teenage girl shouting in a harsh whisper, shaky but fierce, fast.",
+      "voice": "Leda",
+      "story": 96,
+      "anchors": {},
+      "file": "last-light/part03/voice/swing.wav",
+      "duration": 2.8,
+      "speechStart": 0.22,
+      "speechEnd": 2.61,
+      "words": [
+        {
+          "text": "Back",
+          "start": 0.25
+        },
+        {
+          "text": "off!",
+          "start": 0.42
+        },
+        {
+          "text": "I",
+          "start": 1
+        },
+        {
+          "text": "swear",
+          "start": 1.12
+        },
+        {
+          "text": "I'll",
+          "start": 1.59
+        },
+        {
+          "text": "swing!",
+          "start": 1.98
+        }
+      ]
+    },
+    {
+      "id": "easy",
+      "text": "Easy. I'm not one of them.",
+      "style": "Hands up, calm and soothing but out of breath, quick.",
+      "voice": "Algenib",
+      "story": 150,
+      "anchors": {},
+      "file": "last-light/part03/voice/easy.wav",
+      "duration": 2.91,
+      "speechStart": 0.4,
+      "speechEnd": 2.56,
+      "words": [
+        {
+          "text": "Easy.",
+          "start": 0.43
+        },
+        {
+          "text": "I'm",
+          "start": 1.32
+        },
+        {
+          "text": "not",
+          "start": 1.48
+        },
+        {
+          "text": "one",
+          "start": 1.79
+        },
+        {
+          "text": "of",
+          "start": 1.98
+        },
+        {
+          "text": "them.",
+          "start": 2.14
+        }
+      ]
+    },
+    {
+      "id": "prove",
+      "text": "Prove it.",
+      "style": "Suspicious teenage girl, cold and clipped.",
+      "voice": "Leda",
+      "story": 222,
+      "anchors": {},
+      "file": "last-light/part03/voice/prove.wav",
+      "duration": 1.32,
+      "speechStart": 0.25,
+      "speechEnd": 1.01,
+      "words": [
+        {
+          "text": "Prove",
+          "start": 0.27
+        },
+        {
+          "text": "it.",
+          "start": 0.49
+        }
+      ]
+    },
+    {
+      "id": "name",
+      "text": "Her name was Mia. She was sixteen. A bat, a dead phone...",
+      "style": "Narrating, softer, a little rueful, steady pace with short beats.",
+      "voice": "Algenib",
+      "story": 300,
+      "anchors": {},
+      "file": "last-light/part03/voice/name.wav",
+      "duration": 5.36,
+      "speechStart": 0.19,
+      "speechEnd": 5.04,
+      "words": [
+        {
+          "text": "Her",
+          "start": 0.23
+        },
+        {
+          "text": "name",
+          "start": 0.36
+        },
+        {
+          "text": "was",
+          "start": 0.9
+        },
+        {
+          "text": "Mia.",
+          "start": 1.2
+        },
+        {
+          "text": "She",
+          "start": 1.77
+        },
+        {
+          "text": "was",
+          "start": 2
+        },
+        {
+          "text": "sixteen.",
+          "start": 2.3
+        },
+        {
+          "text": "A",
+          "start": 3.31
+        },
+        {
+          "text": "bat,",
+          "start": 3.43
+        },
+        {
+          "text": "a",
+          "start": 4.09
+        },
+        {
+          "text": "dead",
+          "start": 4.21
+        },
+        {
+          "text": "phone...",
+          "start": 4.48
+        }
+      ]
+    },
+    {
+      "id": "mom",
+      "text": "and a mom who said she'd be right back.",
+      "style": "Narrating, quiet and sad, gentle, steady.",
+      "voice": "Algenib",
+      "story": 392,
+      "anchors": {},
+      "file": "last-light/part03/voice/mom.wav",
+      "duration": 3.2,
+      "speechStart": 0.37,
+      "speechEnd": 2.97,
+      "words": [
+        {
+          "text": "and",
+          "start": 0.37
+        },
+        {
+          "text": "a",
+          "start": 0.49
+        },
+        {
+          "text": "mom",
+          "start": 0.61
+        },
+        {
+          "text": "who",
+          "start": 0.73
+        },
+        {
+          "text": "said",
+          "start": 0.99
+        },
+        {
+          "text": "she'd",
+          "start": 1.43
+        },
+        {
+          "text": "be",
+          "start": 1.88
+        },
+        {
+          "text": "right",
+          "start": 2.08
+        },
+        {
+          "text": "back.",
+          "start": 2.57
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "text": "We didn't trust each other.",
+      "style": "Narrating, low, matter-of-fact.",
+      "voice": "Algenib",
+      "story": 560,
+      "anchors": {},
+      "file": "last-light/part03/voice/trust.wav",
+      "duration": 2.12,
+      "speechStart": 0.09,
+      "speechEnd": 1.7,
+      "words": [
+        {
+          "text": "We",
+          "start": 0.09
+        },
+        {
+          "text": "didn't",
+          "start": 0.25
+        },
+        {
+          "text": "trust",
+          "start": 0.49
+        },
+        {
+          "text": "each",
+          "start": 0.81
+        },
+        {
+          "text": "other.",
+          "start": 1.06
+        }
+      ]
+    },
+    {
+      "id": "need",
+      "text": "But we *needed* each other.",
+      "style": "Narrating, warm and certain.",
+      "voice": "Algenib",
+      "story": 616,
+      "anchors": {},
+      "file": "last-light/part03/voice/need.wav",
+      "duration": 1.88,
+      "speechStart": 0.25,
+      "speechEnd": 1.6300000000000001,
+      "words": [
+        {
+          "text": "But",
+          "start": 0.25
+        },
+        {
+          "text": "we",
+          "start": 0.37
+        },
+        {
+          "text": "*needed*",
+          "start": 0.49
+        },
+        {
+          "text": "each",
+          "start": 0.8
+        },
+        {
+          "text": "other.",
+          "start": 1.09
+        }
+      ]
+    },
+    {
+      "id": "deal",
+      "text": "You slow me down, I leave you.",
+      "style": "Teenage girl laying down the rules, tough, deadpan, quick.",
+      "voice": "Leda",
+      "story": 690,
+      "anchors": {},
+      "file": "last-light/part03/voice/deal.wav",
+      "duration": 2.32,
+      "speechStart": 0.23,
+      "speechEnd": 2.11,
+      "words": [
+        {
+          "text": "You",
+          "start": 0.25
+        },
+        {
+          "text": "slow",
+          "start": 0.37
+        },
+        {
+          "text": "me",
+          "start": 0.6
+        },
+        {
+          "text": "down,",
+          "start": 0.76
+        },
+        {
+          "text": "I",
+          "start": 1.36
+        },
+        {
+          "text": "leave",
+          "start": 1.48
+        },
+        {
+          "text": "you.",
+          "start": 1.75
+        }
+      ]
+    },
+    {
+      "id": "fair",
+      "text": "Fair.",
+      "style": "Dry, amused, deadpan.",
+      "voice": "Algenib",
+      "story": 770,
+      "anchors": {},
+      "file": "last-light/part03/voice/fair.wav",
+      "duration": 1.12,
+      "speechStart": 0.33,
+      "speechEnd": 1.08,
+      "words": [
+        {
+          "text": "Fair.",
+          "start": 0.45
+        }
+      ]
+    },
+    {
+      "id": "dog",
+      "text": "Then a dog barked.",
+      "style": "Narrating, sudden dread, hushed.",
+      "voice": "Algenib",
+      "story": 980,
+      "anchors": {},
+      "file": "last-light/part03/voice/dog.wav",
+      "duration": 2.18,
+      "speechStart": 0.29,
+      "speechEnd": 1.9100000000000001,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.31
+        },
+        {
+          "text": "a",
+          "start": 0.57
+        },
+        {
+          "text": "dog",
+          "start": 0.98
+        },
+        {
+          "text": "barked.",
+          "start": 1.13
+        }
+      ]
+    },
+    {
+      "id": "turned",
+      "text": "And every one of them... *turned.*",
+      "style": "Narrating, whispered horror, a short beat before 'turned', which lands heavy.",
+      "voice": "Algenib",
+      "story": 1040,
+      "anchors": {},
+      "file": "last-light/part03/voice/turned.wav",
+      "duration": 3.56,
+      "speechStart": 0.38,
+      "speechEnd": 3.23,
+      "words": [
+        {
+          "text": "And",
+          "start": 0.38
+        },
+        {
+          "text": "every",
+          "start": 0.5
+        },
+        {
+          "text": "one",
+          "start": 0.93
+        },
+        {
+          "text": "of",
+          "start": 1.29
+        },
+        {
+          "text": "them...",
+          "start": 1.51
+        },
+        {
+          "text": "*turned.*",
+          "start": 2.09
+        }
+      ]
+    },
+    {
+      "id": "run",
+      "text": "Run.",
+      "style": "Urgent whisper, one word.",
+      "voice": "Algenib",
+      "story": 1150,
+      "anchors": {},
+      "file": "last-light/part03/voice/run.wav",
+      "duration": 1.08,
+      "speechStart": 0.38,
+      "speechEnd": 0.79,
+      "words": [
+        {
+          "text": "Run.",
+          "start": 0.42
+        }
+      ]
+    }
+  ]
+}

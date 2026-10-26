@@ -2,7 +2,7 @@ import React from "react";
 import { Audio } from "@remotion/media";
 import { AbsoluteFill, staticFile, useCurrentFrame } from "remotion";
 import { GAITS, lerpPose, Pose, poseAt, POSES, skeleton, StickFigure, walkPose } from "../../shared/rig";
-import { cameraTransform, clamp01, impulse, KAI, makeWarp, Shot, shotCamera, track } from "../kit";
+import { ACTION, cameraTransform, clamp01, impulse, KAI, makeWarp, Shot, shotCamera, sneakPose, track } from "../kit";
 import { Captions, PartCard, SeriesBadge } from "../Overlays";
 import { Alley, ALLEY, BATH, BathDoor, Bathroom, Car, ESC, FireEscape, STAIR_RUNS } from "../sets";
 import { Defs, Door, Dresser, Horde, Outside, rand, Room, SET, TVScreen, WindowFrame, Zombie } from "../world";
@@ -14,29 +14,10 @@ export const DURATION = timeline.duration;
 const { toStory, toOut } = makeWarp(timeline);
 const SCENES = { bath: beats.slam + 2, exterior: beats.exterior, alley: beats.alley };
 
-// Part 2 poses on top of Kai's base set
-const P2 = {
-  ...KAI,
-  crouch: { lean: 26, tilt: 4, duck: 0.5, chest: 1, lUA: 40, lFA: 80, rUA: 50, rFA: 90, lTh: 72, lSh: -38, rTh: 84, rSh: -28 },
-  lock: { ...POSES.stand, lean: 8, tilt: -4, lUA: 34, lFA: 64, rUA: 82, rFA: 74 },
-  climbUp: { ...POSES.stand, lean: 8, rTh: 88, rSh: 4, rUA: 40, rFA: 120, lUA: -20, lFA: 10 },
-  reachUp: { ...POSES.stand, lean: -4, tilt: -10, lUA: -172, lFA: -176, rUA: 172, rFA: 176 },
-  strain: { ...POSES.stand, lean: -9, tilt: -16, duck: 0.35, lUA: -168, lFA: -172, rUA: 166, rFA: 172 },
-  squeeze: { lean: 0, tilt: -6, duck: 0.6, chest: 1, lUA: -172, lFA: -176, rUA: 172, rFA: 176, lTh: -4, lSh: -2, rTh: 4, rSh: 2 },
-  pull: { lean: -18, tilt: -6, duck: 0.3, chest: 1, lUA: 120, lFA: 150, rUA: 128, rFA: 160, lTh: -24, lSh: -10, rTh: 20, rSh: 26 },
-  climbOver: { lean: 10, tilt: 0, duck: 0.2, chest: 1, lUA: 20, lFA: 40, rUA: 30, rFA: 50, lTh: -10, lSh: -4, rTh: 95, rSh: 20 },
-  hang: { lean: 0, tilt: -8, duck: 0.4, chest: 1, lUA: -176, lFA: -178, rUA: 176, rFA: 178, lTh: -10, lSh: -18, rTh: 8, rSh: -6 },
-  fall: { lean: -6, tilt: -12, duck: 0.2, chest: 1, lUA: -150, lFA: -120, rUA: 150, rFA: 120, lTh: 20, lSh: -20, rTh: 40, rSh: -10 },
-  land: { lean: 34, tilt: 8, duck: 0.6, chest: 0.95, lUA: 60, lFA: 30, rUA: 70, rFA: 40, lTh: 92, lSh: -48, rTh: 100, rSh: -40 },
-  recoil: { lean: -24, tilt: -14, duck: 0.4, chest: 1, lUA: 30, lFA: 160, rUA: 50, rFA: 165, lTh: 112, lSh: 14, rTh: 124, rSh: 26 },
-} satisfies Record<string, Pose>;
+// Part 2 poses: Kai's base set plus the shared action poses
+const P2 = { ...KAI, ...ACTION };
 type P2Pose = keyof typeof P2;
 
-// Crouched sneaking: bent knees with a small, careful step
-const sneakPose = (phase: number): Pose => {
-  const a = phase * Math.PI * 2;
-  return { ...P2.crouch, lTh: P2.crouch.lTh + 14 * Math.sin(a), lSh: P2.crouch.lSh - 8 * Math.max(0, Math.cos(a)), rTh: P2.crouch.rTh - 14 * Math.sin(a), rSh: P2.crouch.rSh - 8 * Math.max(0, -Math.cos(a)) };
-};
 // Blend a standing pose into a walk or run when Kai is moving
 const moving = (base: Pose, x: number, speed: number, flip: boolean) => {
   const gait = speed > 9 ? GAITS.run : GAITS.walk;

@@ -1,47 +1,13 @@
 // Sound design for LAST LIGHT — Part 2 "The Window".
-import fs from "node:fs";
-import { TAU } from "../synth.mjs";
 import { makeKit } from "./last-light-kit.mjs";
 
 export default function sfx(ctx) {
-  const { SR, N, idx, storySec, stem, noise, effects, beats } = ctx;
+  const { SR, N, storySec, stem, noise, effects, beats } = ctx;
   const out = stem();
   const fx = effects(out);
-  const { add, boom, whoosh, blip } = fx;
-  const { sampleFile, sample, thud, doorBang, shatter, scrape, crackle } = makeKit(ctx, fx);
+  const { boom, whoosh, blip } = fx;
+  const { sample, thud, doorBang, shatter, scrape, crackle, clang, loop, buzz } = makeKit(ctx, fx);
   const at = storySec;
-
-  // Footstep on the steel fire escape: a short inharmonic ring — every step a dinner bell
-  const clang = (t0, level) => {
-    const partials = [
-      [420, 1],
-      [1060, 0.6],
-      [1830, 0.4],
-      [2710, 0.25],
-    ];
-    const detune = 1 + noise() * 0.03;
-    for (let j = 0; j < SR * 0.5; j++) {
-      const t = j / SR;
-      let v = 0;
-      for (const [f, a] of partials) v += Math.sin(TAU * f * detune * t) * a * Math.exp(-t * (8 + f / 300));
-      add(idx(t0) + j, v * Math.min(1, t * 3000) * level * 0.5, noise() * 0.3);
-    }
-    thud(t0, level * 0.5, 80);
-  };
-  const loop = (id, t0, t1, level) => {
-    if (!fs.existsSync(sampleFile(id))) return sample(id, t0, level);
-    const len = fs.statSync(sampleFile(id)).size / (SR * 4);
-    for (let t = t0; t < t1; t += len - 1) sample(id, t, level, { dur: Math.min(len, t1 - t), fadeIn: t === t0 ? 0.4 : 1, fadeOut: 1 });
-  };
-  const buzz = (t0, t1, level) => {
-    // the alley lamp: mains hum that cuts out when it flickers (same pattern as the picture)
-    for (let i = idx(t0); i < Math.min(N, idx(t1)); i++) {
-      const t = i / SR;
-      const frame = t * 30;
-      const on = Math.sin(frame * 0.8) * Math.sin(frame * 0.27) > 0.5 ? 0.15 : 1;
-      add(i, (Math.sin(TAU * 120 * t) * 0.6 + Math.sin(TAU * 240 * t) * 0.3 + Math.sign(Math.sin(TAU * 120 * t)) * 0.08) * on * level, 0.5);
-    }
-  };
 
   const bath = at(beats.slam + 2);
   const ext = at(beats.exterior);

@@ -312,7 +312,8 @@ export const StickFigure: React.FC<{
   flip?: boolean;
   // something held, drawn in the figure's own coordinates (e.g. at s.rHand)
   prop?: (s: Skeleton) => React.ReactNode;
-}> = ({ pose, x, y, scale, face, frame, color = "#111", zombie, flip = false, prop }) => {
+  hair?: "ponytail";
+}> = ({ pose, x, y, scale, face, frame, color = "#111", zombie, flip = false, prop, hair }) => {
   const s = skeleton(pose);
   const line = { stroke: color, strokeWidth: 15, strokeLinecap: "round", strokeLinejoin: "round", fill: "none" } as const;
   return (
@@ -323,7 +324,15 @@ export const StickFigure: React.FC<{
       <polyline points={pts(s.shoulder, s.neck)} {...line} />
       {prop?.(s)}
       <g transform={`translate(${s.head.x} ${s.head.y}) rotate(${s.headAngle})`}>
+        {hair === "ponytail" ? (
+          // tied high at the back of the head, swinging a little
+          <path
+            d={`M -18 -24 Q -46 ${-30 + Math.sin(frame * 0.25) * 4} ${-50 + Math.sin(frame * 0.2) * 5} 12 Q -40 -6 -26 -10 Z`}
+            fill={color}
+          />
+        ) : null}
         <circle r={LEN.head} fill={color} />
+        {hair === "ponytail" ? <path d="M -30 -6 Q -26 -34 0 -32 Q 22 -32 30 -14 Q 14 -26 -4 -24 Q -22 -22 -30 -6 Z" fill={color} /> : null}
         {zombie ? <ZombieFace glow={zombie.glow} /> : <FaceFeatures face={face} frame={frame} />}
       </g>
     </g>

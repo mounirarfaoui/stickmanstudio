@@ -7,6 +7,7 @@ Procedural stickman shorts (1080×1920, 30 fps) built with [Remotion](https://ww
 | `BrainLying` | "Your Brain Is Lying to You" — a ~37 s standalone short (`src/BrainLying`) |
 | `LastLight-Part01` | **LAST LIGHT**, a 10-part zombie apocalypse series — Part 1 "Day One" (`src/LastLight`, outline in [SERIES.md](src/LastLight/SERIES.md)) |
 | `LastLight-Part02` | LAST LIGHT Part 2 "The Window" — bathroom escape, fire escape, the alley (~45 s) |
+| `LastLight-Part03` | LAST LIGHT Part 3 "Mia" — the girl with the bat, a fragile deal, the dog that wakes the street (~45 s) |
 
 Each episode is a folder with an `episode.json` (narration lines, caption chunks, timing, music prompt, sound prompts) and
 a `beats.json` (story frames). The audio scripts take the folder as an argument, e.g. for Last Light Part 1:
