@@ -1,27 +1,61 @@
 {
   "fps": 30,
   "duration": 900,
-  "captions": [
-    { "from": 4, "to": 66, "text": "Your brain can turn a small fear" },
-    { "from": 66, "to": 140, "text": "into a *giant* *monster.*", "times": [66, 72, 84, 96] },
-    { "from": 152, "to": 226, "text": "One sentence to say." },
-    { "from": 226, "to": 300, "text": "A few people listening." },
-    { "from": 300, "to": 372, "text": "But in his head..." },
-    { "from": 372, "to": 450, "text": "it feels *ENORMOUS.*", "times": [372, 380, 392] },
-    { "from": 450, "to": 512, "text": "The fear is real." },
-    { "from": 512, "to": 575, "text": "He pauses. Breathes. Slowly.", "times": [512, 520, 532, 552] },
-    { "from": 575, "to": 700, "text": "He practices. Once. Twice. Again.", "times": [575, 581, 590, 630, 668] },
-    { "from": 700, "to": 742, "text": "Then he speaks." },
-    { "from": 742, "to": 800, "text": "The shadow shrinks to its real size." }
-  ],
-  "wordStagger": 6,
   "monster": {
-    "frames": [0, 40, 100, 135, 152, 300, 420, 512, 575, 588, 615, 628, 655, 666, 693, 712, 790],
-    "values": [0, 0, 0.75, 0.75, 0, 0, 1, 1, 0.92, 0.92, 0.75, 0.75, 0.58, 0.58, 0.4, 0.4, 0]
+    "frames": [
+      0,
+      40,
+      100,
+      135,
+      152,
+      300,
+      420,
+      512,
+      575,
+      588,
+      615,
+      628,
+      655,
+      666,
+      693,
+      712,
+      790
+    ],
+    "values": [
+      0,
+      0,
+      0.75,
+      0.75,
+      0,
+      0,
+      1,
+      1,
+      0.92,
+      0.92,
+      0.75,
+      0.75,
+      0.58,
+      0.58,
+      0.4,
+      0.4,
+      0
+    ]
   },
   "flash": 136,
-  "breath": [512, 575],
-  "practice": [588, 628, 666],
-  "speech": [706, 792],
-  "endCard": { "from": 800, "wordsStart": 808, "wordStep": 6, "words": 6, "sub": 852 }
+  "breath": [
+    512,
+    575
+  ],
+  "practice": [
+    588,
+    628,
+    666
+  ],
+  "speech": [
+    706,
+    792
+  ],
+  "endCard": {
+    "from": 800
+  }
 }

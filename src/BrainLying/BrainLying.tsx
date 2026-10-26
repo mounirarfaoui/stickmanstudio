@@ -3,9 +3,16 @@ import { Audio } from "@remotion/media";
 import { AbsoluteFill, Easing, interpolate, Sequence, staticFile, useCurrentFrame } from "remotion";
 import { Captions, EndCard, FONT, TitleCard } from "./Captions";
 import beats from "./beats.json";
+import timeline from "./timeline.json";
 import { poseAt, PoseName, ShadowMonster, StickFigure } from "./rig";
 
-export const DURATION = beats.duration;
+export const DURATION = timeline.duration;
+
+// Output frame -> frame on the original 30 s story timeline. timeline.json stretches or squeezes
+// each story section so its beats land on the narration (see scripts/build-timeline.mjs).
+const OUT = timeline.anchors.map((a) => a[1]);
+const STORY = timeline.anchors.map((a) => a[0]);
+const toStory = (frame: number) => interpolate(frame, OUT, STORY, { extrapolateLeft: "clamp", extrapolateRight: "extend" });
 
 const ease = Easing.inOut(Easing.cubic);
 const track = (frame: number, frames: number[], values: number[]) =>
@@ -13,7 +20,7 @@ const track = (frame: number, frames: number[], values: number[]) =>
 const window01 = (frame: number, a: number, b: number, fade = 6) =>
   interpolate(frame, [a, a + fade, b - fade, b], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
 
-// Story beats (30 fps):
+// Story beats (story frames, 30 fps):
 // 0-150 hook | 150-300 setup | 300-450 fear grows | 450-575 freeze + breathe
 // 575-700 practice | 700-800 speaks, shadow shrinks | 800-900 end card
 const POSE_KEYS: [number, PoseName][] = [
@@ -51,24 +58,26 @@ const GROUND = 1500;
 const WALL = 1425;
 
 export const BrainLying: React.FC = () => {
+  // Beats follow the story clock; oscillations (tremble, shake, roar, flicker) stay on real time.
   const frame = useCurrentFrame();
+  const story = toStory(frame);
 
-  const z = track(frame, [0, 40, 105, 138, 158, 300, 420, 450, 500, 575, 700, 800, 840, 900], [1.45, 1.45, 0.9, 0.9, 1.0, 1.12, 0.9, 0.9, 1.4, 1.38, 1.15, 1.0, 0.75, 0.72]);
-  const fy = track(frame, [0, 40, 105, 138, 158, 300, 420, 450, 500, 575, 700, 800, 840, 900], [1260, 1260, 1000, 1000, 960, 1100, 1000, 1000, 1250, 1250, 1150, 1050, 760, 760]);
-  const m = track(frame, beats.monster.frames, beats.monster.values);
-  const dark = track(frame, [0, 40, 100, 135, 152, 300, 420, 575, 700, 790], [0, 0, 0.55, 0.55, 0, 0, 0.78, 0.62, 0.35, 0]);
-  const shake = track(frame, [0, 70, 100, 130, 140, 330, 400, 440, 470], [0, 0, 6, 6, 0, 0, 9, 9, 0]);
-  const warm = track(frame, [700, 790, 900], [0, 1, 0.8]);
-  const size = track(frame, [0, 40, 100, 138, 158, 300, 420, 575, 700, 790], [1, 1, 0.85, 0.85, 1, 1, 0.82, 0.86, 0.95, 1.06]);
-  const tremble = track(frame, [0, 60, 100, 135, 155, 300, 380, 480, 512, 560], [0.3, 0.3, 1, 1, 0.35, 0.35, 1, 0.8, 0.4, 0]);
-  const worry = track(frame, [0, 40, 100, 138, 158, 300, 400, 512, 575, 700, 760, 800], [0.5, 0.5, 1, 1, 0.55, 0.6, 1, 0.9, 0.6, 0.45, 0.1, 0]);
-  const smile = track(frame, [700, 760, 800], [0, 0.3, 0.8]);
+  const z = track(story, [0, 40, 105, 138, 158, 300, 420, 450, 500, 575, 700, 800, 840, 900], [1.45, 1.45, 0.9, 0.9, 1.0, 1.12, 0.9, 0.9, 1.4, 1.38, 1.15, 1.0, 0.75, 0.72]);
+  const fy = track(story, [0, 40, 105, 138, 158, 300, 420, 450, 500, 575, 700, 800, 840, 900], [1260, 1260, 1000, 1000, 960, 1100, 1000, 1000, 1250, 1250, 1150, 1050, 760, 760]);
+  const m = track(story, beats.monster.frames, beats.monster.values);
+  const dark = track(story, [0, 40, 100, 135, 152, 300, 420, 575, 700, 790], [0, 0, 0.55, 0.55, 0, 0, 0.78, 0.62, 0.35, 0]);
+  const shake = track(story, [0, 70, 100, 130, 140, 330, 400, 440, 470], [0, 0, 6, 6, 0, 0, 9, 9, 0]);
+  const warm = track(story, [700, 790, 900], [0, 1, 0.8]);
+  const size = track(story, [0, 40, 100, 138, 158, 300, 420, 575, 700, 790], [1, 1, 0.85, 0.85, 1, 1, 0.82, 0.86, 0.95, 1.06]);
+  const tremble = track(story, [0, 60, 100, 135, 155, 300, 380, 480, 512, 560], [0.3, 0.3, 1, 1, 0.35, 0.35, 1, 0.8, 0.4, 0]);
+  const worry = track(story, [0, 40, 100, 138, 158, 300, 400, 512, 575, 700, 760, 800], [0.5, 0.5, 1, 1, 0.55, 0.6, 1, 0.9, 0.6, 0.45, 0.1, 0]);
+  const smile = track(story, [700, 760, 800], [0, 0.3, 0.8]);
 
-  const talkPractice = PRACTICE.reduce((acc, f) => Math.max(acc, window01(frame, f, f + 27)), 0);
-  const talkSpeech = window01(frame, 714, 790);
+  const talkPractice = PRACTICE.reduce((acc, f) => Math.max(acc, window01(story, f, f + 27)), 0);
+  const talkSpeech = window01(story, 714, 790);
   const mouth = Math.max(talkPractice * 0.5, talkSpeech) * Math.abs(Math.sin(frame * 0.55));
 
-  const base = poseAt(frame, POSE_KEYS);
+  const base = poseAt(story, POSE_KEYS);
   const jitter = tremble * 3.2;
   const pose = {
     ...base,
@@ -84,18 +93,18 @@ export const BrainLying: React.FC = () => {
   const camera = `translate(${540 - 540 * z + shx} ${960 - fy * z + shy}) scale(${z})`;
 
   const flicker = 1 - dark * 0.08 * (Math.sin(frame * 0.9) * Math.sin(frame * 0.37) > 0.6 ? 1 : 0);
-  const breath = interpolate(frame, beats.breath, [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const breath = interpolate(story, beats.breath, [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const breathOn = breath > 0 && breath < 1;
-  const bubble = interpolate(frame, [706, 716, 784, 792], [0, 1, 1, 0], {
+  const bubble = interpolate(story, [706, 716, 784, 792], [0, 1, 1, 0], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
     easing: Easing.bezier(0.34, 1.56, 0.64, 1),
   });
-  const flash = interpolate(frame, [beats.flash, beats.flash + 5, beats.flash + 18], [0, 0.7, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const flash = interpolate(story, [beats.flash, beats.flash + 5, beats.flash + 18], [0, 0.7, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#EDE8DF" }}>
-      {/* Generated from beats.json by `npm run audio` */}
+      {/* Voice + music + effects, mixed by `npm run audio` */}
       <Audio src={staticFile("soundtrack.wav")} />
       <svg width={1080} height={1920} viewBox="0 0 1080 1920">
         <defs>
@@ -162,7 +171,7 @@ export const BrainLying: React.FC = () => {
           <StickFigure pose={pose} x={540} y={GROUND} scale={size} frame={frame} face={{ worry, smile, mouth, sweat: Math.max(0, worry - 0.6) * 2.5 }} />
 
           {PRACTICE.map((f) => {
-            const o = window01(frame, f, f + 27, 5);
+            const o = window01(story, f, f + 27, 5);
             if (o <= 0) return null;
             return (
               <g key={f} opacity={o} transform={`translate(690 1150) scale(${0.6 + 0.4 * o})`}>
@@ -191,7 +200,7 @@ export const BrainLying: React.FC = () => {
           ) : null}
 
           {[200, 540, 880].map((x, i) => {
-            const nod = frame > 772 && frame < 800 ? Math.sin((frame - 772) * 0.45) * 6 : 0;
+            const nod = story > 772 && story < 800 ? Math.sin((story - 772) * 0.45) * 6 : 0;
             const bob = Math.sin(frame * 0.05 + i * 2) * 3 + (i === 2 ? nod : 0);
             return (
               <g key={x} fill="#3A3C46">
@@ -209,10 +218,10 @@ export const BrainLying: React.FC = () => {
       <Sequence durationInFrames={110} name="Title">
         <TitleCard />
       </Sequence>
-      <Sequence durationInFrames={800} name="Captions">
+      <Sequence durationInFrames={timeline.endCard.from} name="Captions">
         <Captions />
       </Sequence>
-      {frame >= beats.endCard.from ? <EndCard /> : null}
+      {frame >= timeline.endCard.from ? <EndCard /> : null}
     </AbsoluteFill>
   );
 };

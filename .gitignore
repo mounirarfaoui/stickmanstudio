@@ -8,3 +8,4 @@ out
 
 # Rendered videos
 output
+.cache

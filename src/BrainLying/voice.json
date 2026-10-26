@@ -1,0 +1,450 @@
+{
+  "voice": "Charon",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Your brain can turn a small fear into a *giant* *monster.*",
+      "style": "Gripping narrator opening a viral short. Low, intimate and slightly ominous, brisk pace, lean hard into 'giant monster'.",
+      "voice": "Charon",
+      "story": 4,
+      "anchors": {
+        "giant": 84
+      },
+      "file": "voice/hook.wav",
+      "duration": 5.44,
+      "speechStart": 0.3,
+      "speechEnd": 5.2,
+      "words": [
+        {
+          "text": "Your",
+          "start": 0.32
+        },
+        {
+          "text": "brain",
+          "start": 0.47
+        },
+        {
+          "text": "can",
+          "start": 1.05
+        },
+        {
+          "text": "turn",
+          "start": 1.41
+        },
+        {
+          "text": "a",
+          "start": 1.88
+        },
+        {
+          "text": "small",
+          "start": 2
+        },
+        {
+          "text": "fear",
+          "start": 2.58
+        },
+        {
+          "text": "into",
+          "start": 3.24
+        },
+        {
+          "text": "a",
+          "start": 3.51
+        },
+        {
+          "text": "*giant*",
+          "start": 3.75
+        },
+        {
+          "text": "*monster.*",
+          "start": 4.16
+        }
+      ]
+    },
+    {
+      "id": "sentence",
+      "text": "He has one sentence to say.",
+      "style": "Gentle, matter-of-fact storyteller, brisk.",
+      "voice": "Charon",
+      "story": 152,
+      "anchors": {},
+      "file": "voice/sentence.wav",
+      "duration": 2.44,
+      "speechStart": 0.32,
+      "speechEnd": 2.15,
+      "words": [
+        {
+          "text": "He",
+          "start": 0.32
+        },
+        {
+          "text": "has",
+          "start": 0.44
+        },
+        {
+          "text": "one",
+          "start": 0.59
+        },
+        {
+          "text": "sentence",
+          "start": 0.93
+        },
+        {
+          "text": "to",
+          "start": 1.88
+        },
+        {
+          "text": "say.",
+          "start": 2.08
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "text": "Just a few people listening.",
+      "style": "Gentle, matter-of-fact storyteller, brisk.",
+      "voice": "Charon",
+      "story": 226,
+      "anchors": {},
+      "file": "voice/people.wav",
+      "duration": 1.92,
+      "speechStart": 0.22,
+      "speechEnd": 1.68,
+      "words": [
+        {
+          "text": "Just",
+          "start": 0.24
+        },
+        {
+          "text": "a",
+          "start": 0.36
+        },
+        {
+          "text": "few",
+          "start": 0.48
+        },
+        {
+          "text": "people",
+          "start": 0.68
+        },
+        {
+          "text": "listening.",
+          "start": 1.2
+        }
+      ]
+    },
+    {
+      "id": "head",
+      "text": "But in his head...",
+      "style": "Dropping lower and slower, building suspense.",
+      "voice": "Charon",
+      "story": 300,
+      "anchors": {},
+      "file": "voice/head.wav",
+      "duration": 2.08,
+      "speechStart": 0.29,
+      "speechEnd": 1.8,
+      "words": [
+        {
+          "text": "But",
+          "start": 0.31
+        },
+        {
+          "text": "in",
+          "start": 0.43
+        },
+        {
+          "text": "his",
+          "start": 0.65
+        },
+        {
+          "text": "head...",
+          "start": 1.04
+        }
+      ]
+    },
+    {
+      "id": "enormous",
+      "text": "it feels *enormous.*",
+      "style": "Dramatic, heavy and intense, stretch the word 'enormous'.",
+      "voice": "Charon",
+      "story": 372,
+      "anchors": {
+        "enormous": 392
+      },
+      "file": "voice/enormous.wav",
+      "duration": 4.2,
+      "speechStart": 0.28,
+      "speechEnd": 4.04,
+      "words": [
+        {
+          "text": "it",
+          "start": 0.29
+        },
+        {
+          "text": "feels",
+          "start": 0.68
+        },
+        {
+          "text": "*enormous.*",
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "real",
+      "text": "The fear is real.",
+      "style": "Serious, sincere and empathetic, slow. Never dismissive.",
+      "voice": "Charon",
+      "story": 450,
+      "anchors": {},
+      "file": "voice/real.wav",
+      "duration": 2.12,
+      "speechStart": 0.29,
+      "speechEnd": 1.86,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.31
+        },
+        {
+          "text": "fear",
+          "start": 0.43
+        },
+        {
+          "text": "is",
+          "start": 0.77
+        },
+        {
+          "text": "real.",
+          "start": 1.12
+        }
+      ]
+    },
+    {
+      "id": "breathe",
+      "text": "So he pauses. Breathes. Slowly.",
+      "style": "Calm, slow and soothing, with natural pauses between each phrase.",
+      "voice": "Charon",
+      "story": 512,
+      "anchors": {},
+      "file": "voice/breathe.wav",
+      "duration": 5.76,
+      "speechStart": 0.26,
+      "speechEnd": 5.37,
+      "words": [
+        {
+          "text": "So",
+          "start": 0.27
+        },
+        {
+          "text": "he",
+          "start": 0.43
+        },
+        {
+          "text": "pauses.",
+          "start": 0.8
+        },
+        {
+          "text": "Breathes.",
+          "start": 2
+        },
+        {
+          "text": "Slowly.",
+          "start": 3.5
+        }
+      ]
+    },
+    {
+      "id": "practices",
+      "text": "He practices.",
+      "style": "Steady and encouraging.",
+      "voice": "Charon",
+      "story": 575,
+      "anchors": {},
+      "file": "voice/practices.wav",
+      "duration": 1.6,
+      "speechStart": 0.34,
+      "speechEnd": 1.34,
+      "words": [
+        {
+          "text": "He",
+          "start": 0.35
+        },
+        {
+          "text": "practices.",
+          "start": 0.47
+        }
+      ]
+    },
+    {
+      "id": "once",
+      "text": "Once.",
+      "style": "Quiet, counting an attempt.",
+      "voice": "Charon",
+      "story": 590,
+      "anchors": {},
+      "file": "voice/once.wav",
+      "duration": 1.24,
+      "speechStart": 0.33,
+      "speechEnd": 0.89,
+      "words": [
+        {
+          "text": "Once.",
+          "start": 0.35
+        }
+      ]
+    },
+    {
+      "id": "twice",
+      "text": "Twice.",
+      "style": "A little more confident, counting an attempt.",
+      "voice": "Charon",
+      "story": 630,
+      "anchors": {},
+      "file": "voice/twice.wav",
+      "duration": 1.12,
+      "speechStart": 0.26,
+      "speechEnd": 0.86,
+      "words": [
+        {
+          "text": "Twice.",
+          "start": 0.28
+        }
+      ]
+    },
+    {
+      "id": "again",
+      "text": "Again.",
+      "style": "Determined, counting an attempt.",
+      "voice": "Charon",
+      "story": 668,
+      "anchors": {},
+      "file": "voice/again.wav",
+      "duration": 1.08,
+      "speechStart": 0.3,
+      "speechEnd": 0.88,
+      "words": [
+        {
+          "text": "Again.",
+          "start": 0.32
+        }
+      ]
+    },
+    {
+      "id": "speaks",
+      "text": "Then he speaks.",
+      "style": "Hopeful and rising, a turning point.",
+      "voice": "Charon",
+      "story": 700,
+      "anchors": {},
+      "file": "voice/speaks.wav",
+      "duration": 1.96,
+      "speechStart": 0.23,
+      "speechEnd": 1.6500000000000001,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.32
+        },
+        {
+          "text": "he",
+          "start": 0.66
+        },
+        {
+          "text": "speaks.",
+          "start": 0.99
+        }
+      ]
+    },
+    {
+      "id": "shrinks",
+      "text": "And the shadow shrinks back to its real size.",
+      "style": "Warm, relieved and confident, brisk.",
+      "voice": "Charon",
+      "story": 742,
+      "anchors": {},
+      "file": "voice/shrinks.wav",
+      "duration": 3.04,
+      "speechStart": 0.19,
+      "speechEnd": 2.73,
+      "words": [
+        {
+          "text": "And",
+          "start": 0.2
+        },
+        {
+          "text": "the",
+          "start": 0.32
+        },
+        {
+          "text": "shadow",
+          "start": 0.44
+        },
+        {
+          "text": "shrinks",
+          "start": 0.84
+        },
+        {
+          "text": "back",
+          "start": 1.33
+        },
+        {
+          "text": "to",
+          "start": 1.64
+        },
+        {
+          "text": "its",
+          "start": 1.76
+        },
+        {
+          "text": "real",
+          "start": 1.96
+        },
+        {
+          "text": "size.",
+          "start": 2.27
+        }
+      ]
+    },
+    {
+      "id": "courage",
+      "text": "Courage starts before you feel ready.",
+      "style": "Inspiring closing line. Warm, powerful and deliberate, each word lands.",
+      "voice": "Charon",
+      "story": 808,
+      "anchors": {},
+      "file": "voice/courage.wav",
+      "duration": 3.92,
+      "speechStart": 0.26,
+      "speechEnd": 3.64,
+      "words": [
+        {
+          "text": "Courage",
+          "start": 0.27
+        },
+        {
+          "text": "starts",
+          "start": 1.05
+        },
+        {
+          "text": "before",
+          "start": 1.89
+        },
+        {
+          "text": "you",
+          "start": 2.44
+        },
+        {
+          "text": "feel",
+          "start": 2.82
+        },
+        {
+          "text": "ready.",
+          "start": 3.33
+        }
+      ]
+    }
+  ]
+}

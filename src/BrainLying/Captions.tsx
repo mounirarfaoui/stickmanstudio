@@ -1,20 +1,21 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
 
-import beats from "./beats.json";
+import timeline from "./timeline.json";
 
-// *word* = emphasised (red). `times` overrides the default word stagger.
-type Chunk = { from: number; to: number; text: string; times?: number[] };
+// Caption chunks with the frame each word is spoken, from scripts/build-timeline.mjs.
+type Chunk = { from: number; to: number; words: { text: string; emph: boolean; frame: number }[] };
 
-export const CAPTIONS: Chunk[] = beats.captions;
+export const CAPTIONS: Chunk[] = timeline.captions;
 
 export const FONT = '"Arial Black", "Arial Bold", Impact, sans-serif';
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
 const ChunkView: React.FC<{ chunk: Chunk; frame: number }> = ({ chunk, frame }) => {
-  const words = chunk.text.split(" ").map((w) => ({ text: w.replace(/\*/g, ""), emph: w.startsWith("*") }));
-  const times = words.map((_, i) => chunk.times?.[i] ?? chunk.from + i * beats.wordStagger);
+  const { words } = chunk;
+  // Each word pops in a hair before it is heard
+  const times = words.map((w) => w.frame - 2);
   const active = times.filter((t) => t <= frame).length - 1;
   return (
     <div
@@ -39,7 +40,7 @@ const ChunkView: React.FC<{ chunk: Chunk; frame: number }> = ({ chunk, frame }) 
           style={{
             display: "inline-block",
             fontFamily: FONT,
-            fontSize: w.emph ? 104 : 86,
+            fontSize: w.emph ? 112 : 90,
             lineHeight: 1.12,
             color: w.emph ? "#FF4B3E" : i === active ? "#FFD43B" : "#FFFFFF",
             WebkitTextStroke: "16px #111",
@@ -107,7 +108,8 @@ export const TitleCard: React.FC = () => {
 
 export const EndCard: React.FC = () => {
   const frame = useCurrentFrame();
-  const words = ["Courage", "starts", "before", "you", "feel", "ready."];
+  const { words } = timeline.endCard;
+  const sub = words[words.length - 1].frame + 24;
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
       <div
@@ -122,8 +124,8 @@ export const EndCard: React.FC = () => {
           gap: "4px 28px",
         }}
       >
-        {words.map((w, i) => {
-          const t = beats.endCard.wordsStart + i * beats.endCard.wordStep;
+        {words.map(({ text: w, frame: spoken }, i) => {
+          const t = spoken - 3;
           const marked = i >= 2;
           return (
             <span
@@ -161,7 +163,7 @@ export const EndCard: React.FC = () => {
           fontSize: 46,
           lineHeight: 1.3,
           color: "#3a3a40",
-          opacity: interpolate(frame, [beats.endCard.sub, beats.endCard.sub + 12], [0, 1], clamp),
+          opacity: interpolate(frame, [sub, sub + 12], [0, 1], clamp),
         }}
       >
         Fear may come along.

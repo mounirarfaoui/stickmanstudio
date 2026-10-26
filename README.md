@@ -1,54 +1,41 @@
-# Remotion video
+# Stickman Studio — "Your Brain Is Lying to You"
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+A ~37-second vertical (1080×1920, 30 fps) stickman short built with [Remotion](https://www.remotion.dev).
+A nervous stickman about to speak watches his shadow swell into a monster; he freezes, breathes, practises,
+speaks — and the shadow shrinks back to its real size. *Courage starts before you feel ready.*
 
-Welcome to your Remotion project!
+All visuals are procedural SVG (no image assets) with deterministic, frame-based animation.
+Narration and music are generated with [kie.ai](https://kie.ai); every sound effect is synthesised in code.
 
-## Commands
-
-**Install Dependencies**
+## Quick start
 
 ```console
-npm i --loglevel=error
+npm i
+npm run dev                # preview in Remotion Studio
+npx remotion render BrainLying output/your-brain-is-lying-to-you.mp4 --crf=18
 ```
 
-**Start Preview**
+The generated narration, music and final mix are committed under `public/`, so rendering needs no API key.
 
-```console
-npm run dev
+## How it fits together
+
+| Step | Command | Output |
+| --- | --- | --- |
+| Narration — Gemini 3.8 Flash TTS (voice *Charon*), one styled clip per line, word timings from local whisper.cpp | `npm run voice` | `public/voice/*.wav`, `src/BrainLying/voice.json` |
+| Timeline — places each line on its story beat, time-warps the animation onto the voice, builds caption chunks | `npm run timeline` | `src/BrainLying/timeline.json` |
+| Music — Suno V6 instrumental, as long as the video | `npm run music` | `public/music.wav` |
+| Mix — voice + music (ducked under speech) + procedural SFX | `npm run audio` | `public/soundtrack.wav` |
+
+- `src/BrainLying/beats.json` — the story timeline (monster growth, breath, practice, speech) in story frames.
+- `src/BrainLying/rig.tsx` — stickman rig (forward kinematics, poses, face) and the shadow monster.
+- `src/BrainLying/BrainLying.tsx` — scene, camera, lighting; maps output frames to story frames via `timeline.json`.
+- `src/BrainLying/Captions.tsx` — word-synced captions, title and end card.
+
+To change a line, edit `LINES` in `scripts/make-voiceover.mjs`, then run `npm run voice && npm run timeline && npm run audio`
+(and `npm run music` if the length changed a lot).
+
+`npm run voice` and `npm run music` need a kie.ai key in a `.env` file (git-ignored):
+
 ```
-
-**Render video**
-
-```console
-npx remotion render
+KIE_API_KEY=your-key
 ```
-
-**Upgrade Remotion**
-
-```console
-npx remotion upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
