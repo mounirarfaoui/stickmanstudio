@@ -1,0 +1,21 @@
+{
+  "fps": 30,
+  "duration": 1470,
+  "stumble": 230,
+  "gate": 320,
+  "room": 410,
+  "radio": 556,
+  "desk": 720,
+  "lift": 755,
+  "calendar": 805,
+  "slide": 880,
+  "mirror": 962,
+  "flash": 1066,
+  "away": 1084,
+  "window": 1100,
+  "horde": 1132,
+  "turn": 1190,
+  "eye": 1240,
+  "growl": 1290,
+  "card": 1395
+}

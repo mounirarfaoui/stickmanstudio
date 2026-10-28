@@ -1,0 +1,372 @@
+{
+  "voice": "Algenib",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Fifty miles north. One bridge. And it was *full.*",
+      "style": "First-person survivor, out of breath from walking fast, low and tense, the last word dropping like a stone.",
+      "voice": "Algenib",
+      "story": 4,
+      "anchors": {},
+      "file": "last-light/part07/voice/hook.wav",
+      "duration": 5.86,
+      "speechStart": 0.36,
+      "speechEnd": 5.59,
+      "words": [
+        {
+          "text": "Fifty",
+          "start": 0.36
+        },
+        {
+          "text": "miles",
+          "start": 1.09
+        },
+        {
+          "text": "north.",
+          "start": 1.49
+        },
+        {
+          "text": "One",
+          "start": 2.44
+        },
+        {
+          "text": "bridge.",
+          "start": 2.93
+        },
+        {
+          "text": "And",
+          "start": 3.93
+        },
+        {
+          "text": "it",
+          "start": 4.34
+        },
+        {
+          "text": "was",
+          "start": 4.61
+        },
+        {
+          "text": "*full.*",
+          "start": 5.02
+        }
+      ]
+    },
+    {
+      "id": "roofs",
+      "text": "So we didn't walk on the road. We walked on the *roofs.*",
+      "style": "Narrating, a grim little smile in the voice, quick, the last word landing with nerve.",
+      "voice": "Algenib",
+      "story": 200,
+      "anchors": {},
+      "file": "last-light/part07/voice/roofs.wav",
+      "duration": 3.63,
+      "speechStart": 0.27,
+      "speechEnd": 3.25,
+      "words": [
+        {
+          "text": "So",
+          "start": 0.27
+        },
+        {
+          "text": "we",
+          "start": 0.39
+        },
+        {
+          "text": "didn't",
+          "start": 0.51
+        },
+        {
+          "text": "walk",
+          "start": 0.85
+        },
+        {
+          "text": "on",
+          "start": 1.19
+        },
+        {
+          "text": "the",
+          "start": 1.36
+        },
+        {
+          "text": "road.",
+          "start": 1.62
+        },
+        {
+          "text": "We",
+          "start": 2.1
+        },
+        {
+          "text": "walked",
+          "start": 2.22
+        },
+        {
+          "text": "on",
+          "start": 2.52
+        },
+        {
+          "text": "the",
+          "start": 2.64
+        },
+        {
+          "text": "*roofs.*",
+          "start": 2.78
+        }
+      ]
+    },
+    {
+      "id": "look",
+      "text": "Don't look down. Don't look at *them.*",
+      "style": "Teenage girl whispering fast while balancing high up, scared but steady, talking herself through it.",
+      "voice": "Leda",
+      "story": 400,
+      "anchors": {},
+      "file": "last-light/part07/voice/look.wav",
+      "duration": 2.71,
+      "speechStart": 0.19,
+      "speechEnd": 2.31,
+      "words": [
+        {
+          "text": "Don't",
+          "start": 0.2
+        },
+        {
+          "text": "look",
+          "start": 0.52
+        },
+        {
+          "text": "down.",
+          "start": 0.87
+        },
+        {
+          "text": "Don't",
+          "start": 1.58
+        },
+        {
+          "text": "look",
+          "start": 1.7
+        },
+        {
+          "text": "at",
+          "start": 1.91
+        },
+        {
+          "text": "*them.*",
+          "start": 2.03
+        }
+      ]
+    },
+    {
+      "id": "truck",
+      "text": "Halfway across, we found the *truck.*",
+      "style": "Narrating, slowing down, cold surprise on the last word.",
+      "voice": "Algenib",
+      "story": 560,
+      "anchors": {},
+      "file": "last-light/part07/voice/truck.wav",
+      "duration": 4.07,
+      "speechStart": 0.35000000000000003,
+      "speechEnd": 3.7800000000000002,
+      "words": [
+        {
+          "text": "Halfway",
+          "start": 0.4
+        },
+        {
+          "text": "across,",
+          "start": 0.92
+        },
+        {
+          "text": "we",
+          "start": 2
+        },
+        {
+          "text": "found",
+          "start": 2.29
+        },
+        {
+          "text": "the",
+          "start": 2.92
+        },
+        {
+          "text": "*truck.*",
+          "start": 3.27
+        }
+      ]
+    },
+    {
+      "id": "leash",
+      "text": "That's his *leash.*",
+      "style": "Teenage girl, small broken voice, holding something that hurts to hold, close to tears.",
+      "voice": "Leda",
+      "story": 760,
+      "anchors": {},
+      "file": "last-light/part07/voice/leash.wav",
+      "duration": 1.88,
+      "speechStart": 0.33,
+      "speechEnd": 1.58,
+      "words": [
+        {
+          "text": "That's",
+          "start": 0.35
+        },
+        {
+          "text": "his",
+          "start": 0.85
+        },
+        {
+          "text": "*leash.*",
+          "start": 1.27
+        }
+      ]
+    },
+    {
+      "id": "gone",
+      "text": "Wade and June were gone. And *Biscuit* with them.",
+      "style": "Narrating, quiet and heavy, a long breath before the dog's name.",
+      "voice": "Algenib",
+      "story": 830,
+      "anchors": {},
+      "file": "last-light/part07/voice/gone.wav",
+      "duration": 3.88,
+      "speechStart": 0.21,
+      "speechEnd": 3.5700000000000003,
+      "words": [
+        {
+          "text": "Wade",
+          "start": 0.26
+        },
+        {
+          "text": "and",
+          "start": 0.51
+        },
+        {
+          "text": "June",
+          "start": 0.94
+        },
+        {
+          "text": "were",
+          "start": 1.4
+        },
+        {
+          "text": "gone.",
+          "start": 1.91
+        },
+        {
+          "text": "And",
+          "start": 2.51
+        },
+        {
+          "text": "*Biscuit*",
+          "start": 2.63
+        },
+        {
+          "text": "with",
+          "start": 3.03
+        },
+        {
+          "text": "them.",
+          "start": 3.26
+        }
+      ]
+    },
+    {
+      "id": "gap",
+      "text": "One gap left. The *biggest.*",
+      "style": "Narrating, tense whisper, sizing up a jump, heart pounding.",
+      "voice": "Algenib",
+      "story": 1080,
+      "anchors": {},
+      "file": "last-light/part07/voice/gap.wav",
+      "duration": 3.75,
+      "speechStart": 0.34,
+      "speechEnd": 3.49,
+      "words": [
+        {
+          "text": "One",
+          "start": 0.36
+        },
+        {
+          "text": "gap",
+          "start": 0.6
+        },
+        {
+          "text": "left.",
+          "start": 1.2
+        },
+        {
+          "text": "The",
+          "start": 2
+        },
+        {
+          "text": "*biggest.*",
+          "start": 2.87
+        }
+      ]
+    },
+    {
+      "id": "almost",
+      "text": "I made it. *Almost.*",
+      "style": "Narrating, a flash of relief, then the floor dropping out on the last word.",
+      "voice": "Algenib",
+      "story": 1260,
+      "anchors": {},
+      "file": "last-light/part07/voice/almost.wav",
+      "duration": 2.18,
+      "speechStart": 0.26,
+      "speechEnd": 1.82,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.26
+        },
+        {
+          "text": "made",
+          "start": 0.38
+        },
+        {
+          "text": "it.",
+          "start": 0.5
+        },
+        {
+          "text": "*Almost.*",
+          "start": 1.19
+        }
+      ]
+    },
+    {
+      "id": "ankle",
+      "text": "Then something grabbed my *ankle.*",
+      "style": "Narrating, a terrified whisper, slow, the last word sharp with horror.",
+      "voice": "Algenib",
+      "story": 1340,
+      "anchors": {},
+      "file": "last-light/part07/voice/ankle.wav",
+      "duration": 3.04,
+      "speechStart": 0.28,
+      "speechEnd": 2.66,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.28
+        },
+        {
+          "text": "something",
+          "start": 0.89
+        },
+        {
+          "text": "grabbed",
+          "start": 1.55
+        },
+        {
+          "text": "my",
+          "start": 2.08
+        },
+        {
+          "text": "*ankle.*",
+          "start": 2.23
+        }
+      ]
+    }
+  ]
+}

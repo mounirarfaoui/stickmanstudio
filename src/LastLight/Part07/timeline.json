@@ -1,0 +1,568 @@
+{
+  "fps": 30,
+  "duration": 1520,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      400,
+      400
+    ],
+    [
+      560,
+      560
+    ],
+    [
+      760,
+      760
+    ],
+    [
+      830,
+      830
+    ],
+    [
+      1080,
+      1080
+    ],
+    [
+      1260,
+      1260
+    ],
+    [
+      1340,
+      1340
+    ],
+    [
+      1520,
+      1520
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "last-light/part07/voice/hook.wav",
+      "at": -0.2267,
+      "speech": [
+        0.133,
+        5.363
+      ]
+    },
+    {
+      "id": "roofs",
+      "file": "last-light/part07/voice/roofs.wav",
+      "at": 6.3967,
+      "speech": [
+        6.667,
+        9.647
+      ]
+    },
+    {
+      "id": "look",
+      "file": "last-light/part07/voice/look.wav",
+      "at": 13.1433,
+      "speech": [
+        13.333,
+        15.453
+      ]
+    },
+    {
+      "id": "truck",
+      "file": "last-light/part07/voice/truck.wav",
+      "at": 18.3167,
+      "speech": [
+        18.667,
+        22.097
+      ]
+    },
+    {
+      "id": "leash",
+      "file": "last-light/part07/voice/leash.wav",
+      "at": 25.0033,
+      "speech": [
+        25.333,
+        26.583
+      ]
+    },
+    {
+      "id": "gone",
+      "file": "last-light/part07/voice/gone.wav",
+      "at": 27.4567,
+      "speech": [
+        27.667,
+        31.027
+      ]
+    },
+    {
+      "id": "gap",
+      "file": "last-light/part07/voice/gap.wav",
+      "at": 35.66,
+      "speech": [
+        36,
+        39.15
+      ]
+    },
+    {
+      "id": "almost",
+      "file": "last-light/part07/voice/almost.wav",
+      "at": 41.74,
+      "speech": [
+        42,
+        43.56
+      ]
+    },
+    {
+      "id": "ankle",
+      "file": "last-light/part07/voice/ankle.wav",
+      "at": 44.3867,
+      "speech": [
+        44.667,
+        47.047
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 2,
+      "to": 64,
+      "words": [
+        {
+          "text": "Fifty",
+          "emph": false,
+          "frame": 4
+        },
+        {
+          "text": "miles",
+          "emph": false,
+          "frame": 26
+        },
+        {
+          "text": "north.",
+          "emph": false,
+          "frame": 38
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 64,
+      "to": 109,
+      "words": [
+        {
+          "text": "One",
+          "emph": false,
+          "frame": 66
+        },
+        {
+          "text": "bridge.",
+          "emph": false,
+          "frame": 81
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 109,
+      "to": 173,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 111
+        },
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 123
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 132
+        },
+        {
+          "text": "full.",
+          "emph": true,
+          "frame": 144
+        }
+      ]
+    },
+    {
+      "line": "roofs",
+      "from": 198,
+      "to": 226,
+      "words": [
+        {
+          "text": "So",
+          "emph": false,
+          "frame": 200
+        },
+        {
+          "text": "we",
+          "emph": false,
+          "frame": 204
+        },
+        {
+          "text": "didn't",
+          "emph": false,
+          "frame": 207
+        },
+        {
+          "text": "walk",
+          "emph": false,
+          "frame": 217
+        }
+      ]
+    },
+    {
+      "line": "roofs",
+      "from": 226,
+      "to": 253,
+      "words": [
+        {
+          "text": "on",
+          "emph": false,
+          "frame": 228
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 233
+        },
+        {
+          "text": "road.",
+          "emph": false,
+          "frame": 241
+        }
+      ]
+    },
+    {
+      "line": "roofs",
+      "from": 253,
+      "to": 301,
+      "words": [
+        {
+          "text": "We",
+          "emph": false,
+          "frame": 255
+        },
+        {
+          "text": "walked",
+          "emph": false,
+          "frame": 259
+        },
+        {
+          "text": "on",
+          "emph": false,
+          "frame": 268
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 271
+        },
+        {
+          "text": "roofs.",
+          "emph": true,
+          "frame": 275
+        }
+      ]
+    },
+    {
+      "line": "look",
+      "from": 398,
+      "to": 440,
+      "words": [
+        {
+          "text": "Don't",
+          "emph": false,
+          "frame": 400
+        },
+        {
+          "text": "look",
+          "emph": false,
+          "frame": 410
+        },
+        {
+          "text": "down.",
+          "emph": false,
+          "frame": 420
+        }
+      ]
+    },
+    {
+      "line": "look",
+      "from": 440,
+      "to": 476,
+      "words": [
+        {
+          "text": "Don't",
+          "emph": false,
+          "frame": 442
+        },
+        {
+          "text": "look",
+          "emph": false,
+          "frame": 445
+        },
+        {
+          "text": "at",
+          "emph": false,
+          "frame": 452
+        },
+        {
+          "text": "them.",
+          "emph": true,
+          "frame": 455
+        }
+      ]
+    },
+    {
+      "line": "truck",
+      "from": 560,
+      "to": 608,
+      "words": [
+        {
+          "text": "Halfway",
+          "emph": false,
+          "frame": 562
+        },
+        {
+          "text": "across,",
+          "emph": false,
+          "frame": 577
+        }
+      ]
+    },
+    {
+      "line": "truck",
+      "from": 608,
+      "to": 675,
+      "words": [
+        {
+          "text": "we",
+          "emph": false,
+          "frame": 610
+        },
+        {
+          "text": "found",
+          "emph": false,
+          "frame": 618
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 637
+        },
+        {
+          "text": "truck.",
+          "emph": true,
+          "frame": 648
+        }
+      ]
+    },
+    {
+      "line": "leash",
+      "from": 759,
+      "to": 810,
+      "words": [
+        {
+          "text": "That's",
+          "emph": false,
+          "frame": 761
+        },
+        {
+          "text": "his",
+          "emph": false,
+          "frame": 776
+        },
+        {
+          "text": "leash.",
+          "emph": true,
+          "frame": 788
+        }
+      ]
+    },
+    {
+      "line": "gone",
+      "from": 830,
+      "to": 897,
+      "words": [
+        {
+          "text": "Wade",
+          "emph": false,
+          "frame": 832
+        },
+        {
+          "text": "and",
+          "emph": false,
+          "frame": 839
+        },
+        {
+          "text": "June",
+          "emph": false,
+          "frame": 852
+        },
+        {
+          "text": "were",
+          "emph": false,
+          "frame": 866
+        },
+        {
+          "text": "gone.",
+          "emph": false,
+          "frame": 881
+        }
+      ]
+    },
+    {
+      "line": "gone",
+      "from": 897,
+      "to": 943,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 899
+        },
+        {
+          "text": "Biscuit",
+          "emph": true,
+          "frame": 903
+        },
+        {
+          "text": "with",
+          "emph": false,
+          "frame": 915
+        },
+        {
+          "text": "them.",
+          "emph": false,
+          "frame": 922
+        }
+      ]
+    },
+    {
+      "line": "gap",
+      "from": 1079,
+      "to": 1128,
+      "words": [
+        {
+          "text": "One",
+          "emph": false,
+          "frame": 1081
+        },
+        {
+          "text": "gap",
+          "emph": false,
+          "frame": 1088
+        },
+        {
+          "text": "left.",
+          "emph": false,
+          "frame": 1106
+        }
+      ]
+    },
+    {
+      "line": "gap",
+      "from": 1128,
+      "to": 1187,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 1130
+        },
+        {
+          "text": "biggest.",
+          "emph": true,
+          "frame": 1156
+        }
+      ]
+    },
+    {
+      "line": "almost",
+      "from": 1258,
+      "to": 1286,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 1260
+        },
+        {
+          "text": "made",
+          "emph": false,
+          "frame": 1264
+        },
+        {
+          "text": "it.",
+          "emph": false,
+          "frame": 1267
+        }
+      ]
+    },
+    {
+      "line": "almost",
+      "from": 1286,
+      "to": 1319,
+      "words": [
+        {
+          "text": "Almost.",
+          "emph": true,
+          "frame": 1288
+        }
+      ]
+    },
+    {
+      "line": "ankle",
+      "from": 1338,
+      "to": 1376,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 1340
+        },
+        {
+          "text": "something",
+          "emph": false,
+          "frame": 1358
+        }
+      ]
+    },
+    {
+      "line": "ankle",
+      "from": 1376,
+      "to": 1423,
+      "words": [
+        {
+          "text": "grabbed",
+          "emph": false,
+          "frame": 1378
+        },
+        {
+          "text": "my",
+          "emph": false,
+          "frame": 1394
+        },
+        {
+          "text": "ankle.",
+          "emph": true,
+          "frame": 1399
+        }
+      ]
+    }
+  ]
+}

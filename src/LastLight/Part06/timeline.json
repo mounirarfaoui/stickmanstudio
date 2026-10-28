@@ -1,0 +1,786 @@
+{
+  "fps": 30,
+  "duration": 1596,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      104,
+      104
+    ],
+    [
+      236,
+      275.9
+    ],
+    [
+      330,
+      369.9
+    ],
+    [
+      410,
+      500.7
+    ],
+    [
+      470,
+      560.7
+    ],
+    [
+      560,
+      650.7
+    ],
+    [
+      700,
+      790.7
+    ],
+    [
+      862,
+      952.7
+    ],
+    [
+      1030,
+      1120.7
+    ],
+    [
+      1098,
+      1190
+    ],
+    [
+      1150,
+      1275.5
+    ],
+    [
+      1252,
+      1377.5
+    ],
+    [
+      1430,
+      1555.5
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "last-light/part06/voice/hook.wav",
+      "at": -0.09,
+      "speech": [
+        0.2,
+        2.99
+      ]
+    },
+    {
+      "id": "wade",
+      "file": "last-light/part06/voice/wade.wav",
+      "at": 3.2667,
+      "speech": [
+        3.467,
+        8.997
+      ]
+    },
+    {
+      "id": "june",
+      "file": "last-light/part06/voice/june.wav",
+      "at": 8.9067,
+      "speech": [
+        9.197,
+        11.857
+      ]
+    },
+    {
+      "id": "yes",
+      "file": "last-light/part06/voice/yes.wav",
+      "at": 11.98,
+      "speech": [
+        12.33,
+        16.49
+      ]
+    },
+    {
+      "id": "no",
+      "file": "last-light/part06/voice/no.wav",
+      "at": 16.46,
+      "speech": [
+        16.69,
+        18.48
+      ]
+    },
+    {
+      "id": "climb",
+      "file": "last-light/part06/voice/climb.wav",
+      "at": 18.43,
+      "speech": [
+        18.69,
+        19.79
+      ]
+    },
+    {
+      "id": "ride",
+      "file": "last-light/part06/voice/ride.wav",
+      "at": 21.43,
+      "speech": [
+        21.69,
+        25.15
+      ]
+    },
+    {
+      "id": "look",
+      "file": "last-light/part06/voice/look.wav",
+      "at": 26.0967,
+      "speech": [
+        26.357,
+        28.427
+      ]
+    },
+    {
+      "id": "fuel",
+      "file": "last-light/part06/voice/fuel.wav",
+      "at": 31.5567,
+      "speech": [
+        31.757,
+        34.587
+      ]
+    },
+    {
+      "id": "engine",
+      "file": "last-light/part06/voice/engine.wav",
+      "at": 37.1167,
+      "speech": [
+        37.357,
+        39.467
+      ]
+    },
+    {
+      "id": "took",
+      "file": "last-light/part06/voice/took.wav",
+      "at": 39.5667,
+      "speech": [
+        39.667,
+        42.317
+      ]
+    },
+    {
+      "id": "biscuit",
+      "file": "last-light/part06/voice/biscuit.wav",
+      "at": 42.2367,
+      "speech": [
+        42.517,
+        43.847
+      ]
+    },
+    {
+      "id": "cost",
+      "file": "last-light/part06/voice/cost.wav",
+      "at": 45.6667,
+      "speech": [
+        45.917,
+        51.107
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 4,
+      "to": 55,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 6
+        },
+        {
+          "text": "man",
+          "emph": false,
+          "frame": 10
+        },
+        {
+          "text": "in",
+          "emph": false,
+          "frame": 13
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 17
+        },
+        {
+          "text": "door",
+          "emph": false,
+          "frame": 24
+        },
+        {
+          "text": "had",
+          "emph": false,
+          "frame": 40
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 44
+        },
+        {
+          "text": "rifle.",
+          "emph": false,
+          "frame": 47
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 55,
+      "to": 102,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 57
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 71
+        },
+        {
+          "text": "truck.",
+          "emph": true,
+          "frame": 75
+        }
+      ]
+    },
+    {
+      "line": "wade",
+      "from": 103,
+      "to": 181,
+      "words": [
+        {
+          "text": "Easy.",
+          "emph": false,
+          "frame": 105
+        },
+        {
+          "text": "We're",
+          "emph": false,
+          "frame": 114
+        },
+        {
+          "text": "not",
+          "emph": false,
+          "frame": 140
+        },
+        {
+          "text": "biters.",
+          "emph": false,
+          "frame": 146
+        }
+      ]
+    },
+    {
+      "line": "wade",
+      "from": 181,
+      "to": 233,
+      "words": [
+        {
+          "text": "We're",
+          "emph": false,
+          "frame": 183
+        },
+        {
+          "text": "headed",
+          "emph": false,
+          "frame": 190
+        },
+        {
+          "text": "north.",
+          "emph": false,
+          "frame": 201
+        }
+      ]
+    },
+    {
+      "line": "wade",
+      "from": 233,
+      "to": 274,
+      "words": [
+        {
+          "text": "Gull",
+          "emph": true,
+          "frame": 235
+        },
+        {
+          "text": "Point.",
+          "emph": false,
+          "frame": 239
+        }
+      ]
+    },
+    {
+      "line": "june",
+      "from": 274,
+      "to": 327,
+      "words": [
+        {
+          "text": "Plenty",
+          "emph": false,
+          "frame": 276
+        },
+        {
+          "text": "of",
+          "emph": false,
+          "frame": 292
+        },
+        {
+          "text": "room",
+          "emph": false,
+          "frame": 296
+        },
+        {
+          "text": "in",
+          "emph": false,
+          "frame": 299
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 309
+        },
+        {
+          "text": "back.",
+          "emph": false,
+          "frame": 320
+        }
+      ]
+    },
+    {
+      "line": "june",
+      "from": 327,
+      "to": 368,
+      "words": [
+        {
+          "text": "Bring",
+          "emph": false,
+          "frame": 329
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 339
+        },
+        {
+          "text": "dog.",
+          "emph": true,
+          "frame": 342
+        }
+      ]
+    },
+    {
+      "line": "yes",
+      "from": 368,
+      "to": 466,
+      "words": [
+        {
+          "text": "Fifty",
+          "emph": false,
+          "frame": 370
+        },
+        {
+          "text": "miles,",
+          "emph": false,
+          "frame": 385
+        },
+        {
+          "text": "in",
+          "emph": false,
+          "frame": 414
+        },
+        {
+          "text": "one",
+          "emph": false,
+          "frame": 421
+        },
+        {
+          "text": "night.",
+          "emph": false,
+          "frame": 434
+        }
+      ]
+    },
+    {
+      "line": "yes",
+      "from": 466,
+      "to": 499,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 468
+        },
+        {
+          "text": "said",
+          "emph": false,
+          "frame": 472
+        },
+        {
+          "text": "yes.",
+          "emph": true,
+          "frame": 480
+        }
+      ]
+    },
+    {
+      "line": "no",
+      "from": 499,
+      "to": 559,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 501
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 508
+        },
+        {
+          "text": "said",
+          "emph": false,
+          "frame": 512
+        },
+        {
+          "text": "no.",
+          "emph": true,
+          "frame": 536
+        }
+      ]
+    },
+    {
+      "line": "climb",
+      "from": 559,
+      "to": 606,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 561
+        },
+        {
+          "text": "didn't",
+          "emph": false,
+          "frame": 564
+        },
+        {
+          "text": "listen.",
+          "emph": false,
+          "frame": 584
+        }
+      ]
+    },
+    {
+      "line": "ride",
+      "from": 649,
+      "to": 700,
+      "words": [
+        {
+          "text": "For",
+          "emph": false,
+          "frame": 651
+        },
+        {
+          "text": "twenty",
+          "emph": false,
+          "frame": 662
+        },
+        {
+          "text": "miles,",
+          "emph": false,
+          "frame": 674
+        }
+      ]
+    },
+    {
+      "line": "ride",
+      "from": 700,
+      "to": 767,
+      "words": [
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 702
+        },
+        {
+          "text": "felt",
+          "emph": false,
+          "frame": 709
+        },
+        {
+          "text": "like",
+          "emph": false,
+          "frame": 721
+        },
+        {
+          "text": "we'd",
+          "emph": false,
+          "frame": 734
+        },
+        {
+          "text": "made",
+          "emph": true,
+          "frame": 744
+        },
+        {
+          "text": "it.",
+          "emph": false,
+          "frame": 751
+        }
+      ]
+    },
+    {
+      "line": "look",
+      "from": 789,
+      "to": 865,
+      "words": [
+        {
+          "text": "She",
+          "emph": false,
+          "frame": 791
+        },
+        {
+          "text": "keeps",
+          "emph": false,
+          "frame": 794
+        },
+        {
+          "text": "looking",
+          "emph": false,
+          "frame": 804
+        },
+        {
+          "text": "at",
+          "emph": false,
+          "frame": 822
+        },
+        {
+          "text": "Biscuit.",
+          "emph": true,
+          "frame": 832
+        }
+      ]
+    },
+    {
+      "line": "fuel",
+      "from": 953,
+      "to": 990,
+      "words": [
+        {
+          "text": "Fuel",
+          "emph": false,
+          "frame": 955
+        },
+        {
+          "text": "stop.",
+          "emph": false,
+          "frame": 962
+        }
+      ]
+    },
+    {
+      "line": "fuel",
+      "from": 990,
+      "to": 1050,
+      "words": [
+        {
+          "text": "Go",
+          "emph": false,
+          "frame": 992
+        },
+        {
+          "text": "check",
+          "emph": false,
+          "frame": 996
+        },
+        {
+          "text": "inside",
+          "emph": false,
+          "frame": 1007
+        },
+        {
+          "text": "for",
+          "emph": false,
+          "frame": 1022
+        },
+        {
+          "text": "water.",
+          "emph": true,
+          "frame": 1030
+        }
+      ]
+    },
+    {
+      "line": "engine",
+      "from": 1119,
+      "to": 1188,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 1121
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 1126
+        },
+        {
+          "text": "engine",
+          "emph": false,
+          "frame": 1141
+        },
+        {
+          "text": "started.",
+          "emph": true,
+          "frame": 1154
+        }
+      ]
+    },
+    {
+      "line": "took",
+      "from": 1190,
+      "to": 1215,
+      "words": [
+        {
+          "text": "Our",
+          "emph": false,
+          "frame": 1192
+        },
+        {
+          "text": "bags.",
+          "emph": false,
+          "frame": 1197
+        }
+      ]
+    },
+    {
+      "line": "took",
+      "from": 1215,
+      "to": 1273,
+      "words": [
+        {
+          "text": "Our",
+          "emph": false,
+          "frame": 1217
+        },
+        {
+          "text": "food.",
+          "emph": true,
+          "frame": 1234
+        }
+      ]
+    },
+    {
+      "line": "biscuit",
+      "from": 1274,
+      "to": 1327,
+      "words": [
+        {
+          "text": "They",
+          "emph": false,
+          "frame": 1276
+        },
+        {
+          "text": "took",
+          "emph": false,
+          "frame": 1280
+        },
+        {
+          "text": "Biscuit!",
+          "emph": true,
+          "frame": 1290
+        }
+      ]
+    },
+    {
+      "line": "cost",
+      "from": 1375,
+      "to": 1462,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 1377
+        },
+        {
+          "text": "wanted",
+          "emph": false,
+          "frame": 1381
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 1403
+        },
+        {
+          "text": "ride",
+          "emph": false,
+          "frame": 1407
+        },
+        {
+          "text": "so",
+          "emph": false,
+          "frame": 1426
+        },
+        {
+          "text": "badly...",
+          "emph": false,
+          "frame": 1435
+        }
+      ]
+    },
+    {
+      "line": "cost",
+      "from": 1462,
+      "to": 1545,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 1464
+        },
+        {
+          "text": "never",
+          "emph": false,
+          "frame": 1468
+        },
+        {
+          "text": "asked",
+          "emph": false,
+          "frame": 1480
+        },
+        {
+          "text": "what",
+          "emph": false,
+          "frame": 1490
+        },
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 1501
+        },
+        {
+          "text": "would",
+          "emph": false,
+          "frame": 1510
+        },
+        {
+          "text": "cost.",
+          "emph": true,
+          "frame": 1521
+        }
+      ]
+    }
+  ]
+}

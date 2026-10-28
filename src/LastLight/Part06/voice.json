@@ -1,0 +1,544 @@
+{
+  "voice": "Algenib",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "The man in the door had a rifle. And a *truck.*",
+      "style": "First-person survivor, tense whisper, eyes squinting into a torch, a beat of surprise on the last word.",
+      "voice": "Algenib",
+      "story": 6,
+      "anchors": {},
+      "file": "last-light/part06/voice/hook.wav",
+      "duration": 3.46,
+      "speechStart": 0.29,
+      "speechEnd": 3.08,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.29
+        },
+        {
+          "text": "man",
+          "start": 0.41
+        },
+        {
+          "text": "in",
+          "start": 0.53
+        },
+        {
+          "text": "the",
+          "start": 0.65
+        },
+        {
+          "text": "door",
+          "start": 0.88
+        },
+        {
+          "text": "had",
+          "start": 1.42
+        },
+        {
+          "text": "a",
+          "start": 1.54
+        },
+        {
+          "text": "rifle.",
+          "start": 1.66
+        },
+        {
+          "text": "And",
+          "start": 2
+        },
+        {
+          "text": "a",
+          "start": 2.46
+        },
+        {
+          "text": "*truck.*",
+          "start": 2.58
+        }
+      ]
+    },
+    {
+      "id": "wade",
+      "text": "Easy. We're not biters. We're headed north. *Gull Point.*",
+      "style": "A middle-aged drifter with a gravelly voice, slow and friendly, a little too friendly, smiling while he talks.",
+      "voice": "Gacrux",
+      "story": 104,
+      "anchors": {},
+      "file": "last-light/part06/voice/wade.wav",
+      "duration": 6.01,
+      "speechStart": 0.2,
+      "speechEnd": 5.73,
+      "words": [
+        {
+          "text": "Easy.",
+          "start": 0.23
+        },
+        {
+          "text": "We're",
+          "start": 0.54
+        },
+        {
+          "text": "not",
+          "start": 1.4
+        },
+        {
+          "text": "biters.",
+          "start": 1.61
+        },
+        {
+          "text": "We're",
+          "start": 2.82
+        },
+        {
+          "text": "headed",
+          "start": 3.08
+        },
+        {
+          "text": "north.",
+          "start": 3.43
+        },
+        {
+          "text": "*Gull",
+          "start": 4.55
+        },
+        {
+          "text": "Point.*",
+          "start": 4.71
+        }
+      ]
+    },
+    {
+      "id": "june",
+      "text": "Plenty of room in the back. Bring the *dog.*",
+      "style": "A woman leaning out of a truck window, warm and sweet like honey, with something cold underneath.",
+      "voice": "Kore",
+      "story": 236,
+      "anchors": {},
+      "file": "last-light/part06/voice/june.wav",
+      "duration": 3.19,
+      "speechStart": 0.29,
+      "speechEnd": 2.95,
+      "words": [
+        {
+          "text": "Plenty",
+          "start": 0.29
+        },
+        {
+          "text": "of",
+          "start": 0.83
+        },
+        {
+          "text": "room",
+          "start": 0.95
+        },
+        {
+          "text": "in",
+          "start": 1.07
+        },
+        {
+          "text": "the",
+          "start": 1.38
+        },
+        {
+          "text": "back.",
+          "start": 1.76
+        },
+        {
+          "text": "Bring",
+          "start": 2.05
+        },
+        {
+          "text": "the",
+          "start": 2.38
+        },
+        {
+          "text": "*dog.*",
+          "start": 2.5
+        }
+      ]
+    },
+    {
+      "id": "yes",
+      "text": "Fifty miles, in one night. I said *yes.*",
+      "style": "Narrating quietly, tempted, hopeful, a small smile in the voice.",
+      "voice": "Algenib",
+      "story": 330,
+      "anchors": {},
+      "file": "last-light/part06/voice/yes.wav",
+      "duration": 4.69,
+      "speechStart": 0.35000000000000003,
+      "speechEnd": 4.51,
+      "words": [
+        {
+          "text": "Fifty",
+          "start": 0.35
+        },
+        {
+          "text": "miles,",
+          "start": 0.84
+        },
+        {
+          "text": "in",
+          "start": 1.83
+        },
+        {
+          "text": "one",
+          "start": 2.06
+        },
+        {
+          "text": "night.",
+          "start": 2.47
+        },
+        {
+          "text": "I",
+          "start": 3.62
+        },
+        {
+          "text": "said",
+          "start": 3.74
+        },
+        {
+          "text": "*yes.*",
+          "start": 4.02
+        }
+      ]
+    },
+    {
+      "id": "no",
+      "text": "And I said *no.*",
+      "style": "Teenage girl, low and firm, whispering so the strangers don't hear, no doubt at all.",
+      "voice": "Leda",
+      "story": 410,
+      "anchors": {},
+      "file": "last-light/part06/voice/no.wav",
+      "duration": 2.3,
+      "speechStart": 0.23,
+      "speechEnd": 2.02,
+      "words": [
+        {
+          "text": "And",
+          "start": 0.25
+        },
+        {
+          "text": "I",
+          "start": 0.47
+        },
+        {
+          "text": "said",
+          "start": 0.62
+        },
+        {
+          "text": "*no.*",
+          "start": 1.39
+        }
+      ]
+    },
+    {
+      "id": "climb",
+      "text": "I didn't listen.",
+      "style": "Narrating, quiet regret, looking back on a mistake.",
+      "voice": "Algenib",
+      "story": 470,
+      "anchors": {},
+      "file": "last-light/part06/voice/climb.wav",
+      "duration": 1.88,
+      "speechStart": 0.26,
+      "speechEnd": 1.36,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.26
+        },
+        {
+          "text": "didn't",
+          "start": 0.38
+        },
+        {
+          "text": "listen.",
+          "start": 1.05
+        }
+      ]
+    },
+    {
+      "id": "ride",
+      "text": "For twenty miles, it felt like we'd *made it.*",
+      "style": "Narrating over wind, relieved and almost happy, breathing out.",
+      "voice": "Algenib",
+      "story": 560,
+      "anchors": {},
+      "file": "last-light/part06/voice/ride.wav",
+      "duration": 4.08,
+      "speechStart": 0.26,
+      "speechEnd": 3.72,
+      "words": [
+        {
+          "text": "For",
+          "start": 0.26
+        },
+        {
+          "text": "twenty",
+          "start": 0.65
+        },
+        {
+          "text": "miles,",
+          "start": 1.05
+        },
+        {
+          "text": "it",
+          "start": 1.98
+        },
+        {
+          "text": "felt",
+          "start": 2.2
+        },
+        {
+          "text": "like",
+          "start": 2.59
+        },
+        {
+          "text": "we'd",
+          "start": 3.05
+        },
+        {
+          "text": "*made",
+          "start": 3.37
+        },
+        {
+          "text": "it.*",
+          "start": 3.61
+        }
+      ]
+    },
+    {
+      "id": "look",
+      "text": "She keeps looking at *Biscuit.*",
+      "style": "Teenage girl whispering over the wind in the back of a moving truck, uneasy, suspicious.",
+      "voice": "Leda",
+      "story": 700,
+      "anchors": {},
+      "file": "last-light/part06/voice/look.wav",
+      "duration": 2.56,
+      "speechStart": 0.26,
+      "speechEnd": 2.33,
+      "words": [
+        {
+          "text": "She",
+          "start": 0.26
+        },
+        {
+          "text": "keeps",
+          "start": 0.38
+        },
+        {
+          "text": "looking",
+          "start": 0.69
+        },
+        {
+          "text": "at",
+          "start": 1.29
+        },
+        {
+          "text": "*Biscuit.*",
+          "start": 1.64
+        }
+      ]
+    },
+    {
+      "id": "fuel",
+      "text": "Fuel stop. Go check inside for *water.*",
+      "style": "The gravelly drifter, casual and easy, as if it means nothing.",
+      "voice": "Gacrux",
+      "story": 862,
+      "anchors": {},
+      "file": "last-light/part06/voice/fuel.wav",
+      "duration": 3.3,
+      "speechStart": 0.2,
+      "speechEnd": 3.0300000000000002,
+      "words": [
+        {
+          "text": "Fuel",
+          "start": 0.29
+        },
+        {
+          "text": "stop.",
+          "start": 0.52
+        },
+        {
+          "text": "Go",
+          "start": 1.51
+        },
+        {
+          "text": "check",
+          "start": 1.63
+        },
+        {
+          "text": "inside",
+          "start": 2.01
+        },
+        {
+          "text": "for",
+          "start": 2.52
+        },
+        {
+          "text": "*water.*",
+          "start": 2.76
+        }
+      ]
+    },
+    {
+      "id": "engine",
+      "text": "Then the engine *started.*",
+      "style": "Narrating, sudden cold dread, the last word sharp.",
+      "voice": "Algenib",
+      "story": 1030,
+      "anchors": {},
+      "file": "last-light/part06/voice/engine.wav",
+      "duration": 2.65,
+      "speechStart": 0.24,
+      "speechEnd": 2.35,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.26
+        },
+        {
+          "text": "the",
+          "start": 0.41
+        },
+        {
+          "text": "engine",
+          "start": 0.92
+        },
+        {
+          "text": "*started.*",
+          "start": 1.34
+        }
+      ]
+    },
+    {
+      "id": "took",
+      "text": "Our bags. Our *food.*",
+      "style": "Out of breath from running, panicked, disbelieving.",
+      "voice": "Algenib",
+      "story": 1098,
+      "anchors": {},
+      "file": "last-light/part06/voice/took.wav",
+      "duration": 3.04,
+      "speechStart": 0.1,
+      "speechEnd": 2.75,
+      "words": [
+        {
+          "text": "Our",
+          "start": 0.17
+        },
+        {
+          "text": "bags.",
+          "start": 0.32
+        },
+        {
+          "text": "Our",
+          "start": 0.99
+        },
+        {
+          "text": "*food.*",
+          "start": 1.57
+        }
+      ]
+    },
+    {
+      "id": "biscuit",
+      "text": "They took *Biscuit!*",
+      "style": "Teenage girl screaming after a truck driving away, voice cracking, heartbroken and furious.",
+      "voice": "Leda",
+      "story": 1150,
+      "anchors": {},
+      "file": "last-light/part06/voice/biscuit.wav",
+      "duration": 1.84,
+      "speechStart": 0.28,
+      "speechEnd": 1.61,
+      "words": [
+        {
+          "text": "They",
+          "start": 0.3
+        },
+        {
+          "text": "took",
+          "start": 0.42
+        },
+        {
+          "text": "*Biscuit!*",
+          "start": 0.78
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "text": "I wanted a ride so badly... I never asked what it would *cost.*",
+      "style": "Narrating, quiet and bitter, slow, a long pause before the last word.",
+      "voice": "Algenib",
+      "story": 1252,
+      "anchors": {},
+      "file": "last-light/part06/voice/cost.wav",
+      "duration": 5.79,
+      "speechStart": 0.25,
+      "speechEnd": 5.44,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.25
+        },
+        {
+          "text": "wanted",
+          "start": 0.37
+        },
+        {
+          "text": "a",
+          "start": 1.09
+        },
+        {
+          "text": "ride",
+          "start": 1.24
+        },
+        {
+          "text": "so",
+          "start": 1.87
+        },
+        {
+          "text": "badly...",
+          "start": 2.18
+        },
+        {
+          "text": "I",
+          "start": 3.15
+        },
+        {
+          "text": "never",
+          "start": 3.27
+        },
+        {
+          "text": "asked",
+          "start": 3.68
+        },
+        {
+          "text": "what",
+          "start": 4
+        },
+        {
+          "text": "it",
+          "start": 4.37
+        },
+        {
+          "text": "would",
+          "start": 4.68
+        },
+        {
+          "text": "*cost.*",
+          "start": 5.04
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "last-light-07",
+  "title": "Last Light — Part 7: The Bridge",
+  "publicDir": "last-light/part07",
+  "voice": "Algenib",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 4,
+      "text": "Fifty miles north. One bridge. And it was *full.*",
+      "style": "First-person survivor, out of breath from walking fast, low and tense, the last word dropping like a stone."
+    },
+    {
+      "id": "roofs",
+      "story": 200,
+      "text": "So we didn't walk on the road. We walked on the *roofs.*",
+      "style": "Narrating, a grim little smile in the voice, quick, the last word landing with nerve."
+    },
+    {
+      "id": "look",
+      "story": 400,
+      "voice": "Leda",
+      "text": "Don't look down. Don't look at *them.*",
+      "style": "Teenage girl whispering fast while balancing high up, scared but steady, talking herself through it."
+    },
+    {
+      "id": "truck",
+      "story": 560,
+      "text": "Halfway across, we found the *truck.*",
+      "style": "Narrating, slowing down, cold surprise on the last word."
+    },
+    {
+      "id": "leash",
+      "story": 760,
+      "voice": "Leda",
+      "text": "That's his *leash.*",
+      "style": "Teenage girl, small broken voice, holding something that hurts to hold, close to tears."
+    },
+    {
+      "id": "gone",
+      "story": 830,
+      "text": "Wade and June were gone. And *Biscuit* with them.",
+      "style": "Narrating, quiet and heavy, a long breath before the dog's name."
+    },
+    {
+      "id": "gap",
+      "story": 1080,
+      "text": "One gap left. The *biggest.*",
+      "style": "Narrating, tense whisper, sizing up a jump, heart pounding."
+    },
+    {
+      "id": "almost",
+      "story": 1260,
+      "text": "I made it. *Almost.*",
+      "style": "Narrating, a flash of relief, then the floor dropping out on the last word."
+    },
+    {
+      "id": "ankle",
+      "story": 1340,
+      "text": "Then something grabbed my *ankle.*",
+      "style": "Narrating, a terrified whisper, slow, the last word sharp with horror."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        3,
+        2,
+        4
+      ],
+      "roofs": [
+        4,
+        3,
+        5
+      ],
+      "look": [
+        3,
+        4
+      ],
+      "truck": [
+        2,
+        4
+      ],
+      "leash": [
+        3
+      ],
+      "gone": [
+        5,
+        4
+      ],
+      "gap": [
+        3,
+        2
+      ],
+      "almost": [
+        3,
+        1
+      ],
+      "ankle": [
+        2,
+        3
+      ]
+    },
+    "speakers": {
+      "look": "mia",
+      "leash": "mia"
+    }
+  },
+  "timeline": {
+    "gap": 6,
+    "maxSpeedup": 1,
+    "endHold": 62,
+    "captionLead": 2,
+    "maxPause": 0.25
+  },
+  "music": {
+    "title": "Last Light - The Bridge",
+    "style": "Cinematic survival score at dusk. A tense ticking pulse and a low cello ostinato that climbs as they cross, taut staccato strings, a wide lonely brass swell when the empty truck is found, then a slow sad piano, then a rising tremolo build to a sudden cut. Instrumental only, no vocals, mixed to sit under dialogue.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "wind": {
+      "prompt": "Strong wind high on a long steel bridge at dusk, steel cables humming and creaking, distant water far below, isolated ambience, no music.",
+      "loop": true
+    },
+    "moans": {
+      "prompt": "A crowd of zombies moaning and groaning close by, shuffling feet, hands slapping on car metal, eerie, isolated sound effect, no music.",
+      "loop": true
+    },
+    "roof": {
+      "prompt": "Sneakers landing hard on a car roof, the thin metal dents with a hollow bang, isolated sound effect, no music."
+    },
+    "glass": {
+      "prompt": "Broken glass crunching under shoes, small shards tinkling, isolated sound effect, no music."
+    }
+  },
+  "mix": {
+    "musicDb": -26,
+    "levelLines": true
+  },
+  "sfx": "last-light-07"
+}

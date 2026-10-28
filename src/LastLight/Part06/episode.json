@@ -1,0 +1,187 @@
+{
+  "id": "last-light-06",
+  "title": "Last Light — Part 6: Strangers",
+  "publicDir": "last-light/part06",
+  "voice": "Algenib",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 6,
+      "text": "The man in the door had a rifle. And a *truck.*",
+      "style": "First-person survivor, tense whisper, eyes squinting into a torch, a beat of surprise on the last word."
+    },
+    {
+      "id": "wade",
+      "story": 104,
+      "voice": "Gacrux",
+      "text": "Easy. We're not biters. We're headed north. *Gull Point.*",
+      "style": "A middle-aged drifter with a gravelly voice, slow and friendly, a little too friendly, smiling while he talks."
+    },
+    {
+      "id": "june",
+      "story": 236,
+      "voice": "Kore",
+      "text": "Plenty of room in the back. Bring the *dog.*",
+      "style": "A woman leaning out of a truck window, warm and sweet like honey, with something cold underneath."
+    },
+    {
+      "id": "yes",
+      "story": 330,
+      "text": "Fifty miles, in one night. I said *yes.*",
+      "style": "Narrating quietly, tempted, hopeful, a small smile in the voice."
+    },
+    {
+      "id": "no",
+      "story": 410,
+      "voice": "Leda",
+      "text": "And I said *no.*",
+      "style": "Teenage girl, low and firm, whispering so the strangers don't hear, no doubt at all."
+    },
+    {
+      "id": "climb",
+      "story": 470,
+      "text": "I didn't listen.",
+      "style": "Narrating, quiet regret, looking back on a mistake."
+    },
+    {
+      "id": "ride",
+      "story": 560,
+      "text": "For twenty miles, it felt like we'd *made it.*",
+      "style": "Narrating over wind, relieved and almost happy, breathing out."
+    },
+    {
+      "id": "look",
+      "story": 700,
+      "voice": "Leda",
+      "text": "She keeps looking at *Biscuit.*",
+      "style": "Teenage girl whispering over the wind in the back of a moving truck, uneasy, suspicious."
+    },
+    {
+      "id": "fuel",
+      "story": 862,
+      "voice": "Gacrux",
+      "text": "Fuel stop. Go check inside for *water.*",
+      "style": "The gravelly drifter, casual and easy, as if it means nothing."
+    },
+    {
+      "id": "engine",
+      "story": 1030,
+      "text": "Then the engine *started.*",
+      "style": "Narrating, sudden cold dread, the last word sharp."
+    },
+    {
+      "id": "took",
+      "story": 1098,
+      "text": "Our bags. Our *food.*",
+      "style": "Out of breath from running, panicked, disbelieving."
+    },
+    {
+      "id": "biscuit",
+      "story": 1150,
+      "voice": "Leda",
+      "text": "They took *Biscuit!*",
+      "style": "Teenage girl screaming after a truck driving away, voice cracking, heartbroken and furious."
+    },
+    {
+      "id": "cost",
+      "story": 1252,
+      "text": "I wanted a ride so badly... I never asked what it would *cost.*",
+      "style": "Narrating, quiet and bitter, slow, a long pause before the last word."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        8,
+        3
+      ],
+      "wade": [
+        4,
+        3,
+        2
+      ],
+      "june": [
+        6,
+        3
+      ],
+      "yes": [
+        5,
+        3
+      ],
+      "no": [
+        4
+      ],
+      "climb": [
+        3
+      ],
+      "ride": [
+        3,
+        6
+      ],
+      "look": [
+        5
+      ],
+      "fuel": [
+        2,
+        5
+      ],
+      "engine": [
+        4
+      ],
+      "took": [
+        2,
+        2
+      ],
+      "biscuit": [
+        3
+      ],
+      "cost": [
+        6,
+        7
+      ]
+    },
+    "speakers": {
+      "wade": "wade",
+      "june": "june",
+      "no": "mia",
+      "look": "mia",
+      "fuel": "wade",
+      "biscuit": "mia"
+    }
+  },
+  "timeline": {
+    "gap": 6,
+    "maxSpeedup": 1,
+    "endHold": 62,
+    "captionLead": 2,
+    "maxPause": 0.25
+  },
+  "music": {
+    "title": "Last Light - Strangers",
+    "style": "Cinematic survival score. Opens tense and wary with a low drone and ticking pulse. Then a warm, hopeful road theme: soft driving rhythm, gentle strings and a lonely guitar under a night sky. Slowly an uneasy undertone creeps in, detuned and wrong. It ends in a sudden betrayal: a hard dark swell, then a slow, sad, empty piano. Instrumental only, no vocals, mixed to sit under dialogue.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "idle": {
+      "prompt": "An old pickup truck engine idling at night, low rumble, steady, close, isolated sound effect, no music.",
+      "loop": true
+    },
+    "drive": {
+      "prompt": "Riding in the open back of a pickup truck on a night highway, engine hum, strong wind, tires on asphalt, isolated sound effect, no music.",
+      "loop": true
+    },
+    "peel": {
+      "prompt": "A pickup truck engine starting suddenly, revving hard and tires screeching as it speeds away into the distance, isolated sound effect, no music."
+    },
+    "night": {
+      "prompt": "Empty gas station at night, buzzing fluorescent lights, crickets, distant wind, eerie quiet ambience, no music.",
+      "loop": true
+    }
+  },
+  "mix": {
+    "musicDb": -26,
+    "levelLines": true
+  },
+  "sfx": "last-light-06"
+}

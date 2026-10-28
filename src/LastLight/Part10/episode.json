@@ -1,0 +1,184 @@
+{
+  "id": "last-light-10",
+  "title": "Last Light — Part 10: Last Light",
+  "publicDir": "last-light/part10",
+  "voice": "Algenib",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 4,
+      "text": "Two hundred steps to the top. I wasn't going to *make* it.",
+      "style": "First-person survivor, feverish, gasping while climbing, hoarse and fading, calm acceptance on the last words."
+    },
+    {
+      "id": "gave",
+      "story": 225,
+      "text": "Below us, the door *gave.*",
+      "style": "Narrating, breathless, sudden dread, the last word sharp."
+    },
+    {
+      "id": "gen",
+      "story": 318,
+      "text": "The generator was dead. So I *woke* it.",
+      "style": "Narrating, exhausted but stubborn, a grim spark of determination on the last words."
+    },
+    {
+      "id": "eyes",
+      "story": 470,
+      "voice": "Leda",
+      "text": "Kai... your *eyes.*",
+      "style": "Teenage girl, horrified whisper, voice breaking, a long pause after the name."
+    },
+    {
+      "id": "know",
+      "story": 545,
+      "text": "I know.",
+      "style": "A dying young man, very soft and gentle, sad and calm, almost a whisper."
+    },
+    {
+      "id": "note",
+      "story": 580,
+      "text": "Read it when I'm gone. Now lock the *hatch.*",
+      "style": "A dying young man handing over a letter, gentle and tender on the first sentence, then firm and urgent."
+    },
+    {
+      "id": "no",
+      "story": 700,
+      "voice": "Leda",
+      "text": "No. No, no, *no.*",
+      "style": "Teenage girl begging, crying, voice cracking, desperate and heartbroken, getting louder."
+    },
+    {
+      "id": "lockit",
+      "story": 775,
+      "text": "Lock it, Mia.",
+      "style": "A young man calling up from below, quiet and loving but final, holding back tears."
+    },
+    {
+      "id": "read",
+      "story": 955,
+      "voice": "Leda",
+      "text": "If you're reading this, I didn't make it. Keep the light on. Someone will *see* it.",
+      "style": "Teenage girl reading a farewell letter aloud through tears, broken voice, trembling, slow, gathering strength on the last sentence."
+    },
+    {
+      "id": "watched",
+      "story": 1215,
+      "voice": "Leda",
+      "text": "I watched the coast all night, waiting for a light to answer.",
+      "style": "Teenage girl narrating quietly, hollow and still, hope slowly draining away."
+    },
+    {
+      "id": "kept",
+      "story": 1390,
+      "voice": "Leda",
+      "text": "I kept the light on. Every night.",
+      "style": "Teenage girl narrating, soft and steady, lonely, older than her years."
+    },
+    {
+      "id": "came",
+      "story": 1560,
+      "voice": "Leda",
+      "text": "Nobody ever *came.*",
+      "style": "Teenage girl, a final quiet whisper, utterly alone, a long breath before the last word."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        6,
+        6
+      ],
+      "gave": [
+        5
+      ],
+      "gen": [
+        4,
+        4
+      ],
+      "eyes": [
+        1,
+        2
+      ],
+      "know": [
+        2
+      ],
+      "note": [
+        5,
+        4
+      ],
+      "no": [
+        1,
+        3
+      ],
+      "lockit": [
+        3
+      ],
+      "read": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "watched": [
+        6,
+        6
+      ],
+      "kept": [
+        5,
+        2
+      ],
+      "came": [
+        3
+      ]
+    },
+    "speakers": {
+      "eyes": "mia",
+      "know": "kai",
+      "note": "kai",
+      "no": "mia",
+      "lockit": "kai",
+      "read": "mia",
+      "watched": "mia",
+      "kept": "mia",
+      "came": "mia"
+    }
+  },
+  "timeline": {
+    "gap": 6,
+    "maxSpeedup": 1,
+    "endHold": 62,
+    "captionLead": 2,
+    "maxPause": 0.3
+  },
+  "music": {
+    "title": "Last Light - Last Light",
+    "style": "Sad, sparse cinematic finale. Solo piano and slow strings. Opens tense with a low pulse and breathing strings during a desperate climb, then falls into a fragile, aching piano theme. A tender, heartbreaking string swell as a great light comes on, then long, lonely, quiet piano notes with lots of space and silence, fading to nothing. Instrumental only, no vocals, mixed to sit under dialogue.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, drums, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "tower": {
+      "prompt": "Inside a tall stone lighthouse tower at night, wind howling outside, hollow echo, distant waves, eerie ambience, no music.",
+      "loop": true
+    },
+    "generator": {
+      "prompt": "Pulling the starter cord of an old petrol generator several times, it sputters, coughs, then catches and runs with a steady rumble, isolated sound effect, no music."
+    },
+    "lamp": {
+      "prompt": "A huge old lighthouse lamp powering on, heavy electrical clunk, rising electric hum and buzz, then a steady glowing hum, isolated sound effect, no music."
+    },
+    "sea": {
+      "prompt": "Calm dark sea at night seen from a high cliff, slow waves on rocks far below, soft wind, lonely ambience, no music.",
+      "loop": true
+    },
+    "whine": {
+      "prompt": "A dog whining and whimpering sadly, scratching at a closed wooden door, isolated sound effect, no music."
+    }
+  },
+  "mix": {
+    "musicDb": -25,
+    "levelLines": true
+  },
+  "sfx": "last-light-10"
+}

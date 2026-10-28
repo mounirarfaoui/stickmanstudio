@@ -1,0 +1,602 @@
+{
+  "fps": 30,
+  "duration": 1500,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      380,
+      380
+    ],
+    [
+      520,
+      520
+    ],
+    [
+      630,
+      630
+    ],
+    [
+      720,
+      720
+    ],
+    [
+      900,
+      900
+    ],
+    [
+      1090,
+      1090
+    ],
+    [
+      1260,
+      1260
+    ],
+    [
+      1500,
+      1500
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "last-light/part08/voice/hook.wav",
+      "at": -0.1467,
+      "speech": [
+        0.133,
+        5.793
+      ]
+    },
+    {
+      "id": "ran",
+      "file": "last-light/part08/voice/ran.wav",
+      "at": 6.4667,
+      "speech": [
+        6.667,
+        10.617
+      ]
+    },
+    {
+      "id": "scratch",
+      "file": "last-light/part08/voice/scratch.wav",
+      "at": 12.2567,
+      "speech": [
+        12.667,
+        15.867
+      ]
+    },
+    {
+      "id": "promise",
+      "file": "last-light/part08/voice/promise.wav",
+      "at": 17.0433,
+      "speech": [
+        17.333,
+        20.073
+      ]
+    },
+    {
+      "id": "shut",
+      "file": "last-light/part08/voice/shut.wav",
+      "at": 20.73,
+      "speech": [
+        21,
+        22.47
+      ]
+    },
+    {
+      "id": "note",
+      "file": "last-light/part08/voice/note.wav",
+      "at": 23.56,
+      "speech": [
+        24,
+        26.99
+      ]
+    },
+    {
+      "id": "morning",
+      "file": "last-light/part08/voice/morning.wav",
+      "at": 29.76,
+      "speech": [
+        30,
+        34.95
+      ]
+    },
+    {
+      "id": "biscuit",
+      "file": "last-light/part08/voice/biscuit.wav",
+      "at": 36.0533,
+      "speech": [
+        36.333,
+        37.783
+      ]
+    },
+    {
+      "id": "cough",
+      "file": "last-light/part08/voice/cough.wav",
+      "at": 41.63,
+      "speech": [
+        42,
+        45.98
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 2,
+      "to": 55,
+      "words": [
+        {
+          "text": "Mia",
+          "emph": false,
+          "frame": 4
+        },
+        {
+          "text": "pulled.",
+          "emph": false,
+          "frame": 24
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 55,
+      "to": 112,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 57
+        },
+        {
+          "text": "kicked.",
+          "emph": false,
+          "frame": 63
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 112,
+      "to": 186,
+      "words": [
+        {
+          "text": "Something",
+          "emph": false,
+          "frame": 114
+        },
+        {
+          "text": "tore.",
+          "emph": true,
+          "frame": 165
+        }
+      ]
+    },
+    {
+      "line": "ran",
+      "from": 199,
+      "to": 250,
+      "words": [
+        {
+          "text": "We",
+          "emph": false,
+          "frame": 201
+        },
+        {
+          "text": "ran",
+          "emph": false,
+          "frame": 204
+        },
+        {
+          "text": "till",
+          "emph": false,
+          "frame": 217
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 231
+        }
+      ]
+    },
+    {
+      "line": "ran",
+      "from": 250,
+      "to": 331,
+      "words": [
+        {
+          "text": "bridge",
+          "emph": false,
+          "frame": 252
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 268
+        },
+        {
+          "text": "behind",
+          "emph": false,
+          "frame": 286
+        },
+        {
+          "text": "us.",
+          "emph": false,
+          "frame": 294
+        }
+      ]
+    },
+    {
+      "line": "scratch",
+      "from": 379,
+      "to": 414,
+      "words": [
+        {
+          "text": "Three",
+          "emph": false,
+          "frame": 381
+        },
+        {
+          "text": "lines.",
+          "emph": false,
+          "frame": 385
+        }
+      ]
+    },
+    {
+      "line": "scratch",
+      "from": 414,
+      "to": 442,
+      "words": [
+        {
+          "text": "Not",
+          "emph": false,
+          "frame": 416
+        },
+        {
+          "text": "deep.",
+          "emph": false,
+          "frame": 419
+        }
+      ]
+    },
+    {
+      "line": "scratch",
+      "from": 442,
+      "to": 488,
+      "words": [
+        {
+          "text": "They",
+          "emph": false,
+          "frame": 444
+        },
+        {
+          "text": "didn't",
+          "emph": false,
+          "frame": 449
+        },
+        {
+          "text": "need",
+          "emph": false,
+          "frame": 459
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 467
+        },
+        {
+          "text": "be.",
+          "emph": true,
+          "frame": 471
+        }
+      ]
+    },
+    {
+      "line": "promise",
+      "from": 518,
+      "to": 547,
+      "words": [
+        {
+          "text": "If",
+          "emph": false,
+          "frame": 520
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 524
+        },
+        {
+          "text": "turn...",
+          "emph": false,
+          "frame": 527
+        }
+      ]
+    },
+    {
+      "line": "promise",
+      "from": 547,
+      "to": 583,
+      "words": [
+        {
+          "text": "don't",
+          "emph": false,
+          "frame": 549
+        },
+        {
+          "text": "wait.",
+          "emph": false,
+          "frame": 559
+        }
+      ]
+    },
+    {
+      "line": "promise",
+      "from": 583,
+      "to": 614,
+      "words": [
+        {
+          "text": "Promise",
+          "emph": true,
+          "frame": 585
+        },
+        {
+          "text": "me.",
+          "emph": false,
+          "frame": 597
+        }
+      ]
+    },
+    {
+      "line": "shut",
+      "from": 629,
+      "to": 686,
+      "words": [
+        {
+          "text": "Shut",
+          "emph": false,
+          "frame": 631
+        },
+        {
+          "text": "up,",
+          "emph": false,
+          "frame": 637
+        },
+        {
+          "text": "Kai.",
+          "emph": false,
+          "frame": 652
+        }
+      ]
+    },
+    {
+      "line": "note",
+      "from": 718,
+      "to": 730,
+      "words": [
+        {
+          "text": "That",
+          "emph": false,
+          "frame": 720
+        },
+        {
+          "text": "night,",
+          "emph": false,
+          "frame": 724
+        }
+      ]
+    },
+    {
+      "line": "note",
+      "from": 730,
+      "to": 775,
+      "words": [
+        {
+          "text": "while",
+          "emph": false,
+          "frame": 732
+        },
+        {
+          "text": "she",
+          "emph": false,
+          "frame": 744
+        },
+        {
+          "text": "slept,",
+          "emph": false,
+          "frame": 754
+        }
+      ]
+    },
+    {
+      "line": "note",
+      "from": 775,
+      "to": 822,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 777
+        },
+        {
+          "text": "wrote",
+          "emph": false,
+          "frame": 781
+        },
+        {
+          "text": "her",
+          "emph": false,
+          "frame": 787
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 792
+        },
+        {
+          "text": "note.",
+          "emph": true,
+          "frame": 796
+        }
+      ]
+    },
+    {
+      "line": "morning",
+      "from": 899,
+      "to": 955,
+      "words": [
+        {
+          "text": "Morning",
+          "emph": false,
+          "frame": 901
+        },
+        {
+          "text": "came.",
+          "emph": false,
+          "frame": 931
+        }
+      ]
+    },
+    {
+      "line": "morning",
+      "from": 955,
+      "to": 1061,
+      "words": [
+        {
+          "text": "My",
+          "emph": false,
+          "frame": 957
+        },
+        {
+          "text": "eyes",
+          "emph": false,
+          "frame": 981
+        },
+        {
+          "text": "were",
+          "emph": false,
+          "frame": 1000
+        },
+        {
+          "text": "still",
+          "emph": false,
+          "frame": 1006
+        },
+        {
+          "text": "mine.",
+          "emph": true,
+          "frame": 1021
+        }
+      ]
+    },
+    {
+      "line": "biscuit",
+      "from": 1088,
+      "to": 1146,
+      "words": [
+        {
+          "text": "Is",
+          "emph": false,
+          "frame": 1090
+        },
+        {
+          "text": "that...",
+          "emph": false,
+          "frame": 1094
+        },
+        {
+          "text": "Biscuit?",
+          "emph": true,
+          "frame": 1101
+        }
+      ]
+    },
+    {
+      "line": "cough",
+      "from": 1259,
+      "to": 1306,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 1261
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 1269
+        },
+        {
+          "text": "coughed.",
+          "emph": false,
+          "frame": 1274
+        }
+      ]
+    },
+    {
+      "line": "cough",
+      "from": 1306,
+      "to": 1345,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 1308
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 1316
+        },
+        {
+          "text": "didn't",
+          "emph": false,
+          "frame": 1320
+        },
+        {
+          "text": "tell",
+          "emph": false,
+          "frame": 1331
+        },
+        {
+          "text": "her",
+          "emph": false,
+          "frame": 1340
+        }
+      ]
+    },
+    {
+      "line": "cough",
+      "from": 1345,
+      "to": 1391,
+      "words": [
+        {
+          "text": "what",
+          "emph": false,
+          "frame": 1347
+        },
+        {
+          "text": "came",
+          "emph": false,
+          "frame": 1356
+        },
+        {
+          "text": "up.",
+          "emph": true,
+          "frame": 1364
+        }
+      ]
+    }
+  ]
+}

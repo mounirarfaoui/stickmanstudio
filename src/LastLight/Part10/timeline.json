@@ -1,0 +1,748 @@
+{
+  "fps": 30,
+  "duration": 1745,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      225,
+      225
+    ],
+    [
+      318,
+      318
+    ],
+    [
+      470,
+      470
+    ],
+    [
+      545,
+      545
+    ],
+    [
+      580,
+      580
+    ],
+    [
+      700,
+      700
+    ],
+    [
+      775,
+      775
+    ],
+    [
+      955,
+      955
+    ],
+    [
+      1215,
+      1215
+    ],
+    [
+      1390,
+      1390
+    ],
+    [
+      1560,
+      1560
+    ],
+    [
+      1745,
+      1745
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "last-light/part10/voice/hook.wav",
+      "at": -0.1967,
+      "speech": [
+        0.133,
+        7.163
+      ]
+    },
+    {
+      "id": "gave",
+      "file": "last-light/part10/voice/gave.wav",
+      "at": 7.28,
+      "speech": [
+        7.5,
+        9.87
+      ]
+    },
+    {
+      "id": "gen",
+      "file": "last-light/part10/voice/gen.wav",
+      "at": 10.4,
+      "speech": [
+        10.6,
+        14.98
+      ]
+    },
+    {
+      "id": "eyes",
+      "file": "last-light/part10/voice/eyes.wav",
+      "at": 15.3967,
+      "speech": [
+        15.667,
+        17.517
+      ]
+    },
+    {
+      "id": "know",
+      "file": "last-light/part10/voice/know.wav",
+      "at": 17.9367,
+      "speech": [
+        18.167,
+        18.857
+      ]
+    },
+    {
+      "id": "note",
+      "file": "last-light/part10/voice/note.wav",
+      "at": 19.1633,
+      "speech": [
+        19.333,
+        22.563
+      ]
+    },
+    {
+      "id": "no",
+      "file": "last-light/part10/voice/no.wav",
+      "at": 23.0033,
+      "speech": [
+        23.333,
+        25.153
+      ]
+    },
+    {
+      "id": "lockit",
+      "file": "last-light/part10/voice/lockit.wav",
+      "at": 25.6133,
+      "speech": [
+        25.833,
+        27.113
+      ]
+    },
+    {
+      "id": "read",
+      "file": "last-light/part10/voice/read.wav",
+      "at": 31.4433,
+      "speech": [
+        31.833,
+        39.013
+      ]
+    },
+    {
+      "id": "watched",
+      "file": "last-light/part10/voice/watched.wav",
+      "at": 40.28,
+      "speech": [
+        40.5,
+        44.56
+      ]
+    },
+    {
+      "id": "kept",
+      "file": "last-light/part10/voice/kept.wav",
+      "at": 46.1133,
+      "speech": [
+        46.333,
+        48.473
+      ]
+    },
+    {
+      "id": "came",
+      "file": "last-light/part10/voice/came.wav",
+      "at": 51.67,
+      "speech": [
+        52,
+        54.15
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 3,
+      "to": 171,
+      "words": [
+        {
+          "text": "Two",
+          "emph": false,
+          "frame": 5
+        },
+        {
+          "text": "hundred",
+          "emph": false,
+          "frame": 18
+        },
+        {
+          "text": "steps",
+          "emph": false,
+          "frame": 67
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 103
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 120
+        },
+        {
+          "text": "top.",
+          "emph": false,
+          "frame": 134
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 171,
+      "to": 223,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 173
+        },
+        {
+          "text": "wasn't",
+          "emph": false,
+          "frame": 184
+        },
+        {
+          "text": "going",
+          "emph": false,
+          "frame": 187
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 191
+        },
+        {
+          "text": "make",
+          "emph": true,
+          "frame": 202
+        },
+        {
+          "text": "it.",
+          "emph": false,
+          "frame": 209
+        }
+      ]
+    },
+    {
+      "line": "gave",
+      "from": 224,
+      "to": 308,
+      "words": [
+        {
+          "text": "Below",
+          "emph": false,
+          "frame": 226
+        },
+        {
+          "text": "us,",
+          "emph": false,
+          "frame": 238
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 253
+        },
+        {
+          "text": "door",
+          "emph": false,
+          "frame": 264
+        },
+        {
+          "text": "gave.",
+          "emph": true,
+          "frame": 279
+        }
+      ]
+    },
+    {
+      "line": "gen",
+      "from": 318,
+      "to": 406,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 320
+        },
+        {
+          "text": "generator",
+          "emph": false,
+          "frame": 324
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 359
+        },
+        {
+          "text": "dead.",
+          "emph": false,
+          "frame": 371
+        }
+      ]
+    },
+    {
+      "line": "gen",
+      "from": 406,
+      "to": 461,
+      "words": [
+        {
+          "text": "So",
+          "emph": false,
+          "frame": 408
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 411
+        },
+        {
+          "text": "woke",
+          "emph": true,
+          "frame": 420
+        },
+        {
+          "text": "it.",
+          "emph": false,
+          "frame": 432
+        }
+      ]
+    },
+    {
+      "line": "eyes",
+      "from": 468,
+      "to": 482,
+      "words": [
+        {
+          "text": "Kai...",
+          "emph": false,
+          "frame": 470
+        }
+      ]
+    },
+    {
+      "line": "eyes",
+      "from": 482,
+      "to": 538,
+      "words": [
+        {
+          "text": "your",
+          "emph": false,
+          "frame": 484
+        },
+        {
+          "text": "eyes.",
+          "emph": true,
+          "frame": 504
+        }
+      ]
+    },
+    {
+      "line": "know",
+      "from": 543,
+      "to": 578,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 545
+        },
+        {
+          "text": "know.",
+          "emph": false,
+          "frame": 549
+        }
+      ]
+    },
+    {
+      "line": "note",
+      "from": 583,
+      "to": 631,
+      "words": [
+        {
+          "text": "Read",
+          "emph": false,
+          "frame": 585
+        },
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 589
+        },
+        {
+          "text": "when",
+          "emph": false,
+          "frame": 597
+        },
+        {
+          "text": "I'm",
+          "emph": false,
+          "frame": 608
+        },
+        {
+          "text": "gone.",
+          "emph": false,
+          "frame": 620
+        }
+      ]
+    },
+    {
+      "line": "note",
+      "from": 631,
+      "to": 689,
+      "words": [
+        {
+          "text": "Now",
+          "emph": false,
+          "frame": 633
+        },
+        {
+          "text": "lock",
+          "emph": false,
+          "frame": 648
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 651
+        },
+        {
+          "text": "hatch.",
+          "emph": true,
+          "frame": 657
+        }
+      ]
+    },
+    {
+      "line": "no",
+      "from": 699,
+      "to": 712,
+      "words": [
+        {
+          "text": "No.",
+          "emph": false,
+          "frame": 701
+        }
+      ]
+    },
+    {
+      "line": "no",
+      "from": 712,
+      "to": 767,
+      "words": [
+        {
+          "text": "No,",
+          "emph": false,
+          "frame": 714
+        },
+        {
+          "text": "no,",
+          "emph": false,
+          "frame": 738
+        },
+        {
+          "text": "no.",
+          "emph": true,
+          "frame": 750
+        }
+      ]
+    },
+    {
+      "line": "lockit",
+      "from": 774,
+      "to": 825,
+      "words": [
+        {
+          "text": "Lock",
+          "emph": false,
+          "frame": 776
+        },
+        {
+          "text": "it,",
+          "emph": false,
+          "frame": 788
+        },
+        {
+          "text": "Mia.",
+          "emph": false,
+          "frame": 808
+        }
+      ]
+    },
+    {
+      "line": "read",
+      "from": 953,
+      "to": 1001,
+      "words": [
+        {
+          "text": "If",
+          "emph": false,
+          "frame": 955
+        },
+        {
+          "text": "you're",
+          "emph": false,
+          "frame": 959
+        },
+        {
+          "text": "reading",
+          "emph": false,
+          "frame": 968
+        },
+        {
+          "text": "this,",
+          "emph": false,
+          "frame": 987
+        }
+      ]
+    },
+    {
+      "line": "read",
+      "from": 1001,
+      "to": 1100,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 1003
+        },
+        {
+          "text": "didn't",
+          "emph": false,
+          "frame": 1009
+        },
+        {
+          "text": "make",
+          "emph": false,
+          "frame": 1044
+        },
+        {
+          "text": "it.",
+          "emph": false,
+          "frame": 1067
+        }
+      ]
+    },
+    {
+      "line": "read",
+      "from": 1100,
+      "to": 1139,
+      "words": [
+        {
+          "text": "Keep",
+          "emph": false,
+          "frame": 1102
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 1106
+        },
+        {
+          "text": "light",
+          "emph": false,
+          "frame": 1112
+        },
+        {
+          "text": "on.",
+          "emph": false,
+          "frame": 1127
+        }
+      ]
+    },
+    {
+      "line": "read",
+      "from": 1139,
+      "to": 1182,
+      "words": [
+        {
+          "text": "Someone",
+          "emph": false,
+          "frame": 1141
+        },
+        {
+          "text": "will",
+          "emph": false,
+          "frame": 1147
+        },
+        {
+          "text": "see",
+          "emph": true,
+          "frame": 1155
+        },
+        {
+          "text": "it.",
+          "emph": false,
+          "frame": 1163
+        }
+      ]
+    },
+    {
+      "line": "watched",
+      "from": 1213,
+      "to": 1279,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 1215
+        },
+        {
+          "text": "watched",
+          "emph": false,
+          "frame": 1219
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 1232
+        },
+        {
+          "text": "coast",
+          "emph": false,
+          "frame": 1238
+        },
+        {
+          "text": "all",
+          "emph": false,
+          "frame": 1253
+        },
+        {
+          "text": "night,",
+          "emph": false,
+          "frame": 1260
+        }
+      ]
+    },
+    {
+      "line": "watched",
+      "from": 1279,
+      "to": 1349,
+      "words": [
+        {
+          "text": "waiting",
+          "emph": false,
+          "frame": 1281
+        },
+        {
+          "text": "for",
+          "emph": false,
+          "frame": 1298
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 1304
+        },
+        {
+          "text": "light",
+          "emph": false,
+          "frame": 1307
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 1319
+        },
+        {
+          "text": "answer.",
+          "emph": false,
+          "frame": 1322
+        }
+      ]
+    },
+    {
+      "line": "kept",
+      "from": 1388,
+      "to": 1430,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 1390
+        },
+        {
+          "text": "kept",
+          "emph": false,
+          "frame": 1394
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 1397
+        },
+        {
+          "text": "light",
+          "emph": false,
+          "frame": 1404
+        },
+        {
+          "text": "on.",
+          "emph": false,
+          "frame": 1416
+        }
+      ]
+    },
+    {
+      "line": "kept",
+      "from": 1430,
+      "to": 1466,
+      "words": [
+        {
+          "text": "Every",
+          "emph": false,
+          "frame": 1432
+        },
+        {
+          "text": "night.",
+          "emph": false,
+          "frame": 1435
+        }
+      ]
+    },
+    {
+      "line": "came",
+      "from": 1560,
+      "to": 1637,
+      "words": [
+        {
+          "text": "Nobody",
+          "emph": false,
+          "frame": 1562
+        },
+        {
+          "text": "ever",
+          "emph": false,
+          "frame": 1592
+        },
+        {
+          "text": "came.",
+          "emph": true,
+          "frame": 1608
+        }
+      ]
+    }
+  ]
+}

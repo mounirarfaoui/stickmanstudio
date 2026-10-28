@@ -1,0 +1,160 @@
+{
+  "id": "last-light-09",
+  "title": "Last Light — Part 9: Gull Point",
+  "publicDir": "last-light/part09",
+  "voice": "Algenib",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 4,
+      "text": "We saw the lighthouse at sunset. And it was *dark.*",
+      "style": "First-person survivor, feverish and out of breath, hoarse, a hollow drop of disbelief on the last word."
+    },
+    {
+      "id": "carry",
+      "story": 145,
+      "text": "Mia carried half my weight the last five *miles.*",
+      "style": "Narrating weakly, sick with fever, ashamed and grateful, slow."
+    },
+    {
+      "id": "gate",
+      "story": 324,
+      "text": "The gate was *open.*",
+      "style": "Narrating, hushed, uneasy, a cold beat on the last word."
+    },
+    {
+      "id": "empty",
+      "story": 412,
+      "text": "Empty beds. No one. Just a radio, still *talking.*",
+      "style": "Narrating in a whisper in an abandoned room, short pauses between phrases, dread growing."
+    },
+    {
+      "id": "radio",
+      "story": 556,
+      "voice": "Orus",
+      "fx": "tv",
+      "text": "This is Gull Point. The lighthouse is a safe zone. We keep the lights on at night.",
+      "style": "A calm, tired man reading an emergency radio message that repeats on a loop, clear and steady, slightly mechanical."
+    },
+    {
+      "id": "months",
+      "story": 750,
+      "voice": "Leda",
+      "text": "It's a recording. It's been playing for *months.*",
+      "style": "Teenage girl, quiet and numb, realising all hope was a lie, voice catching on the last word."
+    },
+    {
+      "id": "never",
+      "story": 874,
+      "text": "There never was a safe *zone.*",
+      "style": "Narrating, empty and broken, slow, almost a whisper."
+    },
+    {
+      "id": "mirror",
+      "story": 968,
+      "text": "In the mirror, my eye flickered *green.*",
+      "style": "Narrating, feverish, frightened and very quiet, a shiver on the last word."
+    },
+    {
+      "id": "followed",
+      "story": 1100,
+      "voice": "Leda",
+      "text": "Kai... they *followed* us.",
+      "style": "Teenage girl at a window, terrified whisper, trembling, a long pause after the name."
+    },
+    {
+      "id": "cliff",
+      "story": 1196,
+      "text": "Mia didn't see my eyes. Biscuit *did.*",
+      "style": "Narrating, low and haunted, a slow pause before the last two words."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        6,
+        4
+      ],
+      "carry": [
+        5,
+        4
+      ],
+      "gate": [
+        4
+      ],
+      "empty": [
+        2,
+        2,
+        5
+      ],
+      "radio": [
+        4,
+        3,
+        3,
+        4,
+        3
+      ],
+      "months": [
+        3,
+        5
+      ],
+      "never": [
+        3,
+        3
+      ],
+      "mirror": [
+        3,
+        4
+      ],
+      "followed": [
+        1,
+        3
+      ],
+      "cliff": [
+        5,
+        2
+      ]
+    },
+    "speakers": {
+      "months": "mia",
+      "followed": "mia"
+    }
+  },
+  "timeline": {
+    "gap": 6,
+    "maxSpeedup": 1,
+    "endHold": 62,
+    "captionLead": 2,
+    "maxPause": 0.25
+  },
+  "music": {
+    "title": "Last Light - Gull Point",
+    "style": "Cinematic post-apocalyptic score. Opens on a weary, aching theme: low cello, soft wind-like pads and a slow heartbeat pulse, like the end of a long walk at sunset. Turns hollow and eerie in an abandoned place: sparse detuned piano, faint radio-like hum. A creeping dread builds with low strings and a ticking pulse, ending on a dark, tense swell. Instrumental only, no vocals, mixed to sit under dialogue.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "coast": {
+      "prompt": "Windy sea cliff at sunset, waves crashing on rocks below, gusts of wind, distant seagulls, isolated ambience, no music.",
+      "loop": true
+    },
+    "gate": {
+      "prompt": "A rusty chain-link metal gate swinging in the wind, slow eerie creak and a soft metal clank, isolated sound effect, no music."
+    },
+    "room": {
+      "prompt": "Abandoned room interior, quiet wind outside, faint tape recorder hiss and motor hum, creaking wood, eerie empty ambience, no music.",
+      "loop": true
+    },
+    "snarl": {
+      "prompt": "A medium dog growling low and menacing, a warning snarl, close, isolated sound effect, no music."
+    }
+  },
+  "mix": {
+    "musicDb": -26,
+    "levelLines": true,
+    "fxGainDb": {
+      "tv": -2
+    }
+  },
+  "sfx": "last-light-09"
+}

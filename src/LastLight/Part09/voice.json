@@ -1,0 +1,461 @@
+{
+  "voice": "Algenib",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "We saw the lighthouse at sunset. And it was *dark.*",
+      "style": "First-person survivor, feverish and out of breath, hoarse, a hollow drop of disbelief on the last word.",
+      "voice": "Algenib",
+      "story": 4,
+      "file": "last-light/part09/voice/hook.wav",
+      "duration": 4.84,
+      "speechStart": 0,
+      "speechEnd": 4.5,
+      "words": [
+        {
+          "text": "We",
+          "start": 0.02
+        },
+        {
+          "text": "saw",
+          "start": 0.27
+        },
+        {
+          "text": "the",
+          "start": 0.54
+        },
+        {
+          "text": "lighthouse",
+          "start": 0.8
+        },
+        {
+          "text": "at",
+          "start": 1.99
+        },
+        {
+          "text": "sunset.",
+          "start": 2.13
+        },
+        {
+          "text": "And",
+          "start": 3.06
+        },
+        {
+          "text": "it",
+          "start": 3.45
+        },
+        {
+          "text": "was",
+          "start": 3.71
+        },
+        {
+          "text": "*dark.*",
+          "start": 4.1
+        }
+      ]
+    },
+    {
+      "id": "carry",
+      "text": "Mia carried half my weight the last five *miles.*",
+      "style": "Narrating weakly, sick with fever, ashamed and grateful, slow.",
+      "voice": "Algenib",
+      "story": 145,
+      "file": "last-light/part09/voice/carry.wav",
+      "duration": 6.05,
+      "speechStart": 0.16,
+      "speechEnd": 5.62,
+      "words": [
+        {
+          "text": "Mia",
+          "start": 0.18
+        },
+        {
+          "text": "carried",
+          "start": 0.38
+        },
+        {
+          "text": "half",
+          "start": 1.27
+        },
+        {
+          "text": "my",
+          "start": 1.77
+        },
+        {
+          "text": "weight",
+          "start": 2.18
+        },
+        {
+          "text": "the",
+          "start": 2.79
+        },
+        {
+          "text": "last",
+          "start": 3.17
+        },
+        {
+          "text": "five",
+          "start": 3.68
+        },
+        {
+          "text": "*miles.*",
+          "start": 4.22
+        }
+      ]
+    },
+    {
+      "id": "gate",
+      "text": "The gate was *open.*",
+      "style": "Narrating, hushed, uneasy, a cold beat on the last word.",
+      "voice": "Algenib",
+      "story": 324,
+      "file": "last-light/part09/voice/gate.wav",
+      "duration": 2.62,
+      "speechStart": 0.32,
+      "speechEnd": 2.32,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.34
+        },
+        {
+          "text": "gate",
+          "start": 0.46
+        },
+        {
+          "text": "was",
+          "start": 0.98
+        },
+        {
+          "text": "*open.*",
+          "start": 1.4
+        }
+      ]
+    },
+    {
+      "id": "empty",
+      "text": "Empty beds. No one. Just a radio, still *talking.*",
+      "style": "Narrating in a whisper in an abandoned room, short pauses between phrases, dread growing.",
+      "voice": "Algenib",
+      "story": 412,
+      "file": "last-light/part09/voice/empty.wav",
+      "duration": 4.93,
+      "speechStart": 0.19,
+      "speechEnd": 4.63,
+      "words": [
+        {
+          "text": "Empty",
+          "start": 0.21
+        },
+        {
+          "text": "beds.",
+          "start": 0.68
+        },
+        {
+          "text": "No",
+          "start": 1.51
+        },
+        {
+          "text": "one.",
+          "start": 1.65
+        },
+        {
+          "text": "Just",
+          "start": 2.38
+        },
+        {
+          "text": "a",
+          "start": 2.68
+        },
+        {
+          "text": "radio,",
+          "start": 2.8
+        },
+        {
+          "text": "still",
+          "start": 3.71
+        },
+        {
+          "text": "*talking.*",
+          "start": 4.11
+        }
+      ]
+    },
+    {
+      "id": "radio",
+      "text": "This is Gull Point. The lighthouse is a safe zone. We keep the lights on at night.",
+      "style": "A calm, tired man reading an emergency radio message that repeats on a loop, clear and steady, slightly mechanical.",
+      "voice": "Orus",
+      "story": 556,
+      "fx": "tv",
+      "file": "last-light/part09/voice/radio.wav",
+      "duration": 6.53,
+      "speechStart": 0.24,
+      "speechEnd": 6.21,
+      "words": [
+        {
+          "text": "This",
+          "start": 0.27
+        },
+        {
+          "text": "is",
+          "start": 0.53
+        },
+        {
+          "text": "Gull",
+          "start": 0.88
+        },
+        {
+          "text": "Point.",
+          "start": 1.33
+        },
+        {
+          "text": "The",
+          "start": 2.22
+        },
+        {
+          "text": "lighthouse",
+          "start": 2.43
+        },
+        {
+          "text": "is",
+          "start": 3.17
+        },
+        {
+          "text": "a",
+          "start": 3.31
+        },
+        {
+          "text": "safe",
+          "start": 3.43
+        },
+        {
+          "text": "zone.",
+          "start": 3.67
+        },
+        {
+          "text": "We",
+          "start": 4.3
+        },
+        {
+          "text": "keep",
+          "start": 4.42
+        },
+        {
+          "text": "the",
+          "start": 4.82
+        },
+        {
+          "text": "lights",
+          "start": 4.99
+        },
+        {
+          "text": "on",
+          "start": 5.49
+        },
+        {
+          "text": "at",
+          "start": 5.65
+        },
+        {
+          "text": "night.",
+          "start": 5.81
+        }
+      ]
+    },
+    {
+      "id": "months",
+      "text": "It's a recording. It's been playing for *months.*",
+      "style": "Teenage girl, quiet and numb, realising all hope was a lie, voice catching on the last word.",
+      "voice": "Leda",
+      "story": 750,
+      "file": "last-light/part09/voice/months.wav",
+      "duration": 4.19,
+      "speechStart": 0.19,
+      "speechEnd": 3.85,
+      "words": [
+        {
+          "text": "It's",
+          "start": 0.21
+        },
+        {
+          "text": "a",
+          "start": 0.48
+        },
+        {
+          "text": "recording.",
+          "start": 0.6
+        },
+        {
+          "text": "It's",
+          "start": 2
+        },
+        {
+          "text": "been",
+          "start": 2.5
+        },
+        {
+          "text": "playing",
+          "start": 2.65
+        },
+        {
+          "text": "for",
+          "start": 3.23
+        },
+        {
+          "text": "*months.*",
+          "start": 3.48
+        }
+      ]
+    },
+    {
+      "id": "never",
+      "text": "There never was a safe *zone.*",
+      "style": "Narrating, empty and broken, slow, almost a whisper.",
+      "voice": "Algenib",
+      "story": 874,
+      "file": "last-light/part09/voice/never.wav",
+      "duration": 3.18,
+      "speechStart": 0.27,
+      "speechEnd": 2.9,
+      "words": [
+        {
+          "text": "There",
+          "start": 0.3
+        },
+        {
+          "text": "never",
+          "start": 0.78
+        },
+        {
+          "text": "was",
+          "start": 1.44
+        },
+        {
+          "text": "a",
+          "start": 1.97
+        },
+        {
+          "text": "safe",
+          "start": 2.09
+        },
+        {
+          "text": "*zone.*",
+          "start": 2.54
+        }
+      ]
+    },
+    {
+      "id": "mirror",
+      "text": "In the mirror, my eye flickered *green.*",
+      "style": "Narrating, feverish, frightened and very quiet, a shiver on the last word.",
+      "voice": "Algenib",
+      "story": 968,
+      "file": "last-light/part09/voice/mirror.wav",
+      "duration": 4.39,
+      "speechStart": 0.3,
+      "speechEnd": 4.01,
+      "words": [
+        {
+          "text": "In",
+          "start": 0.3
+        },
+        {
+          "text": "the",
+          "start": 0.46
+        },
+        {
+          "text": "mirror,",
+          "start": 0.62
+        },
+        {
+          "text": "my",
+          "start": 1.8
+        },
+        {
+          "text": "eye",
+          "start": 1.92
+        },
+        {
+          "text": "flickered",
+          "start": 2.24
+        },
+        {
+          "text": "*green.*",
+          "start": 3.38
+        }
+      ]
+    },
+    {
+      "id": "followed",
+      "text": "Kai... they *followed* us.",
+      "style": "Teenage girl at a window, terrified whisper, trembling, a long pause after the name.",
+      "voice": "Leda",
+      "story": 1100,
+      "file": "last-light/part09/voice/followed.wav",
+      "duration": 2.34,
+      "speechStart": 0.18,
+      "speechEnd": 2.2,
+      "words": [
+        {
+          "text": "Kai...",
+          "start": 0.2
+        },
+        {
+          "text": "they",
+          "start": 1.29
+        },
+        {
+          "text": "*followed*",
+          "start": 1.41
+        },
+        {
+          "text": "us.",
+          "start": 1.88
+        }
+      ]
+    },
+    {
+      "id": "cliff",
+      "text": "Mia didn't see my eyes. Biscuit *did.*",
+      "style": "Narrating, low and haunted, a slow pause before the last two words.",
+      "voice": "Algenib",
+      "story": 1196,
+      "file": "last-light/part09/voice/cliff.wav",
+      "duration": 5.43,
+      "speechStart": 0.22,
+      "speechEnd": 5.17,
+      "words": [
+        {
+          "text": "Mia",
+          "start": 0.23
+        },
+        {
+          "text": "didn't",
+          "start": 0.5
+        },
+        {
+          "text": "see",
+          "start": 1.49
+        },
+        {
+          "text": "my",
+          "start": 1.99
+        },
+        {
+          "text": "eyes.",
+          "start": 2.32
+        },
+        {
+          "text": "Biscuit",
+          "start": 3.49
+        },
+        {
+          "text": "*did.*",
+          "start": 4.62
+        }
+      ]
+    }
+  ]
+}

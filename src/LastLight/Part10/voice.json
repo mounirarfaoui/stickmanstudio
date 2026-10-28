@@ -1,0 +1,498 @@
+{
+  "voice": "Algenib",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Two hundred steps to the top. I wasn't going to *make* it.",
+      "style": "First-person survivor, feverish, gasping while climbing, hoarse and fading, calm acceptance on the last words.",
+      "voice": "Algenib",
+      "story": 4,
+      "file": "last-light/part10/voice/hook.wav",
+      "duration": 7.95,
+      "speechStart": 0.33,
+      "speechEnd": 7.36,
+      "words": [
+        {
+          "text": "Two",
+          "start": 0.35
+        },
+        {
+          "text": "hundred",
+          "start": 0.8
+        },
+        {
+          "text": "steps",
+          "start": 2.43
+        },
+        {
+          "text": "to",
+          "start": 3.63
+        },
+        {
+          "text": "the",
+          "start": 4.2
+        },
+        {
+          "text": "top.",
+          "start": 4.66
+        },
+        {
+          "text": "I",
+          "start": 5.97
+        },
+        {
+          "text": "wasn't",
+          "start": 6.32
+        },
+        {
+          "text": "going",
+          "start": 6.44
+        },
+        {
+          "text": "to",
+          "start": 6.56
+        },
+        {
+          "text": "*make*",
+          "start": 6.94
+        },
+        {
+          "text": "it.",
+          "start": 7.16
+        }
+      ]
+    },
+    {
+      "id": "gave",
+      "text": "Below us, the door *gave.*",
+      "style": "Narrating, breathless, sudden dread, the last word sharp.",
+      "voice": "Algenib",
+      "story": 225,
+      "file": "last-light/part10/voice/gave.wav",
+      "duration": 2.92,
+      "speechStart": 0.22,
+      "speechEnd": 2.59,
+      "words": [
+        {
+          "text": "Below",
+          "start": 0.24
+        },
+        {
+          "text": "us,",
+          "start": 0.64
+        },
+        {
+          "text": "the",
+          "start": 1.14
+        },
+        {
+          "text": "door",
+          "start": 1.52
+        },
+        {
+          "text": "*gave.*",
+          "start": 2.03
+        }
+      ]
+    },
+    {
+      "id": "gen",
+      "text": "The generator was dead. So I *woke* it.",
+      "style": "Narrating, exhausted but stubborn, a grim spark of determination on the last words.",
+      "voice": "Algenib",
+      "story": 318,
+      "file": "last-light/part10/voice/gen.wav",
+      "duration": 4.88,
+      "speechStart": 0.2,
+      "speechEnd": 4.58,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.25
+        },
+        {
+          "text": "generator",
+          "start": 0.39
+        },
+        {
+          "text": "was",
+          "start": 1.57
+        },
+        {
+          "text": "dead.",
+          "start": 1.96
+        },
+        {
+          "text": "So",
+          "start": 3.19
+        },
+        {
+          "text": "I",
+          "start": 3.31
+        },
+        {
+          "text": "*woke*",
+          "start": 3.59
+        },
+        {
+          "text": "it.",
+          "start": 4.01
+        }
+      ]
+    },
+    {
+      "id": "eyes",
+      "text": "Kai... your *eyes.*",
+      "style": "Teenage girl, horrified whisper, voice breaking, a long pause after the name.",
+      "voice": "Leda",
+      "story": 470,
+      "file": "last-light/part10/voice/eyes.wav",
+      "duration": 2.34,
+      "speechStart": 0.27,
+      "speechEnd": 2.12,
+      "words": [
+        {
+          "text": "Kai...",
+          "start": 0.28
+        },
+        {
+          "text": "your",
+          "start": 0.75
+        },
+        {
+          "text": "*eyes.*",
+          "start": 1.41
+        }
+      ]
+    },
+    {
+      "id": "know",
+      "text": "I know.",
+      "style": "A dying young man, very soft and gentle, sad and calm, almost a whisper.",
+      "voice": "Algenib",
+      "story": 545,
+      "file": "last-light/part10/voice/know.wav",
+      "duration": 1.24,
+      "speechStart": 0.23,
+      "speechEnd": 0.92,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.23
+        },
+        {
+          "text": "know.",
+          "start": 0.35
+        }
+      ]
+    },
+    {
+      "id": "note",
+      "text": "Read it when I'm gone. Now lock the *hatch.*",
+      "style": "A dying young man handing over a letter, gentle and tender on the first sentence, then firm and urgent.",
+      "voice": "Algenib",
+      "story": 580,
+      "file": "last-light/part10/voice/note.wav",
+      "duration": 3.59,
+      "speechStart": 0.17,
+      "speechEnd": 3.4,
+      "words": [
+        {
+          "text": "Read",
+          "start": 0.35
+        },
+        {
+          "text": "it",
+          "start": 0.47
+        },
+        {
+          "text": "when",
+          "start": 0.72
+        },
+        {
+          "text": "I'm",
+          "start": 1.09
+        },
+        {
+          "text": "gone.",
+          "start": 1.51
+        },
+        {
+          "text": "Now",
+          "start": 1.94
+        },
+        {
+          "text": "lock",
+          "start": 2.43
+        },
+        {
+          "text": "the",
+          "start": 2.55
+        },
+        {
+          "text": "*hatch.*",
+          "start": 2.73
+        }
+      ]
+    },
+    {
+      "id": "no",
+      "text": "No. No, no, *no.*",
+      "style": "Teenage girl begging, crying, voice cracking, desperate and heartbroken, getting louder.",
+      "voice": "Leda",
+      "story": 700,
+      "file": "last-light/part10/voice/no.wav",
+      "duration": 2.32,
+      "speechStart": 0.33,
+      "speechEnd": 2.15,
+      "words": [
+        {
+          "text": "No.",
+          "start": 0.35
+        },
+        {
+          "text": "No,",
+          "start": 0.8
+        },
+        {
+          "text": "no,",
+          "start": 1.58
+        },
+        {
+          "text": "*no.*",
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "lockit",
+      "text": "Lock it, Mia.",
+      "style": "A young man calling up from below, quiet and loving but final, holding back tears.",
+      "voice": "Algenib",
+      "story": 775,
+      "file": "last-light/part10/voice/lockit.wav",
+      "duration": 1.86,
+      "speechStart": 0.22,
+      "speechEnd": 1.5,
+      "words": [
+        {
+          "text": "Lock",
+          "start": 0.25
+        },
+        {
+          "text": "it,",
+          "start": 0.66
+        },
+        {
+          "text": "Mia.",
+          "start": 1.33
+        }
+      ]
+    },
+    {
+      "id": "read",
+      "text": "If you're reading this, I didn't make it. Keep the light on. Someone will *see* it.",
+      "style": "Teenage girl reading a farewell letter aloud through tears, broken voice, trembling, slow, gathering strength on the last sentence.",
+      "voice": "Leda",
+      "story": 955,
+      "file": "last-light/part10/voice/read.wav",
+      "duration": 8.14,
+      "speechStart": 0.39,
+      "speechEnd": 7.57,
+      "words": [
+        {
+          "text": "If",
+          "start": 0.39
+        },
+        {
+          "text": "you're",
+          "start": 0.51
+        },
+        {
+          "text": "reading",
+          "start": 0.81
+        },
+        {
+          "text": "this,",
+          "start": 1.44
+        },
+        {
+          "text": "I",
+          "start": 2
+        },
+        {
+          "text": "didn't",
+          "start": 2.18
+        },
+        {
+          "text": "make",
+          "start": 3.35
+        },
+        {
+          "text": "it.",
+          "start": 4.13
+        },
+        {
+          "text": "Keep",
+          "start": 5.3
+        },
+        {
+          "text": "the",
+          "start": 5.42
+        },
+        {
+          "text": "light",
+          "start": 5.62
+        },
+        {
+          "text": "on.",
+          "start": 6.12
+        },
+        {
+          "text": "Someone",
+          "start": 6.59
+        },
+        {
+          "text": "will",
+          "start": 6.78
+        },
+        {
+          "text": "*see*",
+          "start": 7.05
+        },
+        {
+          "text": "it.",
+          "start": 7.33
+        }
+      ]
+    },
+    {
+      "id": "watched",
+      "text": "I watched the coast all night, waiting for a light to answer.",
+      "style": "Teenage girl narrating quietly, hollow and still, hope slowly draining away.",
+      "voice": "Leda",
+      "story": 1215,
+      "file": "last-light/part10/voice/watched.wav",
+      "duration": 4.62,
+      "speechStart": 0.22,
+      "speechEnd": 4.28,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.22
+        },
+        {
+          "text": "watched",
+          "start": 0.34
+        },
+        {
+          "text": "the",
+          "start": 0.79
+        },
+        {
+          "text": "coast",
+          "start": 1
+        },
+        {
+          "text": "all",
+          "start": 1.5
+        },
+        {
+          "text": "night,",
+          "start": 1.73
+        },
+        {
+          "text": "waiting",
+          "start": 2.41
+        },
+        {
+          "text": "for",
+          "start": 2.97
+        },
+        {
+          "text": "a",
+          "start": 3.17
+        },
+        {
+          "text": "light",
+          "start": 3.29
+        },
+        {
+          "text": "to",
+          "start": 3.68
+        },
+        {
+          "text": "answer.",
+          "start": 3.8
+        }
+      ]
+    },
+    {
+      "id": "kept",
+      "text": "I kept the light on. Every night.",
+      "style": "Teenage girl narrating, soft and steady, lonely, older than her years.",
+      "voice": "Leda",
+      "story": 1390,
+      "file": "last-light/part10/voice/kept.wav",
+      "duration": 2.61,
+      "speechStart": 0.22,
+      "speechEnd": 2.36,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.22
+        },
+        {
+          "text": "kept",
+          "start": 0.34
+        },
+        {
+          "text": "the",
+          "start": 0.46
+        },
+        {
+          "text": "light",
+          "start": 0.68
+        },
+        {
+          "text": "on.",
+          "start": 1.1
+        },
+        {
+          "text": "Every",
+          "start": 1.61
+        },
+        {
+          "text": "night.",
+          "start": 1.73
+        }
+      ]
+    },
+    {
+      "id": "came",
+      "text": "Nobody ever *came.*",
+      "style": "Teenage girl, a final quiet whisper, utterly alone, a long breath before the last word.",
+      "voice": "Leda",
+      "story": 1560,
+      "file": "last-light/part10/voice/came.wav",
+      "duration": 2.87,
+      "speechStart": 0.33,
+      "speechEnd": 2.48,
+      "words": [
+        {
+          "text": "Nobody",
+          "start": 0.38
+        },
+        {
+          "text": "ever",
+          "start": 1.39
+        },
+        {
+          "text": "*came.*",
+          "start": 1.93
+        }
+      ]
+    }
+  ]
+}

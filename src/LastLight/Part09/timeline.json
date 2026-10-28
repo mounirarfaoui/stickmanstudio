@@ -1,0 +1,715 @@
+{
+  "fps": 30,
+  "duration": 1470,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      145,
+      145
+    ],
+    [
+      324,
+      324
+    ],
+    [
+      412,
+      412
+    ],
+    [
+      556,
+      556
+    ],
+    [
+      750,
+      750
+    ],
+    [
+      874,
+      874
+    ],
+    [
+      968,
+      968
+    ],
+    [
+      1100,
+      1100
+    ],
+    [
+      1196,
+      1196
+    ],
+    [
+      1470,
+      1470
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "last-light/part09/voice/hook.wav",
+      "at": 0.1333,
+      "speech": [
+        0.133,
+        4.633
+      ]
+    },
+    {
+      "id": "carry",
+      "file": "last-light/part09/voice/carry.wav",
+      "at": 4.6733,
+      "speech": [
+        4.833,
+        10.293
+      ]
+    },
+    {
+      "id": "gate",
+      "file": "last-light/part09/voice/gate.wav",
+      "at": 10.48,
+      "speech": [
+        10.8,
+        12.8
+      ]
+    },
+    {
+      "id": "empty",
+      "file": "last-light/part09/voice/empty.wav",
+      "at": 13.5433,
+      "speech": [
+        13.733,
+        18.173
+      ]
+    },
+    {
+      "id": "radio",
+      "file": "last-light/part09/voice/radio.wav",
+      "at": 18.2933,
+      "speech": [
+        18.533,
+        24.503
+      ],
+      "fx": "tv"
+    },
+    {
+      "id": "months",
+      "file": "last-light/part09/voice/months.wav",
+      "at": 24.81,
+      "speech": [
+        25,
+        28.66
+      ]
+    },
+    {
+      "id": "never",
+      "file": "last-light/part09/voice/never.wav",
+      "at": 28.8633,
+      "speech": [
+        29.133,
+        31.763
+      ]
+    },
+    {
+      "id": "mirror",
+      "file": "last-light/part09/voice/mirror.wav",
+      "at": 31.9667,
+      "speech": [
+        32.267,
+        35.977
+      ]
+    },
+    {
+      "id": "followed",
+      "file": "last-light/part09/voice/followed.wav",
+      "at": 36.4867,
+      "speech": [
+        36.667,
+        38.687
+      ]
+    },
+    {
+      "id": "cliff",
+      "file": "last-light/part09/voice/cliff.wav",
+      "at": 39.6467,
+      "speech": [
+        39.867,
+        44.817
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 3,
+      "to": 94,
+      "words": [
+        {
+          "text": "We",
+          "emph": false,
+          "frame": 5
+        },
+        {
+          "text": "saw",
+          "emph": false,
+          "frame": 12
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 20
+        },
+        {
+          "text": "lighthouse",
+          "emph": false,
+          "frame": 28
+        },
+        {
+          "text": "at",
+          "emph": false,
+          "frame": 64
+        },
+        {
+          "text": "sunset.",
+          "emph": false,
+          "frame": 68
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 94,
+      "to": 143,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 96
+        },
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 108
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 115
+        },
+        {
+          "text": "dark.",
+          "emph": true,
+          "frame": 127
+        }
+      ]
+    },
+    {
+      "line": "carry",
+      "from": 144,
+      "to": 222,
+      "words": [
+        {
+          "text": "Mia",
+          "emph": false,
+          "frame": 146
+        },
+        {
+          "text": "carried",
+          "emph": false,
+          "frame": 152
+        },
+        {
+          "text": "half",
+          "emph": false,
+          "frame": 178
+        },
+        {
+          "text": "my",
+          "emph": false,
+          "frame": 193
+        },
+        {
+          "text": "weight",
+          "emph": false,
+          "frame": 206
+        }
+      ]
+    },
+    {
+      "line": "carry",
+      "from": 222,
+      "to": 321,
+      "words": [
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 224
+        },
+        {
+          "text": "last",
+          "emph": false,
+          "frame": 235
+        },
+        {
+          "text": "five",
+          "emph": false,
+          "frame": 251
+        },
+        {
+          "text": "miles.",
+          "emph": true,
+          "frame": 267
+        }
+      ]
+    },
+    {
+      "line": "gate",
+      "from": 323,
+      "to": 396,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 325
+        },
+        {
+          "text": "gate",
+          "emph": false,
+          "frame": 328
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 344
+        },
+        {
+          "text": "open.",
+          "emph": true,
+          "frame": 356
+        }
+      ]
+    },
+    {
+      "line": "empty",
+      "from": 411,
+      "to": 450,
+      "words": [
+        {
+          "text": "Empty",
+          "emph": false,
+          "frame": 413
+        },
+        {
+          "text": "beds.",
+          "emph": false,
+          "frame": 427
+        }
+      ]
+    },
+    {
+      "line": "empty",
+      "from": 450,
+      "to": 476,
+      "words": [
+        {
+          "text": "No",
+          "emph": false,
+          "frame": 452
+        },
+        {
+          "text": "one.",
+          "emph": false,
+          "frame": 456
+        }
+      ]
+    },
+    {
+      "line": "empty",
+      "from": 476,
+      "to": 554,
+      "words": [
+        {
+          "text": "Just",
+          "emph": false,
+          "frame": 478
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 487
+        },
+        {
+          "text": "radio,",
+          "emph": false,
+          "frame": 490
+        },
+        {
+          "text": "still",
+          "emph": false,
+          "frame": 518
+        },
+        {
+          "text": "talking.",
+          "emph": true,
+          "frame": 530
+        }
+      ]
+    },
+    {
+      "line": "radio",
+      "from": 555,
+      "to": 613,
+      "words": [
+        {
+          "text": "This",
+          "emph": false,
+          "frame": 557
+        },
+        {
+          "text": "is",
+          "emph": false,
+          "frame": 565
+        },
+        {
+          "text": "Gull",
+          "emph": false,
+          "frame": 575
+        },
+        {
+          "text": "Point.",
+          "emph": false,
+          "frame": 589
+        }
+      ]
+    },
+    {
+      "line": "radio",
+      "from": 613,
+      "to": 646,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 615
+        },
+        {
+          "text": "lighthouse",
+          "emph": false,
+          "frame": 622
+        },
+        {
+          "text": "is",
+          "emph": false,
+          "frame": 644
+        }
+      ]
+    },
+    {
+      "line": "radio",
+      "from": 646,
+      "to": 676,
+      "words": [
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 648
+        },
+        {
+          "text": "safe",
+          "emph": false,
+          "frame": 652
+        },
+        {
+          "text": "zone.",
+          "emph": false,
+          "frame": 659
+        }
+      ]
+    },
+    {
+      "line": "radio",
+      "from": 676,
+      "to": 712,
+      "words": [
+        {
+          "text": "We",
+          "emph": false,
+          "frame": 678
+        },
+        {
+          "text": "keep",
+          "emph": false,
+          "frame": 681
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 693
+        },
+        {
+          "text": "lights",
+          "emph": false,
+          "frame": 699
+        }
+      ]
+    },
+    {
+      "line": "radio",
+      "from": 712,
+      "to": 747,
+      "words": [
+        {
+          "text": "on",
+          "emph": false,
+          "frame": 714
+        },
+        {
+          "text": "at",
+          "emph": false,
+          "frame": 718
+        },
+        {
+          "text": "night.",
+          "emph": false,
+          "frame": 723
+        }
+      ]
+    },
+    {
+      "line": "months",
+      "from": 749,
+      "to": 802,
+      "words": [
+        {
+          "text": "It's",
+          "emph": false,
+          "frame": 751
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 759
+        },
+        {
+          "text": "recording.",
+          "emph": false,
+          "frame": 762
+        }
+      ]
+    },
+    {
+      "line": "months",
+      "from": 802,
+      "to": 872,
+      "words": [
+        {
+          "text": "It's",
+          "emph": false,
+          "frame": 804
+        },
+        {
+          "text": "been",
+          "emph": false,
+          "frame": 819
+        },
+        {
+          "text": "playing",
+          "emph": false,
+          "frame": 824
+        },
+        {
+          "text": "for",
+          "emph": false,
+          "frame": 841
+        },
+        {
+          "text": "months.",
+          "emph": true,
+          "frame": 849
+        }
+      ]
+    },
+    {
+      "line": "never",
+      "from": 873,
+      "to": 923,
+      "words": [
+        {
+          "text": "There",
+          "emph": false,
+          "frame": 875
+        },
+        {
+          "text": "never",
+          "emph": false,
+          "frame": 889
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 909
+        }
+      ]
+    },
+    {
+      "line": "never",
+      "from": 923,
+      "to": 965,
+      "words": [
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 925
+        },
+        {
+          "text": "safe",
+          "emph": false,
+          "frame": 929
+        },
+        {
+          "text": "zone.",
+          "emph": true,
+          "frame": 942
+        }
+      ]
+    },
+    {
+      "line": "mirror",
+      "from": 966,
+      "to": 1011,
+      "words": [
+        {
+          "text": "In",
+          "emph": false,
+          "frame": 968
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 973
+        },
+        {
+          "text": "mirror,",
+          "emph": false,
+          "frame": 978
+        }
+      ]
+    },
+    {
+      "line": "mirror",
+      "from": 1011,
+      "to": 1091,
+      "words": [
+        {
+          "text": "my",
+          "emph": false,
+          "frame": 1013
+        },
+        {
+          "text": "eye",
+          "emph": false,
+          "frame": 1017
+        },
+        {
+          "text": "flickered",
+          "emph": false,
+          "frame": 1026
+        },
+        {
+          "text": "green.",
+          "emph": true,
+          "frame": 1060
+        }
+      ]
+    },
+    {
+      "line": "followed",
+      "from": 1099,
+      "to": 1131,
+      "words": [
+        {
+          "text": "Kai...",
+          "emph": false,
+          "frame": 1101
+        }
+      ]
+    },
+    {
+      "line": "followed",
+      "from": 1131,
+      "to": 1173,
+      "words": [
+        {
+          "text": "they",
+          "emph": false,
+          "frame": 1133
+        },
+        {
+          "text": "followed",
+          "emph": true,
+          "frame": 1137
+        },
+        {
+          "text": "us.",
+          "emph": false,
+          "frame": 1151
+        }
+      ]
+    },
+    {
+      "line": "cliff",
+      "from": 1194,
+      "to": 1292,
+      "words": [
+        {
+          "text": "Mia",
+          "emph": false,
+          "frame": 1196
+        },
+        {
+          "text": "didn't",
+          "emph": false,
+          "frame": 1204
+        },
+        {
+          "text": "see",
+          "emph": false,
+          "frame": 1234
+        },
+        {
+          "text": "my",
+          "emph": false,
+          "frame": 1249
+        },
+        {
+          "text": "eyes.",
+          "emph": false,
+          "frame": 1259
+        }
+      ]
+    },
+    {
+      "line": "cliff",
+      "from": 1292,
+      "to": 1357,
+      "words": [
+        {
+          "text": "Biscuit",
+          "emph": false,
+          "frame": 1294
+        },
+        {
+          "text": "did.",
+          "emph": true,
+          "frame": 1328
+        }
+      ]
+    }
+  ]
+}

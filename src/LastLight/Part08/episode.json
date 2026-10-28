@@ -1,0 +1,148 @@
+{
+  "id": "last-light-08",
+  "title": "Last Light — Part 8: The Scratch",
+  "publicDir": "last-light/part08",
+  "voice": "Algenib",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 4,
+      "text": "Mia pulled. I kicked. Something *tore.*",
+      "style": "First-person survivor, panting mid-struggle, short sharp bursts, the last word ugly and raw."
+    },
+    {
+      "id": "ran",
+      "story": 200,
+      "text": "We ran till the bridge was behind us.",
+      "style": "Narrating out of breath, running, fast and ragged."
+    },
+    {
+      "id": "scratch",
+      "story": 380,
+      "text": "Three lines. Not deep. They didn't need to *be.*",
+      "style": "Narrating, very quiet and flat, numb with dread, a long pause before the last word."
+    },
+    {
+      "id": "promise",
+      "story": 520,
+      "text": "If I turn... don't wait. *Promise* me.",
+      "style": "A young man speaking softly to a friend, steady and serious, hiding his fear, begging on the last two words."
+    },
+    {
+      "id": "shut",
+      "story": 630,
+      "voice": "Leda",
+      "text": "Shut up, Kai.",
+      "style": "Teenage girl, voice shaking, angry to keep from crying, barely a whisper."
+    },
+    {
+      "id": "note",
+      "story": 720,
+      "text": "That night, while she slept, I wrote her a *note.*",
+      "style": "Narrating, hushed and tender, like a secret."
+    },
+    {
+      "id": "morning",
+      "story": 900,
+      "text": "Morning came. My eyes were still *mine.*",
+      "style": "Narrating, exhausted relief, a shaky breath of a laugh on the last word."
+    },
+    {
+      "id": "biscuit",
+      "story": 1090,
+      "voice": "Leda",
+      "text": "Is that... *Biscuit?*",
+      "style": "Teenage girl, disbelieving, then breaking into joy on the dog's name."
+    },
+    {
+      "id": "cough",
+      "story": 1260,
+      "text": "Then I coughed. And I didn't tell her what came *up.*",
+      "style": "Narrating, quiet and hollow, guilty, slow, the last word barely said."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        2,
+        2,
+        2
+      ],
+      "ran": [
+        4,
+        4
+      ],
+      "scratch": [
+        2,
+        2,
+        5
+      ],
+      "promise": [
+        3,
+        2,
+        2
+      ],
+      "shut": [
+        3
+      ],
+      "note": [
+        2,
+        3,
+        5
+      ],
+      "morning": [
+        2,
+        5
+      ],
+      "biscuit": [
+        3
+      ],
+      "cough": [
+        3,
+        5,
+        3
+      ]
+    },
+    "speakers": {
+      "shut": "mia",
+      "biscuit": "mia"
+    }
+  },
+  "timeline": {
+    "gap": 6,
+    "maxSpeedup": 1,
+    "endHold": 62,
+    "captionLead": 2,
+    "maxPause": 0.25
+  },
+  "music": {
+    "title": "Last Light - The Scratch",
+    "style": "Cinematic survival score. Opens in frantic panic with pounding drums and racing strings, then drops to a hushed night: a lonely music-box piano and a soft low drone, fragile and tender. A warm hopeful dawn swell with gentle strings and a rising major chord for the reunion, then it curdles into a dark, detuned, sick low tone at the very end. Instrumental only, no vocals, mixed to sit under dialogue.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "night": {
+      "prompt": "Empty highway at night in the countryside, crickets, a soft cold wind, very quiet and lonely ambience, no music.",
+      "loop": true
+    },
+    "lighter": {
+      "prompt": "A metal flip lighter opening with a click, the flint wheel striking and a small flame catching, close up, isolated sound effect, no music."
+    },
+    "pencil": {
+      "prompt": "A pencil writing quickly on paper, then the paper being folded twice, quiet, close up, isolated sound effect, no music."
+    },
+    "dawn": {
+      "prompt": "Early morning birds singing softly at dawn over an empty field, gentle breeze, peaceful ambience, no music.",
+      "loop": true
+    },
+    "cough": {
+      "prompt": "A young man coughing hard and wet into his hand, trying to muffle it, isolated sound effect, no music."
+    }
+  },
+  "mix": {
+    "musicDb": -26,
+    "levelLines": true
+  },
+  "sfx": "last-light-08"
+}

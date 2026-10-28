@@ -1,0 +1,388 @@
+{
+  "voice": "Algenib",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Mia pulled. I kicked. Something *tore.*",
+      "style": "First-person survivor, panting mid-struggle, short sharp bursts, the last word ugly and raw.",
+      "voice": "Algenib",
+      "story": 4,
+      "anchors": {},
+      "file": "last-light/part08/voice/hook.wav",
+      "duration": 6.32,
+      "speechStart": 0.28,
+      "speechEnd": 5.94,
+      "words": [
+        {
+          "text": "Mia",
+          "start": 0.28
+        },
+        {
+          "text": "pulled.",
+          "start": 0.94
+        },
+        {
+          "text": "I",
+          "start": 2.05
+        },
+        {
+          "text": "kicked.",
+          "start": 2.24
+        },
+        {
+          "text": "Something",
+          "start": 3.93
+        },
+        {
+          "text": "*tore.*",
+          "start": 5.63
+        }
+      ]
+    },
+    {
+      "id": "ran",
+      "text": "We ran till the bridge was behind us.",
+      "style": "Narrating out of breath, running, fast and ragged.",
+      "voice": "Algenib",
+      "story": 200,
+      "anchors": {},
+      "file": "last-light/part08/voice/ran.wav",
+      "duration": 4.4,
+      "speechStart": 0.2,
+      "speechEnd": 4.15,
+      "words": [
+        {
+          "text": "We",
+          "start": 0.22
+        },
+        {
+          "text": "ran",
+          "start": 0.34
+        },
+        {
+          "text": "till",
+          "start": 0.78
+        },
+        {
+          "text": "the",
+          "start": 1.22
+        },
+        {
+          "text": "bridge",
+          "start": 1.92
+        },
+        {
+          "text": "was",
+          "start": 2.46
+        },
+        {
+          "text": "behind",
+          "start": 3.05
+        },
+        {
+          "text": "us.",
+          "start": 3.33
+        }
+      ]
+    },
+    {
+      "id": "scratch",
+      "text": "Three lines. Not deep. They didn't need to *be.*",
+      "style": "Narrating, very quiet and flat, numb with dread, a long pause before the last word.",
+      "voice": "Algenib",
+      "story": 380,
+      "anchors": {},
+      "file": "last-light/part08/voice/scratch.wav",
+      "duration": 3.83,
+      "speechStart": 0.41000000000000003,
+      "speechEnd": 3.61,
+      "words": [
+        {
+          "text": "Three",
+          "start": 0.44
+        },
+        {
+          "text": "lines.",
+          "start": 0.59
+        },
+        {
+          "text": "Not",
+          "start": 1.6
+        },
+        {
+          "text": "deep.",
+          "start": 1.72
+        },
+        {
+          "text": "They",
+          "start": 2.54
+        },
+        {
+          "text": "didn't",
+          "start": 2.72
+        },
+        {
+          "text": "need",
+          "start": 3.05
+        },
+        {
+          "text": "to",
+          "start": 3.31
+        },
+        {
+          "text": "*be.*",
+          "start": 3.44
+        }
+      ]
+    },
+    {
+      "id": "promise",
+      "text": "If I turn... don't wait. *Promise* me.",
+      "style": "A young man speaking softly to a friend, steady and serious, hiding his fear, begging on the last two words.",
+      "voice": "Algenib",
+      "story": 520,
+      "anchors": {},
+      "file": "last-light/part08/voice/promise.wav",
+      "duration": 3.39,
+      "speechStart": 0.29,
+      "speechEnd": 3.0300000000000002,
+      "words": [
+        {
+          "text": "If",
+          "start": 0.29
+        },
+        {
+          "text": "I",
+          "start": 0.41
+        },
+        {
+          "text": "turn...",
+          "start": 0.53
+        },
+        {
+          "text": "don't",
+          "start": 1.26
+        },
+        {
+          "text": "wait.",
+          "start": 1.6
+        },
+        {
+          "text": "*Promise*",
+          "start": 2.46
+        },
+        {
+          "text": "me.",
+          "start": 2.87
+        }
+      ]
+    },
+    {
+      "id": "shut",
+      "text": "Shut up, Kai.",
+      "style": "Teenage girl, voice shaking, angry to keep from crying, barely a whisper.",
+      "voice": "Leda",
+      "story": 630,
+      "anchors": {},
+      "file": "last-light/part08/voice/shut.wav",
+      "duration": 2.08,
+      "speechStart": 0.27,
+      "speechEnd": 1.74,
+      "words": [
+        {
+          "text": "Shut",
+          "start": 0.3
+        },
+        {
+          "text": "up,",
+          "start": 0.5
+        },
+        {
+          "text": "Kai.",
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "note",
+      "text": "That night, while she slept, I wrote her a *note.*",
+      "style": "Narrating, hushed and tender, like a secret.",
+      "voice": "Algenib",
+      "story": 720,
+      "anchors": {},
+      "file": "last-light/part08/voice/note.wav",
+      "duration": 3.75,
+      "speechStart": 0.44,
+      "speechEnd": 3.43,
+      "words": [
+        {
+          "text": "That",
+          "start": 0.44
+        },
+        {
+          "text": "night,",
+          "start": 0.56
+        },
+        {
+          "text": "while",
+          "start": 0.83
+        },
+        {
+          "text": "she",
+          "start": 1.24
+        },
+        {
+          "text": "slept,",
+          "start": 1.58
+        },
+        {
+          "text": "I",
+          "start": 2.34
+        },
+        {
+          "text": "wrote",
+          "start": 2.46
+        },
+        {
+          "text": "her",
+          "start": 2.66
+        },
+        {
+          "text": "a",
+          "start": 2.85
+        },
+        {
+          "text": "*note.*",
+          "start": 2.97
+        }
+      ]
+    },
+    {
+      "id": "morning",
+      "text": "Morning came. My eyes were still *mine.*",
+      "style": "Narrating, exhausted relief, a shaky breath of a laugh on the last word.",
+      "voice": "Algenib",
+      "story": 900,
+      "anchors": {},
+      "file": "last-light/part08/voice/morning.wav",
+      "duration": 5.49,
+      "speechStart": 0.24,
+      "speechEnd": 5.19,
+      "words": [
+        {
+          "text": "Morning",
+          "start": 0.26
+        },
+        {
+          "text": "came.",
+          "start": 1.27
+        },
+        {
+          "text": "My",
+          "start": 2.14
+        },
+        {
+          "text": "eyes",
+          "start": 2.95
+        },
+        {
+          "text": "were",
+          "start": 3.56
+        },
+        {
+          "text": "still",
+          "start": 3.77
+        },
+        {
+          "text": "*mine.*",
+          "start": 4.27
+        }
+      ]
+    },
+    {
+      "id": "biscuit",
+      "text": "Is that... *Biscuit?*",
+      "style": "Teenage girl, disbelieving, then breaking into joy on the dog's name.",
+      "voice": "Leda",
+      "story": 1090,
+      "anchors": {},
+      "file": "last-light/part08/voice/biscuit.wav",
+      "duration": 1.93,
+      "speechStart": 0.28,
+      "speechEnd": 1.73,
+      "words": [
+        {
+          "text": "Is",
+          "start": 0.28
+        },
+        {
+          "text": "that...",
+          "start": 0.4
+        },
+        {
+          "text": "*Biscuit?*",
+          "start": 0.64
+        }
+      ]
+    },
+    {
+      "id": "cough",
+      "text": "Then I coughed. And I didn't tell her what came *up.*",
+      "style": "Narrating, quiet and hollow, guilty, slow, the last word barely said.",
+      "voice": "Algenib",
+      "story": 1260,
+      "anchors": {},
+      "file": "last-light/part08/voice/cough.wav",
+      "duration": 4.84,
+      "speechStart": 0.37,
+      "speechEnd": 4.3500000000000005,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.4
+        },
+        {
+          "text": "I",
+          "start": 0.66
+        },
+        {
+          "text": "coughed.",
+          "start": 0.82
+        },
+        {
+          "text": "And",
+          "start": 1.98
+        },
+        {
+          "text": "I",
+          "start": 2.24
+        },
+        {
+          "text": "didn't",
+          "start": 2.36
+        },
+        {
+          "text": "tell",
+          "start": 2.74
+        },
+        {
+          "text": "her",
+          "start": 3.04
+        },
+        {
+          "text": "what",
+          "start": 3.26
+        },
+        {
+          "text": "came",
+          "start": 3.56
+        },
+        {
+          "text": "*up.*",
+          "start": 3.85
+        }
+      ]
+    }
+  ]
+}

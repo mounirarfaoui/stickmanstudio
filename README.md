@@ -10,6 +10,11 @@ Procedural stickman shorts (1080×1920, 30 fps) built with [Remotion](https://ww
 | `LastLight-Part03` | LAST LIGHT Part 3 "Mia" — the girl with the bat, a fragile deal, the dog that wakes the street (~45 s) |
 | `LastLight-Part04` | LAST LIGHT Part 4 "The Horde" — the fence, the ladder, a night on the rooftop, a voice on the radio (~47 s) |
 | `LastLight-Part05` | LAST LIGHT Part 5 "The Signal" — a dark pharmacy, a cardboard scare, batteries, the Gull Point message (~49 s) |
+| `LastLight-Part06` | LAST LIGHT Part 6 "Strangers" — a ride north with two armed strangers, a gas-station betrayal, Biscuit taken (~53 s) |
+| `LastLight-Part07` | LAST LIGHT Part 7 "The Bridge" — car roofs over the dead, the empty truck, a hand on Kai's ankle (~51 s) |
+| `LastLight-Part08` | LAST LIGHT Part 8 "The Scratch" — three scratches, a note in the night, Biscuit returns, a dark cough (~50 s) |
+| `LastLight-Part09` | LAST LIGHT Part 9 "Gull Point" — the dark lighthouse, a looping recording, a green eye, the horde at the gate (~49 s) |
+| `LastLight-Part10` | LAST LIGHT Part 10 "Last Light" — the climb, the hatch, Kai's note, a light nobody answers (~58 s) |
 
 Each episode is a folder with an `episode.json` (narration lines, caption chunks, timing, music prompt, sound prompts) and
 a `beats.json` (story frames). The audio scripts take the folder as an argument, e.g. for Last Light Part 1:

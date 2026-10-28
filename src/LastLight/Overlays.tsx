@@ -9,6 +9,8 @@ export type CaptionChunk = { line: string; from: number; to: number; words: { te
 export const SPEAKERS = {
   kai: { name: "KAI", color: "#FFD43B" },
   mia: { name: "MIA", color: "#7FE3FF" },
+  wade: { name: "WADE", color: "#FF9A3D" },
+  june: { name: "JUNE", color: "#FF7FB0" },
 } as const;
 
 // Word-synced captions. Lines listed in `broadcast` (TV, radio) get a red news-ticker style;
@@ -112,7 +114,8 @@ export const SeriesBadge: React.FC<{ frame: number; part: number; title: string;
 
 // Closing card: cut to black, logo, "Part N+1" tease
 // `embers` adds drifting sparks and a slow push-in so the card isn't a still frame.
-export const PartCard: React.FC<{ frame: number; from: number; part: number; embers?: boolean }> = ({ frame, from, part, embers = false }) => {
+// `final` closes the series: "THE END" instead of the next-part tease.
+export const PartCard: React.FC<{ frame: number; from: number; part: number; embers?: boolean; final?: boolean }> = ({ frame, from, part, embers = false, final = false }) => {
   const t = frame - from;
   if (t < 0) return null;
   const pop = (d: number) => ({
@@ -132,8 +135,8 @@ export const PartCard: React.FC<{ frame: number; from: number; part: number; emb
         <Logo size={120} />
       </div>
       <div style={{ ...pop(10), fontFamily: FONT, fontSize: 52, color: "#9aa3b5" }}>PART {part} / 10</div>
-      <div style={{ ...pop(18), fontFamily: FONT, fontSize: 76, color: "#0a0a0a", backgroundColor: "#FFD43B", padding: "10px 34px", borderRadius: 16 }}>PART {part + 1} SOON</div>
-      <div style={{ ...pop(26), fontFamily: "Arial, sans-serif", fontWeight: 700, fontSize: 46, color: "#e8e8e8" }}>Follow so you don't miss it</div>
+      <div style={{ ...pop(18), fontFamily: FONT, fontSize: 76, color: "#0a0a0a", backgroundColor: "#FFD43B", padding: "10px 34px", borderRadius: 16 }}>{final ? "THE END" : `PART ${part + 1} SOON`}</div>
+      <div style={{ ...pop(26), fontFamily: "Arial, sans-serif", fontWeight: 700, fontSize: 46, color: "#e8e8e8" }}>{final ? "Follow for the next story" : "Follow so you don't miss it"}</div>
     </AbsoluteFill>
   );
 };
