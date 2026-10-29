@@ -1,0 +1,144 @@
+{
+  "id": "floor-0-01",
+  "title": "Floor 0 — Part 1: Floor Twelve",
+  "publicDir": "floor-0/part01",
+  "voice": "Fenrir",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 4,
+      "text": "I woke up in a *falling* elevator.",
+      "style": "Young man in pure panic, shouting over a roaring wind while in free fall, breathless, the word falling stretched in terror."
+    },
+    {
+      "id": "buttons",
+      "story": 175,
+      "text": "A hundred buttons. And *no* ground floor.",
+      "style": "Young man, shaken and breathing hard after a crash, quiet disbelief, the word no landing heavy."
+    },
+    {
+      "id": "sign",
+      "story": 300,
+      "text": "Just a sign: the doors stay open *thirty* seconds.",
+      "style": "Young man reading a sign aloud slowly, uneasy, a nervous swallow before the number."
+    },
+    {
+      "id": "count",
+      "story": 420,
+      "text": "And someone before me... had been *counting.*",
+      "style": "Young man, a creeping whisper of dread, slow, the last word chilling."
+    },
+    {
+      "id": "operator",
+      "story": 530,
+      "voice": "Enceladus",
+      "fx": "tv",
+      "text": "Welcome. Find Floor *Zero*, and you may leave.",
+      "style": "Calm, polite, unsettling announcer voice over an old intercom, smiling too much, slow and soft, like a hotel concierge who knows something terrible."
+    },
+    {
+      "id": "school",
+      "story": 700,
+      "text": "Floor twelve. A *school.*",
+      "style": "Young man, hushed and wary, eyes wide, the last word a confused whisper."
+    },
+    {
+      "id": "drawings",
+      "story": 790,
+      "text": "Every drawing on the wall... was *me.*",
+      "style": "Young man, horrified realization building slowly, the last word barely a breath."
+    },
+    {
+      "id": "her",
+      "story": 905,
+      "text": "Then I saw *her.*",
+      "style": "Young man, frozen, a sharp quiet gasp on the last word."
+    },
+    {
+      "id": "key",
+      "story": 965,
+      "text": "She was holding a key. To Floor *zero.*",
+      "style": "Young man, whispering fast with a flash of hope, the last word electric."
+    },
+    {
+      "id": "huge",
+      "story": 1075,
+      "text": "And behind her... something *huge* was coming.",
+      "style": "Young man, terrified whisper, trembling, the word huge swelling with fear."
+    },
+    {
+      "id": "choice",
+      "story": 1205,
+      "text": "Ten seconds. Run for the key... or stay, and press *another* button?",
+      "style": "Young man, panicking, fast and desperate, torn between two choices, heart pounding."
+    },
+    {
+      "id": "cta",
+      "story": 1345,
+      "text": "Comment *A* or *B.* You decide what I do.",
+      "style": "Young man, urgent and direct, speaking straight to the viewer, pleading but steady."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [4, 3],
+      "buttons": [3, 4],
+      "sign": [3, 4, 2],
+      "count": [4, 3],
+      "operator": [1, 3, 4],
+      "school": [2, 2],
+      "drawings": [5, 2],
+      "her": [4],
+      "key": [5, 3],
+      "huge": [3, 4],
+      "choice": [2, 4, 6],
+      "cta": [4, 5]
+    },
+    "speakers": {
+      "operator": "operator"
+    }
+  },
+  "timeline": {
+    "gap": 6,
+    "maxSpeedup": 1,
+    "endHold": 66,
+    "captionLead": 2,
+    "maxPause": 0.25
+  },
+  "music": {
+    "title": "Floor 0 - Floor Twelve",
+    "style": "Horror thriller score. Opens frantic: screaming rising strings and pounding low hits. Then a sudden silence, and a warped, detuned vintage elevator muzak melody on music box and electric piano, slowly sinking into a dark ambient drone with a ticking clock pulse, deep sub booms like giant footsteps, building tremolo strings and a racing heartbeat to a sudden cut. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "fall": {
+      "prompt": "An elevator in free fall down a shaft: steel cables screaming, metal grinding against rails, roaring rushing wind, sparks, isolated sound effect, no music."
+    },
+    "brake": {
+      "prompt": "Emergency brakes slamming an elevator to a violent stop: a massive metallic crash and screech, then creaking metal settling, isolated sound effect, no music."
+    },
+    "doors": {
+      "prompt": "Old heavy elevator doors sliding open slowly with a mechanical rumble and a soft clunk, isolated sound effect, no music."
+    },
+    "hum": {
+      "prompt": "Flickering fluorescent tube lights buzzing and humming in an empty dark school hallway, faint electrical crackle, eerie ambience, no music.",
+      "loop": true
+    },
+    "steps": {
+      "prompt": "Giant heavy footsteps of an enormous creature approaching down a long hallway, deep booming thuds, the floor shaking, lockers rattling, isolated horror sound effect, no music."
+    },
+    "kids": {
+      "prompt": "Distant children laughing and whispering, echoing in an empty school corridor, faint and eerie, horror ambience, no music.",
+      "loop": true
+    }
+  },
+  "mix": {
+    "musicDb": -25,
+    "levelLines": true,
+    "fxGainDb": {
+      "tv": -1
+    }
+  },
+  "sfx": "floor-0-01"
+}

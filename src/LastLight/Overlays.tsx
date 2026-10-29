@@ -11,6 +11,7 @@ export const SPEAKERS = {
   mia: { name: "MIA", color: "#7FE3FF" },
   wade: { name: "WADE", color: "#FF9A3D" },
   june: { name: "JUNE", color: "#FF7FB0" },
+  operator: { name: "THE OPERATOR", color: "#FF5A4F" },
 } as const;
 
 // Word-synced captions. Lines listed in `broadcast` (TV, radio) get a red news-ticker style;

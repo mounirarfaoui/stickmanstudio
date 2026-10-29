@@ -1,0 +1,531 @@
+{
+  "voice": "Fenrir",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "I woke up in a *falling* elevator.",
+      "style": "Young man in pure panic, shouting over a roaring wind while in free fall, breathless, the word falling stretched in terror.",
+      "voice": "Fenrir",
+      "story": 4,
+      "anchors": {},
+      "file": "floor-0/part01/voice/hook.wav",
+      "duration": 3,
+      "speechStart": 0.24,
+      "speechEnd": 2.74,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.24
+        },
+        {
+          "text": "woke",
+          "start": 0.36
+        },
+        {
+          "text": "up",
+          "start": 0.55
+        },
+        {
+          "text": "in",
+          "start": 0.77
+        },
+        {
+          "text": "a",
+          "start": 1.1
+        },
+        {
+          "text": "*falling*",
+          "start": 1.22
+        },
+        {
+          "text": "elevator.",
+          "start": 1.88
+        }
+      ]
+    },
+    {
+      "id": "buttons",
+      "text": "A hundred buttons. And *no* ground floor.",
+      "style": "Young man, shaken and breathing hard after a crash, quiet disbelief, the word no landing heavy.",
+      "voice": "Fenrir",
+      "story": 175,
+      "anchors": {},
+      "file": "floor-0/part01/voice/buttons.wav",
+      "duration": 4.19,
+      "speechStart": 0.21,
+      "speechEnd": 3.88,
+      "words": [
+        {
+          "text": "A",
+          "start": 0.21
+        },
+        {
+          "text": "hundred",
+          "start": 0.35
+        },
+        {
+          "text": "buttons.",
+          "start": 1.28
+        },
+        {
+          "text": "And",
+          "start": 2.07
+        },
+        {
+          "text": "*no*",
+          "start": 2.29
+        },
+        {
+          "text": "ground",
+          "start": 2.67
+        },
+        {
+          "text": "floor.",
+          "start": 3.06
+        }
+      ]
+    },
+    {
+      "id": "sign",
+      "text": "Just a sign: the doors stay open *thirty* seconds.",
+      "style": "Young man reading a sign aloud slowly, uneasy, a nervous swallow before the number.",
+      "voice": "Fenrir",
+      "story": 300,
+      "anchors": {},
+      "file": "floor-0/part01/voice/sign.wav",
+      "duration": 6.02,
+      "speechStart": 0.18,
+      "speechEnd": 5.79,
+      "words": [
+        {
+          "text": "Just",
+          "start": 0.22
+        },
+        {
+          "text": "a",
+          "start": 0.88
+        },
+        {
+          "text": "sign:",
+          "start": 1.1
+        },
+        {
+          "text": "the",
+          "start": 2.53
+        },
+        {
+          "text": "doors",
+          "start": 2.78
+        },
+        {
+          "text": "stay",
+          "start": 3.31
+        },
+        {
+          "text": "open",
+          "start": 3.79
+        },
+        {
+          "text": "*thirty*",
+          "start": 4.12
+        },
+        {
+          "text": "seconds.",
+          "start": 4.74
+        }
+      ]
+    },
+    {
+      "id": "count",
+      "text": "And someone before me... had been *counting.*",
+      "style": "Young man, a creeping whisper of dread, slow, the last word chilling.",
+      "voice": "Fenrir",
+      "story": 420,
+      "anchors": {},
+      "file": "floor-0/part01/voice/count.wav",
+      "duration": 4.5,
+      "speechStart": 0.27,
+      "speechEnd": 4.14,
+      "words": [
+        {
+          "text": "And",
+          "start": 0.29
+        },
+        {
+          "text": "someone",
+          "start": 0.41
+        },
+        {
+          "text": "before",
+          "start": 1.46
+        },
+        {
+          "text": "me...",
+          "start": 2.19
+        },
+        {
+          "text": "had",
+          "start": 2.56
+        },
+        {
+          "text": "been",
+          "start": 2.8
+        },
+        {
+          "text": "*counting.*",
+          "start": 3.14
+        }
+      ]
+    },
+    {
+      "id": "operator",
+      "text": "Welcome. Find Floor *Zero*, and you may leave.",
+      "style": "Calm, polite, unsettling announcer voice over an old intercom, smiling too much, slow and soft, like a hotel concierge who knows something terrible.",
+      "voice": "Enceladus",
+      "story": 530,
+      "anchors": {},
+      "fx": "tv",
+      "file": "floor-0/part01/voice/operator.wav",
+      "duration": 6.28,
+      "speechStart": 0.45,
+      "speechEnd": 5.64,
+      "words": [
+        {
+          "text": "Welcome.",
+          "start": 0.48
+        },
+        {
+          "text": "Find",
+          "start": 1.7
+        },
+        {
+          "text": "Floor",
+          "start": 2.52
+        },
+        {
+          "text": "*Zero*,",
+          "start": 3.2
+        },
+        {
+          "text": "and",
+          "start": 4.2
+        },
+        {
+          "text": "you",
+          "start": 4.5
+        },
+        {
+          "text": "may",
+          "start": 4.8
+        },
+        {
+          "text": "leave.",
+          "start": 5.1
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "text": "Floor twelve. A *school.*",
+      "style": "Young man, hushed and wary, eyes wide, the last word a confused whisper.",
+      "voice": "Fenrir",
+      "story": 700,
+      "anchors": {},
+      "file": "floor-0/part01/voice/school.wav",
+      "duration": 3.55,
+      "speechStart": 1.02,
+      "speechEnd": 2.62,
+      "words": [
+        {
+          "text": "Floor",
+          "start": 1.04
+        },
+        {
+          "text": "twelve.",
+          "start": 1.44
+        },
+        {
+          "text": "A",
+          "start": 2.2
+        },
+        {
+          "text": "*school.*",
+          "start": 2.28
+        }
+      ]
+    },
+    {
+      "id": "drawings",
+      "text": "Every drawing on the wall... was *me.*",
+      "style": "Young man, horrified realization building slowly, the last word barely a breath.",
+      "voice": "Fenrir",
+      "story": 790,
+      "anchors": {},
+      "file": "floor-0/part01/voice/drawings.wav",
+      "duration": 3.81,
+      "speechStart": 0.37,
+      "speechEnd": 3.5300000000000002,
+      "words": [
+        {
+          "text": "Every",
+          "start": 0.37
+        },
+        {
+          "text": "drawing",
+          "start": 0.59
+        },
+        {
+          "text": "on",
+          "start": 1.13
+        },
+        {
+          "text": "the",
+          "start": 1.32
+        },
+        {
+          "text": "wall...",
+          "start": 1.6
+        },
+        {
+          "text": "was",
+          "start": 2
+        },
+        {
+          "text": "*me.*",
+          "start": 2.73
+        }
+      ]
+    },
+    {
+      "id": "her",
+      "text": "Then I saw *her.*",
+      "style": "Young man, frozen, a sharp quiet gasp on the last word.",
+      "voice": "Fenrir",
+      "story": 905,
+      "anchors": {},
+      "file": "floor-0/part01/voice/her.wav",
+      "duration": 2.3,
+      "speechStart": 0.26,
+      "speechEnd": 1.86,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.3
+        },
+        {
+          "text": "I",
+          "start": 1.14
+        },
+        {
+          "text": "saw",
+          "start": 1.26
+        },
+        {
+          "text": "*her.*",
+          "start": 1.56
+        }
+      ]
+    },
+    {
+      "id": "key",
+      "text": "She was holding a key. To Floor *zero.*",
+      "style": "Young man, whispering fast with a flash of hope, the last word electric.",
+      "voice": "Fenrir",
+      "story": 965,
+      "anchors": {},
+      "file": "floor-0/part01/voice/key.wav",
+      "duration": 3.1,
+      "speechStart": 0.19,
+      "speechEnd": 2.82,
+      "words": [
+        {
+          "text": "She",
+          "start": 0.21
+        },
+        {
+          "text": "was",
+          "start": 0.33
+        },
+        {
+          "text": "holding",
+          "start": 0.52
+        },
+        {
+          "text": "a",
+          "start": 1.14
+        },
+        {
+          "text": "key.",
+          "start": 1.26
+        },
+        {
+          "text": "To",
+          "start": 1.63
+        },
+        {
+          "text": "Floor",
+          "start": 1.79
+        },
+        {
+          "text": "*zero.*",
+          "start": 2.43
+        }
+      ]
+    },
+    {
+      "id": "huge",
+      "text": "And behind her... something *huge* was coming.",
+      "style": "Young man, terrified whisper, trembling, the word huge swelling with fear.",
+      "voice": "Fenrir",
+      "story": 1075,
+      "anchors": {},
+      "file": "floor-0/part01/voice/huge.wav",
+      "duration": 3.97,
+      "speechStart": 0.38,
+      "speechEnd": 3.72,
+      "words": [
+        {
+          "text": "And",
+          "start": 0.38
+        },
+        {
+          "text": "behind",
+          "start": 0.5
+        },
+        {
+          "text": "her...",
+          "start": 0.78
+        },
+        {
+          "text": "something",
+          "start": 1.26
+        },
+        {
+          "text": "*huge*",
+          "start": 2.33
+        },
+        {
+          "text": "was",
+          "start": 2.56
+        },
+        {
+          "text": "coming.",
+          "start": 2.98
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "text": "Ten seconds. Run for the key... or stay, and press *another* button?",
+      "style": "Young man, panicking, fast and desperate, torn between two choices, heart pounding.",
+      "voice": "Fenrir",
+      "story": 1205,
+      "anchors": {},
+      "file": "floor-0/part01/voice/choice.wav",
+      "duration": 4.6,
+      "speechStart": 0.24,
+      "speechEnd": 4.21,
+      "words": [
+        {
+          "text": "Ten",
+          "start": 0.24
+        },
+        {
+          "text": "seconds.",
+          "start": 0.46
+        },
+        {
+          "text": "Run",
+          "start": 1.36
+        },
+        {
+          "text": "for",
+          "start": 1.48
+        },
+        {
+          "text": "the",
+          "start": 1.62
+        },
+        {
+          "text": "key...",
+          "start": 1.81
+        },
+        {
+          "text": "or",
+          "start": 2.5
+        },
+        {
+          "text": "stay,",
+          "start": 2.62
+        },
+        {
+          "text": "and",
+          "start": 2.97
+        },
+        {
+          "text": "press",
+          "start": 3.14
+        },
+        {
+          "text": "*another*",
+          "start": 3.38
+        },
+        {
+          "text": "button?",
+          "start": 3.71
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Comment *A* or *B.* You decide what I do.",
+      "style": "Young man, urgent and direct, speaking straight to the viewer, pleading but steady.",
+      "voice": "Fenrir",
+      "story": 1345,
+      "anchors": {},
+      "file": "floor-0/part01/voice/cta.wav",
+      "duration": 2.78,
+      "speechStart": 0.17,
+      "speechEnd": 2.49,
+      "words": [
+        {
+          "text": "Comment",
+          "start": 0.19
+        },
+        {
+          "text": "*A*",
+          "start": 0.92
+        },
+        {
+          "text": "or",
+          "start": 1.04
+        },
+        {
+          "text": "*B.*",
+          "start": 1.21
+        },
+        {
+          "text": "You",
+          "start": 1.52
+        },
+        {
+          "text": "decide",
+          "start": 1.64
+        },
+        {
+          "text": "what",
+          "start": 2.02
+        },
+        {
+          "text": "I",
+          "start": 2.28
+        },
+        {
+          "text": "do.",
+          "start": 2.4
+        }
+      ]
+    }
+  ]
+}
