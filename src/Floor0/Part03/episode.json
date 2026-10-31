@@ -1,0 +1,33 @@
+{
+  "id": "floor-0-03",
+  "title": "Floor 0 — Part 3: The Other Theo",
+  "publicDir": "floor-0/part03",
+  "voice": "Fenrir",
+  "lines": [
+    { "id": "flash", "story": 4, "text": "If I'd pulled that plug... we'd *both* be dead.", "style": "Young man, breathless and shaken, speaking fast to the viewer, the word both hitting hard." },
+    { "id": "shake", "story": 100, "text": "You said wake him. So I *shook* him.", "style": "Young man, urgent whisper, frantic, talking straight to the viewer." },
+    { "id": "eyes", "story": 175, "text": "His eyes opened. Same *face.* Same voice.", "style": "Young man, horrified whisper, slow, each short sentence falling like a stone." },
+    { "id": "late", "story": 265, "text": "You're late. Those tally marks? I scratched every *one.*", "style": "The same young man's voice but hoarse, exhausted and weak, as if he has not spoken in years, a bitter tired calm." },
+    { "id": "days", "story": 395, "text": "Twelve hundred days... I never found *zero.*", "style": "The same young man's voice, hoarse and broken, close to tears, almost no breath left." },
+    { "id": "walk", "story": 490, "text": "Then the sheets started *walking.*", "style": "Young man, terrified whisper, the last word chilling." },
+    { "id": "drag", "story": 565, "text": "I dragged him to the doors. *Three* seconds left.", "style": "Young man, straining and panting, running, desperate, fast." },
+    { "id": "bulb", "story": 705, "text": "He pressed a bulb into my hand. *Three* lights again.", "style": "Young man, out of breath, amazed relief, a small shaky laugh at the end." },
+    { "id": "live", "story": 800, "text": "Go to ninety-nine. That's where it *lives.*", "style": "The same young man's voice, hoarse, a low urgent whisper, gripping someone's arm." },
+    { "id": "op", "story": 885, "voice": "Enceladus", "fx": "tv", "text": "Press One, Theo. Ask him what he did to the *last* one.", "style": "Calm, polite, unsettling announcer voice over an old intercom, smiling too much, soft and slow, enjoying this." },
+    { "id": "choice", "story": 1015, "text": "Ninety-nine with him... or Floor One, like the voice *said?*", "style": "Young man, panicking, fast and desperate, torn between two choices." },
+    { "id": "cta", "story": 1130, "text": "Comment *A* or *B.* You decide what I do.", "style": "Young man, urgent and direct, speaking straight to the viewer, pleading but steady." }
+  ],
+  "captions": {
+    "chunks": { "flash": [5, 4], "shake": [4, 4], "eyes": [3, 2, 2], "late": [2, 3, 4], "days": [3, 4], "walk": [3, 2], "drag": [6, 3], "bulb": [7, 3], "live": [3, 4], "op": [3, 5, 4], "choice": [3, 3, 4], "cta": [4, 5] },
+    "speakers": { "op": "operator", "late": "other", "days": "other", "live": "other" }
+  },
+  "timeline": { "gap": 5, "maxSpeedup": 1, "endHold": 60, "captionLead": 2, "maxPause": 0.2 },
+  "music": {
+    "title": "Floor 0 - The Other Theo",
+    "style": "Horror thriller score. Opens with a flatline tone and violent stinger, then a cold hospital drone with a racing pulse, a sad detuned music box under a broken confession, frantic strings and pounding drums for a chase, a brief fragile warm chord, then creeping low dread and a ticking heartbeat building to a sudden cut. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "mix": { "musicDb": -25, "levelLines": true, "fxGainDb": { "tv": -1 } },
+  "sfx": "floor-0-03"
+}

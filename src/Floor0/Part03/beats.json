@@ -1,0 +1,10 @@
+{
+  "fps": 30, "duration": 1285,
+  "pull": 32, "flat": 40, "fallDown": [50, 72], "flashEnd": 90,
+  "shake": 125, "eyesOpen": 215, "sitUp": [265, 290],
+  "tally": [320, 395], "walk": 490, "resume": 510,
+  "drag": [565, 690], "close": [690, 705],
+  "bulbGive": 735, "bulbOn": 778, "panel99": 815,
+  "op": 885, "turn": 965,
+  "both": 1015, "freeze": 1120, "cards": 1125, "card": 1225
+}

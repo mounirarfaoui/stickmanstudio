@@ -6,7 +6,7 @@ import { Tallies } from "./elevator";
 
 // The button panel: a hundred buttons, numbered from the bottom up, and a hole where 0 should be.
 export const PANEL = { cx: 540, top: 380, row0: 1250, dy: 84, dx: 66, hole: 1430 };
-export const PanelClose: React.FC<{ frame: number; lit: number }> = ({ frame, lit }) => {
+export const PanelClose: React.FC<{ frame: number; lit: number; lit2?: number }> = ({ frame, lit, lit2 }) => {
   const { cx, top, row0, dy, dx, hole } = PANEL;
   return (
     <g>
@@ -21,7 +21,7 @@ export const PanelClose: React.FC<{ frame: number; lit: number }> = ({ frame, li
         const r = Math.floor(i / 10);
         const x = cx + (c - 4.5) * dx;
         const y = row0 - r * dy;
-        const on = i + 1 === lit;
+        const on = i + 1 === lit || i + 1 === lit2;
         return (
           <g key={i}>
             {on ? <circle cx={x} cy={y} r={52} fill="url(#goldGlow0)" opacity={0.6 + 0.2 * Math.sin(frame * 0.3)} /> : null}
