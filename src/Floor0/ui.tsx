@@ -137,3 +137,17 @@ export const EndCard0: React.FC<{ frame: number; from: number; part: number }> =
     </AbsoluteFill>
   );
 };
+
+// The lives: three bulbs, top left
+export const Lives: React.FC<{ frame: number; from: number; left: number }> = ({ frame, from, left }) => {
+  const t = frame - from;
+  if (t < 0) return null;
+  return (
+    <div style={{ position: "absolute", top: 300, left: 50, display: "flex", gap: 12, backgroundColor: "rgba(5,5,6,0.88)", border: "5px solid #4a4f57", borderRadius: 18, padding: "16px 20px", opacity: interpolate(t, [0, 6], [0, 1], clamp), scale: interpolate(t, [0, 10], [1.5, 1], clamp) }}>
+      {[0, 1, 2].map((i) => {
+        const on = i >= 3 - left;
+        return <div key={i} style={{ width: 44, height: 44, borderRadius: "50%", backgroundColor: on ? "#FFE08A" : "#2a2c31", boxShadow: on ? "0 0 22px #FFC94D" : "none", border: "3px solid #6a6f78" }} />;
+      })}
+    </div>
+  );
+};

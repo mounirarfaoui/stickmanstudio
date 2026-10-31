@@ -134,7 +134,7 @@ const Crayon: React.FC<{ d: string; color: string; w?: number }> = ({ d, color, 
 const CRAYON_FONT = '"Comic Sans MS", "Chalkboard SE", cursive';
 
 // One child's drawing: an elevator with three bulbs, someone inside, a floor number
-const Doodle: React.FC<{ x: number; y: number; w: number; h: number; rot: number; num: string; who: "stand" | "lie" | "none" | "girl"; black?: boolean; theo?: boolean }> = ({ x, y, w, h, rot, num, who, black, theo }) => {
+export const Doodle: React.FC<{ x: number; y: number; w: number; h: number; rot: number; num: string; who: "stand" | "lie" | "none" | "girl"; black?: boolean; theo?: boolean }> = ({ x, y, w, h, rot, num, who, black, theo }) => {
   const bx = -w * 0.3;
   const bw = w * 0.42;
   const by = -h * 0.28;
@@ -158,7 +158,13 @@ const Doodle: React.FC<{ x: number; y: number; w: number; h: number; rot: number
           <Crayon d={`M ${fx} ${fy - bh * 0.56} L ${fx} ${fy - bh * 0.28} M ${fx} ${fy - bh * 0.28} L ${fx - 14} ${fy} M ${fx} ${fy - bh * 0.28} L ${fx + 14} ${fy} M ${fx - 20} ${fy - bh * 0.45} L ${fx + 20} ${fy - bh * 0.45}`} color="#111" w={w * 0.014} />
         </g>
       ) : null}
-      {who === "lie" ? <Crayon d={`M ${bx + 20} ${fy} L ${bx + bw - 30} ${fy} M ${bx + bw - 30} ${fy} m 10 0 a 10 10 0 1 0 0.1 0`} color="#111" w={w * 0.016} /> : null}
+      {who === "lie" ? (
+        <g>
+          <Crayon d={`M ${bx + 14} ${fy - 16} L ${bx + bw - 14} ${fy - 16}`} color="#7a5230" w={w * 0.03} />
+          <Crayon d={`M ${bx + 40} ${fy - 38} L ${bx + bw - 50} ${fy - 38}`} color="#111" w={w * 0.026} />
+          <circle cx={bx + bw - 42} cy={fy - 44} r={w * 0.04} fill="#111" />
+        </g>
+      ) : null}
       {who === "girl" ? (
         <g>
           <polygon points={`${bx + bw + 50},${fy - 70} ${bx + bw + 30},${fy - 20} ${bx + bw + 70},${fy - 20}`} fill="#c0392b" />

@@ -16,3 +16,4 @@ The next part is made from the majority vote, so parts are produced one at a tim
 | # | Floor | What happens | Choice |
 |---|-------|--------------|--------|
 | 1 | **Floor Twelve** | Free fall, the brakes bite at 12. A hundred buttons, no ground floor, the 30-second notice, the tally marks. The doors open on a dark school; every drawing is of Theo. A girl in a red dress holds a key tagged 0. Behind her the lights die one by one and something very tall comes. | **A:** run for the key · **B:** stay and press another button |
+| 2 | **Floor 64** (B won) | Flash of what A would have done: the hand takes him. Theo presses 64; long fingers come through the doors and the tall thing pats the girl's head. A bulb bursts. The Operator: "That's one light, Theo. You have two left." Floor 64 is a hospital; one monitor beeps, and the patient is Theo. The chart says DO NOT WAKE, and the other sheets sit up. | **A:** wake him up · **B:** pull the plug |

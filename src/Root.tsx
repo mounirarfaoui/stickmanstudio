@@ -11,6 +11,7 @@ import { DURATION as LAST_LIGHT_08, Part08 } from "./LastLight/Part08/Part08";
 import { DURATION as LAST_LIGHT_09, Part09 } from "./LastLight/Part09/Part09";
 import { DURATION as LAST_LIGHT_10, Part10 } from "./LastLight/Part10/Part10";
 import { DURATION as FLOOR_0_01, Part01 as Floor0Part01 } from "./Floor0/Part01/Part01";
+import { DURATION as FLOOR_0_02, Part02 as Floor0Part02 } from "./Floor0/Part02/Part02";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -107,6 +108,14 @@ export const RemotionRoot: React.FC = () => {
         id="Floor0-Part01"
         component={Floor0Part01}
         durationInFrames={FLOOR_0_01}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Floor0-Part02"
+        component={Floor0Part02}
+        durationInFrames={FLOOR_0_02}
         fps={30}
         width={1080}
         height={1920}

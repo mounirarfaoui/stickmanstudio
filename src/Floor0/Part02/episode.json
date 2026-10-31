@@ -1,0 +1,44 @@
+{
+  "id": "floor-0-02",
+  "title": "Floor 0 — Part 2: Floor Sixty-Four",
+  "publicDir": "floor-0/part02",
+  "voice": "Fenrir",
+  "lines": [
+    { "id": "flash", "story": 4, "text": "If I'd run for that key... I'd be *dead.*", "style": "Young man, breathless and shaken, speaking fast to the viewer, the last word hard and flat." },
+    { "id": "stay", "story": 105, "text": "You told me to *stay.* So I hit a button.", "style": "Young man, urgent, panicking but grateful, talking straight to the viewer, quick." },
+    { "id": "fingers", "story": 225, "text": "The doors started closing. Then *fingers* came through.", "style": "Young man, rising terror, the word fingers full of disgust and fear." },
+    { "id": "pat", "story": 335, "text": "And through the gap, it patted her *head.*", "style": "Young man, stunned whisper, slowly realizing something awful, the last word chilling." },
+    { "id": "operator", "story": 460, "voice": "Enceladus", "fx": "tv", "text": "That's one light, Theo. You have *two* left.", "style": "Calm, polite, unsettling announcer voice over an old intercom, smiling too much, soft and slow." },
+    { "id": "name", "story": 575, "text": "It knew my *name.*", "style": "Young man, barely a whisper, frozen with fear." },
+    { "id": "drawing", "story": 630, "text": "Sixty-four. I'd seen that floor... in the *drawings.*", "style": "Young man, dread creeping in, slow and quiet, the last word falling." },
+    { "id": "hospital", "story": 750, "text": "A hospital. Every bed was *full.*", "style": "Young man, hushed and wary, a chill on the last word." },
+    { "id": "beep", "story": 840, "text": "Only one machine was still *beeping.*", "style": "Young man, tense whisper, careful, listening." },
+    { "id": "me", "story": 925, "text": "I pulled back the sheet... and it was *me.*", "style": "Young man, slow whisper, horror breaking on the last word, voice cracking." },
+    { "id": "chart", "story": 1035, "text": "The chart said: do not *wake.*", "style": "Young man, reading aloud in a shaking whisper, each word slow." },
+    { "id": "up", "story": 1105, "text": "Then the others... sat *up.*", "style": "Young man, terrified, a sharp breath, the last word a gasp." },
+    { "id": "choice", "story": 1195, "text": "Ten seconds. Wake him up... or pull the *plug?*", "style": "Young man, panicking, fast and desperate, torn between two choices." },
+    { "id": "cta", "story": 1320, "text": "Comment *A* or *B.* You decide what I do.", "style": "Young man, urgent and direct, speaking straight to the viewer, pleading but steady." }
+  ],
+  "captions": {
+    "chunks": {
+      "flash": [6, 3], "stay": [5, 5], "fingers": [4, 4], "pat": [4, 4], "operator": [4, 4], "name": [4],
+      "drawing": [1, 4, 3], "hospital": [2, 4], "beep": [3, 3], "me": [5, 4], "chart": [3, 3], "up": [3, 2],
+      "choice": [2, 3, 4], "cta": [4, 5]
+    },
+    "speakers": { "operator": "operator" }
+  },
+  "timeline": { "gap": 5, "maxSpeedup": 1, "endHold": 60, "captionLead": 2, "maxPause": 0.2 },
+  "music": {
+    "title": "Floor 0 - Floor Sixty-Four",
+    "style": "Horror thriller score. Opens with a violent stinger and frantic strings, then a slow warped vintage elevator muzak on detuned music box, sinking into a cold hospital ambient drone with a faint steady pulse, low dread strings swelling, racing tremolo and heartbeat building to a sudden cut. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "ward": { "prompt": "Empty abandoned hospital ward at night: low ventilation hum, distant dripping, faint electrical buzz, eerie ambience, no music.", "loop": true },
+    "sheets": { "prompt": "Many bed sheets rustling and old metal hospital beds creaking as bodies slowly sit up, isolated horror sound effect, no music." },
+    "lift": { "prompt": "Old elevator rising quickly in a shaft, mechanical rumble and rattling cables, isolated sound effect, no music." }
+  },
+  "mix": { "musicDb": -25, "levelLines": true, "fxGainDb": { "tv": -1 } },
+  "sfx": "floor-0-02"
+}
