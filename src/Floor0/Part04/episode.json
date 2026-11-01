@@ -1,0 +1,38 @@
+{
+  "id": "floor-0-04",
+  "title": "Floor 0 — Part 4: Floor Ninety-Nine",
+  "publicDir": "floor-0/part04",
+  "voice": "Fenrir",
+  "lines": [
+    { "id": "hook", "story": 2, "text": "There are two of me in this elevator. And he *killed* the last one.", "style": "Young man, urgent and scared, fast and punchy, grabbing the listener immediately, the word killed hitting hard." },
+    { "id": "vote", "story": 110, "text": "You said ninety-nine. So I pressed it.", "style": "Young man, tense and quick, talking straight to the viewer." },
+    { "id": "ask", "story": 175, "text": "I asked him what he did to the last Theo.", "style": "Young man, low and shaking, afraid of the answer." },
+    { "id": "conf", "story": 260, "voice": "Fenrir", "text": "He trusted me. I shut the doors on *him.*", "style": "The same young man's voice but hoarse and exhausted, a flat broken confession, ashamed." },
+    { "id": "ding", "story": 375, "text": "Floor ninety-nine. A wall of *screens.*", "style": "Young man, hushed, awe and fear, the last word wide-eyed." },
+    { "id": "screens", "story": 460, "text": "And on every screen... another *me.*", "style": "Young man, horrified whisper, slow, the last word falling." },
+    { "id": "count", "story": 545, "text": "Hundreds of us. All falling. All *trapped.*", "style": "Young man, shaken and quick, voice rising with panic." },
+    { "id": "op", "story": 630, "voice": "Enceladus", "fx": "tv", "text": "You're early, Theo. Floor One had a *door.*", "style": "Calm, polite, unsettling announcer voice over an old intercom, smiling too much, soft and slow, teasing." },
+    { "id": "chair", "story": 745, "text": "The chair was empty. The headset was still *warm.*", "style": "Young man, tense whisper, creeping dread." },
+    { "id": "btn", "story": 830, "text": "Then he saw the red *button.*", "style": "Young man, sharp alarm, quick." },
+    { "id": "other", "story": 895, "text": "Reset. This ends it. For *all* of them.", "style": "The same young man's voice but hoarse and desperate, a dangerous hope, staring at something." },
+    { "id": "op2", "story": 990, "voice": "Enceladus", "fx": "tv", "text": "Press it, and every Theo *dies.* Including you.", "style": "Calm, polite, unsettling announcer voice over an old intercom, quietly delighted, very slow." },
+    { "id": "choice", "story": 1100, "text": "Let him press it... or *stop* him?", "style": "Young man, panicking, fast and desperate, torn between two choices." },
+    { "id": "cta", "story": 1215, "text": "Comment *A* or *B.* You decide what I do.", "style": "Young man, urgent and direct, speaking straight to the viewer, pleading but steady." }
+  ],
+  "captions": {
+    "chunks": { "hook": [5, 3, 3, 3], "vote": [3, 4], "ask": [5, 5], "conf": [3, 6], "ding": [2, 4], "screens": [4, 2], "count": [3, 2, 2], "op": [3, 5], "chair": [4, 5], "btn": [3, 3], "other": [1, 3, 4], "op2": [2, 4, 2], "choice": [4, 3], "cta": [4, 5] },
+    "speakers": { "op": "operator", "op2": "operator", "conf": "other", "other": "other" }
+  },
+  "timeline": { "gap": 4, "maxSpeedup": 1, "endHold": 36, "captionLead": 2, "maxPause": 0.2 },
+  "music": {
+    "title": "Floor 0 - Floor Ninety-Nine",
+    "style": "Horror thriller score. Starts instantly at full intensity: pounding low drums, alarm-like strings and a rising siren tone. Then a tense rising pulse, a brief broken piano, a vast cold electronic drone with many ticking clocks, slowly building tremolo and heartbeat to a sudden cut. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "screens": { "prompt": "A dark control room full of hundreds of old CRT televisions: electrical hum, soft static, faint overlapping muffled voices, eerie ambience, no music.", "loop": true }
+  },
+  "mix": { "musicDb": -24, "levelLines": true, "fxGainDb": { "tv": -1 } },
+  "sfx": "floor-0-04"
+}

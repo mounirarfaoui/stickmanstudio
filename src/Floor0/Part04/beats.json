@@ -1,0 +1,19 @@
+{
+  "fps": 30,
+  "duration": 1330,
+  "slam": [28, 55, 80],
+  "press": 150,
+  "shut": 365,
+  "ding": 365,
+  "open": [375, 415],
+  "timerStart": 395,
+  "reveal": 545,
+  "chair": 745,
+  "button": 830,
+  "lunge": 900,
+  "alarm": 1015,
+  "choice": 1100,
+  "freeze": 1205,
+  "cards": 1209,
+  "card": 1296
+}

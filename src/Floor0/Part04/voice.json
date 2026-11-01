@@ -1,0 +1,660 @@
+{
+  "voice": "Fenrir",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "There are two of me in this elevator. And he *killed* the last one.",
+      "style": "Young man, urgent and scared, fast and punchy, grabbing the listener immediately, the word killed hitting hard.",
+      "voice": "Fenrir",
+      "story": 2,
+      "anchors": {},
+      "file": "floor-0/part04/voice/hook.wav",
+      "duration": 4.23,
+      "speechStart": 0.42,
+      "speechEnd": 4.0200000000000005,
+      "words": [
+        {
+          "text": "There",
+          "start": 0.42
+        },
+        {
+          "text": "are",
+          "start": 0.54
+        },
+        {
+          "text": "two",
+          "start": 0.71
+        },
+        {
+          "text": "of",
+          "start": 0.93
+        },
+        {
+          "text": "me",
+          "start": 1.1
+        },
+        {
+          "text": "in",
+          "start": 1.27
+        },
+        {
+          "text": "this",
+          "start": 1.62
+        },
+        {
+          "text": "elevator.",
+          "start": 1.78
+        },
+        {
+          "text": "And",
+          "start": 2.61
+        },
+        {
+          "text": "he",
+          "start": 2.73
+        },
+        {
+          "text": "*killed*",
+          "start": 2.85
+        },
+        {
+          "text": "the",
+          "start": 3.19
+        },
+        {
+          "text": "last",
+          "start": 3.38
+        },
+        {
+          "text": "one.",
+          "start": 3.63
+        }
+      ]
+    },
+    {
+      "id": "vote",
+      "text": "You said ninety-nine. So I pressed it.",
+      "style": "Young man, tense and quick, talking straight to the viewer.",
+      "voice": "Fenrir",
+      "story": 110,
+      "anchors": {},
+      "file": "floor-0/part04/voice/vote.wav",
+      "duration": 2.72,
+      "speechStart": 0.22,
+      "speechEnd": 2.49,
+      "words": [
+        {
+          "text": "You",
+          "start": 0.24
+        },
+        {
+          "text": "said",
+          "start": 0.36
+        },
+        {
+          "text": "ninety-nine.",
+          "start": 0.51
+        },
+        {
+          "text": "So",
+          "start": 1.23
+        },
+        {
+          "text": "I",
+          "start": 1.42
+        },
+        {
+          "text": "pressed",
+          "start": 1.54
+        },
+        {
+          "text": "it.",
+          "start": 2.18
+        }
+      ]
+    },
+    {
+      "id": "ask",
+      "text": "I asked him what he did to the last Theo.",
+      "style": "Young man, low and shaking, afraid of the answer.",
+      "voice": "Fenrir",
+      "story": 175,
+      "anchors": {},
+      "file": "floor-0/part04/voice/ask.wav",
+      "duration": 3.77,
+      "speechStart": 0.32,
+      "speechEnd": 3.4,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.32
+        },
+        {
+          "text": "asked",
+          "start": 0.44
+        },
+        {
+          "text": "him",
+          "start": 0.61
+        },
+        {
+          "text": "what",
+          "start": 1.17
+        },
+        {
+          "text": "he",
+          "start": 1.35
+        },
+        {
+          "text": "did",
+          "start": 1.56
+        },
+        {
+          "text": "to",
+          "start": 1.87
+        },
+        {
+          "text": "the",
+          "start": 2.08
+        },
+        {
+          "text": "last",
+          "start": 2.41
+        },
+        {
+          "text": "Theo.",
+          "start": 2.81
+        }
+      ]
+    },
+    {
+      "id": "conf",
+      "text": "He trusted me. I shut the doors on *him.*",
+      "style": "The same young man's voice but hoarse and exhausted, a flat broken confession, ashamed.",
+      "voice": "Fenrir",
+      "story": 260,
+      "anchors": {},
+      "file": "floor-0/part04/voice/conf.wav",
+      "duration": 2.88,
+      "speechStart": 0.19,
+      "speechEnd": 2.48,
+      "words": [
+        {
+          "text": "He",
+          "start": 0.19
+        },
+        {
+          "text": "trusted",
+          "start": 0.32
+        },
+        {
+          "text": "me.",
+          "start": 0.83
+        },
+        {
+          "text": "I",
+          "start": 1.34
+        },
+        {
+          "text": "shut",
+          "start": 1.46
+        },
+        {
+          "text": "the",
+          "start": 1.78
+        },
+        {
+          "text": "doors",
+          "start": 1.91
+        },
+        {
+          "text": "on",
+          "start": 2.2
+        },
+        {
+          "text": "*him.*",
+          "start": 2.34
+        }
+      ]
+    },
+    {
+      "id": "ding",
+      "text": "Floor ninety-nine. A wall of *screens.*",
+      "style": "Young man, hushed, awe and fear, the last word wide-eyed.",
+      "voice": "Fenrir",
+      "story": 375,
+      "anchors": {},
+      "file": "floor-0/part04/voice/ding.wav",
+      "duration": 4.09,
+      "speechStart": 0.26,
+      "speechEnd": 3.67,
+      "words": [
+        {
+          "text": "Floor",
+          "start": 0.32
+        },
+        {
+          "text": "ninety-nine.",
+          "start": 0.69
+        },
+        {
+          "text": "A",
+          "start": 2
+        },
+        {
+          "text": "wall",
+          "start": 2.14
+        },
+        {
+          "text": "of",
+          "start": 2.45
+        },
+        {
+          "text": "*screens.*",
+          "start": 2.63
+        }
+      ]
+    },
+    {
+      "id": "screens",
+      "text": "And on every screen... another *me.*",
+      "style": "Young man, horrified whisper, slow, the last word falling.",
+      "voice": "Fenrir",
+      "story": 460,
+      "anchors": {},
+      "file": "floor-0/part04/voice/screens.wav",
+      "duration": 4.74,
+      "speechStart": 0.18,
+      "speechEnd": 4.33,
+      "words": [
+        {
+          "text": "And",
+          "start": 0.22
+        },
+        {
+          "text": "on",
+          "start": 0.52
+        },
+        {
+          "text": "every",
+          "start": 0.99
+        },
+        {
+          "text": "screen...",
+          "start": 1.74
+        },
+        {
+          "text": "another",
+          "start": 3.08
+        },
+        {
+          "text": "*me.*",
+          "start": 4.03
+        }
+      ]
+    },
+    {
+      "id": "count",
+      "text": "Hundreds of us. All falling. All *trapped.*",
+      "style": "Young man, shaken and quick, voice rising with panic.",
+      "voice": "Fenrir",
+      "story": 545,
+      "anchors": {},
+      "file": "floor-0/part04/voice/count.wav",
+      "duration": 3.76,
+      "speechStart": 0.34,
+      "speechEnd": 3.45,
+      "words": [
+        {
+          "text": "Hundreds",
+          "start": 0.44
+        },
+        {
+          "text": "of",
+          "start": 0.68
+        },
+        {
+          "text": "us.",
+          "start": 0.85
+        },
+        {
+          "text": "All",
+          "start": 1.15
+        },
+        {
+          "text": "falling.",
+          "start": 1.68
+        },
+        {
+          "text": "All",
+          "start": 2.7
+        },
+        {
+          "text": "*trapped.*",
+          "start": 2.82
+        }
+      ]
+    },
+    {
+      "id": "op",
+      "text": "You're early, Theo. Floor One had a *door.*",
+      "style": "Calm, polite, unsettling announcer voice over an old intercom, smiling too much, soft and slow, teasing.",
+      "voice": "Enceladus",
+      "story": 630,
+      "anchors": {},
+      "fx": "tv",
+      "file": "floor-0/part04/voice/op.wav",
+      "duration": 4.98,
+      "speechStart": 0.29,
+      "speechEnd": 4.58,
+      "words": [
+        {
+          "text": "You're",
+          "start": 0.29
+        },
+        {
+          "text": "early,",
+          "start": 0.74
+        },
+        {
+          "text": "Theo.",
+          "start": 1.36
+        },
+        {
+          "text": "Floor",
+          "start": 1.99
+        },
+        {
+          "text": "One",
+          "start": 2.67
+        },
+        {
+          "text": "had",
+          "start": 3.07
+        },
+        {
+          "text": "a",
+          "start": 3.46
+        },
+        {
+          "text": "*door.*",
+          "start": 3.62
+        }
+      ]
+    },
+    {
+      "id": "chair",
+      "text": "The chair was empty. The headset was still *warm.*",
+      "style": "Young man, tense whisper, creeping dread.",
+      "voice": "Fenrir",
+      "story": 745,
+      "anchors": {},
+      "file": "floor-0/part04/voice/chair.wav",
+      "duration": 4.7,
+      "speechStart": 0.41000000000000003,
+      "speechEnd": 4.34,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.41
+        },
+        {
+          "text": "chair",
+          "start": 0.53
+        },
+        {
+          "text": "was",
+          "start": 0.99
+        },
+        {
+          "text": "empty.",
+          "start": 1.36
+        },
+        {
+          "text": "The",
+          "start": 2.25
+        },
+        {
+          "text": "headset",
+          "start": 2.47
+        },
+        {
+          "text": "was",
+          "start": 3.05
+        },
+        {
+          "text": "still",
+          "start": 3.26
+        },
+        {
+          "text": "*warm.*",
+          "start": 3.82
+        }
+      ]
+    },
+    {
+      "id": "btn",
+      "text": "Then he saw the red *button.*",
+      "style": "Young man, sharp alarm, quick.",
+      "voice": "Fenrir",
+      "story": 830,
+      "anchors": {},
+      "file": "floor-0/part04/voice/btn.wav",
+      "duration": 1.64,
+      "speechStart": 0.25,
+      "speechEnd": 1.31,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.28
+        },
+        {
+          "text": "he",
+          "start": 0.4
+        },
+        {
+          "text": "saw",
+          "start": 0.52
+        },
+        {
+          "text": "the",
+          "start": 0.66
+        },
+        {
+          "text": "red",
+          "start": 0.87
+        },
+        {
+          "text": "*button.*",
+          "start": 1.14
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "text": "Reset. This ends it. For *all* of them.",
+      "style": "The same young man's voice but hoarse and desperate, a dangerous hope, staring at something.",
+      "voice": "Fenrir",
+      "story": 895,
+      "anchors": {},
+      "file": "floor-0/part04/voice/other.wav",
+      "duration": 3.62,
+      "speechStart": 0.42,
+      "speechEnd": 3.34,
+      "words": [
+        {
+          "text": "Reset.",
+          "start": 0.43
+        },
+        {
+          "text": "This",
+          "start": 0.99
+        },
+        {
+          "text": "ends",
+          "start": 1.3
+        },
+        {
+          "text": "it.",
+          "start": 1.6
+        },
+        {
+          "text": "For",
+          "start": 2.03
+        },
+        {
+          "text": "*all*",
+          "start": 2.33
+        },
+        {
+          "text": "of",
+          "start": 2.71
+        },
+        {
+          "text": "them.",
+          "start": 2.83
+        }
+      ]
+    },
+    {
+      "id": "op2",
+      "text": "Press it, and every Theo *dies.* Including you.",
+      "style": "Calm, polite, unsettling announcer voice over an old intercom, quietly delighted, very slow.",
+      "voice": "Enceladus",
+      "story": 990,
+      "anchors": {},
+      "fx": "tv",
+      "file": "floor-0/part04/voice/op2.wav",
+      "duration": 6.86,
+      "speechStart": 0.3,
+      "speechEnd": 6.32,
+      "words": [
+        {
+          "text": "Press",
+          "start": 0.34
+        },
+        {
+          "text": "it,",
+          "start": 1.03
+        },
+        {
+          "text": "and",
+          "start": 1.42
+        },
+        {
+          "text": "every",
+          "start": 1.89
+        },
+        {
+          "text": "Theo",
+          "start": 2.91
+        },
+        {
+          "text": "*dies.*",
+          "start": 3.73
+        },
+        {
+          "text": "Including",
+          "start": 4.6
+        },
+        {
+          "text": "you.",
+          "start": 5.51
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "text": "Let him press it... or *stop* him?",
+      "style": "Young man, panicking, fast and desperate, torn between two choices.",
+      "voice": "Fenrir",
+      "story": 1100,
+      "anchors": {},
+      "file": "floor-0/part04/voice/choice.wav",
+      "duration": 2.24,
+      "speechStart": 0.35000000000000003,
+      "speechEnd": 2.04,
+      "words": [
+        {
+          "text": "Let",
+          "start": 0.35
+        },
+        {
+          "text": "him",
+          "start": 0.47
+        },
+        {
+          "text": "press",
+          "start": 0.59
+        },
+        {
+          "text": "it...",
+          "start": 1
+        },
+        {
+          "text": "or",
+          "start": 1.23
+        },
+        {
+          "text": "*stop*",
+          "start": 1.37
+        },
+        {
+          "text": "him?",
+          "start": 1.71
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Comment *A* or *B.* You decide what I do.",
+      "style": "Young man, urgent and direct, speaking straight to the viewer, pleading but steady.",
+      "voice": "Fenrir",
+      "story": 1215,
+      "anchors": {},
+      "file": "floor-0/part04/voice/cta.wav",
+      "duration": 2.96,
+      "speechStart": 0.26,
+      "speechEnd": 2.68,
+      "words": [
+        {
+          "text": "Comment",
+          "start": 0.28
+        },
+        {
+          "text": "*A*",
+          "start": 1.01
+        },
+        {
+          "text": "or",
+          "start": 1.19
+        },
+        {
+          "text": "*B.*",
+          "start": 1.6
+        },
+        {
+          "text": "You",
+          "start": 1.76
+        },
+        {
+          "text": "decide",
+          "start": 1.92
+        },
+        {
+          "text": "what",
+          "start": 2.24
+        },
+        {
+          "text": "I",
+          "start": 2.45
+        },
+        {
+          "text": "do.",
+          "start": 2.57
+        }
+      ]
+    }
+  ]
+}
