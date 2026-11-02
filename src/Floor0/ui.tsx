@@ -151,3 +151,31 @@ export const Lives: React.FC<{ frame: number; from: number; left: number }> = ({
     </div>
   );
 };
+
+// First-frame hook: the spoken line, huge, on screen from the first frame
+export const HookText: React.FC<{ frame: number; until: number; lines: string[]; top?: number }> = ({ frame, until, lines, top = 1150 }) => {
+  if (frame >= until) return null;
+  return (
+    <div style={{ position: "absolute", top, left: 40, right: 40, display: "flex", flexDirection: "column", alignItems: "center", gap: 6, opacity: interpolate(frame, [until - 6, until], [1, 0], clamp) }}>
+      {lines.map((l, i) => (
+        <div
+          key={i}
+          style={{
+            fontFamily: FONT,
+            fontSize: i === 0 ? 112 : 84,
+            lineHeight: 1.05,
+            textAlign: "center",
+            color: i === 0 ? "#FFD43B" : "#fff",
+            WebkitTextStroke: "16px #0a0a0a",
+            paintOrder: "stroke fill",
+            textShadow: "0 12px 0 rgba(0,0,0,0.4)",
+            opacity: interpolate(frame, [i * 12, i * 12 + 4], [0, 1], clamp),
+            scale: interpolate(frame, [i * 12, i * 12 + 8], [1.6, 1], { ...clamp, easing: Easing.bezier(0.34, 1.56, 0.64, 1) }),
+          }}
+        >
+          {l}
+        </div>
+      ))}
+    </div>
+  );
+};

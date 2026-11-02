@@ -14,6 +14,7 @@ import { DURATION as FLOOR_0_01, Part01 as Floor0Part01 } from "./Floor0/Part01/
 import { DURATION as FLOOR_0_02, Part02 as Floor0Part02 } from "./Floor0/Part02/Part02";
 import { DURATION as FLOOR_0_03, Part03 as Floor0Part03 } from "./Floor0/Part03/Part03";
 import { DURATION as FLOOR_0_04, Part04 as Floor0Part04 } from "./Floor0/Part04/Part04";
+import { DURATION as FLOOR_0_05, Part05 as Floor0Part05 } from "./Floor0/Part05/Part05";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -134,6 +135,14 @@ export const RemotionRoot: React.FC = () => {
         id="Floor0-Part04"
         component={Floor0Part04}
         durationInFrames={FLOOR_0_04}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Floor0-Part05"
+        component={Floor0Part05}
+        durationInFrames={FLOOR_0_05}
         fps={30}
         width={1080}
         height={1920}

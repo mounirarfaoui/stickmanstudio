@@ -1,0 +1,36 @@
+{
+  "id": "floor-0-05",
+  "title": "Floor 0 — Part 5: Reset",
+  "publicDir": "floor-0/part05",
+  "voice": "Fenrir",
+  "lines": [
+    { "id": "hook", "story": 2, "text": "Two hundred of me died in one second. And it was *your* vote.", "style": "Young man, shouting over an alarm, fast and raw, the word your pointed straight at the listener." },
+    { "id": "let", "story": 125, "text": "You said let him press it. So I didn't *stop* him.", "style": "Young man, tense and quick, talking straight to the viewer." },
+    { "id": "rows", "story": 215, "text": "The screens went black. Row by *row.*", "style": "Young man, hushed horror, slow, each short sentence a beat." },
+    { "id": "free", "story": 300, "text": "It's over. We're *free.*", "style": "The same young man's voice but hoarse and exhausted, a thin desperate smile, almost laughing." },
+    { "id": "flicker", "story": 370, "text": "Then he started to *flicker.*", "style": "Young man, dread creeping in, quiet, the last word unsteady." },
+    { "id": "meant", "story": 445, "text": "Oh. He meant me *too.*", "style": "The same young man's voice, hoarse, quiet and calm, understanding something sad, fading." },
+    { "id": "one", "story": 535, "text": "Every screen was dead. Except *one.*", "style": "Young man, whisper, slow, careful." },
+    { "id": "wave", "story": 620, "text": "The girl. In my elevator. *Waving.*", "style": "Young man, a chill in the voice, each fragment landing, the last word unnerved." },
+    { "id": "op", "story": 705, "voice": "Enceladus", "fx": "tv", "text": "Reset complete. One Theo left. Someone has to run the *building.*", "style": "Calm, polite, unsettling announcer voice over an old intercom, warm and inviting, slow." },
+    { "id": "doors", "story": 835, "text": "The headset was on the chair. And the doors were *closing.*", "style": "Young man, fast panicked whisper, rising." },
+    { "id": "choice", "story": 935, "text": "Put it on... or *run?*", "style": "Young man, panicking, fast and desperate, torn between two choices." },
+    { "id": "cta", "story": 1010, "text": "Comment *A* or *B.* You decide what I do.", "style": "Young man, urgent and direct, speaking straight to the viewer, pleading but steady." }
+  ],
+  "captions": {
+    "chunks": { "hook": [4, 4, 5], "let": [6, 5], "rows": [4, 3], "free": [2, 2], "flicker": [3, 2], "meant": [5], "one": [4, 2], "wave": [2, 3, 1], "op": [2, 3, 6], "doors": [6, 5], "choice": [3, 2], "cta": [4, 5] },
+    "speakers": { "op": "operator", "free": "other", "meant": "other" }
+  },
+  "timeline": { "gap": 4, "maxSpeedup": 1, "endHold": 36, "captionLead": 2, "maxPause": 0.2 },
+  "music": {
+    "title": "Floor 0 - Reset",
+    "style": "Horror thriller score. Starts instantly on a massive impact and a blaring alarm, then hundreds of electronic tones switching off one by one, a sad detuned music box as something fades, a vast empty silence with a single soft chime, a warm sinister synth swell, then racing heartbeat and ticking to a sudden cut. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "shutdown": { "prompt": "Hundreds of old CRT televisions powering down one after another in a cascade, electrical pops and fading high-pitched whines, isolated sound effect, no music." }
+  },
+  "mix": { "musicDb": -24, "levelLines": true, "fxGainDb": { "tv": -1 } },
+  "sfx": "floor-0-05"
+}

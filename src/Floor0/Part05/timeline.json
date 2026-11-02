@@ -1,0 +1,822 @@
+{
+  "fps": 30,
+  "duration": 1284,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      125,
+      125
+    ],
+    [
+      215,
+      215
+    ],
+    [
+      300,
+      321
+    ],
+    [
+      370,
+      431.2
+    ],
+    [
+      445,
+      506.2
+    ],
+    [
+      535,
+      596.2
+    ],
+    [
+      620,
+      692.3
+    ],
+    [
+      705,
+      777.3
+    ],
+    [
+      835,
+      968.8
+    ],
+    [
+      935,
+      1068.8
+    ],
+    [
+      1010,
+      1143.8
+    ],
+    [
+      1150,
+      1283.8
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "floor-0/part05/voice/hook.wav",
+      "at": -0.2033,
+      "speech": [
+        0.067,
+        4.017
+      ]
+    },
+    {
+      "id": "let",
+      "file": "floor-0/part05/voice/let.wav",
+      "at": 4.0367,
+      "speech": [
+        4.167,
+        6.677
+      ]
+    },
+    {
+      "id": "rows",
+      "file": "floor-0/part05/voice/rows.wav",
+      "at": 6.8167,
+      "speech": [
+        7.167,
+        10.567
+      ]
+    },
+    {
+      "id": "free",
+      "file": "floor-0/part05/voice/free.wav",
+      "at": 10.56,
+      "speech": [
+        10.7,
+        14.24
+      ]
+    },
+    {
+      "id": "flicker",
+      "file": "floor-0/part05/voice/flicker.wav",
+      "at": 14.0333,
+      "speech": [
+        14.373,
+        15.983
+      ]
+    },
+    {
+      "id": "meant",
+      "file": "floor-0/part05/voice/meant.wav",
+      "at": 16.7833,
+      "speech": [
+        16.873,
+        18.803
+      ]
+    },
+    {
+      "id": "one",
+      "file": "floor-0/part05/voice/one.wav",
+      "at": 19.6033,
+      "speech": [
+        19.873,
+        22.943
+      ]
+    },
+    {
+      "id": "wave",
+      "file": "floor-0/part05/voice/wave.wav",
+      "at": 22.7367,
+      "speech": [
+        23.077,
+        25.637
+      ]
+    },
+    {
+      "id": "op",
+      "file": "floor-0/part05/voice/op.wav",
+      "at": 25.53,
+      "speech": [
+        25.91,
+        32.16
+      ],
+      "fx": "tv"
+    },
+    {
+      "id": "doors",
+      "file": "floor-0/part05/voice/doors.wav",
+      "at": 32.1033,
+      "speech": [
+        32.293,
+        34.993
+      ]
+    },
+    {
+      "id": "choice",
+      "file": "floor-0/part05/voice/choice.wav",
+      "at": 35.4667,
+      "speech": [
+        35.627,
+        37.127
+      ]
+    },
+    {
+      "id": "cta",
+      "file": "floor-0/part05/voice/cta.wav",
+      "at": 37.9067,
+      "speech": [
+        38.127,
+        40.727
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 0,
+      "to": 31,
+      "words": [
+        {
+          "text": "Two",
+          "emph": false,
+          "frame": 2
+        },
+        {
+          "text": "hundred",
+          "emph": false,
+          "frame": 6
+        },
+        {
+          "text": "of",
+          "emph": false,
+          "frame": 21
+        },
+        {
+          "text": "me",
+          "emph": false,
+          "frame": 27
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 31,
+      "to": 82,
+      "words": [
+        {
+          "text": "died",
+          "emph": false,
+          "frame": 33
+        },
+        {
+          "text": "in",
+          "emph": false,
+          "frame": 45
+        },
+        {
+          "text": "one",
+          "emph": false,
+          "frame": 53
+        },
+        {
+          "text": "second.",
+          "emph": false,
+          "frame": 60
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 82,
+      "to": 123,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 84
+        },
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 88
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 92
+        },
+        {
+          "text": "your",
+          "emph": true,
+          "frame": 97
+        },
+        {
+          "text": "vote.",
+          "emph": false,
+          "frame": 104
+        }
+      ]
+    },
+    {
+      "line": "let",
+      "from": 124,
+      "to": 168,
+      "words": [
+        {
+          "text": "You",
+          "emph": false,
+          "frame": 126
+        },
+        {
+          "text": "said",
+          "emph": false,
+          "frame": 129
+        },
+        {
+          "text": "let",
+          "emph": false,
+          "frame": 136
+        },
+        {
+          "text": "him",
+          "emph": false,
+          "frame": 144
+        },
+        {
+          "text": "press",
+          "emph": false,
+          "frame": 150
+        },
+        {
+          "text": "it.",
+          "emph": false,
+          "frame": 161
+        }
+      ]
+    },
+    {
+      "line": "let",
+      "from": 168,
+      "to": 212,
+      "words": [
+        {
+          "text": "So",
+          "emph": false,
+          "frame": 170
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 174
+        },
+        {
+          "text": "didn't",
+          "emph": false,
+          "frame": 178
+        },
+        {
+          "text": "stop",
+          "emph": true,
+          "frame": 189
+        },
+        {
+          "text": "him.",
+          "emph": false,
+          "frame": 196
+        }
+      ]
+    },
+    {
+      "line": "rows",
+      "from": 213,
+      "to": 274,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 215
+        },
+        {
+          "text": "screens",
+          "emph": false,
+          "frame": 219
+        },
+        {
+          "text": "went",
+          "emph": false,
+          "frame": 236
+        },
+        {
+          "text": "black.",
+          "emph": false,
+          "frame": 248
+        }
+      ]
+    },
+    {
+      "line": "rows",
+      "from": 274,
+      "to": 319,
+      "words": [
+        {
+          "text": "Row",
+          "emph": false,
+          "frame": 276
+        },
+        {
+          "text": "by",
+          "emph": false,
+          "frame": 287
+        },
+        {
+          "text": "row.",
+          "emph": true,
+          "frame": 296
+        }
+      ]
+    },
+    {
+      "line": "free",
+      "from": 320,
+      "to": 389,
+      "words": [
+        {
+          "text": "It's",
+          "emph": false,
+          "frame": 322
+        },
+        {
+          "text": "over.",
+          "emph": false,
+          "frame": 343
+        }
+      ]
+    },
+    {
+      "line": "free",
+      "from": 389,
+      "to": 429,
+      "words": [
+        {
+          "text": "We're",
+          "emph": false,
+          "frame": 391
+        },
+        {
+          "text": "free.",
+          "emph": true,
+          "frame": 413
+        }
+      ]
+    },
+    {
+      "line": "flicker",
+      "from": 430,
+      "to": 453,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 432
+        },
+        {
+          "text": "he",
+          "emph": false,
+          "frame": 435
+        },
+        {
+          "text": "started",
+          "emph": false,
+          "frame": 439
+        }
+      ]
+    },
+    {
+      "line": "flicker",
+      "from": 453,
+      "to": 492,
+      "words": [
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 455
+        },
+        {
+          "text": "flicker.",
+          "emph": true,
+          "frame": 466
+        }
+      ]
+    },
+    {
+      "line": "meant",
+      "from": 504,
+      "to": 576,
+      "words": [
+        {
+          "text": "Oh.",
+          "emph": false,
+          "frame": 506
+        },
+        {
+          "text": "He",
+          "emph": false,
+          "frame": 510
+        },
+        {
+          "text": "meant",
+          "emph": false,
+          "frame": 525
+        },
+        {
+          "text": "me",
+          "emph": false,
+          "frame": 539
+        },
+        {
+          "text": "too.",
+          "emph": true,
+          "frame": 549
+        }
+      ]
+    },
+    {
+      "line": "one",
+      "from": 595,
+      "to": 664,
+      "words": [
+        {
+          "text": "Every",
+          "emph": false,
+          "frame": 597
+        },
+        {
+          "text": "screen",
+          "emph": false,
+          "frame": 608
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 637
+        },
+        {
+          "text": "dead.",
+          "emph": false,
+          "frame": 647
+        }
+      ]
+    },
+    {
+      "line": "one",
+      "from": 664,
+      "to": 690,
+      "words": [
+        {
+          "text": "Except",
+          "emph": false,
+          "frame": 666
+        },
+        {
+          "text": "one.",
+          "emph": true,
+          "frame": 679
+        }
+      ]
+    },
+    {
+      "line": "wave",
+      "from": 691,
+      "to": 717,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 693
+        },
+        {
+          "text": "girl.",
+          "emph": false,
+          "frame": 697
+        }
+      ]
+    },
+    {
+      "line": "wave",
+      "from": 717,
+      "to": 753,
+      "words": [
+        {
+          "text": "In",
+          "emph": false,
+          "frame": 719
+        },
+        {
+          "text": "my",
+          "emph": false,
+          "frame": 723
+        },
+        {
+          "text": "elevator.",
+          "emph": false,
+          "frame": 728
+        }
+      ]
+    },
+    {
+      "line": "wave",
+      "from": 753,
+      "to": 775,
+      "words": [
+        {
+          "text": "Waving.",
+          "emph": true,
+          "frame": 755
+        }
+      ]
+    },
+    {
+      "line": "op",
+      "from": 776,
+      "to": 834,
+      "words": [
+        {
+          "text": "Reset",
+          "emph": false,
+          "frame": 778
+        },
+        {
+          "text": "complete.",
+          "emph": false,
+          "frame": 789
+        }
+      ]
+    },
+    {
+      "line": "op",
+      "from": 834,
+      "to": 886,
+      "words": [
+        {
+          "text": "One",
+          "emph": false,
+          "frame": 836
+        },
+        {
+          "text": "Theo",
+          "emph": false,
+          "frame": 847
+        },
+        {
+          "text": "left.",
+          "emph": false,
+          "frame": 861
+        }
+      ]
+    },
+    {
+      "line": "op",
+      "from": 886,
+      "to": 967,
+      "words": [
+        {
+          "text": "Someone",
+          "emph": false,
+          "frame": 888
+        },
+        {
+          "text": "has",
+          "emph": false,
+          "frame": 908
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 920
+        },
+        {
+          "text": "run",
+          "emph": false,
+          "frame": 924
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 932
+        },
+        {
+          "text": "building.",
+          "emph": true,
+          "frame": 941
+        }
+      ]
+    },
+    {
+      "line": "doors",
+      "from": 967,
+      "to": 1013,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 969
+        },
+        {
+          "text": "headset",
+          "emph": false,
+          "frame": 972
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 982
+        },
+        {
+          "text": "on",
+          "emph": false,
+          "frame": 988
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 992
+        },
+        {
+          "text": "chair.",
+          "emph": false,
+          "frame": 998
+        }
+      ]
+    },
+    {
+      "line": "doors",
+      "from": 1013,
+      "to": 1062,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 1015
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 1019
+        },
+        {
+          "text": "doors",
+          "emph": false,
+          "frame": 1022
+        },
+        {
+          "text": "were",
+          "emph": false,
+          "frame": 1032
+        },
+        {
+          "text": "closing.",
+          "emph": true,
+          "frame": 1039
+        }
+      ]
+    },
+    {
+      "line": "choice",
+      "from": 1070,
+      "to": 1092,
+      "words": [
+        {
+          "text": "Put",
+          "emph": false,
+          "frame": 1072
+        },
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 1075
+        },
+        {
+          "text": "on...",
+          "emph": false,
+          "frame": 1081
+        }
+      ]
+    },
+    {
+      "line": "choice",
+      "from": 1092,
+      "to": 1126,
+      "words": [
+        {
+          "text": "or",
+          "emph": false,
+          "frame": 1094
+        },
+        {
+          "text": "run?",
+          "emph": true,
+          "frame": 1098
+        }
+      ]
+    },
+    {
+      "line": "cta",
+      "from": 1142,
+      "to": 1192,
+      "words": [
+        {
+          "text": "Comment",
+          "emph": false,
+          "frame": 1144
+        },
+        {
+          "text": "A",
+          "emph": true,
+          "frame": 1162
+        },
+        {
+          "text": "or",
+          "emph": false,
+          "frame": 1168
+        },
+        {
+          "text": "B.",
+          "emph": true,
+          "frame": 1177
+        }
+      ]
+    },
+    {
+      "line": "cta",
+      "from": 1192,
+      "to": 1234,
+      "words": [
+        {
+          "text": "You",
+          "emph": false,
+          "frame": 1194
+        },
+        {
+          "text": "decide",
+          "emph": false,
+          "frame": 1198
+        },
+        {
+          "text": "what",
+          "emph": false,
+          "frame": 1209
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 1216
+        },
+        {
+          "text": "do.",
+          "emph": false,
+          "frame": 1219
+        }
+      ]
+    }
+  ]
+}

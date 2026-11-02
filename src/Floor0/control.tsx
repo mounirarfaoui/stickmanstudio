@@ -1,12 +1,13 @@
 import React from "react";
 import { rand } from "../LastLight/world";
+import { Kid } from "./elevator";
 
 // Floor 99, drawn side-on: a wall of screens, each watching a different Theo, an empty chair, a red button.
 export const CTRL = { floor: 1500, chair: 480, button: { x: 820, y: 1240 } };
 
 // One screen: a tiny elevator and whoever is inside it
-const Screen: React.FC<{ x: number; y: number; w: number; h: number; frame: number; seed: number; alarm: number; us?: boolean }> = ({ x, y, w, h, frame, seed, alarm, us }) => {
-  const off = Math.sin(frame * 0.3 + seed * 1.7) * Math.sin(frame * 0.11 + seed) > 0.82;
+const Screen: React.FC<{ x: number; y: number; w: number; h: number; frame: number; seed: number; alarm: number; us?: boolean; dead?: boolean; girl?: number }> = ({ x, y, w, h, frame, seed, alarm, us, dead = false, girl = 0 }) => {
+  const off = dead || Math.sin(frame * 0.3 + seed * 1.7) * Math.sin(frame * 0.11 + seed) > 0.82;
   const fall = rand(seed) > 0.55;
   const fy = fall ? Math.sin(frame * 0.4 + seed) * h * 0.08 - h * 0.1 : 0;
   const cx = x + w / 2;
@@ -23,8 +24,15 @@ const Screen: React.FC<{ x: number; y: number; w: number; h: number; frame: numb
   return (
     <g>
       <rect x={x - 5} y={y - 5} width={w + 10} height={h + 10} rx={8} fill="#1b1e24" />
-      <rect x={x} y={y} width={w} height={h} rx={4} fill={off ? "#0b0d10" : alarm > 0 ? "#c9352c" : us ? "#d4c37e" : "#7fa6b8"} />
-      {off ? null : (
+      <rect x={x} y={y} width={w} height={h} rx={4} fill={girl > 0 ? "#e9ddb0" : off ? "#0b0d10" : alarm > 0 ? "#c9352c" : us ? "#d4c37e" : "#7fa6b8"} />
+      {girl > 0 ? (
+        <g opacity={girl}>
+          <rect x={x + w * 0.2} y={y + h * 0.1} width={w * 0.6} height={h * 0.78} fill="none" stroke="#0a0d10" strokeOpacity={0.6} strokeWidth={w * 0.015} />
+          <Kid x={cx} y={y + h * 0.9} scale={h / 420} frame={frame} smile={1} hold={0.2 + 0.5 * Math.abs(Math.sin(frame * 0.25))} />
+          <rect x={x} y={y + ((frame * 3 + seed * 13) % h)} width={w} height={h * 0.04} fill="#fff" opacity={0.14} />
+        </g>
+      ) : null}
+      {off || girl > 0 ? null : (
         <g>
           <rect x={x + w * 0.2} y={y + h * 0.1} width={w * 0.6} height={h * 0.78} fill="none" stroke="#0a0d10" strokeOpacity={0.6} strokeWidth={w * 0.015} />
           {us ? (
@@ -42,7 +50,8 @@ const Screen: React.FC<{ x: number; y: number; w: number; h: number; frame: numb
   );
 };
 
-export const ControlRoom: React.FC<{ frame: number; alarm: number; swing: number; talk: number; children?: React.ReactNode; dome?: number }> = ({ frame, alarm, swing, talk, children, dome = 1 }) => {
+// dead: fraction of the wall that has gone dark, top rows first. pressed: the button is down, its glass gone. girl: she is on the centre screen.
+export const ControlRoom: React.FC<{ frame: number; alarm: number; swing: number; talk: number; children?: React.ReactNode; dome?: number; dead?: number; pressed?: boolean; girl?: number }> = ({ frame, alarm, swing, talk, children, dome = 1, dead = 0, pressed = false, girl = 0 }) => {
   const { floor, chair, button } = CTRL;
   const cols = 22;
   const rows = 9;
@@ -53,7 +62,8 @@ export const ControlRoom: React.FC<{ frame: number; alarm: number; swing: number
       {Array.from({ length: cols * rows }, (_, i) => {
         const c = i % cols;
         const r = Math.floor(i / cols);
-        return <Screen key={i} x={-1120 + c * 150} y={120 + r * 130} w={136} h={114} frame={frame} seed={i + 1} alarm={alarm} us={c === 10 && r === 4} />;
+        const centre = c === 10 && r === 4;
+        return <Screen key={i} x={-1120 + c * 150} y={120 + r * 130} w={136} h={114} frame={frame} seed={i + 1} alarm={alarm} us={centre} dead={r + rand(i + 700) * 0.9 < dead * (rows + 0.9)} girl={centre ? girl : 0} />;
       })}
       {/* light from the screens on the floor */}
       <rect x={-2200} y={floor - 90} width={5500} height={90} fill={alarm > 0 ? "#3a1210" : "#121c22"} />
@@ -67,8 +77,11 @@ export const ControlRoom: React.FC<{ frame: number; alarm: number; swing: number
       <rect x={990} y={floor - 206} width={40} height={206} fill="#1c1f24" />
       <rect x={button.x - 92} y={button.y + 14} width={184} height={22} rx={4} fill="#3e434c" />
       <circle cx={button.x} cy={button.y - 10} r={120} fill="url(#redGlow0)" opacity={0.7 + 0.3 * Math.sin(frame * 0.25)} />
-      <path d={`M ${button.x - 62} ${button.y + 14} A 62 62 0 0 1 ${button.x + 62} ${button.y + 14} Z`} fill="#e0231b" stroke="#6f0d09" strokeWidth={5} />
-      {dome > 0 ? <path d={`M ${button.x - 80} ${button.y + 14} A 80 80 0 0 1 ${button.x + 80} ${button.y + 14}`} fill="#cfe9ff" fillOpacity={0.14} stroke="#dff2ff" strokeOpacity={0.6} strokeWidth={3} /> : null}
+      <path d={`M ${button.x - 62} ${button.y + 14} A 62 ${pressed ? 22 : 62} 0 0 1 ${button.x + 62} ${button.y + 14} Z`} fill={pressed ? "#8d1a14" : "#e0231b"} stroke="#6f0d09" strokeWidth={5} />
+      {pressed
+        ? [-70, -40, 20, 55, 85].map((dx, i) => <path key={i} d={`M ${button.x + dx} ${button.y + 10} l ${8 - i * 3} ${-26 + i * 4} l ${12} ${20}`} fill="#cfe9ff" fillOpacity={0.5} stroke="#dff2ff" strokeWidth={2} />)
+        : null}
+      {dome > 0 && !pressed ? <path d={`M ${button.x - 80} ${button.y + 14} A 80 80 0 0 1 ${button.x + 80} ${button.y + 14}`} fill="#cfe9ff" fillOpacity={0.14} stroke="#dff2ff" strokeOpacity={0.6} strokeWidth={3} /> : null}
       <rect x={button.x - 110} y={button.y + 40} width={220} height={46} rx={6} fill="#efe8d4" />
       <text x={button.x} y={button.y + 75} textAnchor="middle" fontFamily="Arial Black, sans-serif" fontSize={34} fill="#b3211b">
         RESET ALL

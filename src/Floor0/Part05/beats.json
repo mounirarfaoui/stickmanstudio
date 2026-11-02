@@ -1,0 +1,18 @@
+{
+  "fps": 30,
+  "duration": 1150,
+  "press": 6,
+  "die": [20, 240],
+  "hookEnd": 110,
+  "fade": [372, 470],
+  "gone": 470,
+  "screenOn": 560,
+  "wave": 605,
+  "op": 705,
+  "timerResume": 835,
+  "close": [835, 1060],
+  "choice": 935,
+  "freeze": 1020,
+  "cards": 1024,
+  "card": 1100
+}
