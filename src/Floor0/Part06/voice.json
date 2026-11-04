@@ -1,0 +1,542 @@
+{
+  "voice": "Fenrir",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "I put it on. And two hundred of me woke *up.*",
+      "style": "Young man, shouting over a wall of screens switching on, fast and raw, stunned.",
+      "voice": "Fenrir",
+      "story": 2,
+      "anchors": {},
+      "file": "floor-0/part06/voice/hook.wav",
+      "duration": 3.81,
+      "speechStart": 0.16,
+      "speechEnd": 3.41,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.16
+        },
+        {
+          "text": "put",
+          "start": 0.28
+        },
+        {
+          "text": "it",
+          "start": 0.41
+        },
+        {
+          "text": "on.",
+          "start": 0.62
+        },
+        {
+          "text": "And",
+          "start": 1.17
+        },
+        {
+          "text": "two",
+          "start": 1.52
+        },
+        {
+          "text": "hundred",
+          "start": 1.84
+        },
+        {
+          "text": "of",
+          "start": 2.38
+        },
+        {
+          "text": "me",
+          "start": 2.6
+        },
+        {
+          "text": "woke",
+          "start": 2.82
+        },
+        {
+          "text": "*up.*",
+          "start": 3.34
+        }
+      ]
+    },
+    {
+      "id": "doors",
+      "text": "The doors shut behind me. I didn't *care.*",
+      "style": "Young man, flat and quick, talking straight to the viewer.",
+      "voice": "Fenrir",
+      "story": 120,
+      "anchors": {},
+      "file": "floor-0/part06/voice/doors.wav",
+      "duration": 2.27,
+      "speechStart": 0.2,
+      "speechEnd": 1.98,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.2
+        },
+        {
+          "text": "doors",
+          "start": 0.32
+        },
+        {
+          "text": "shut",
+          "start": 0.44
+        },
+        {
+          "text": "behind",
+          "start": 0.58
+        },
+        {
+          "text": "me.",
+          "start": 0.9
+        },
+        {
+          "text": "I",
+          "start": 1.27
+        },
+        {
+          "text": "didn't",
+          "start": 1.39
+        },
+        {
+          "text": "*care.*",
+          "start": 1.7
+        }
+      ]
+    },
+    {
+      "id": "fall",
+      "text": "Every screen. Same elevator. Same *fall.*",
+      "style": "Young man, hushed horror, slow, each short sentence a beat.",
+      "voice": "Fenrir",
+      "story": 205,
+      "anchors": {},
+      "file": "floor-0/part06/voice/fall.wav",
+      "duration": 4.77,
+      "speechStart": 0.27,
+      "speechEnd": 4.49,
+      "words": [
+        {
+          "text": "Every",
+          "start": 0.29
+        },
+        {
+          "text": "screen.",
+          "start": 0.71
+        },
+        {
+          "text": "Same",
+          "start": 1.83
+        },
+        {
+          "text": "elevator.",
+          "start": 2.11
+        },
+        {
+          "text": "Same",
+          "start": 3
+        },
+        {
+          "text": "*fall.*",
+          "start": 3.82
+        }
+      ]
+    },
+    {
+      "id": "op",
+      "text": "Good morning, Operator. Shift twelve hundred and *one.*",
+      "style": "Calm, polite, unsettling announcer voice over an old intercom, warm and welcoming, slow.",
+      "voice": "Enceladus",
+      "story": 290,
+      "anchors": {},
+      "fx": "tv",
+      "file": "floor-0/part06/voice/op.wav",
+      "duration": 5.98,
+      "speechStart": 0.28,
+      "speechEnd": 5.67,
+      "words": [
+        {
+          "text": "Good",
+          "start": 0.3
+        },
+        {
+          "text": "morning,",
+          "start": 0.42
+        },
+        {
+          "text": "Operator.",
+          "start": 1.47
+        },
+        {
+          "text": "Shift",
+          "start": 2.62
+        },
+        {
+          "text": "twelve",
+          "start": 3.81
+        },
+        {
+          "text": "hundred",
+          "start": 3.95
+        },
+        {
+          "text": "and",
+          "start": 4.8
+        },
+        {
+          "text": "*one.*",
+          "start": 5.11
+        }
+      ]
+    },
+    {
+      "id": "tries",
+      "text": "The tallies weren't days. They were *tries.*",
+      "style": "Young man, quiet, the floor dropping out from under him, slow.",
+      "voice": "Fenrir",
+      "story": 400,
+      "anchors": {},
+      "file": "floor-0/part06/voice/tries.wav",
+      "duration": 4.09,
+      "speechStart": 0.28,
+      "speechEnd": 3.88,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.28
+        },
+        {
+          "text": "tallies",
+          "start": 0.57
+        },
+        {
+          "text": "weren't",
+          "start": 1.32
+        },
+        {
+          "text": "days.",
+          "start": 2.24
+        },
+        {
+          "text": "They",
+          "start": 2.91
+        },
+        {
+          "text": "were",
+          "start": 3.22
+        },
+        {
+          "text": "*tries.*",
+          "start": 3.39
+        }
+      ]
+    },
+    {
+      "id": "op2",
+      "text": "Say the line, Theo. Find Floor *Zero,* and you may leave.",
+      "style": "Calm, polite, unsettling announcer voice over an old intercom, patient like a teacher, slow.",
+      "voice": "Enceladus",
+      "story": 485,
+      "anchors": {},
+      "fx": "tv",
+      "file": "floor-0/part06/voice/op2.wav",
+      "duration": 6.48,
+      "speechStart": 0.25,
+      "speechEnd": 6.29,
+      "words": [
+        {
+          "text": "Say",
+          "start": 0.27
+        },
+        {
+          "text": "the",
+          "start": 0.46
+        },
+        {
+          "text": "line,",
+          "start": 0.92
+        },
+        {
+          "text": "Theo.",
+          "start": 1.84
+        },
+        {
+          "text": "Find",
+          "start": 2.76
+        },
+        {
+          "text": "Floor",
+          "start": 3.24
+        },
+        {
+          "text": "*Zero,*",
+          "start": 4.1
+        },
+        {
+          "text": "and",
+          "start": 4.94
+        },
+        {
+          "text": "you",
+          "start": 5.06
+        },
+        {
+          "text": "may",
+          "start": 5.3
+        },
+        {
+          "text": "leave.",
+          "start": 5.55
+        }
+      ]
+    },
+    {
+      "id": "script",
+      "text": "It was never a voice. It was a *script.*",
+      "style": "Young man, whisper, slow and sick, understanding.",
+      "voice": "Fenrir",
+      "story": 625,
+      "anchors": {},
+      "file": "floor-0/part06/voice/script.wav",
+      "duration": 3.8,
+      "speechStart": 0.14,
+      "speechEnd": 3.49,
+      "words": [
+        {
+          "text": "It",
+          "start": 0.17
+        },
+        {
+          "text": "was",
+          "start": 0.29
+        },
+        {
+          "text": "never",
+          "start": 0.95
+        },
+        {
+          "text": "a",
+          "start": 1.36
+        },
+        {
+          "text": "voice.",
+          "start": 1.53
+        },
+        {
+          "text": "It",
+          "start": 2.39
+        },
+        {
+          "text": "was",
+          "start": 2.59
+        },
+        {
+          "text": "a",
+          "start": 2.89
+        },
+        {
+          "text": "*script.*",
+          "start": 3.01
+        }
+      ]
+    },
+    {
+      "id": "centre",
+      "text": "Center screen. Floor twelve. A new me. The *key.*",
+      "style": "Young man, fast staccato whisper, each fragment landing, rising dread.",
+      "voice": "Fenrir",
+      "story": 725,
+      "anchors": {},
+      "file": "floor-0/part06/voice/centre.wav",
+      "duration": 4.08,
+      "speechStart": 0.23,
+      "speechEnd": 3.87,
+      "words": [
+        {
+          "text": "Center",
+          "start": 0.23
+        },
+        {
+          "text": "screen.",
+          "start": 0.66
+        },
+        {
+          "text": "Floor",
+          "start": 0.78
+        },
+        {
+          "text": "twelve.",
+          "start": 1.6
+        },
+        {
+          "text": "A",
+          "start": 2.31
+        },
+        {
+          "text": "new",
+          "start": 2.43
+        },
+        {
+          "text": "me.",
+          "start": 2.63
+        },
+        {
+          "text": "The",
+          "start": 3.03
+        },
+        {
+          "text": "*key.*",
+          "start": 3.38
+        }
+      ]
+    },
+    {
+      "id": "mic",
+      "text": "The mic light went *red.* He could hear me.",
+      "style": "Young man, breath caught, quiet and shaking.",
+      "voice": "Fenrir",
+      "story": 840,
+      "anchors": {},
+      "file": "floor-0/part06/voice/mic.wav",
+      "duration": 3.21,
+      "speechStart": 0.42,
+      "speechEnd": 2.85,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.42
+        },
+        {
+          "text": "mic",
+          "start": 0.66
+        },
+        {
+          "text": "light",
+          "start": 0.78
+        },
+        {
+          "text": "went",
+          "start": 1.2
+        },
+        {
+          "text": "*red.*",
+          "start": 1.65
+        },
+        {
+          "text": "He",
+          "start": 2.61
+        },
+        {
+          "text": "could",
+          "start": 2.73
+        },
+        {
+          "text": "hear",
+          "start": 2.85
+        },
+        {
+          "text": "me.",
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "text": "Say the line... or tell him the *truth?*",
+      "style": "Young man, panicking, fast and desperate, torn between two choices.",
+      "voice": "Fenrir",
+      "story": 935,
+      "anchors": {},
+      "file": "floor-0/part06/voice/choice.wav",
+      "duration": 2.56,
+      "speechStart": 0.22,
+      "speechEnd": 2.25,
+      "words": [
+        {
+          "text": "Say",
+          "start": 0.25
+        },
+        {
+          "text": "the",
+          "start": 0.37
+        },
+        {
+          "text": "line...",
+          "start": 0.62
+        },
+        {
+          "text": "or",
+          "start": 1
+        },
+        {
+          "text": "tell",
+          "start": 1.17
+        },
+        {
+          "text": "him",
+          "start": 1.42
+        },
+        {
+          "text": "the",
+          "start": 1.54
+        },
+        {
+          "text": "*truth?*",
+          "start": 1.71
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Comment *A* or *B.* You decide what I say.",
+      "style": "Young man, urgent and direct, speaking straight to the viewer, pleading but steady.",
+      "voice": "Fenrir",
+      "story": 1010,
+      "anchors": {},
+      "file": "floor-0/part06/voice/cta.wav",
+      "duration": 3.1,
+      "speechStart": 0.22,
+      "speechEnd": 2.79,
+      "words": [
+        {
+          "text": "Comment",
+          "start": 0.24
+        },
+        {
+          "text": "*A*",
+          "start": 1.06
+        },
+        {
+          "text": "or",
+          "start": 1.18
+        },
+        {
+          "text": "*B.*",
+          "start": 1.56
+        },
+        {
+          "text": "You",
+          "start": 1.68
+        },
+        {
+          "text": "decide",
+          "start": 1.8
+        },
+        {
+          "text": "what",
+          "start": 2.18
+        },
+        {
+          "text": "I",
+          "start": 2.44
+        },
+        {
+          "text": "say.",
+          "start": 2.56
+        }
+      ]
+    }
+  ]
+}

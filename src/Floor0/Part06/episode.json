@@ -1,0 +1,36 @@
+{
+  "id": "floor-0-06",
+  "title": "Floor 0 — Part 6: The Headset",
+  "publicDir": "floor-0/part06",
+  "voice": "Fenrir",
+  "lines": [
+    { "id": "hook", "story": 2, "text": "I put it on. And two hundred of me woke *up.*", "style": "Young man, shouting over a wall of screens switching on, fast and raw, stunned." },
+    { "id": "doors", "story": 120, "text": "The doors shut behind me. I didn't *care.*", "style": "Young man, flat and quick, talking straight to the viewer." },
+    { "id": "fall", "story": 205, "text": "Every screen. Same elevator. Same *fall.*", "style": "Young man, hushed horror, slow, each short sentence a beat." },
+    { "id": "op", "story": 290, "voice": "Enceladus", "fx": "tv", "text": "Good morning, Operator. Shift twelve hundred and *one.*", "style": "Calm, polite, unsettling announcer voice over an old intercom, warm and welcoming, slow." },
+    { "id": "tries", "story": 400, "text": "The tallies weren't days. They were *tries.*", "style": "Young man, quiet, the floor dropping out from under him, slow." },
+    { "id": "op2", "story": 485, "voice": "Enceladus", "fx": "tv", "text": "Say the line, Theo. Find Floor *Zero,* and you may leave.", "style": "Calm, polite, unsettling announcer voice over an old intercom, patient like a teacher, slow." },
+    { "id": "script", "story": 625, "text": "It was never a voice. It was a *script.*", "style": "Young man, whisper, slow and sick, understanding." },
+    { "id": "centre", "story": 725, "text": "Center screen. Floor twelve. A new me. The *key.*", "style": "Young man, fast staccato whisper, each fragment landing, rising dread." },
+    { "id": "mic", "story": 840, "text": "The mic light went *red.* He could hear me.", "style": "Young man, breath caught, quiet and shaking." },
+    { "id": "choice", "story": 935, "text": "Say the line... or tell him the *truth?*", "style": "Young man, panicking, fast and desperate, torn between two choices." },
+    { "id": "cta", "story": 1010, "text": "Comment *A* or *B.* You decide what I say.", "style": "Young man, urgent and direct, speaking straight to the viewer, pleading but steady." }
+  ],
+  "captions": {
+    "chunks": { "hook": [4, 4, 3], "doors": [5, 3], "fall": [2, 4], "op": [3, 5], "tries": [4, 3], "op2": [4, 3, 4], "script": [5, 4], "centre": [4, 5], "mic": [5, 4], "choice": [3, 5], "cta": [4, 5] },
+    "speakers": { "op": "operator", "op2": "operator" }
+  },
+  "timeline": { "gap": 4, "maxSpeedup": 1, "endHold": 36, "captionLead": 2, "maxPause": 0.2 },
+  "music": {
+    "title": "Floor 0 - The Headset",
+    "style": "Horror thriller score. Starts instantly on a huge electric surge as hundreds of screens switch on, a wall of rising electronic tones, then a slow cold synth pulse like a heartbeat under an intercom, a music box melody twisted and detuned, a single sustained high violin note of dread, then racing ticking and heartbeat to a sudden cut. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "powerup": { "prompt": "Hundreds of old CRT televisions switching on one after another in a fast cascade, electric surge, rising high-pitched whines and static crackle, isolated sound effect, no music." },
+    "radio": { "prompt": "Old analogue headset intercom switching on: a click, a soft carrier hum and a burst of radio static, isolated sound effect, no music." }
+  },
+  "mix": { "musicDb": -24, "levelLines": true, "fxGainDb": { "tv": -1 } },
+  "sfx": "floor-0-06"
+}
