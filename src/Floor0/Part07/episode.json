@@ -1,0 +1,35 @@
+{
+  "id": "floor-0-07",
+  "title": "Floor 0 — Part 7: The Truth",
+  "publicDir": "floor-0/part07",
+  "voice": "Fenrir",
+  "lines": [
+    { "id": "hook", "story": 2, "text": "I told him the truth. And every one of me looked *up.*", "style": "Young man, shouting in a whisper, fast and raw, terrified by what he sees." },
+    { "id": "truth", "story": 125, "text": "Don't say the line. There is no Floor Zero. It's *me.*", "style": "Young man, speaking into a headset mic, urgent and shaking, pleading, the last word a confession." },
+    { "id": "girl", "story": 260, "text": "The girl stopped smiling. And looked straight at *me.*", "style": "Young man, hushed horror, slow, the last word barely breathed." },
+    { "id": "bulb", "story": 370, "text": "Then a light went *out.*", "style": "Young man, quick and sharp, a gasp after a bang." },
+    { "id": "voice", "story": 450, "voice": "Enceladus", "fx": "tv", "text": "You went off script, Theo. This floor isn't the *top.*", "style": "Deep, cold, very slow voice over an old intercom, no longer polite, almost a whisper, ancient and amused." },
+    { "id": "ceiling", "story": 590, "text": "Then the ceiling opened, and a ladder came *down.*", "style": "Young man, whisper, slow and careful, awed." },
+    { "id": "doors", "story": 700, "text": "And behind me, the elevator *opened.*", "style": "Young man, tense, quick, turning around." },
+    { "id": "centre", "story": 790, "text": "Down on twelve, the new me was alone with *her.*", "style": "Young man, fast panicked whisper, rising dread." },
+    { "id": "choice", "story": 900, "text": "Climb up... or go *save* him?", "style": "Young man, panicking, fast and desperate, torn between two choices." },
+    { "id": "cta", "story": 975, "text": "Comment *A* or *B.* You decide where I go.", "style": "Young man, urgent and direct, speaking straight to the viewer, pleading but steady." }
+  ],
+  "captions": {
+    "chunks": { "hook": [5, 4, 3], "truth": [4, 7], "girl": [4, 5], "bulb": [5], "voice": [5, 5], "ceiling": [4, 5], "doors": [3, 3], "centre": [3, 7], "choice": [2, 4], "cta": [4, 5] },
+    "speakers": { "voice": "unknown" }
+  },
+  "timeline": { "gap": 4, "maxSpeedup": 1, "endHold": 36, "captionLead": 2, "maxPause": 0.2 },
+  "music": {
+    "title": "Floor 0 - The Truth",
+    "style": "Horror thriller score. Starts instantly on a sharp stinger and a held breath, hundreds of quiet electronic tones freezing, a cold detuned music box, a glass bulb bursting into a deep sub boom, a vast low drone with a whispering intercom texture, metal groaning above, a slow rising string swell of awe, then racing heartbeat and ticking to a sudden cut. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "hatch": { "prompt": "A heavy metal ceiling hatch unlocking with a loud clunk and swinging open with a long creak, then a metal ladder sliding down and clanging to a stop, isolated sound effect, no music." },
+    "pop": { "prompt": "A single old glass light bulb bursting with a sharp pop and tinkling glass, electrical fizz, isolated sound effect, no music." }
+  },
+  "mix": { "musicDb": -24, "levelLines": true, "fxGainDb": { "tv": -1 } },
+  "sfx": "floor-0-07"
+}

@@ -1,0 +1,724 @@
+{
+  "fps": 30,
+  "duration": 1207,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      125,
+      125
+    ],
+    [
+      260,
+      260
+    ],
+    [
+      370,
+      390.3
+    ],
+    [
+      450,
+      470.3
+    ],
+    [
+      590,
+      672.3
+    ],
+    [
+      700,
+      787
+    ],
+    [
+      790,
+      877
+    ],
+    [
+      900,
+      987
+    ],
+    [
+      975,
+      1062
+    ],
+    [
+      1120,
+      1207
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "floor-0/part07/voice/hook.wav",
+      "at": -0.1833,
+      "speech": [
+        0.067,
+        3.187
+      ]
+    },
+    {
+      "id": "truth",
+      "file": "floor-0/part07/voice/truth.wav",
+      "at": 3.8467,
+      "speech": [
+        4.167,
+        8.097
+      ]
+    },
+    {
+      "id": "girl",
+      "file": "floor-0/part07/voice/girl.wav",
+      "at": 8.5867,
+      "speech": [
+        8.667,
+        12.877
+      ]
+    },
+    {
+      "id": "bulb",
+      "file": "floor-0/part07/voice/bulb.wav",
+      "at": 12.75,
+      "speech": [
+        13.01,
+        14.03
+      ]
+    },
+    {
+      "id": "voice",
+      "file": "floor-0/part07/voice/voice.wav",
+      "at": 15.2467,
+      "speech": [
+        15.677,
+        22.277
+      ],
+      "fx": "tv"
+    },
+    {
+      "id": "ceiling",
+      "file": "floor-0/part07/voice/ceiling.wav",
+      "at": 21.99,
+      "speech": [
+        22.41,
+        26.1
+      ]
+    },
+    {
+      "id": "doors",
+      "file": "floor-0/part07/voice/doors.wav",
+      "at": 25.9733,
+      "speech": [
+        26.233,
+        28.053
+      ]
+    },
+    {
+      "id": "centre",
+      "file": "floor-0/part07/voice/centre.wav",
+      "at": 29.0533,
+      "speech": [
+        29.233,
+        32.323
+      ]
+    },
+    {
+      "id": "choice",
+      "file": "floor-0/part07/voice/choice.wav",
+      "at": 32.68,
+      "speech": [
+        32.9,
+        34.46
+      ]
+    },
+    {
+      "id": "cta",
+      "file": "floor-0/part07/voice/cta.wav",
+      "at": 35.16,
+      "speech": [
+        35.4,
+        37.98
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 0,
+      "to": 40,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 2
+        },
+        {
+          "text": "told",
+          "emph": false,
+          "frame": 6
+        },
+        {
+          "text": "him",
+          "emph": false,
+          "frame": 9
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 16
+        },
+        {
+          "text": "truth.",
+          "emph": false,
+          "frame": 23
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 40,
+      "to": 72,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 42
+        },
+        {
+          "text": "every",
+          "emph": false,
+          "frame": 50
+        },
+        {
+          "text": "one",
+          "emph": false,
+          "frame": 61
+        },
+        {
+          "text": "of",
+          "emph": false,
+          "frame": 67
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 72,
+      "to": 108,
+      "words": [
+        {
+          "text": "me",
+          "emph": false,
+          "frame": 74
+        },
+        {
+          "text": "looked",
+          "emph": false,
+          "frame": 78
+        },
+        {
+          "text": "up.",
+          "emph": true,
+          "frame": 90
+        }
+      ]
+    },
+    {
+      "line": "truth",
+      "from": 124,
+      "to": 179,
+      "words": [
+        {
+          "text": "Don't",
+          "emph": false,
+          "frame": 126
+        },
+        {
+          "text": "say",
+          "emph": false,
+          "frame": 135
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 147
+        },
+        {
+          "text": "line.",
+          "emph": false,
+          "frame": 159
+        }
+      ]
+    },
+    {
+      "line": "truth",
+      "from": 179,
+      "to": 255,
+      "words": [
+        {
+          "text": "There",
+          "emph": false,
+          "frame": 181
+        },
+        {
+          "text": "is",
+          "emph": false,
+          "frame": 189
+        },
+        {
+          "text": "no",
+          "emph": false,
+          "frame": 196
+        },
+        {
+          "text": "Floor",
+          "emph": false,
+          "frame": 199
+        },
+        {
+          "text": "Zero.",
+          "emph": false,
+          "frame": 205
+        },
+        {
+          "text": "It's",
+          "emph": false,
+          "frame": 223
+        },
+        {
+          "text": "me.",
+          "emph": true,
+          "frame": 229
+        }
+      ]
+    },
+    {
+      "line": "girl",
+      "from": 259,
+      "to": 329,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 261
+        },
+        {
+          "text": "girl",
+          "emph": false,
+          "frame": 268
+        },
+        {
+          "text": "stopped",
+          "emph": false,
+          "frame": 286
+        },
+        {
+          "text": "smiling.",
+          "emph": false,
+          "frame": 304
+        }
+      ]
+    },
+    {
+      "line": "girl",
+      "from": 329,
+      "to": 388,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 331
+        },
+        {
+          "text": "looked",
+          "emph": false,
+          "frame": 335
+        },
+        {
+          "text": "straight",
+          "emph": false,
+          "frame": 352
+        },
+        {
+          "text": "at",
+          "emph": false,
+          "frame": 375
+        },
+        {
+          "text": "me.",
+          "emph": true,
+          "frame": 379
+        }
+      ]
+    },
+    {
+      "line": "bulb",
+      "from": 388,
+      "to": 433,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 390
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 394
+        },
+        {
+          "text": "light",
+          "emph": false,
+          "frame": 398
+        },
+        {
+          "text": "went",
+          "emph": false,
+          "frame": 401
+        },
+        {
+          "text": "out.",
+          "emph": true,
+          "frame": 410
+        }
+      ]
+    },
+    {
+      "line": "voice",
+      "from": 469,
+      "to": 587,
+      "words": [
+        {
+          "text": "You",
+          "emph": false,
+          "frame": 471
+        },
+        {
+          "text": "went",
+          "emph": false,
+          "frame": 478
+        },
+        {
+          "text": "off",
+          "emph": false,
+          "frame": 498
+        },
+        {
+          "text": "script,",
+          "emph": false,
+          "frame": 513
+        },
+        {
+          "text": "Theo.",
+          "emph": false,
+          "frame": 553
+        }
+      ]
+    },
+    {
+      "line": "voice",
+      "from": 587,
+      "to": 670,
+      "words": [
+        {
+          "text": "This",
+          "emph": false,
+          "frame": 589
+        },
+        {
+          "text": "floor",
+          "emph": false,
+          "frame": 601
+        },
+        {
+          "text": "isn't",
+          "emph": false,
+          "frame": 616
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 631
+        },
+        {
+          "text": "top.",
+          "emph": true,
+          "frame": 640
+        }
+      ]
+    },
+    {
+      "line": "ceiling",
+      "from": 670,
+      "to": 729,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 672
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 677
+        },
+        {
+          "text": "ceiling",
+          "emph": false,
+          "frame": 688
+        },
+        {
+          "text": "opened,",
+          "emph": false,
+          "frame": 705
+        }
+      ]
+    },
+    {
+      "line": "ceiling",
+      "from": 729,
+      "to": 785,
+      "words": [
+        {
+          "text": "and",
+          "emph": false,
+          "frame": 731
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 739
+        },
+        {
+          "text": "ladder",
+          "emph": false,
+          "frame": 743
+        },
+        {
+          "text": "came",
+          "emph": false,
+          "frame": 756
+        },
+        {
+          "text": "down.",
+          "emph": true,
+          "frame": 768
+        }
+      ]
+    },
+    {
+      "line": "doors",
+      "from": 785,
+      "to": 809,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 787
+        },
+        {
+          "text": "behind",
+          "emph": false,
+          "frame": 791
+        },
+        {
+          "text": "me,",
+          "emph": false,
+          "frame": 797
+        }
+      ]
+    },
+    {
+      "line": "doors",
+      "from": 809,
+      "to": 854,
+      "words": [
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 811
+        },
+        {
+          "text": "elevator",
+          "emph": false,
+          "frame": 814
+        },
+        {
+          "text": "opened.",
+          "emph": true,
+          "frame": 827
+        }
+      ]
+    },
+    {
+      "line": "centre",
+      "from": 876,
+      "to": 907,
+      "words": [
+        {
+          "text": "Down",
+          "emph": false,
+          "frame": 878
+        },
+        {
+          "text": "on",
+          "emph": false,
+          "frame": 882
+        },
+        {
+          "text": "twelve,",
+          "emph": false,
+          "frame": 888
+        }
+      ]
+    },
+    {
+      "line": "centre",
+      "from": 907,
+      "to": 982,
+      "words": [
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 909
+        },
+        {
+          "text": "new",
+          "emph": false,
+          "frame": 918
+        },
+        {
+          "text": "me",
+          "emph": false,
+          "frame": 926
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 931
+        },
+        {
+          "text": "alone",
+          "emph": false,
+          "frame": 940
+        },
+        {
+          "text": "with",
+          "emph": false,
+          "frame": 953
+        },
+        {
+          "text": "her.",
+          "emph": true,
+          "frame": 963
+        }
+      ]
+    },
+    {
+      "line": "choice",
+      "from": 985,
+      "to": 1002,
+      "words": [
+        {
+          "text": "Climb",
+          "emph": false,
+          "frame": 987
+        },
+        {
+          "text": "up...",
+          "emph": false,
+          "frame": 997
+        }
+      ]
+    },
+    {
+      "line": "choice",
+      "from": 1002,
+      "to": 1046,
+      "words": [
+        {
+          "text": "or",
+          "emph": false,
+          "frame": 1004
+        },
+        {
+          "text": "go",
+          "emph": false,
+          "frame": 1012
+        },
+        {
+          "text": "save",
+          "emph": true,
+          "frame": 1017
+        },
+        {
+          "text": "him?",
+          "emph": false,
+          "frame": 1030
+        }
+      ]
+    },
+    {
+      "line": "cta",
+      "from": 1061,
+      "to": 1104,
+      "words": [
+        {
+          "text": "Comment",
+          "emph": false,
+          "frame": 1063
+        },
+        {
+          "text": "A",
+          "emph": true,
+          "frame": 1084
+        },
+        {
+          "text": "or",
+          "emph": false,
+          "frame": 1088
+        },
+        {
+          "text": "B.",
+          "emph": true,
+          "frame": 1096
+        }
+      ]
+    },
+    {
+      "line": "cta",
+      "from": 1104,
+      "to": 1151,
+      "words": [
+        {
+          "text": "You",
+          "emph": false,
+          "frame": 1106
+        },
+        {
+          "text": "decide",
+          "emph": false,
+          "frame": 1111
+        },
+        {
+          "text": "where",
+          "emph": false,
+          "frame": 1121
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 1129
+        },
+        {
+          "text": "go.",
+          "emph": false,
+          "frame": 1133
+        }
+      ]
+    }
+  ]
+}

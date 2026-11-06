@@ -18,6 +18,8 @@ const Screen: React.FC<{
   dead?: boolean;
   girl?: number;
   wake?: number;
+  stare?: number;
+  girlSmile?: number;
 }> = ({
   x,
   y,
@@ -30,16 +32,25 @@ const Screen: React.FC<{
   dead = false,
   girl = 0,
   wake = 0,
+  stare = 0,
+  girlSmile = 1,
 }) => {
   const off =
     dead ||
     (wake <= 0 &&
       Math.sin(frame * 0.3 + seed * 1.7) * Math.sin(frame * 0.11 + seed) >
         0.82);
-  const fall = wake > 0 || rand(seed) > 0.55;
+  const fall = stare <= 0 && (wake > 0 || rand(seed) > 0.55);
   const fy = fall ? Math.sin(frame * 0.4 + seed) * h * 0.08 - h * 0.1 : 0;
   const cx = x + w / 2;
   const base = y + h * 0.84 + fy;
+  // two white dots: the tiny Theo looking straight out of the screen
+  const eyes = (px: number) => (
+    <g fill="#fff" stroke="none" opacity={stare}>
+      <circle cx={px - h * 0.03} cy={base - h * 0.51} r={h * 0.022} />
+      <circle cx={px + h * 0.03} cy={base - h * 0.51} r={h * 0.022} />
+    </g>
+  );
   const fig = (px: number) => (
     <g
       stroke="#0a0d10"
@@ -57,6 +68,7 @@ const Screen: React.FC<{
         y2={base - h * 0.36 - (fall ? h * 0.08 : 0)}
       />
       <circle cx={px} cy={base - h * 0.5} r={h * 0.075} fill="#0a0d10" />
+      {stare > 0 ? eyes(px) : null}
     </g>
   );
   return (
@@ -106,7 +118,7 @@ const Screen: React.FC<{
             y={y + h * 0.9}
             scale={h / 420}
             frame={frame}
-            smile={1}
+            smile={girlSmile}
             hold={0.2 + 0.5 * Math.abs(Math.sin(frame * 0.25))}
           />
           <rect
@@ -119,6 +131,7 @@ const Screen: React.FC<{
           />
         </g>
       ) : null}
+      {off && stare > 0 && girl <= 0 ? (us ? <g>{eyes(cx - w * 0.12)}{eyes(cx + w * 0.12)}</g> : eyes(cx)) : null}
       {off || girl > 0 ? null : (
         <g>
           <rect
@@ -154,6 +167,7 @@ const Screen: React.FC<{
 };
 
 // dead: fraction of the wall that has gone dark, top rows first. pressed: the button is down, its glass gone. girl: she is on the centre screen.
+// stare: every Theo stops and looks out (eyes stay lit when the screen dies). girlSmile: 1 smiling, -1 not.
 // wake: every screen bright with a Theo falling. headset: the headset hangs off the chair arm (false once Theo wears it).
 export const ControlRoom: React.FC<{
   frame: number;
@@ -167,6 +181,8 @@ export const ControlRoom: React.FC<{
   girl?: number;
   wake?: number;
   headset?: boolean;
+  stare?: number;
+  girlSmile?: number;
 }> = ({
   frame,
   alarm,
@@ -179,6 +195,8 @@ export const ControlRoom: React.FC<{
   girl = 0,
   wake = 0,
   headset = true,
+  stare = 0,
+  girlSmile = 1,
 }) => {
   const { floor, chair, button } = CTRL;
   const cols = 22;
@@ -205,6 +223,8 @@ export const ControlRoom: React.FC<{
             dead={r + rand(i + 700) * 0.9 < dead * (rows + 0.9)}
             girl={centre ? girl : 0}
             wake={wake}
+            stare={stare}
+            girlSmile={girlSmile}
           />
         );
       })}

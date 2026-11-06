@@ -1,0 +1,21 @@
+{
+  "fps": 30,
+  "duration": 1120,
+  "turn": [4, 30],
+  "hookEnd": 110,
+  "truth": 125,
+  "girl": 260,
+  "frown": 300,
+  "bulb": 372,
+  "voice": [450, 590],
+  "hatch": [592, 640],
+  "ladder": [640, 690],
+  "doors": [705, 745],
+  "timer": 725,
+  "centre": 790,
+  "walk": [820, 900],
+  "choice": 900,
+  "freeze": 990,
+  "cards": 994,
+  "card": 1070
+}
