@@ -1,0 +1,140 @@
+{
+  "id": "floor-0-08",
+  "title": "Floor 0 — Part 8: The Cables",
+  "publicDir": "floor-0/part08",
+  "voice": "Fenrir",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 2,
+      "text": "I died twelve hundred times. Why is there a ladder *up?*",
+      "style": "Young man, fast and breathless, no pauses, the question shot out sharp and urgent."
+    },
+    {
+      "id": "below",
+      "story": 100,
+      "text": "Below me, the doors shut on the new *me.*",
+      "style": "Young man, hushed, guilty, quick, the last word heavy."
+    },
+    {
+      "id": "top",
+      "story": 190,
+      "text": "Up here, two hundred cables. Every one had my *name.*",
+      "style": "Young man, whisper, awed and horrified, slow on the last word."
+    },
+    {
+      "id": "snap",
+      "story": 360,
+      "text": "Then one of them *snapped.*",
+      "style": "Young man, sharp and fast, a gasp on the last word."
+    },
+    {
+      "id": "falling",
+      "story": 420,
+      "text": "Somewhere below, a Theo was falling. Just like *I* did.",
+      "style": "Young man, shaking whisper, realisation, rising dread."
+    },
+    {
+      "id": "steps",
+      "story": 575,
+      "text": "And someone was walking down the rows, cutting them one by *one.*",
+      "style": "Young man, very quiet, terrified, slow and tense, each word careful."
+    },
+    {
+      "id": "her",
+      "story": 765,
+      "text": "It was *her.*",
+      "style": "Young man, shocked, a clear tense whisper, every word distinct."
+    },
+    {
+      "id": "key",
+      "story": 815,
+      "text": "She held up the key. And pointed at *my* cable.",
+      "style": "Young man, fast panicked whisper, the stress on my."
+    },
+    {
+      "id": "choice",
+      "story": 930,
+      "text": "Take the key... or grab the *shears?*",
+      "style": "Young man, panicking, fast and desperate, torn between two choices."
+    },
+    {
+      "id": "cta",
+      "story": 1005,
+      "text": "Comment *A* or *B.* You decide what I do.",
+      "style": "Young man, urgent and direct, speaking straight to the viewer, pleading but steady."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        5,
+        6
+      ],
+      "below": [
+        4,
+        5
+      ],
+      "top": [
+        5,
+        5
+      ],
+      "snap": [
+        5
+      ],
+      "falling": [
+        6,
+        4
+      ],
+      "steps": [
+        6,
+        6
+      ],
+      "her": [
+        3
+      ],
+      "key": [
+        5,
+        5
+      ],
+      "choice": [
+        3,
+        4
+      ],
+      "cta": [
+        4,
+        5
+      ]
+    },
+    "speakers": {}
+  },
+  "timeline": {
+    "gap": 4,
+    "maxSpeedup": 1,
+    "endHold": 36,
+    "captionLead": 2,
+    "maxPause": 0.2
+  },
+  "music": {
+    "title": "Floor 0 - The Cables",
+    "style": "Horror thriller score. Starts instantly on a sharp stinger and fast climbing footsteps on metal, a vast dark attic drone, hundreds of steel cables creaking and humming, a cable snapping like a gunshot into a deep sub boom, a long falling whoosh, slow metallic scissor snips coming closer, a cold detuned music box for a little girl, then racing heartbeat and ticking to a sudden cut. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "snap": {
+      "prompt": "A thick steel elevator cable under huge tension snapping with a violent whip crack and a ringing metallic twang, then the loose cable rattling away down a shaft, isolated sound effect, no music."
+    },
+    "snip": {
+      "prompt": "A single slow snip of very large rusty metal shears closing, a sharp metallic scrape and clack, isolated sound effect, no music."
+    }
+  },
+  "mix": {
+    "musicDb": -24,
+    "levelLines": true,
+    "fxGainDb": {
+      "tv": -1
+    }
+  },
+  "sfx": "floor-0-08"
+}
