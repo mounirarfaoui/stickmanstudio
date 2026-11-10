@@ -1,0 +1,430 @@
+{
+  "voice": "Fenrir",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "I took her shears. So why is she *smiling?*",
+      "style": "Young man, fast and breathless, no pauses, scared, the question shot out sharp.",
+      "voice": "Fenrir",
+      "story": 2,
+      "anchors": {},
+      "file": "floor-0/part09/voice/hook.wav",
+      "duration": 2.76,
+      "speechStart": 0.23,
+      "speechEnd": 2.56,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.23
+        },
+        {
+          "text": "took",
+          "start": 0.35
+        },
+        {
+          "text": "her",
+          "start": 0.47
+        },
+        {
+          "text": "shears.",
+          "start": 0.73
+        },
+        {
+          "text": "So",
+          "start": 1.46
+        },
+        {
+          "text": "why",
+          "start": 1.58
+        },
+        {
+          "text": "is",
+          "start": 1.7
+        },
+        {
+          "text": "she",
+          "start": 1.89
+        },
+        {
+          "text": "*smiling?*",
+          "start": 2.09
+        }
+      ]
+    },
+    {
+      "id": "fight",
+      "text": "She didn't fight me. She stepped back, and every cable in the room began to *shake.*",
+      "style": "Young man, hushed and quick, rising fear, the last word sharp.",
+      "voice": "Fenrir",
+      "story": 86,
+      "anchors": {},
+      "file": "floor-0/part09/voice/fight.wav",
+      "duration": 5.22,
+      "speechStart": 0.07,
+      "speechEnd": 4.8100000000000005,
+      "words": [
+        {
+          "text": "She",
+          "start": 0.25
+        },
+        {
+          "text": "didn't",
+          "start": 0.37
+        },
+        {
+          "text": "fight",
+          "start": 0.82
+        },
+        {
+          "text": "me.",
+          "start": 1.26
+        },
+        {
+          "text": "She",
+          "start": 1.64
+        },
+        {
+          "text": "stepped",
+          "start": 1.81
+        },
+        {
+          "text": "back,",
+          "start": 2.15
+        },
+        {
+          "text": "and",
+          "start": 2.41
+        },
+        {
+          "text": "every",
+          "start": 2.79
+        },
+        {
+          "text": "cable",
+          "start": 3.04
+        },
+        {
+          "text": "in",
+          "start": 3.48
+        },
+        {
+          "text": "the",
+          "start": 3.6
+        },
+        {
+          "text": "room",
+          "start": 3.75
+        },
+        {
+          "text": "began",
+          "start": 3.92
+        },
+        {
+          "text": "to",
+          "start": 4.31
+        },
+        {
+          "text": "*shake.*",
+          "start": 4.47
+        }
+      ]
+    },
+    {
+      "id": "ear",
+      "text": "I pressed my ear to one. Down below, a Theo was begging me to *cut* it.",
+      "style": "Young man, whisper, slow at first, then horrified and fast.",
+      "voice": "Fenrir",
+      "story": 236,
+      "anchors": {},
+      "file": "floor-0/part09/voice/ear.wav",
+      "duration": 5.16,
+      "speechStart": 0.41000000000000003,
+      "speechEnd": 4.84,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.41
+        },
+        {
+          "text": "pressed",
+          "start": 0.53
+        },
+        {
+          "text": "my",
+          "start": 0.81
+        },
+        {
+          "text": "ear",
+          "start": 1.01
+        },
+        {
+          "text": "to",
+          "start": 1.31
+        },
+        {
+          "text": "one.",
+          "start": 1.48
+        },
+        {
+          "text": "Down",
+          "start": 1.98
+        },
+        {
+          "text": "below,",
+          "start": 2.27
+        },
+        {
+          "text": "a",
+          "start": 2.96
+        },
+        {
+          "text": "Theo",
+          "start": 3.08
+        },
+        {
+          "text": "was",
+          "start": 3.51
+        },
+        {
+          "text": "begging",
+          "start": 3.89
+        },
+        {
+          "text": "me",
+          "start": 4.18
+        },
+        {
+          "text": "to",
+          "start": 4.31
+        },
+        {
+          "text": "*cut*",
+          "start": 4.49
+        },
+        {
+          "text": "it.",
+          "start": 4.64
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "text": "Why would anyone beg to *fall?*",
+      "style": "Young man, shaking whisper, confused and scared.",
+      "voice": "Fenrir",
+      "story": 388,
+      "anchors": {},
+      "file": "floor-0/part09/voice/why.wav",
+      "duration": 3.53,
+      "speechStart": 0.33,
+      "speechEnd": 3.22,
+      "words": [
+        {
+          "text": "Why",
+          "start": 0.33
+        },
+        {
+          "text": "would",
+          "start": 0.45
+        },
+        {
+          "text": "anyone",
+          "start": 1.1
+        },
+        {
+          "text": "beg",
+          "start": 2.07
+        },
+        {
+          "text": "to",
+          "start": 2.21
+        },
+        {
+          "text": "*fall?*",
+          "start": 2.46
+        }
+      ]
+    },
+    {
+      "id": "girl",
+      "text": "You want out, Theo? Then let *go.*",
+      "style": "A little girl, soft sweet whisper, calm and creepy, smiling as she speaks, very slow.",
+      "voice": "Leda",
+      "story": 492,
+      "anchors": {},
+      "file": "floor-0/part09/voice/girl.wav",
+      "duration": 3.75,
+      "speechStart": 0.34,
+      "speechEnd": 3.3200000000000003,
+      "words": [
+        {
+          "text": "You",
+          "start": 0.35
+        },
+        {
+          "text": "want",
+          "start": 0.47
+        },
+        {
+          "text": "out,",
+          "start": 0.82
+        },
+        {
+          "text": "Theo?",
+          "start": 1.4
+        },
+        {
+          "text": "Then",
+          "start": 2.31
+        },
+        {
+          "text": "let",
+          "start": 2.88
+        },
+        {
+          "text": "*go.*",
+          "start": 3.24
+        }
+      ]
+    },
+    {
+      "id": "answer",
+      "text": "There's no button for Floor Zero. You only get there by *falling.*",
+      "style": "Young man, awed realisation, slow and quiet, the last word heavy.",
+      "voice": "Fenrir",
+      "story": 600,
+      "anchors": {},
+      "file": "floor-0/part09/voice/answer.wav",
+      "duration": 5.91,
+      "speechStart": 0.24,
+      "speechEnd": 5.68,
+      "words": [
+        {
+          "text": "There's",
+          "start": 0.28
+        },
+        {
+          "text": "no",
+          "start": 0.77
+        },
+        {
+          "text": "button",
+          "start": 1.04
+        },
+        {
+          "text": "for",
+          "start": 1.71
+        },
+        {
+          "text": "Floor",
+          "start": 2.01
+        },
+        {
+          "text": "Zero.",
+          "start": 2.53
+        },
+        {
+          "text": "You",
+          "start": 3
+        },
+        {
+          "text": "only",
+          "start": 3.3
+        },
+        {
+          "text": "get",
+          "start": 3.75
+        },
+        {
+          "text": "there",
+          "start": 4.02
+        },
+        {
+          "text": "by",
+          "start": 4.5
+        },
+        {
+          "text": "*falling.*",
+          "start": 5.08
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "text": "Cut my own cable... or cut them *all?*",
+      "style": "Young man, panicking, fast and desperate, torn between two choices.",
+      "voice": "Fenrir",
+      "story": 766,
+      "anchors": {},
+      "file": "floor-0/part09/voice/choice.wav",
+      "duration": 2.72,
+      "speechStart": 0.19,
+      "speechEnd": 2.5100000000000002,
+      "words": [
+        {
+          "text": "Cut",
+          "start": 0.21
+        },
+        {
+          "text": "my",
+          "start": 0.33
+        },
+        {
+          "text": "own",
+          "start": 0.57
+        },
+        {
+          "text": "cable...",
+          "start": 0.84
+        },
+        {
+          "text": "or",
+          "start": 1.55
+        },
+        {
+          "text": "cut",
+          "start": 1.7
+        },
+        {
+          "text": "them",
+          "start": 1.93
+        },
+        {
+          "text": "*all?*",
+          "start": 2.24
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Comment *A* or *B.*",
+      "style": "Young man, urgent and direct, straight to the viewer, short.",
+      "voice": "Fenrir",
+      "story": 836,
+      "anchors": {},
+      "file": "floor-0/part09/voice/cta.wav",
+      "duration": 1.72,
+      "speechStart": 0.15,
+      "speechEnd": 1.43,
+      "words": [
+        {
+          "text": "Comment",
+          "start": 0.17
+        },
+        {
+          "text": "*A*",
+          "start": 0.7
+        },
+        {
+          "text": "or",
+          "start": 0.86
+        },
+        {
+          "text": "*B.*",
+          "start": 1.11
+        }
+      ]
+    }
+  ]
+}

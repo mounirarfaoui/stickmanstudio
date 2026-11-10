@@ -1,0 +1,123 @@
+{
+  "id": "floor-0-09",
+  "title": "Floor 0 — Part 9: Let Go",
+  "publicDir": "floor-0/part09",
+  "voice": "Fenrir",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 2,
+      "text": "I took her shears. So why is she *smiling?*",
+      "style": "Young man, fast and breathless, no pauses, scared, the question shot out sharp."
+    },
+    {
+      "id": "fight",
+      "story": 86,
+      "text": "She didn't fight me. She stepped back, and every cable in the room began to *shake.*",
+      "style": "Young man, hushed and quick, rising fear, the last word sharp."
+    },
+    {
+      "id": "ear",
+      "story": 236,
+      "text": "I pressed my ear to one. Down below, a Theo was begging me to *cut* it.",
+      "style": "Young man, whisper, slow at first, then horrified and fast."
+    },
+    {
+      "id": "why",
+      "story": 388,
+      "text": "Why would anyone beg to *fall?*",
+      "style": "Young man, shaking whisper, confused and scared."
+    },
+    {
+      "id": "girl",
+      "story": 492,
+      "voice": "Leda",
+      "text": "You want out, Theo? Then let *go.*",
+      "style": "A little girl, soft sweet whisper, calm and creepy, smiling as she speaks, very slow."
+    },
+    {
+      "id": "answer",
+      "story": 600,
+      "text": "There's no button for Floor Zero. You only get there by *falling.*",
+      "style": "Young man, awed realisation, slow and quiet, the last word heavy."
+    },
+    {
+      "id": "choice",
+      "story": 766,
+      "text": "Cut my own cable... or cut them *all?*",
+      "style": "Young man, panicking, fast and desperate, torn between two choices."
+    },
+    {
+      "id": "cta",
+      "story": 836,
+      "text": "Comment *A* or *B.*",
+      "style": "Young man, urgent and direct, straight to the viewer, short."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        4,
+        5
+      ],
+      "fight": [
+        4,
+        7,
+        5
+      ],
+      "ear": [
+        6,
+        5,
+        5
+      ],
+      "why": [
+        6
+      ],
+      "girl": [
+        4,
+        3
+      ],
+      "answer": [
+        6,
+        6
+      ],
+      "choice": [
+        4,
+        4
+      ],
+      "cta": [
+        4
+      ]
+    },
+    "speakers": {
+      "girl": "girl"
+    }
+  },
+  "timeline": {
+    "gap": 4,
+    "maxSpeedup": 1,
+    "endHold": 12,
+    "captionLead": 2,
+    "maxPause": 0.2
+  },
+  "music": {
+    "title": "Floor 0 - Let Go",
+    "style": "Horror thriller score. Starts instantly on a sharp metallic stinger, a vast dark attic drone, hundreds of steel cables thrashing and groaning, distant muffled screams through metal, a cold detuned music box for a little girl, a long falling whoosh down a deep shaft that opens into a warm eerie choir-free glow, then racing heartbeat and ticking to a sudden cut. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "thrash": {
+      "prompt": "Hundreds of thick steel elevator cables shaking and rattling violently all at once, metal groaning and humming under strain in a large dark attic, isolated sound effect, no music."
+    },
+    "bang": {
+      "prompt": "Muffled fists pounding on the metal ceiling of an elevator car deep down a shaft, heard through a steel cable, echoing, isolated sound effect, no music."
+    }
+  },
+  "mix": {
+    "musicDb": -24,
+    "levelLines": true,
+    "fxGainDb": {}
+  },
+  "sfx": "floor-0-09"
+}

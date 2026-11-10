@@ -1,0 +1,624 @@
+{
+  "fps": 30,
+  "duration": 892,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      86,
+      86
+    ],
+    [
+      236,
+      236
+    ],
+    [
+      388,
+      388
+    ],
+    [
+      492,
+      492
+    ],
+    [
+      600,
+      600
+    ],
+    [
+      766,
+      767.2
+    ],
+    [
+      836,
+      840.8
+    ],
+    [
+      886,
+      890.8
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "floor-0/part09/voice/hook.wav",
+      "at": -0.1633,
+      "speech": [
+        0.067,
+        2.397
+      ]
+    },
+    {
+      "id": "fight",
+      "file": "floor-0/part09/voice/fight.wav",
+      "at": 2.7967,
+      "speech": [
+        2.867,
+        7.607
+      ]
+    },
+    {
+      "id": "ear",
+      "file": "floor-0/part09/voice/ear.wav",
+      "at": 7.4567,
+      "speech": [
+        7.867,
+        12.297
+      ]
+    },
+    {
+      "id": "why",
+      "file": "floor-0/part09/voice/why.wav",
+      "at": 12.6033,
+      "speech": [
+        12.933,
+        15.823
+      ]
+    },
+    {
+      "id": "girl",
+      "file": "floor-0/part09/voice/girl.wav",
+      "at": 16.06,
+      "speech": [
+        16.4,
+        19.38
+      ]
+    },
+    {
+      "id": "answer",
+      "file": "floor-0/part09/voice/answer.wav",
+      "at": 19.76,
+      "speech": [
+        20,
+        25.44
+      ]
+    },
+    {
+      "id": "choice",
+      "file": "floor-0/part09/voice/choice.wav",
+      "at": 25.3833,
+      "speech": [
+        25.573,
+        27.893
+      ]
+    },
+    {
+      "id": "cta",
+      "file": "floor-0/part09/voice/cta.wav",
+      "at": 27.8767,
+      "speech": [
+        28.027,
+        29.307
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 0,
+      "to": 37,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 2
+        },
+        {
+          "text": "took",
+          "emph": false,
+          "frame": 6
+        },
+        {
+          "text": "her",
+          "emph": false,
+          "frame": 9
+        },
+        {
+          "text": "shears.",
+          "emph": false,
+          "frame": 17
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 37,
+      "to": 84,
+      "words": [
+        {
+          "text": "So",
+          "emph": false,
+          "frame": 39
+        },
+        {
+          "text": "why",
+          "emph": false,
+          "frame": 43
+        },
+        {
+          "text": "is",
+          "emph": false,
+          "frame": 46
+        },
+        {
+          "text": "she",
+          "emph": false,
+          "frame": 52
+        },
+        {
+          "text": "smiling?",
+          "emph": true,
+          "frame": 58
+        }
+      ]
+    },
+    {
+      "line": "fight",
+      "from": 89,
+      "to": 131,
+      "words": [
+        {
+          "text": "She",
+          "emph": false,
+          "frame": 91
+        },
+        {
+          "text": "didn't",
+          "emph": false,
+          "frame": 95
+        },
+        {
+          "text": "fight",
+          "emph": false,
+          "frame": 109
+        },
+        {
+          "text": "me.",
+          "emph": false,
+          "frame": 122
+        }
+      ]
+    },
+    {
+      "line": "fight",
+      "from": 131,
+      "to": 190,
+      "words": [
+        {
+          "text": "She",
+          "emph": false,
+          "frame": 133
+        },
+        {
+          "text": "stepped",
+          "emph": false,
+          "frame": 138
+        },
+        {
+          "text": "back,",
+          "emph": false,
+          "frame": 148
+        },
+        {
+          "text": "and",
+          "emph": false,
+          "frame": 156
+        },
+        {
+          "text": "every",
+          "emph": false,
+          "frame": 168
+        },
+        {
+          "text": "cable",
+          "emph": false,
+          "frame": 175
+        },
+        {
+          "text": "in",
+          "emph": false,
+          "frame": 188
+        }
+      ]
+    },
+    {
+      "line": "fight",
+      "from": 190,
+      "to": 234,
+      "words": [
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 192
+        },
+        {
+          "text": "room",
+          "emph": false,
+          "frame": 196
+        },
+        {
+          "text": "began",
+          "emph": false,
+          "frame": 202
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 213
+        },
+        {
+          "text": "shake.",
+          "emph": true,
+          "frame": 218
+        }
+      ]
+    },
+    {
+      "line": "ear",
+      "from": 234,
+      "to": 281,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 236
+        },
+        {
+          "text": "pressed",
+          "emph": false,
+          "frame": 240
+        },
+        {
+          "text": "my",
+          "emph": false,
+          "frame": 248
+        },
+        {
+          "text": "ear",
+          "emph": false,
+          "frame": 254
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 263
+        },
+        {
+          "text": "one.",
+          "emph": false,
+          "frame": 268
+        }
+      ]
+    },
+    {
+      "line": "ear",
+      "from": 281,
+      "to": 338,
+      "words": [
+        {
+          "text": "Down",
+          "emph": false,
+          "frame": 283
+        },
+        {
+          "text": "below,",
+          "emph": false,
+          "frame": 292
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 313
+        },
+        {
+          "text": "Theo",
+          "emph": false,
+          "frame": 316
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 329
+        }
+      ]
+    },
+    {
+      "line": "ear",
+      "from": 338,
+      "to": 381,
+      "words": [
+        {
+          "text": "begging",
+          "emph": false,
+          "frame": 340
+        },
+        {
+          "text": "me",
+          "emph": false,
+          "frame": 349
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 353
+        },
+        {
+          "text": "cut",
+          "emph": true,
+          "frame": 358
+        },
+        {
+          "text": "it.",
+          "emph": false,
+          "frame": 363
+        }
+      ]
+    },
+    {
+      "line": "why",
+      "from": 386,
+      "to": 487,
+      "words": [
+        {
+          "text": "Why",
+          "emph": false,
+          "frame": 388
+        },
+        {
+          "text": "would",
+          "emph": false,
+          "frame": 392
+        },
+        {
+          "text": "anyone",
+          "emph": false,
+          "frame": 411
+        },
+        {
+          "text": "beg",
+          "emph": false,
+          "frame": 440
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 444
+        },
+        {
+          "text": "fall?",
+          "emph": true,
+          "frame": 452
+        }
+      ]
+    },
+    {
+      "line": "girl",
+      "from": 490,
+      "to": 549,
+      "words": [
+        {
+          "text": "You",
+          "emph": false,
+          "frame": 492
+        },
+        {
+          "text": "want",
+          "emph": false,
+          "frame": 496
+        },
+        {
+          "text": "out,",
+          "emph": false,
+          "frame": 506
+        },
+        {
+          "text": "Theo?",
+          "emph": false,
+          "frame": 524
+        }
+      ]
+    },
+    {
+      "line": "girl",
+      "from": 549,
+      "to": 593,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 551
+        },
+        {
+          "text": "let",
+          "emph": false,
+          "frame": 568
+        },
+        {
+          "text": "go.",
+          "emph": true,
+          "frame": 579
+        }
+      ]
+    },
+    {
+      "line": "answer",
+      "from": 599,
+      "to": 681,
+      "words": [
+        {
+          "text": "There's",
+          "emph": false,
+          "frame": 601
+        },
+        {
+          "text": "no",
+          "emph": false,
+          "frame": 616
+        },
+        {
+          "text": "button",
+          "emph": false,
+          "frame": 624
+        },
+        {
+          "text": "for",
+          "emph": false,
+          "frame": 644
+        },
+        {
+          "text": "Floor",
+          "emph": false,
+          "frame": 653
+        },
+        {
+          "text": "Zero.",
+          "emph": false,
+          "frame": 669
+        }
+      ]
+    },
+    {
+      "line": "answer",
+      "from": 681,
+      "to": 765,
+      "words": [
+        {
+          "text": "You",
+          "emph": false,
+          "frame": 683
+        },
+        {
+          "text": "only",
+          "emph": false,
+          "frame": 692
+        },
+        {
+          "text": "get",
+          "emph": false,
+          "frame": 705
+        },
+        {
+          "text": "there",
+          "emph": false,
+          "frame": 713
+        },
+        {
+          "text": "by",
+          "emph": false,
+          "frame": 728
+        },
+        {
+          "text": "falling.",
+          "emph": true,
+          "frame": 745
+        }
+      ]
+    },
+    {
+      "line": "choice",
+      "from": 766,
+      "to": 806,
+      "words": [
+        {
+          "text": "Cut",
+          "emph": false,
+          "frame": 768
+        },
+        {
+          "text": "my",
+          "emph": false,
+          "frame": 771
+        },
+        {
+          "text": "own",
+          "emph": false,
+          "frame": 779
+        },
+        {
+          "text": "cable...",
+          "emph": false,
+          "frame": 787
+        }
+      ]
+    },
+    {
+      "line": "choice",
+      "from": 806,
+      "to": 839,
+      "words": [
+        {
+          "text": "or",
+          "emph": false,
+          "frame": 808
+        },
+        {
+          "text": "cut",
+          "emph": false,
+          "frame": 812
+        },
+        {
+          "text": "them",
+          "emph": false,
+          "frame": 819
+        },
+        {
+          "text": "all?",
+          "emph": true,
+          "frame": 829
+        }
+      ]
+    },
+    {
+      "line": "cta",
+      "from": 839,
+      "to": 891,
+      "words": [
+        {
+          "text": "Comment",
+          "emph": false,
+          "frame": 841
+        },
+        {
+          "text": "A",
+          "emph": true,
+          "frame": 857
+        },
+        {
+          "text": "or",
+          "emph": false,
+          "frame": 862
+        },
+        {
+          "text": "B.",
+          "emph": true,
+          "frame": 870
+        }
+      ]
+    }
+  ]
+}
