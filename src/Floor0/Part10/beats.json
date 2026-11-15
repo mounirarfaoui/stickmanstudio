@@ -1,0 +1,16 @@
+{
+  "fps": 30,
+  "duration": 828,
+  "hookEnd": 90,
+  "firstCut": 6,
+  "cascade": [10, 256],
+  "clap": [120, 250],
+  "walk": [262, 290],
+  "bounce": [312, 340, 366],
+  "follow": [405, 470, 535],
+  "answer": 590,
+  "tug": 688,
+  "choice": 706,
+  "cards": 758,
+  "freeze": 814
+}

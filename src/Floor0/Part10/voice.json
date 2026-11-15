@@ -1,0 +1,376 @@
+{
+  "voice": "Fenrir",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "I cut two hundred cables. Why wouldn't the last one *break?*",
+      "style": "Young man, fast and breathless, no pauses, scared, the question shot out sharp.",
+      "voice": "Fenrir",
+      "story": 2,
+      "anchors": {},
+      "file": "floor-0/part10/voice/hook.wav",
+      "duration": 3.04,
+      "speechStart": 0.15,
+      "speechEnd": 2.82,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.15
+        },
+        {
+          "text": "cut",
+          "start": 0.27
+        },
+        {
+          "text": "two",
+          "start": 0.45
+        },
+        {
+          "text": "hundred",
+          "start": 0.57
+        },
+        {
+          "text": "cables.",
+          "start": 0.84
+        },
+        {
+          "text": "Why",
+          "start": 1.57
+        },
+        {
+          "text": "wouldn't",
+          "start": 1.69
+        },
+        {
+          "text": "the",
+          "start": 2.02
+        },
+        {
+          "text": "last",
+          "start": 2.23
+        },
+        {
+          "text": "one",
+          "start": 2.41
+        },
+        {
+          "text": "*break?*",
+          "start": 2.53
+        }
+      ]
+    },
+    {
+      "id": "snip",
+      "text": "Snip after snip, the elevators dropped. And with every one, she *clapped.*",
+      "style": "Young man, quick and tense, horrified, the last word disgusted.",
+      "voice": "Fenrir",
+      "story": 100,
+      "anchors": {},
+      "file": "floor-0/part10/voice/snip.wav",
+      "duration": 5.23,
+      "speechStart": 0.23,
+      "speechEnd": 5.04,
+      "words": [
+        {
+          "text": "Snip",
+          "start": 0.23
+        },
+        {
+          "text": "after",
+          "start": 0.44
+        },
+        {
+          "text": "snip,",
+          "start": 1
+        },
+        {
+          "text": "the",
+          "start": 1.6
+        },
+        {
+          "text": "elevators",
+          "start": 1.78
+        },
+        {
+          "text": "dropped.",
+          "start": 2.34
+        },
+        {
+          "text": "And",
+          "start": 2.92
+        },
+        {
+          "text": "with",
+          "start": 3.04
+        },
+        {
+          "text": "every",
+          "start": 3.25
+        },
+        {
+          "text": "one,",
+          "start": 3.58
+        },
+        {
+          "text": "she",
+          "start": 4.05
+        },
+        {
+          "text": "*clapped.*",
+          "start": 4.35
+        }
+      ]
+    },
+    {
+      "id": "last",
+      "text": "But the last one, my cable, the shears just *bounced* off.",
+      "style": "Young man, confused and scared, fast, the stressed word sharp.",
+      "voice": "Fenrir",
+      "story": 275,
+      "anchors": {},
+      "file": "floor-0/part10/voice/last.wav",
+      "duration": 4,
+      "speechStart": 0.23,
+      "speechEnd": 3.7800000000000002,
+      "words": [
+        {
+          "text": "But",
+          "start": 0.23
+        },
+        {
+          "text": "the",
+          "start": 0.35
+        },
+        {
+          "text": "last",
+          "start": 0.47
+        },
+        {
+          "text": "one,",
+          "start": 0.73
+        },
+        {
+          "text": "my",
+          "start": 1.28
+        },
+        {
+          "text": "cable,",
+          "start": 1.4
+        },
+        {
+          "text": "the",
+          "start": 2.21
+        },
+        {
+          "text": "shears",
+          "start": 2.36
+        },
+        {
+          "text": "just",
+          "start": 2.96
+        },
+        {
+          "text": "*bounced*",
+          "start": 3.09
+        },
+        {
+          "text": "off.",
+          "start": 3.6
+        }
+      ]
+    },
+    {
+      "id": "follow",
+      "text": "So I followed it down. It never went into the *floor.*",
+      "style": "Young man, whisper, slow and careful, dread rising on the last word.",
+      "voice": "Fenrir",
+      "story": 405,
+      "anchors": {},
+      "file": "floor-0/part10/voice/follow.wav",
+      "duration": 4.57,
+      "speechStart": 0.39,
+      "speechEnd": 4.33,
+      "words": [
+        {
+          "text": "So",
+          "start": 0.39
+        },
+        {
+          "text": "I",
+          "start": 0.51
+        },
+        {
+          "text": "followed",
+          "start": 0.63
+        },
+        {
+          "text": "it",
+          "start": 1.27
+        },
+        {
+          "text": "down.",
+          "start": 1.52
+        },
+        {
+          "text": "It",
+          "start": 2.23
+        },
+        {
+          "text": "never",
+          "start": 2.5
+        },
+        {
+          "text": "went",
+          "start": 2.82
+        },
+        {
+          "text": "into",
+          "start": 3.08
+        },
+        {
+          "text": "the",
+          "start": 3.39
+        },
+        {
+          "text": "*floor.*",
+          "start": 3.62
+        }
+      ]
+    },
+    {
+      "id": "answer",
+      "text": "It wasn't tied to an elevator. It was tied to *me.*",
+      "style": "Young man, shocked realisation, quiet then broken, the last word heavy.",
+      "voice": "Fenrir",
+      "story": 590,
+      "anchors": {},
+      "file": "floor-0/part10/voice/answer.wav",
+      "duration": 3.9,
+      "speechStart": 0.29,
+      "speechEnd": 3.61,
+      "words": [
+        {
+          "text": "It",
+          "start": 0.29
+        },
+        {
+          "text": "wasn't",
+          "start": 0.41
+        },
+        {
+          "text": "tied",
+          "start": 0.79
+        },
+        {
+          "text": "to",
+          "start": 1.18
+        },
+        {
+          "text": "an",
+          "start": 1.39
+        },
+        {
+          "text": "elevator.",
+          "start": 1.59
+        },
+        {
+          "text": "It",
+          "start": 2.53
+        },
+        {
+          "text": "was",
+          "start": 2.66
+        },
+        {
+          "text": "tied",
+          "start": 2.86
+        },
+        {
+          "text": "to",
+          "start": 3.12
+        },
+        {
+          "text": "*me.*",
+          "start": 3.25
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "text": "Climb the cable... or jump down the *shaft?*",
+      "style": "Young man, panicking, fast and desperate, torn between two choices.",
+      "voice": "Fenrir",
+      "story": 706,
+      "anchors": {},
+      "file": "floor-0/part10/voice/choice.wav",
+      "duration": 2.48,
+      "speechStart": 0.03,
+      "speechEnd": 2.13,
+      "words": [
+        {
+          "text": "Climb",
+          "start": 0.05
+        },
+        {
+          "text": "the",
+          "start": 0.46
+        },
+        {
+          "text": "cable...",
+          "start": 0.68
+        },
+        {
+          "text": "or",
+          "start": 1.2
+        },
+        {
+          "text": "jump",
+          "start": 1.32
+        },
+        {
+          "text": "down",
+          "start": 1.45
+        },
+        {
+          "text": "the",
+          "start": 1.68
+        },
+        {
+          "text": "*shaft?*",
+          "start": 1.83
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Comment *A* or *B.*",
+      "style": "Young man, urgent and direct, straight to the viewer, short.",
+      "voice": "Fenrir",
+      "story": 776,
+      "anchors": {},
+      "file": "floor-0/part10/voice/cta.wav",
+      "duration": 1.6,
+      "speechStart": 0.26,
+      "speechEnd": 1.34,
+      "words": [
+        {
+          "text": "Comment",
+          "start": 0.28
+        },
+        {
+          "text": "*A*",
+          "start": 0.62
+        },
+        {
+          "text": "or",
+          "start": 0.76
+        },
+        {
+          "text": "*B.*",
+          "start": 0.98
+        }
+      ]
+    }
+  ]
+}

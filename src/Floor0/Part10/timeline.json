@@ -1,0 +1,540 @@
+{
+  "fps": 30,
+  "duration": 828,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      100,
+      100
+    ],
+    [
+      275,
+      275
+    ],
+    [
+      405,
+      405
+    ],
+    [
+      590,
+      590
+    ],
+    [
+      706,
+      706
+    ],
+    [
+      776,
+      776
+    ],
+    [
+      828,
+      828
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "floor-0/part10/voice/hook.wav",
+      "at": -0.0833,
+      "speech": [
+        0.067,
+        2.737
+      ]
+    },
+    {
+      "id": "snip",
+      "file": "floor-0/part10/voice/snip.wav",
+      "at": 3.1033,
+      "speech": [
+        3.333,
+        8.143
+      ]
+    },
+    {
+      "id": "last",
+      "file": "floor-0/part10/voice/last.wav",
+      "at": 8.9367,
+      "speech": [
+        9.167,
+        12.717
+      ]
+    },
+    {
+      "id": "follow",
+      "file": "floor-0/part10/voice/follow.wav",
+      "at": 13.11,
+      "speech": [
+        13.5,
+        17.44
+      ]
+    },
+    {
+      "id": "answer",
+      "file": "floor-0/part10/voice/answer.wav",
+      "at": 19.3767,
+      "speech": [
+        19.667,
+        22.987
+      ]
+    },
+    {
+      "id": "choice",
+      "file": "floor-0/part10/voice/choice.wav",
+      "at": 23.5033,
+      "speech": [
+        23.533,
+        25.633
+      ]
+    },
+    {
+      "id": "cta",
+      "file": "floor-0/part10/voice/cta.wav",
+      "at": 25.6067,
+      "speech": [
+        25.867,
+        26.947
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 0,
+      "to": 43,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 2
+        },
+        {
+          "text": "cut",
+          "emph": false,
+          "frame": 6
+        },
+        {
+          "text": "two",
+          "emph": false,
+          "frame": 11
+        },
+        {
+          "text": "hundred",
+          "emph": false,
+          "frame": 15
+        },
+        {
+          "text": "cables.",
+          "emph": false,
+          "frame": 23
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 43,
+      "to": 94,
+      "words": [
+        {
+          "text": "Why",
+          "emph": false,
+          "frame": 45
+        },
+        {
+          "text": "wouldn't",
+          "emph": false,
+          "frame": 48
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 58
+        },
+        {
+          "text": "last",
+          "emph": false,
+          "frame": 64
+        },
+        {
+          "text": "one",
+          "emph": false,
+          "frame": 70
+        },
+        {
+          "text": "break?",
+          "emph": true,
+          "frame": 73
+        }
+      ]
+    },
+    {
+      "line": "snip",
+      "from": 98,
+      "to": 179,
+      "words": [
+        {
+          "text": "Snip",
+          "emph": false,
+          "frame": 100
+        },
+        {
+          "text": "after",
+          "emph": false,
+          "frame": 106
+        },
+        {
+          "text": "snip,",
+          "emph": false,
+          "frame": 123
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 141
+        },
+        {
+          "text": "elevators",
+          "emph": false,
+          "frame": 147
+        },
+        {
+          "text": "dropped.",
+          "emph": false,
+          "frame": 163
+        }
+      ]
+    },
+    {
+      "line": "snip",
+      "from": 179,
+      "to": 256,
+      "words": [
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 181
+        },
+        {
+          "text": "with",
+          "emph": false,
+          "frame": 184
+        },
+        {
+          "text": "every",
+          "emph": false,
+          "frame": 191
+        },
+        {
+          "text": "one,",
+          "emph": false,
+          "frame": 201
+        },
+        {
+          "text": "she",
+          "emph": false,
+          "frame": 215
+        },
+        {
+          "text": "clapped.",
+          "emph": true,
+          "frame": 224
+        }
+      ]
+    },
+    {
+      "line": "last",
+      "from": 273,
+      "to": 308,
+      "words": [
+        {
+          "text": "But",
+          "emph": false,
+          "frame": 275
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 279
+        },
+        {
+          "text": "last",
+          "emph": false,
+          "frame": 282
+        },
+        {
+          "text": "one,",
+          "emph": false,
+          "frame": 290
+        },
+        {
+          "text": "my",
+          "emph": false,
+          "frame": 307
+        }
+      ]
+    },
+    {
+      "line": "last",
+      "from": 308,
+      "to": 394,
+      "words": [
+        {
+          "text": "cable,",
+          "emph": false,
+          "frame": 310
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 334
+        },
+        {
+          "text": "shears",
+          "emph": false,
+          "frame": 339
+        },
+        {
+          "text": "just",
+          "emph": false,
+          "frame": 357
+        },
+        {
+          "text": "bounced",
+          "emph": true,
+          "frame": 361
+        },
+        {
+          "text": "off.",
+          "emph": false,
+          "frame": 376
+        }
+      ]
+    },
+    {
+      "line": "follow",
+      "from": 403,
+      "to": 458,
+      "words": [
+        {
+          "text": "So",
+          "emph": false,
+          "frame": 405
+        },
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 409
+        },
+        {
+          "text": "followed",
+          "emph": false,
+          "frame": 412
+        },
+        {
+          "text": "it",
+          "emph": false,
+          "frame": 431
+        },
+        {
+          "text": "down.",
+          "emph": false,
+          "frame": 439
+        }
+      ]
+    },
+    {
+      "line": "follow",
+      "from": 458,
+      "to": 535,
+      "words": [
+        {
+          "text": "It",
+          "emph": false,
+          "frame": 460
+        },
+        {
+          "text": "never",
+          "emph": false,
+          "frame": 468
+        },
+        {
+          "text": "went",
+          "emph": false,
+          "frame": 478
+        },
+        {
+          "text": "into",
+          "emph": false,
+          "frame": 486
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 495
+        },
+        {
+          "text": "floor.",
+          "emph": true,
+          "frame": 502
+        }
+      ]
+    },
+    {
+      "line": "answer",
+      "from": 588,
+      "to": 655,
+      "words": [
+        {
+          "text": "It",
+          "emph": false,
+          "frame": 590
+        },
+        {
+          "text": "wasn't",
+          "emph": false,
+          "frame": 594
+        },
+        {
+          "text": "tied",
+          "emph": false,
+          "frame": 605
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 617
+        },
+        {
+          "text": "an",
+          "emph": false,
+          "frame": 623
+        },
+        {
+          "text": "elevator.",
+          "emph": false,
+          "frame": 629
+        }
+      ]
+    },
+    {
+      "line": "answer",
+      "from": 655,
+      "to": 702,
+      "words": [
+        {
+          "text": "It",
+          "emph": false,
+          "frame": 657
+        },
+        {
+          "text": "was",
+          "emph": false,
+          "frame": 661
+        },
+        {
+          "text": "tied",
+          "emph": false,
+          "frame": 667
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 675
+        },
+        {
+          "text": "me.",
+          "emph": true,
+          "frame": 679
+        }
+      ]
+    },
+    {
+      "line": "choice",
+      "from": 705,
+      "to": 739,
+      "words": [
+        {
+          "text": "Climb",
+          "emph": false,
+          "frame": 707
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 719
+        },
+        {
+          "text": "cable...",
+          "emph": false,
+          "frame": 726
+        }
+      ]
+    },
+    {
+      "line": "choice",
+      "from": 739,
+      "to": 774,
+      "words": [
+        {
+          "text": "or",
+          "emph": false,
+          "frame": 741
+        },
+        {
+          "text": "jump",
+          "emph": false,
+          "frame": 745
+        },
+        {
+          "text": "down",
+          "emph": false,
+          "frame": 749
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 756
+        },
+        {
+          "text": "shaft?",
+          "emph": true,
+          "frame": 760
+        }
+      ]
+    },
+    {
+      "line": "cta",
+      "from": 775,
+      "to": 820,
+      "words": [
+        {
+          "text": "Comment",
+          "emph": false,
+          "frame": 777
+        },
+        {
+          "text": "A",
+          "emph": true,
+          "frame": 787
+        },
+        {
+          "text": "or",
+          "emph": false,
+          "frame": 791
+        },
+        {
+          "text": "B.",
+          "emph": true,
+          "frame": 798
+        }
+      ]
+    }
+  ]
+}
