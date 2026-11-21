@@ -1,0 +1,118 @@
+{
+  "id": "floor-0-12",
+  "title": "Floor 0 — Part 12: The First Theo",
+  "publicDir": "floor-0/part12",
+  "voice": "Fenrir",
+  "lines": [
+    {
+      "id": "hook",
+      "story": 2,
+      "text": "It could pull me up in one second. So why did it *wait?*",
+      "style": "Young man, fast and breathless, terrified, no pauses, the question shot out sharp."
+    },
+    {
+      "id": "stake",
+      "story": 90,
+      "text": "Every rung I climbed, a floor below me went *dark.*",
+      "style": "Young man, quick and tense, rising fear, the last word hard."
+    },
+    {
+      "id": "light",
+      "story": 190,
+      "text": "Halfway up, one of my own lights went *out.*",
+      "style": "Young man, sharp gasp, scared, fast."
+    },
+    {
+      "id": "lean",
+      "story": 272,
+      "text": "Then it leaned down... and I saw its *arm.*",
+      "style": "Young man, whisper, slow and frozen with fear."
+    },
+    {
+      "id": "marks",
+      "story": 392,
+      "text": "Tally marks. Twelve hundred of them. Like the ones in my *elevator.*",
+      "style": "Young man, hushed disbelief, slow, realisation growing."
+    },
+    {
+      "id": "answer",
+      "story": 556,
+      "text": "It wasn't hunting me. It was the first *Theo.*",
+      "style": "Young man, quiet, shocked, broken realisation, the last word heavy and slow."
+    },
+    {
+      "id": "choice",
+      "story": 668,
+      "text": "Take his place... or push him *down?*",
+      "style": "Young man, panicking, fast and desperate, torn between two choices."
+    },
+    {
+      "id": "cta",
+      "story": 742,
+      "text": "Comment *A* or *B.*",
+      "style": "Young man, urgent and direct, straight to the viewer, short."
+    }
+  ],
+  "captions": {
+    "chunks": {
+      "hook": [
+        5,
+        3,
+        5
+      ],
+      "stake": [
+        5,
+        5
+      ],
+      "light": [
+        4,
+        5
+      ],
+      "lean": [
+        5,
+        4
+      ],
+      "marks": [
+        2,
+        3,
+        7
+      ],
+      "answer": [
+        4,
+        5
+      ],
+      "choice": [
+        3,
+        4
+      ],
+      "cta": [
+        4
+      ]
+    },
+    "speakers": {}
+  },
+  "timeline": {
+    "gap": 4,
+    "maxSpeedup": 1,
+    "endHold": 12,
+    "captionLead": 2,
+    "maxPause": 0.2
+  },
+  "music": {
+    "title": "Floor 0 - The First Theo",
+    "style": "Horror thriller score. Starts instantly on a loud shimmering stinger and a deep breathing drone, steady climbing rhythm of metal creaks, lights switching off with heavy clunks one after another, a glass bulb bursting, then a slow cold descending string line, a lonely detuned music box, a sad eerie swell of realisation, racing heartbeat and ticking to a sudden cut. Instrumental only, no vocals, mixed to sit under a voiceover.",
+    "negative_tags": "vocals, singing, choir, rap, pop, upbeat, EDM drop, happy, guitar solo",
+    "style_weight": 0.8
+  },
+  "sounds": {
+    "clunk": {
+      "prompt": "A single heavy industrial light switch turning off with a deep echoing clunk in a huge empty elevator shaft, isolated sound effect, no music."
+    }
+  },
+  "mix": {
+    "musicDb": -24,
+    "levelLines": true,
+    "fxGainDb": {}
+  },
+  "sfx": "floor-0-12"
+}

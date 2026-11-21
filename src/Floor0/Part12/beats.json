@@ -1,0 +1,15 @@
+{
+  "fps": 30,
+  "duration": 808,
+  "hookEnd": 88,
+  "climb": [0, 272],
+  "dark": [90, 186],
+  "burst": 243,
+  "lean": [280, 330],
+  "reach": [300, 378],
+  "marks": [392, 540],
+  "firstTheo": 617,
+  "choice": 668,
+  "cards": 735,
+  "freeze": 796
+}
