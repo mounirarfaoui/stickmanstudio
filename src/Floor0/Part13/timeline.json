@@ -1,0 +1,545 @@
+{
+  "fps": 30,
+  "duration": 767,
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      74,
+      74
+    ],
+    [
+      190,
+      190
+    ],
+    [
+      334,
+      334
+    ],
+    [
+      440,
+      440
+    ],
+    [
+      540,
+      540
+    ],
+    [
+      618,
+      618
+    ],
+    [
+      710,
+      710
+    ],
+    [
+      767,
+      767
+    ]
+  ],
+  "voice": [
+    {
+      "id": "hook",
+      "file": "floor-0/part13/voice/hook.wav",
+      "at": -0.1533,
+      "speech": [
+        0.067,
+        2.067
+      ]
+    },
+    {
+      "id": "stake",
+      "file": "floor-0/part13/voice/stake.wav",
+      "at": 2.3967,
+      "speech": [
+        2.467,
+        5.937
+      ]
+    },
+    {
+      "id": "laugh",
+      "file": "floor-0/part13/voice/laugh.wav",
+      "at": 6.1933,
+      "speech": [
+        6.333,
+        10.323
+      ]
+    },
+    {
+      "id": "hands",
+      "file": "floor-0/part13/voice/hands.wav",
+      "at": 10.9733,
+      "speech": [
+        11.133,
+        14.153
+      ]
+    },
+    {
+      "id": "glow",
+      "file": "floor-0/part13/voice/glow.wav",
+      "at": 14.5067,
+      "speech": [
+        14.667,
+        17.417
+      ]
+    },
+    {
+      "id": "answer",
+      "file": "floor-0/part13/voice/answer.wav",
+      "at": 17.91,
+      "speech": [
+        18,
+        20.35
+      ]
+    },
+    {
+      "id": "choice",
+      "file": "floor-0/part13/voice/choice.wav",
+      "at": 20.39,
+      "speech": [
+        20.6,
+        23.32
+      ]
+    },
+    {
+      "id": "cta",
+      "file": "floor-0/part13/voice/cta.wav",
+      "at": 23.3967,
+      "speech": [
+        23.667,
+        24.877
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "line": "hook",
+      "from": 0,
+      "to": 27,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 2
+        },
+        {
+          "text": "pushed",
+          "emph": false,
+          "frame": 6
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 9
+        },
+        {
+          "text": "monster",
+          "emph": false,
+          "frame": 13
+        },
+        {
+          "text": "down.",
+          "emph": false,
+          "frame": 23
+        }
+      ]
+    },
+    {
+      "line": "hook",
+      "from": 27,
+      "to": 72,
+      "words": [
+        {
+          "text": "Why",
+          "emph": false,
+          "frame": 29
+        },
+        {
+          "text": "did",
+          "emph": false,
+          "frame": 34
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 40
+        },
+        {
+          "text": "lights",
+          "emph": false,
+          "frame": 43
+        },
+        {
+          "text": "come",
+          "emph": false,
+          "frame": 52
+        },
+        {
+          "text": "back?",
+          "emph": true,
+          "frame": 57
+        }
+      ]
+    },
+    {
+      "line": "stake",
+      "from": 81,
+      "to": 134,
+      "words": [
+        {
+          "text": "Floor",
+          "emph": false,
+          "frame": 83
+        },
+        {
+          "text": "by",
+          "emph": false,
+          "frame": 88
+        },
+        {
+          "text": "floor,",
+          "emph": false,
+          "frame": 94
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 117
+        },
+        {
+          "text": "whole",
+          "emph": false,
+          "frame": 123
+        }
+      ]
+    },
+    {
+      "line": "stake",
+      "from": 134,
+      "to": 188,
+      "words": [
+        {
+          "text": "shaft",
+          "emph": false,
+          "frame": 136
+        },
+        {
+          "text": "lit",
+          "emph": false,
+          "frame": 150
+        },
+        {
+          "text": "up",
+          "emph": false,
+          "frame": 156
+        },
+        {
+          "text": "below",
+          "emph": false,
+          "frame": 161
+        },
+        {
+          "text": "me.",
+          "emph": true,
+          "frame": 173
+        }
+      ]
+    },
+    {
+      "line": "laugh",
+      "from": 190,
+      "to": 223,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 192
+        },
+        {
+          "text": "he",
+          "emph": false,
+          "frame": 199
+        },
+        {
+          "text": "hit",
+          "emph": false,
+          "frame": 205
+        },
+        {
+          "text": "the",
+          "emph": false,
+          "frame": 217
+        }
+      ]
+    },
+    {
+      "line": "laugh",
+      "from": 223,
+      "to": 322,
+      "words": [
+        {
+          "text": "bottom.",
+          "emph": false,
+          "frame": 225
+        },
+        {
+          "text": "And",
+          "emph": false,
+          "frame": 255
+        },
+        {
+          "text": "he",
+          "emph": false,
+          "frame": 268
+        },
+        {
+          "text": "laughed.",
+          "emph": true,
+          "frame": 280
+        }
+      ]
+    },
+    {
+      "line": "hands",
+      "from": 332,
+      "to": 379,
+      "words": [
+        {
+          "text": "I",
+          "emph": false,
+          "frame": 334
+        },
+        {
+          "text": "looked",
+          "emph": false,
+          "frame": 338
+        },
+        {
+          "text": "at",
+          "emph": false,
+          "frame": 348
+        },
+        {
+          "text": "my",
+          "emph": false,
+          "frame": 353
+        },
+        {
+          "text": "hands.",
+          "emph": false,
+          "frame": 357
+        }
+      ]
+    },
+    {
+      "line": "hands",
+      "from": 379,
+      "to": 437,
+      "words": [
+        {
+          "text": "They",
+          "emph": false,
+          "frame": 381
+        },
+        {
+          "text": "were",
+          "emph": false,
+          "frame": 384
+        },
+        {
+          "text": "getting",
+          "emph": false,
+          "frame": 395
+        },
+        {
+          "text": "longer.",
+          "emph": true,
+          "frame": 408
+        }
+      ]
+    },
+    {
+      "line": "glow",
+      "from": 440,
+      "to": 535,
+      "words": [
+        {
+          "text": "Then",
+          "emph": false,
+          "frame": 442
+        },
+        {
+          "text": "my",
+          "emph": false,
+          "frame": 454
+        },
+        {
+          "text": "eyes",
+          "emph": false,
+          "frame": 465
+        },
+        {
+          "text": "started",
+          "emph": false,
+          "frame": 478
+        },
+        {
+          "text": "to",
+          "emph": false,
+          "frame": 503
+        },
+        {
+          "text": "glow.",
+          "emph": true,
+          "frame": 510
+        }
+      ]
+    },
+    {
+      "line": "answer",
+      "from": 539,
+      "to": 588,
+      "words": [
+        {
+          "text": "The",
+          "emph": false,
+          "frame": 541
+        },
+        {
+          "text": "building",
+          "emph": false,
+          "frame": 544
+        },
+        {
+          "text": "needs",
+          "emph": false,
+          "frame": 559
+        },
+        {
+          "text": "a",
+          "emph": false,
+          "frame": 569
+        },
+        {
+          "text": "monster.",
+          "emph": false,
+          "frame": 573
+        }
+      ]
+    },
+    {
+      "line": "answer",
+      "from": 588,
+      "to": 616,
+      "words": [
+        {
+          "text": "Now",
+          "emph": false,
+          "frame": 590
+        },
+        {
+          "text": "it's",
+          "emph": false,
+          "frame": 597
+        },
+        {
+          "text": "me.",
+          "emph": true,
+          "frame": 603
+        }
+      ]
+    },
+    {
+      "line": "choice",
+      "from": 617,
+      "to": 662,
+      "words": [
+        {
+          "text": "Stay",
+          "emph": false,
+          "frame": 619
+        },
+        {
+          "text": "and",
+          "emph": false,
+          "frame": 622
+        },
+        {
+          "text": "keep",
+          "emph": false,
+          "frame": 626
+        },
+        {
+          "text": "their",
+          "emph": false,
+          "frame": 635
+        },
+        {
+          "text": "lights",
+          "emph": false,
+          "frame": 645
+        },
+        {
+          "text": "on...",
+          "emph": false,
+          "frame": 658
+        }
+      ]
+    },
+    {
+      "line": "choice",
+      "from": 662,
+      "to": 708,
+      "words": [
+        {
+          "text": "or",
+          "emph": false,
+          "frame": 664
+        },
+        {
+          "text": "save",
+          "emph": false,
+          "frame": 671
+        },
+        {
+          "text": "myself?",
+          "emph": true,
+          "frame": 678
+        }
+      ]
+    },
+    {
+      "line": "cta",
+      "from": 708,
+      "to": 758,
+      "words": [
+        {
+          "text": "Comment",
+          "emph": false,
+          "frame": 710
+        },
+        {
+          "text": "A",
+          "emph": true,
+          "frame": 728
+        },
+        {
+          "text": "or",
+          "emph": false,
+          "frame": 735
+        },
+        {
+          "text": "B.",
+          "emph": true,
+          "frame": 745
+        }
+      ]
+    }
+  ]
+}

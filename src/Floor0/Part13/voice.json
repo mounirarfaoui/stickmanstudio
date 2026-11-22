@@ -1,0 +1,378 @@
+{
+  "voice": "Fenrir",
+  "model": "google/gemini-3-8-flash-tts",
+  "lines": [
+    {
+      "id": "hook",
+      "text": "I pushed the monster down. Why did the lights come *back?*",
+      "style": "Young man, fast and breathless, shocked, no pauses, the question shot out sharp.",
+      "voice": "Fenrir",
+      "story": 2,
+      "anchors": {},
+      "file": "floor-0/part13/voice/hook.wav",
+      "duration": 2.52,
+      "speechStart": 0.22,
+      "speechEnd": 2.22,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.22
+        },
+        {
+          "text": "pushed",
+          "start": 0.34
+        },
+        {
+          "text": "the",
+          "start": 0.46
+        },
+        {
+          "text": "monster",
+          "start": 0.58
+        },
+        {
+          "text": "down.",
+          "start": 0.91
+        },
+        {
+          "text": "Why",
+          "start": 1.12
+        },
+        {
+          "text": "did",
+          "start": 1.27
+        },
+        {
+          "text": "the",
+          "start": 1.48
+        },
+        {
+          "text": "lights",
+          "start": 1.6
+        },
+        {
+          "text": "come",
+          "start": 1.88
+        },
+        {
+          "text": "*back?*",
+          "start": 2.07
+        }
+      ]
+    },
+    {
+      "id": "stake",
+      "text": "Floor by floor, the whole shaft lit up below *me.*",
+      "style": "Young man, quick, awed and scared, rising.",
+      "voice": "Fenrir",
+      "story": 74,
+      "anchors": {},
+      "file": "floor-0/part13/voice/stake.wav",
+      "duration": 3.92,
+      "speechStart": 0.07,
+      "speechEnd": 3.54,
+      "words": [
+        {
+          "text": "Floor",
+          "start": 0.37
+        },
+        {
+          "text": "by",
+          "start": 0.52
+        },
+        {
+          "text": "floor,",
+          "start": 0.72
+        },
+        {
+          "text": "the",
+          "start": 1.5
+        },
+        {
+          "text": "whole",
+          "start": 1.71
+        },
+        {
+          "text": "shaft",
+          "start": 2.13
+        },
+        {
+          "text": "lit",
+          "start": 2.59
+        },
+        {
+          "text": "up",
+          "start": 2.8
+        },
+        {
+          "text": "below",
+          "start": 2.97
+        },
+        {
+          "text": "*me.*",
+          "start": 3.38
+        }
+      ]
+    },
+    {
+      "id": "laugh",
+      "text": "Then he hit the bottom. And he *laughed.*",
+      "style": "Young man, tense whisper, horrified on the last word.",
+      "voice": "Fenrir",
+      "story": 190,
+      "anchors": {},
+      "file": "floor-0/part13/voice/laugh.wav",
+      "duration": 4.37,
+      "speechStart": 0.14,
+      "speechEnd": 4.13,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.2
+        },
+        {
+          "text": "he",
+          "start": 0.44
+        },
+        {
+          "text": "hit",
+          "start": 0.63
+        },
+        {
+          "text": "the",
+          "start": 1.03
+        },
+        {
+          "text": "bottom.",
+          "start": 1.32
+        },
+        {
+          "text": "And",
+          "start": 2.29
+        },
+        {
+          "text": "he",
+          "start": 2.73
+        },
+        {
+          "text": "*laughed.*",
+          "start": 3.15
+        }
+      ]
+    },
+    {
+      "id": "hands",
+      "text": "I looked at my hands. They were getting *longer.*",
+      "style": "Young man, slow terrified whisper, disbelief.",
+      "voice": "Fenrir",
+      "story": 334,
+      "anchors": {},
+      "file": "floor-0/part13/voice/hands.wav",
+      "duration": 3.49,
+      "speechStart": 0.16,
+      "speechEnd": 3.18,
+      "words": [
+        {
+          "text": "I",
+          "start": 0.16
+        },
+        {
+          "text": "looked",
+          "start": 0.28
+        },
+        {
+          "text": "at",
+          "start": 0.63
+        },
+        {
+          "text": "my",
+          "start": 0.8
+        },
+        {
+          "text": "hands.",
+          "start": 0.92
+        },
+        {
+          "text": "They",
+          "start": 1.71
+        },
+        {
+          "text": "were",
+          "start": 1.83
+        },
+        {
+          "text": "getting",
+          "start": 2.18
+        },
+        {
+          "text": "*longer.*",
+          "start": 2.61
+        }
+      ]
+    },
+    {
+      "id": "glow",
+      "text": "Then my eyes started to *glow.*",
+      "style": "Young man, terrified whisper, fast, the last word breathed out.",
+      "voice": "Fenrir",
+      "story": 440,
+      "anchors": {},
+      "file": "floor-0/part13/voice/glow.wav",
+      "duration": 3.08,
+      "speechStart": 0.16,
+      "speechEnd": 2.91,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.23
+        },
+        {
+          "text": "my",
+          "start": 0.62
+        },
+        {
+          "text": "eyes",
+          "start": 0.98
+        },
+        {
+          "text": "started",
+          "start": 1.43
+        },
+        {
+          "text": "to",
+          "start": 2.26
+        },
+        {
+          "text": "*glow.*",
+          "start": 2.5
+        }
+      ]
+    },
+    {
+      "id": "answer",
+      "text": "The building needs a monster. Now it's *me.*",
+      "style": "Young man, quick shocked whisper, no pauses between words, the last word dropped heavy.",
+      "voice": "Fenrir",
+      "story": 540,
+      "anchors": {},
+      "file": "floor-0/part13/voice/answer.wav",
+      "duration": 2.78,
+      "speechStart": 0.09,
+      "speechEnd": 2.44,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.11
+        },
+        {
+          "text": "building",
+          "start": 0.23
+        },
+        {
+          "text": "needs",
+          "start": 0.73
+        },
+        {
+          "text": "a",
+          "start": 1.06
+        },
+        {
+          "text": "monster.",
+          "start": 1.18
+        },
+        {
+          "text": "Now",
+          "start": 1.74
+        },
+        {
+          "text": "it's",
+          "start": 1.98
+        },
+        {
+          "text": "*me.*",
+          "start": 2.19
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "text": "Stay and keep their lights on... or save *myself?*",
+      "style": "Young man, fast and desperate, no pauses, torn between two choices.",
+      "voice": "Fenrir",
+      "story": 618,
+      "anchors": {},
+      "file": "floor-0/part13/voice/choice.wav",
+      "duration": 3.12,
+      "speechStart": 0.21,
+      "speechEnd": 2.93,
+      "words": [
+        {
+          "text": "Stay",
+          "start": 0.23
+        },
+        {
+          "text": "and",
+          "start": 0.35
+        },
+        {
+          "text": "keep",
+          "start": 0.49
+        },
+        {
+          "text": "their",
+          "start": 0.78
+        },
+        {
+          "text": "lights",
+          "start": 1.12
+        },
+        {
+          "text": "on...",
+          "start": 1.54
+        },
+        {
+          "text": "or",
+          "start": 1.74
+        },
+        {
+          "text": "save",
+          "start": 1.97
+        },
+        {
+          "text": "*myself?*",
+          "start": 2.21
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Comment *A* or *B.*",
+      "style": "Young man, urgent and direct, straight to the viewer, short.",
+      "voice": "Fenrir",
+      "story": 710,
+      "anchors": {},
+      "file": "floor-0/part13/voice/cta.wav",
+      "duration": 1.76,
+      "speechStart": 0.27,
+      "speechEnd": 1.48,
+      "words": [
+        {
+          "text": "Comment",
+          "start": 0.28
+        },
+        {
+          "text": "*A*",
+          "start": 0.88
+        },
+        {
+          "text": "or",
+          "start": 1.1
+        },
+        {
+          "text": "*B.*",
+          "start": 1.42
+        }
+      ]
+    }
+  ]
+}
